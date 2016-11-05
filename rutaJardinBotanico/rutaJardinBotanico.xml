@@ -1,0 +1,1138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns8="http://geo.linkeddata.es/ontology/"
+  xmlns:ns9="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns10="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns1="http://purl.org/goodrelations/v1#"
+  xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns3="http://purl.org/ontology/wo/"
+  xmlns:ns4="http://purl.org/acco/ns#"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+  xmlns:ns6="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:ns7="http://umbel.org/umbel#"
+>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3190500">
+    <ns3:scientificName xml:lang="la">Guarea guidonia</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Árbol que presenta una altura entre 25-30 ms. Las hojas son de gran tamaño, de 20-60 cms de largo y se 
+	encuentran dispuestas de manera alterna, tiene entre 8 y 20 hojas de color verde oscuro por rama. La corteza es 
+	áspera, con muchas fisuras longitudinales y de color pardo, con un evidente matiz rojizo.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/669"/>
+    <ns3:commonName xml:lang="es">CEDRO MACHO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Guarea"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/EPWPLRN.jpg"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/155637"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/39955695"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5354954">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/377526"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15455303"/>
+    <ns3:shortDescription xml:lang="es">Puede alcanzar los 20 ms de altura y 1 m de diámetro en su tronco, produce latex de color rojizo. Requiere de abundante 
+	luz y su crecimiento es lento, además de Marzo a Abril produce frutos. Se encuentra en Colombia, Ecuador y Panamá.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Machaerium capote</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/638530"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/FAA0s4V.jpg"/>
+    <ns3:commonName xml:lang="es">SIETE CUEROS</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://catalogofloravalleaburra.eia.edu.co/familias/1/especies/148"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760732">
+    <ns3:shortDescription xml:lang="es">Llega a medir de 2-3 ms de altura, con flores amarillas, verdes hacia el ápice. Se usa mayormente para fines 
+	ornamentales y de decoración de jardínes. Se distribuye ampliamente en la región Andina, en las vertientes caucana, 
+	del magadalena y occidental andina y en el peniplano de Popayán.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/993"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://www.biodiversidad.co/fichas/993"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/5U3hoix.jpg"/>
+    <ns3:scientificName xml:lang="la">Heliconia venusta</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1117895"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760940">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1118007"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/656"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">La planta completa mide alrededor de 1.5-2.5 cms de altura, Las hojas son simples, envainadoras hacia la base. La flor es 
+	tubular y mide entre 35-40 mms de largo, con tres sépalos y tres pétalos fusionados, sin pelos y amarilla o anaranjada 
+	con márgenes verdes.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/uzHIEPB.jpg"/>
+    <ns3:scientificName xml:lang="la">Heliconia latispatha</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Heliconia_latispatha"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4654"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760619">
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q311933"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Se localiza con frecuencia en el sector occidental de la planicie amazónica, la Serranía de la Macarena y
+	la vertiente oriental andina. Llega a medir de 3-6 ms de altura.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Heliconia wagneriana</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/a50fa9j.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1117892"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/994"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/796950"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7868895">
+    <ns3:scientificName xml:lang="la">Xylosma prunifolia</ns3:scientificName>
+    <ns9:sameAs rdf:resource="www.biolib.cz/cz/taxon/id1135636/"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/154"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5731214"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/179718"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/jAdLvLN.jpg"/>
+    <ns3:commonName xml:lang="es">CUERNO VENADO</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">El tronco es ramificado desde la base, mide 1 m de alto y su corteza es fisurada y con espinas. Las hojas son 
+	elípticas; las flores son pequeñas de color amarillo cremoso. Los frutos inicialmente son amarillos verdosos luego son 
+	rojizos y negro purpúreo.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2895593">
+    <ns5:depiction rdf:resource="http://i.imgur.com/ZSkBpAq.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:shortDescription xml:lang="es">Puede alcanzar de 15-20 ms de altura y hasta 60 cms de diámetro. Sus frutos son bayas, toscos al tacto y con un aroma penetrante. 
+	Se desarrolla bien en potreros y áreas de cultivo. Pero el mejor habitat para este arbusto es el suelo arcilloso.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Genipa_americana"/>
+    <ns3:scientificName xml:lang="la">Genipa americana</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/364"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">JAGUA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/58486"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1096067"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760669">
+    <ns3:scientificName xml:lang="la">Heliconia psittacorum</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/986"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Heliconia_psittacorum"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1117951"/>
+    <ns3:shortDescription xml:lang="es">Puede llegar a medir de 0.5-1.5 ms de altura, sus flores son anaranjadas, rojas o amarillas. En Colombia se encuentra 
+	en los Llanos Orientales y en las serranías dispersas de Arauca, Casanare, Meta y Vichada, en algunas localidades de la 
+	selva amazónica (Guaviare) y en la vertiente oriental andina.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/574477"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/sB1RGFR.jpg"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760859">
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Heliconia intermedia</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Puede llegar a medir hasta 3.5 ms de altura, es endémica de la vertiente occidental andina de Colombia (Valle del Cauca 
+	y Chocó). Posee flores blancas hacia la base y amarillas hacia el ápice.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biovirtual.unal.edu.co/ICN/?controlador=ShowObject&amp;accion=show&amp;id=200242"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1118015"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15330807"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Lf3s4Gd.jpg"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760967">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/96511"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/989"/>
+    <ns3:scientificName xml:lang="la">Heliconia rostrata</ns3:scientificName>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Heliconia_rostrata"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/46322480"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/5UfQkpf.jpg"/>
+    <ns3:shortDescription xml:lang="es">Alcanza entre 3-6 ms de altura. Tiene espatas rojas con márgenes y ápices amarillo-verdosos. Flores blancas hacia la 
+	base y amarillo-verdosas hacia el ápice, glabras y rectas. Es una planta con uso ornamental, como flor de corte y empleada 
+	para la decoración.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2738902">
+    <ns3:commonName xml:lang="es">COLA DE PESCADO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Caryota_mitis"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/5gLq21x.jpg"/>
+    <ns3:scientificName xml:lang="la">Caryota mitis</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1291"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4714"/>
+    <ns3:shortDescription xml:lang="es">Esta palma presenta tallos agrupados de hasta 15 cms de diámetro. Sus hojas miden de 2-3 ms de largo. Es una 
+	especie ornamental y se puede encontrar en ambientes húmedos y suelos orgánicos.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1090464"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7557158">
+    <ns3:commonName xml:lang="es">BIHAO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/671254"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1125291"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1017"/>
+    <ns3:scientificName xml:lang="la">Calathea lutea</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15323512"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/WEWw56T.jpg"/>
+    <ns3:shortDescription xml:lang="es">Mide 2 ms de altura, tallo subterráneo y alargado que corre paralelo al suelo. Las hojas son simples, congregadas 
+	en la base de la planta. Las flores poseen forma de trompeta. El cáliz es blanco y tiene tres sépalos. Los frutos son 
+	secos, presentan forma de pera, miden 1.2 cms de largo y contienen pocas semillas.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns8:Municipio rdf:about="http://dbpedia.org/resource/Riofrio,_Valle_del_Cauca">
+    <ns6:geometry>
+      <ns6:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <ns6:SpatialThing>-76.199997</ns6:SpatialThing>
+        <ns6:SpatialThing>76.287781</ns6:SpatialThing>
+      </ns6:point>
+    </ns6:geometry>
+    <ns8:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+    <ns6:geometry>
+      <ns6:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <ns6:SpatialThing>4.083333</ns6:SpatialThing>
+        <ns6:SpatialThing>4.156111</ns6:SpatialThing>
+      </ns6:point>
+    </ns6:geometry>
+  </ns8:Municipio>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2735560">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">PALMERA DE LORD BENTICK</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Bentinckia_nicobarica"/>
+    <ns3:scientificName xml:lang="la">Bentinckia nicobarica</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1128728"/>
+    <ns3:shortDescription xml:lang="es">Se encuentra en el borde oriental de la Bahía de Bengala, en la isla de Nicobar. Es originaria del continente 
+	asiático. Es una palma solitaria; los tallos son usados por las población local para la construccion de casas y cercas.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/200mfte.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/145673"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Bentinckia_nicobarica"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5293281">
+    <ns3:scientificName xml:lang="la">Corypha umbraculifera</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Ba9bJSi.jpg"/>
+    <ns3:commonName xml:lang="es">PALMA DE CEILÁN</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Es una especie endémica de la India, aunque también se puede encontrar en Sri Lanka, Tailandia y China. Fue 
+	llevada a Surinam por inmigrantes del este de India. Es una de las palmas más grandes del mundo ya que pueden 
+	alcanzar los 34 ms de altura con un tronco de 1.4 ms de diámetro.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Corypha_umbraculifera"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Corypha_umbraculifera"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1092230"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/115461"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760557">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1117978"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/j03E84S.jpg"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Puede tener una altura de 2.5-4 ms con flores amarillas y parabólicas, es una especie nativa de Colombia según el 
+	Jardín Botánico del Quindío, se la puede encontrar en las vertientes andinas que miran hacia los valles de los ríos 
+	Cauca y Magdalena.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/980"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15330572"/>
+    <ns3:scientificName xml:lang="la">Heliconia mutisiana</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/1550331">
+    <ns3:shortDescription xml:lang="es">Mide de 5-18 cms de altura;  copa irregular, densa, globosa o semiglobosa. Se propaga por semillas y por estacas. 
+	Los frutos se recolectan cuando toman un color verde amarillento, generalmente a mediados y finales de cada año. Corteza 
+	gris con nudosidades, raíces poco profundas y a veces se presentan raíces aéreas.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Clusia"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/61964"/>
+    <ns3:commonName xml:lang="es">CUCHARO</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/574057"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://biodiversidad.co/fichas/3598"/>
+    <ns3:scientificName xml:lang="la">Clusia sp.</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/hUG5ltd.jpg"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2732482">
+    <ns3:shortDescription xml:lang="es">Es una palma solitaria y sin espinas que alcanza 20 ms de altura, en su estado juvenil es de color verde, sus flores son 
+	de color verde amarillento o blancuzco en algunos casos; requiere de sombra en su estado juvenil y al madurar, abundante luz 
+	solar.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">PALMICHA</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Sabal mauritiiformis</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/trwCYPv.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1131511"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1097"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Sabal_mauritiiformis"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/115516"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760668">
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1118020"/>
+    <ns3:scientificName xml:lang="la">Heliconia huilensis</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/972"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/LiBgkDl.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:shortDescription xml:lang="es">Puede llegar a medir hasta 4.5 ms de altura, posee flores amarillas y parabólicas. Es una especie endémica de la 
+	vertiente magdalenense y del Macizo Colombiano (Cundinamarca y Huila); se encuentra en peligro crítico.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15330243"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2731920">
+    <ns3:scientificName xml:lang="la">Elaeis oleifera</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/80265"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1098598"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/ZiYbeZn.jpg"/>
+    <ns3:commonName xml:lang="es">PALMA NOLÍ</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Es una palma de tallo solitario que llega hasta los 3 ms de altura, se puede encontrar desde Nicaragua hasta el 
+	noroccidente de Colombia, aunque tambien exiten ejemplares en menor medida en Surinam, Guayana Francesa,
+	Perú, Ecuador y Brasil.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1093"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Elaeis_oleifera"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760865">
+    <ns3:scientificName xml:lang="la">Heliconia platystachys</ns3:scientificName>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/984"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns3:shortDescription xml:lang="es">Es una planta de uso ornamental, como flor de corte y empleada para la decoración de jardines o en macetas. Se encuentra 
+	en Costa Rica, Panamá y Venezuela. En Colombia está presente en todas las regiones bajas, excepto en la planicie amazónica 
+	y en la Orinoquía. </ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15331224"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1117955"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/gD6Tlvd.jpg"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3172524">
+    <ns3:shortDescription xml:lang="es">Alcanza unos 35 ms de alto, tiene pocas ramas aunque son gruesas y ascendentes. En Colombia está presente en los
+	departamentos de Amazonas, Bolívar, Cesar, Chocó, Córdoba, Guaviare, Magdalena y Tolima.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">GUAYACÁN AMARILLO</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/395"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Tabebuia_chrysantha"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/392765"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/429696"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/NY4l9eB.jpg"/>
+    <ns3:scientificName xml:lang="la">Tabebuia chrysantha</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/4141692">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/58923"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/fY9BDVa.jpg"/>
+    <ns3:scientificName xml:lang="la">Bambusa oldhamii</ns3:scientificName>
+    <ns3:commonName xml:lang="es">GIANT TIMBER BAMBOO</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Bambusa_oldhamii"/>
+    <ns3:shortDescription xml:lang="es">Es una de las especies con mayor adaptabilidad, es de rápido crecimiento y no es invasor. Puede alcanzar de 
+	12-18 ms de altura, cuando sus tallos se maduran son usados para la construcción de herramientas y decoración de interiores.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Bambusa_oldhamii"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1115544"/>
+  </ns3:TaxonName>
+  <ns10:Recurso-turistico rdf:about="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/">
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns8:formaParteDe>
+      <ns8:Municipio rdf:about="http://dbpedia.org/resource/Tulua">
+        <ns8:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+        <ns6:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <ns6:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <rdfs:label>Corazón del Valle</rdfs:label>
+      </ns8:Municipio>
+    </ns8:formaParteDe>
+    <rdfs:label xml:lang="es">RUTA HACIA EL JARDÍN BOTÁNICO O MATEGUADUA DESTINO ECOTURÍSTICO</rdfs:label>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Alojamientos"/>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Lugares"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/xRi00pT.jpg"/>
+    <rdfs:comment xml:lang="es">Se inicia en el corregimiento de Cienegueta, entrando por la doble 
+calzada. La Vía destapada limita con el río Tuluá y conduce a Mateguadua y Puente Zinc. En el recorrido el turista disfrutará de 
+un encuentro con la naturaleza, hermosos paisajes, vista panorámica de la zona urbana de Tuluá, además de ganaderías.</rdfs:comment>
+  </ns10:Recurso-turistico>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2860922">
+    <ns5:depiction rdf:resource="http://i.imgur.com/OpMLCpE.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/108411"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1086682"/>
+    <ns3:commonName xml:lang="es">IRACA</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:scientificName xml:lang="la">Carludovica palmata</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/915"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Carludovica_palmata"/>
+    <ns3:shortDescription xml:lang="es">Es parecida a una plama, con sus hojas en forma de abanico. Las flores de color rosado claro y miden entre 15 y 20 cms
+	Los frutos constituyen una masa que al madurar se vuelve de color rojizo, por dentro son carnosos.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2735462">
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Sn2doC9.jpg"/>
+    <ns3:shortDescription xml:lang="es">Palma solitaria, llega a medir de 4-26 ms de alto y de 15-45 cms de diámetro. Se encuentra principalmente en zonas 
+	húmedas pantanosas con inundaciones periódicas, el fruto es de color violáceo, pero negro cuando madura, este mide 
+	de 2.5-4.5 cms de longitud y de 2-3 cms de diámetro.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/389"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1136856"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">PALMA BATAUA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Oenocarpus_bataua"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/169985"/>
+    <ns3:scientificName xml:lang="la">Oenocarpus bataua</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7661971">
+    <ns3:scientificName xml:lang="la">Bambusa vulgaris</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/58168"/>
+    <ns3:commonName xml:lang="es">BAMBÚ</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1114100"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5328"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Bambusa_vulgaris"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/lXk87cJ.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:shortDescription xml:lang="es">Es una especie de la familia de los pastos, y a su vez del grupo del bambú, presenta tallos muy gruesos en forma 
+	de caña que pueden superar los 10 ms de altura y son huecos en su interior. Tiene múltiples usos artesanales, medicinales, 
+	en el ámbito religioso, como planta ornamental; proporciona sombra y protección al suelo.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2703315">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Dendrocalamus_asper"/>
+    <ns3:shortDescription xml:lang="es">Tiene grandes tallos leñosos entre 20-30 ms de altura y de 8-20 cms de diámetro. Además sus paredes son relativamente 
+	gruesas y se vuelven más delgadas hacia la parte superior del tallo, su color es verde pálido y está cubierto de pelos 
+	cortos de color marrón. Crecen bien en diferentes tipos de suelo. </ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1115595"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Dendrocalamus_asper"/>
+    <ns3:scientificName xml:lang="la">Dendrocalamus asper</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/ZXwBB1E.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/387743"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">BAMBÚ GIGANTE</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/4185119">
+    <ns3:shortDescription xml:lang="es">Arbusto pequeño de 1-4 m de alto. Con aroma a anís, tallos verde pálidos a amarillento.
+	Hojas acorazonadas, de color verde pálido y color verde oscuro cuando secas de consistencia fuerte.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5480783"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/AKS0cjO.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Piper_marginatum"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13215"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://cecalli85.blogspot.com.co/2013/10/anicillo.html"/>
+    <ns3:commonName xml:lang="es">ANICILLO</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:scientificName xml:lang="la">Piper anisatum</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/4142909"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760614">
+    <ns5:depiction rdf:resource="http://i.imgur.com/zjeNZ2i.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns3:scientificName xml:lang="la">Heliconia combinata</ns3:scientificName>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Es una especie endémica de las vertientes Occidental y Andina en Colombia. Presente en los departamentos de 
+	Antioquia, Risaralda, Chocó y Valle del Cauca; puede llegar a medir de 4-7 ms de altura, produce flores de color amarillo.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1118052"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15330199"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/956"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/4140151">
+    <ns3:shortDescription xml:lang="es">Este bambú en sus condiciones ideales puede alcanzar una altura mayor a 15 ms. Durante su crecimiento disminuye los 
+	entrenudos y forma una protuberancia característica. El tallo principal, como el de todo bambú es hueco. Las hojas son de 
+	color verde.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Bambusa ventricosa McClure</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Bambusa_ventricosa"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Bambusa_ventricosa"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/2905694"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/6c11eLT.jpg"/>
+    <ns3:commonName xml:lang="es">BAMBÚ DE BUDA</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/323096"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2732721">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/169997"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/2EdeO1o.jpg"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1084"/>
+    <ns3:commonName xml:lang="es">PALMA DE CUESCO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Attalea_osmantha"/>
+    <ns3:shortDescription xml:lang="es">Es una palma de crecimiento lento que tarda entre 4 y 6 meses en germinar, puede alcanzar hasta 20 ms de altura 
+	y 45 cms de diámetro en su tronco. Se puede encontrar desde México hasta Bolivia. </ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1131741"/>
+    <ns3:scientificName xml:lang="la">Attalea butyracea</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2873486">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/78377"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">ANTURIO BLANCO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1140350"/>
+    <ns3:shortDescription xml:lang="es">Tiene hojas de forma oval acorazonada, de punta acuminada; presentan lóbulos anteriores redondos, apartados por un 
+	angosto recorte basal. Tiene una espata verdosa, de forma ovalada que remata en una punta larga y angosta. Es una especie 
+	ornamental, sus raíces largas y finas se han empleado como cuerdas de guitarra.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2011"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/MSqrylr.jpg"/>
+    <ns3:scientificName xml:lang="la">Anthurium nymphaeifolium</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15319886"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5293897">
+    <ns3:commonName xml:lang="es">GERIVÁ</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:shortDescription xml:lang="es">Esta palma de tallo largo y solitario alcanza de 10-15 ms de altura, sus frutos son de color amarillo a anaranjado y 
+	comestibles; es una especie ornamental. El palmito es comestible y sus hojas son de alimento para el ganado y 
+	las semillas trituradas son alimento para las gallinas.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/290277"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/uD8dqYu.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1287"/>
+    <ns3:scientificName xml:lang="la">Syagrus romanzoffiana</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Syagrus_romanzoffiana"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1129524"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3173930">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/375249"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Anthurium"/>
+    <ns3:scientificName xml:lang="la">Myrcia popayanensis</ns3:scientificName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:shortDescription xml:lang="es">Árbol con una altura promedio de 18 ms, con ramificación abundante, copa redonda de mediana amplitud y profundidad.
+	Madera de color crema rojizo, brillo mediano y olor aromático.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.uco.edu.co/floraorienteantioquia/myrtaceae/Myrcia-popayanensis-Hieron/Paginas/default.aspx"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/h4ZhXxd.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5458716"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">ARRAYÁN COLORADO</ns3:commonName>
+  </ns3:TaxonName>
+  <ns2:Location rdf:about="http://inciva.gov.co/cespedesia/itemlist/category/17-jardin-botanico">
+    <ns5:depiction rdf:resource="https://www.youtube.com/embed/QuhYS8KmnEs"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/QIthGO2.jpg"/>
+    <ns2:email>jardinbotanico@inciva.gov.co</ns2:email>
+    <ns2:tel>3206888271, 3156361319, 5146848</ns2:tel>
+    <ns5:name xml:lang="es">JARDÍN BOTÁNICO JUAN MARÍA CÉSPEDES</ns5:name>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/hRdkwZBgae22">
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:street-address>Mateguada, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:street-address>Tuluá, Valle del Cauca</ns2:street-address>
+      </ns2:Address>
+    </ns2:adr>
+    <rdfs:comment xml:lang="es">Guarda un tesoro destinado para investigadores, científicos, amantes de la
+    flora y la fauna y del paisaje que ofrecen los bosques secos tropicales.</rdfs:comment>
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Lugares"/>
+  </ns2:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760973">
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/gWPoBBU.jpg"/>
+    <ns3:scientificName xml:lang="la">Heliconia episcopalis</ns3:scientificName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://www.celec.gob.ec/hidronacion/images/stories/pdf/manual-de-flora.pdf"/>
+    <ns3:shortDescription xml:lang="es">Puede llegar a medir de 2-4 ms de altura con flores blancas hacia la base, amarillas a verdes o anaranjadas hacia 
+	el ápice, está distribuida ampliamente en Ecuador, Perú, Surinam y Venezuela. En Colombia se encuentra en la llanura del 
+	Caribe, valle medio del río Magdalena, Amazonia y Orinoquía. </ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1118040"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Heliconia_episcopalis"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/4115908">
+    <ns5:depiction rdf:resource="http://i.imgur.com/Xc8UXTu.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/104005"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Melocanna_baccifera"/>
+    <ns3:shortDescription xml:lang="es">Es el bambú que produce el fruto más grande de la familia de las gramíneas, es carnoso y en forma de pera. Es muy común 
+	en la India, existe un evento en este país donde se celebra el florecimento de este tipo de bambú. Puede llegar a medir 
+	de 10-25 ms de altura y de 3-7 cms de diámetro. De color verde cuando está jóven y más opaco cuando está viejo.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Melocanna_baccifera"/>
+    <ns3:scientificName xml:lang="la">Melocanna baccifera</ns3:scientificName>
+    <ns3:commonName xml:lang="es">BAMBÚ MULI</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5843797"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3752400">
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q14830734"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/ngqQnc8.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:scientificName xml:lang="la">Achatocarpus nigricans</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3771"/>
+    <ns3:shortDescription xml:lang="es">Puede alcanzar los 12 ms de altura y los 20 cms de diámetro, sus ramas tienen espinas y es de color verdoso, sus hojas 
+	miden 10 cms de largo por 4.5 cms de ancho y sus frutos son bayas con forma de globo, carnosos y posen de una dos semillas.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/169195"/>
+    <ns3:commonName xml:lang="es">TOTOCAL</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5164510"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2703311">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/105183"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15245801"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1115569"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/M9PRqrO.jpg"/>
+    <ns3:shortDescription xml:lang="es">Este bambú puede crecer de 7-30 ms de altura y de 5-13 cms de diámetro, el centro de la planta se eleva de manera 
+	irregular sobre el suelo. En Indonesia esta especie es la segunda más importante después Gigantochloa apus y desempeña 
+	un papel destacado en la economía rural. A veces se usa con fines ornamentales.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Gigantochloa verticillata</ns3:scientificName>
+    <ns3:commonName xml:lang="es">BAMBÚ GOMBONG</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="https://id.wikipedia.org/wiki/Bambu_gombong"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3593724">
+    <ns3:commonName xml:lang="es">PALMA DE MADAGASCAR</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Es una especie útil en la decoración de interiores. Puede medir de 7-8 ms de altura y 25 cms de grosor, con 
+	el tronco liso y anillado, la hoja de esta especie tiene un aspecto plumoso. Se multiplica por semillas que tardan 
+	casi 2 meses en germinar. Requiere buen suelo y humedad.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/pe9C4rl.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:scientificName xml:lang="la">Dypsis madagascariensis</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1298"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Dypsis_madagascariensis"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/131266"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5750674"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5293840">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/682629"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1129522"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">SANCONA</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/rbMDbe3.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q6136704"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1098"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Syagrus sancona</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Es una plama que crece hasta 30 ms de alto y de 25-30 cms de diámetro, crece en zonas de bosque seco y
+	de bosque húmedo tropical. Está distribuida en toda la región andina y en algunas aledañas.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2705753">
+    <ns3:scientificName xml:lang="la">Bambusa beecheyana</ns3:scientificName>
+    <ns3:commonName xml:lang="es">BAMBÚ DE BEECHEYA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15508512"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Bambusa"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/4q9HzLU.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1115604"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/318053"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Es una especie tropical que crece mejor a pleno sol. No es invasivo, pero se puede convertir rápidamente en una planta 
+	densa de numerosos tallos. Es muy común en China.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2731882">
+    <ns3:scientificName xml:lang="la">Elaeis guineensis</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5346"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/DAOyYW7.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Elaeis_guineensis"/>
+    <ns3:commonName xml:lang="es">PALMA ACEITERA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1095470"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/51953"/>
+    <ns3:shortDescription xml:lang="es">Es una especie nativa del continente africano, que se caracteriza por su grueso tronco cubierto con fragmentos de las 
+	hojas ya caídas y por sus grandes racimos de frutos que presentan alto contenido de aceite. Es una palma de rápido 
+	crecimiento con alta variabilidad genética, alto potencial reproductivo y larga expectativa de vida.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2733755">
+    <ns5:depiction rdf:resource="http://i.imgur.com/ukBNjEu.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3739"/>
+    <ns3:scientificName xml:lang="la">Roystonea regia</ns3:scientificName>
+    <ns3:commonName xml:lang="es">PALMA BOTELLA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/145709"/>
+    <ns3:shortDescription xml:lang="es">Puede llegar a medir 30 ms de altura y a tener 60 cms de diámetro. Los frutos son  de color marrón rojizo o morado 
+	oscuro. Su tronco se emplea para obtener tablones, sus hojas para techar casas y sus frutos para la alimentación animal. 
+	La raíz en bebidas se usa como diurético para expulsar calculos por la orina.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Roystonea_regia"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1131526"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2735935">
+    <ns5:depiction rdf:resource="http://i.imgur.com/mXJPnm1.jpg"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Esta palma tiene un tallo cilíndrico de color gris, que alcanza los 5 ms de altura y los 15 cms de diámetro. Su 
+	fruto es una baya de color amarillo oscuro a negro que mide hasta 1,5 cms de largo. Además sirve de alimento para la 
+	avifauna y para la apicultura ya que es una especie melífera.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1095187"/>
+    <ns3:commonName xml:lang="es">PALMA ARECA</ns3:commonName>
+    <ns3:scientificName xml:lang="la">Dypsis lutescens</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/131267"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1297"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Dypsis_lutescens"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760548">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Heliconia_stricta"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/PHAYprq.jpg"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1117915"/>
+    <ns3:shortDescription xml:lang="es">Mide entre 1,5-3 ms de altura, las hojas son simples y envainadoras hacia la base. Las flores se encuentran agrupadas, 
+	miden entre 30-45 cms de largo y 15-25 cms de diámetro, de color verde hacia el ápice y la punta es blanca.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/648044"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/657"/>
+    <ns3:scientificName xml:lang="la">Heliconia stricta</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2738128">
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Astrocaryum malybo</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Es una palma solitaria y espinosa. Sus hojas crecen unos 5 ms de largo. Está en peligro a nivel global; 
+	sus hojas se usan como fuente de fibras para la elaboración de esteras y de una amplia gama de artesanías</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">GUERREGUE</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1715"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/f4pzDA8.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1132055"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/996934"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15457764"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2962831"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2739059">
+    <ns3:shortDescription xml:lang="es">Se encuentra en bosques primarios y bosques ribereños, puede alcanzar los 30 ms de altura y hasta 30 cms de diámetro, 
+	tiene frutos de 2-3 cms de diámetro de color café amarillento al madurar, cáscara lisa, brillante y quebradiza.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/muCniYZ.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1142669"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Iriartea deltoidea</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/101627"/>
+    <ns3:commonName xml:lang="es">BOMBONA</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Iriartea"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/372"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5421429"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3033980">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1096067"/>
+    <ns3:commonName xml:lang="es">JIGUA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Cinnamomum_verum"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1004"/>
+    <ns3:shortDescription xml:lang="es">La planta alcanza hasta de 15 ms de altura, su ramaje está recubierto de una corteza de color amarillo. Las flores son blancas
+	amarillosas y están puestas en racimos terminales. El fruto es una baya de color azul.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Cinnamomum sp.</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/UhZi2ZU.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13428"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2731766">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1131455"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/1Lj38Y1.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Salak"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Salacca"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Esta especie es nativa del continente oceánico y se encuentra en Borneo, Java, Malaya y Maluku. Requiere abundante agua 
+	durante la mayor parte del año. Es relativamente pequeña y espinosa, sus tallos están agrupados y se ramifican en la base.
+	Las raices no se extienden a gran profundidad.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">SALAK</ns3:commonName>
+    <ns3:scientificName xml:lang="la">Salacca edulis</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/145711"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2738657">
+    <ns3:commonName xml:lang="es">COROZO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1092416"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1281"/>
+    <ns3:shortDescription xml:lang="es">El tronco de esta palma alcanza entre 5-10 ms de alto y entre 15-20 cms de diámetro, y está densamente cubierto por 
+	espinas negras. Es medicinal pues se emplea como en los niños para tratar retorcijones, flatulencia y cólicos.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/131248"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/TWWaeyu.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Aiphanes_horrida"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:scientificName xml:lang="la">Aiphanes caryotifolia</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3833224">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5304516"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Zanthoxylum"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Árbol con espinas cónicas gruesas en los trocos y ramas delgadas en las partes terminales y hojas; pinnas de margen 
+	aserrada y muy fragrantes. Se encuentra en los bosques secundarios de Colombia y Ecuador.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Zanthoxylum verrucosum</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3792"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/PDNWAAp.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">DONCEL</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/67937"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7770329">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1170574"/>
+    <ns3:scientificName xml:lang="la">Heliconia orthotricha</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/982"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/5983668"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/NBz56ct.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Heliconia"/>
+    <ns3:commonName xml:lang="es">HELICONIA</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Se halla en Ecuador y Perú, llega a medir de 2.5-3.5 ms de altura. Flores blancas a crema hacia la base y verdes hacia 
+	el ápice. Esta planta es usada como flor de corte, y también para la decoración de jardines y macetas. En Colombia 
+	está presente en la vertiente oriental andina y en la planicie amazónica.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2736747">
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/tIw7fa8.jpg"/>
+    <ns3:scientificName xml:lang="la">Rhapis excelsa</ns3:scientificName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">PALMA RAFIS</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1131793"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1310"/>
+    <ns3:shortDescription xml:lang="es">Esta palma alcanza de 90-120 cms de alto. La base de la hoja presenta una envoltura fibrosa café que cubre el tallo, 
+	sus flores son de color amarillento. Es de uso ornamental, útil para el embellecimiento del espacio público y para la 
+	decoración de exteriores e interiores.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Rhapis_excelsa"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/115514"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2732754">
+    <ns3:scientificName xml:lang="la">Attalea allenii</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://biodiversidad.co/fichas/1083"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Palma solitaria, se cree que tiene una longevidad entre 65 y 102 años. Sus semillas son comestibles, tienen un 
+	sabor similar al coco y son comercializadas a nivel local en los Andes antioqueños. </ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/e0tHbON.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1131911"/>
+    <ns3:commonName xml:lang="es">TÁPARO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q5711222"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/115445"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+  </ns3:TaxonName>
+  <ns4:HotelRoom rdf:about="http://www.livevalledelcauca.com/tulua/jardin-botanico-juan-maria-cespedes.html">
+    <ns4:partOf>
+      <ns1:Individual rdf:about="https://www.facebook.com/jbjuanmariacespedes">
+        <ns2:email>jardinbotanico@inciva.gov.co</ns2:email>
+        <ns5:homepage rdf:resource="http://inciva.gov.co/patrimonios-turisticos/jardin-botanico-juan-maria-cespedes-tulua/"/>
+        <ns2:tel>3206888271, 3156361319, 5146848</ns2:tel>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Alojamientos"/>
+        <ns1:description xml:lang="es">El Jardín Botánico Juan María Céspedes es un centro de investigaciones del Instituto para
+	la Investigación y la Preservación del Patrimonio Cultural y Natural del Valle del Cauca - INCIVA. Ubicado en el 
+	corregimiento de Mateguadua.</ns1:description>
+        <ns2:adr rdf:resource="https://goo.gl/maps/hRdkwZBgae22"/>
+        <ns1:name xml:lang="es">JARDÍN BOTÁNICO JUAN MARÍA CÉSPEDES</ns1:name>
+        <ns5:depiction rdf:resource="http://i.imgur.com/QCAEQ1y.jpg"/>
+      </ns1:Individual>
+    </ns4:partOf>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="https://www.facebook.com/pages/Jardin-Botanico-Juan-Maria-Cespedes/193724564145315">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/jardin-botanico-juan-maria-cespedes-tulua/tulua/15952821">
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ns1:hasValue>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns4:HotelRoom>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/8042591">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/351"/>
+    <ns3:commonName xml:lang="es">GUAIMARO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q2713013"/>
+    <ns3:scientificName xml:lang="la">Brosimum utile</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/XJDondS.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/491545"/>
+    <ns3:shortDescription xml:lang="es">El árbol puede medir de 35-40 ms de altura y 75-150 cms de diámetro, segrega un látex cremoso blanquecino, abundante y 
+	pegajoso. Produce flores de color blanco y algunos frutos pequeños.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/241871"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/4084063"/>
+  <ns2:Location rdf:about="http://www.ciudadguru.com.co/empresas/semillero-de-guadua-y-bambu/tulua/15952774">
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Lugares"/>
+    <ns2:email>No disponible</ns2:email>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/DiGWwzkH2kx">
+        <ns2:street-address>Mateguada, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <ns2:tel>2260975, 3002202211</ns2:tel>
+    <ns5:name xml:lang="es">SEMILLERO DE GUADUA Y BAMBÚ</ns5:name>
+    <ns5:depiction>No disponible</ns5:depiction>
+    <rdfs:comment xml:lang="es">Vivencie los túneles que forman las guaduas y bambúes en el semillero más grande de Latinoamérica
+    en el número de especies. Cierre los ojos y disfrute de los olores de las guaduas y los sonidos
+    de los pájaros que despiertan los sentidos. Ubicado en el Jardín Botánico.</rdfs:comment>
+    <ns5:depiction rdf:resource="http://i.imgur.com/lOZmXmJ.jpg"/>
+  </ns2:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2705765">
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Bambusa tulda</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/292582"/>
+    <ns3:shortDescription xml:lang="es">SUs tallos forman grupos de 6-20 ms de altura. Es uno de los bambúes más importantes en Asia, especialmente en India, 
+	Bangladesh y el norte de Tailandia, donde sirve como comida y material para la construcción. Lo ideal es que este 
+	bambú se mantenga en un ambiente con una temperatura entre de 40 °F - 100 °F para su correcto crecimiento.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1115609"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Bambusa_tulda"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/eLa4VGS.jpg"/>
+    <ns3:commonName xml:lang="es">BAMBÚ BENGAL</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Bambusa_tulda"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2733060">
+    <ns3:commonName xml:lang="es">CHONTADURO</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/154467"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/312"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:scientificName xml:lang="la">Bactris gasipaes</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/FnkMwjx.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1130861"/>
+    <ns3:shortDescription xml:lang="es">El tallo alcanza aproximadamente 20 ms y un diámetro entre 15-30 cms. Su fruto es de color
+	verde cuando está inmaduro, rojos o anaranjados cuando está maduro; es comestible al igual que la pulpa, la semilla 
+	y los tallos.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Bactris_gasipaes"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2703312">
+    <ns5:depiction rdf:resource="http://i.imgur.com/N10KkE3.jpg"/>
+    <ns3:commonName xml:lang="es">BAMBÚ CADENA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1182957"/>
+    <ns3:shortDescription xml:lang="es">Es una especie nativa del Sureste asiático, es el bambú económicamente más importante en la isla de Java, especialmente 
+	en la industria de la artesanía y muebles. Puede alcanzar de 8-22 ms de altura, con un  diámetro de 4-13 cms, sus tallos son 
+	de color verde brillante o verde amarillento cuando es joven.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1115568"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15517583"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Gigantochloa"/>
+    <ns3:scientificName xml:lang="la">Gigantochloa apus</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2738130">
+    <ns3:commonName xml:lang="es">CHUNGA</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Palma alta y robusta que alcanza alturas hasta de 22 ms con una tallo erguido de 16-22 cms de diámetro,
+	con abundantes espinas largas de color negro. Presenta de 11 a 18 hojas grandes hasta de 4 ms de largo.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Astrocaryum standleyanum</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/446115"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/m0s4dFo.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/316"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Astrocaryum_standleyanum"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1132045"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2736139">
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15470681"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/348516"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/fENpyrd.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Synechanthus_fibrosus"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1129508"/>
+    <ns3:scientificName xml:lang="la">Synechanthus fibrosus</ns3:scientificName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:shortDescription xml:lang="es">Tallo solitario, delgado, liso, verde. Puede alcanzar de 5-6 ms de altura. Está presente en Belice, Costa Rica, 
+	Guatemala, Honduras, golfo de México, sureste y suroeste de México y Nicaragua.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">FALSO CAMEDOR</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7269222"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/8286174">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1140901"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">LICUALA DE MANGLAR</ns3:commonName>
+    <ns3:scientificName xml:lang="la">Licuala spinosa</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Es nativa de Indonesia, Filipinas, Península Malaya y Thailandia. Es una palma hermafrodita, sus troncos generalmente 
+	forman grupos, cada uno de 3-4 ms de altura y 4-8 cm de grosor. Sus Frutos son esféricos u ovados y miden de 9-10 mms
+	de longitud y son de color rojizo. Tolera suelos arenosos y sol o media sombra y necesita riegos abundantes.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Iwvsknh.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Licuala_spinosa"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Licuala_spinosa"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/745111"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2739162">
+    <ns5:depiction rdf:resource="http://i.imgur.com/CkB8hMl.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1279"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Acrocomia_aculeata"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/169986"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Palma solitaria que alcanza los 11 ms de altura. Su tallo mide hasta 30 cms de diámetro, es de color gris y está 
+	cubierto de espinas negras dispuestas en filas horizontales. Se encuentra desde México y las Antillas hasta Bolivia, 
+	Argentina y Paraguay.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/245325"/>
+    <ns3:scientificName xml:lang="la">Acrocomia sclerocarpa</ns3:scientificName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">COROZO GRANDE</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3172537"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760810">
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/977"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1117987"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15329752"/>
+    <ns3:scientificName xml:lang="la">Heliconia mariae</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1274808"/>
+    <ns3:commonName xml:lang="es">PLATANILLA</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Puede llegar a medir de 4-7.5 ms de altura, tiene una vida larga. Se usa para la decoración de jardínes o macetas y 
+	se puede encuentrar en Belice, Costa Rica, Guatemala, Honduras, Nicaragua, Panamá y Venezuela. En Colombia está presente 
+	en el valle del río Atrato y la planicie del Caribe.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/rpgKTTD.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3190087"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5421132"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2732819">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15457188"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/qxni3iT.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/115444"/>
+    <ns3:scientificName xml:lang="la">Attalea nucifera</ns3:scientificName>
+    <ns3:commonName xml:lang="es">ALMENDRÓN</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Palma de tallo subterráneo y grandes hojas de hasta 8 ms de largo, sus frutos miden de 5-7 cms de largo y son de 
+	color café, de sabor parecido al coco. Es exclusiva de los bosques húmedos del Magdalena medio en Colombia y se 
+	encuentra en peligro de extinción por la destrucción de su hábitat.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Attalea_(palm)"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1131736"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2925303">
+    <ns3:commonName xml:lang="es">VENTUROSA</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Z0E5BdL.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Lantana_camara"/>
+    <ns3:scientificName xml:lang="la">Lantana camara</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3563"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/126435"/>
+    <ns3:shortDescription xml:lang="es">Arbusto de 1-3 ms de altura con flores de color amarillo, anaranjadas o rojas. Sus frutos son carnosos, redondos de 
+	color azul a negro brillante. Se usa medicinalmente ya que el zumo de sus hojas con algunas gotas de limón puede curar 
+	el vómito.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/579775"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5294777">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/kPcLY4D.jpg"/>
+    <ns3:shortDescription xml:lang="es">Se encuentra en terrazas bajas, sobre terrenos inundados temporal o permanentemente, con drenaje muy deficiente. 
+	Fruto de 7 cms de largo y 5 cms de diámetro, rojo-anaranjado oscuro a café-rojizo. Es muy rico en vitamina A, 
+	se consume fresco o en bebidas, paletas o refrescos.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">PALMA DE MORICHE</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Mauritia_flexuosa"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/93293"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1138930"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/383"/>
+    <ns3:scientificName xml:lang="la">Mauritia flexuosa</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2957438"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2760555">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">PLATANILLO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q15330315"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/963"/>
+    <ns3:shortDescription xml:lang="es">Se encuentra en el valle medio del río Magdalena, en el macizo antioqueño y en las vertientes occidental andina y 
+	magdalenense. Produce flores verdes o blancas hacia la base y verdes hacia el ápice.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Heliconia cordata</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/mBGY8Jr.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4653"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1118051"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5396865"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2738064">
+    <ns3:shortDescription xml:lang="es">Palma solitaria, puede llegar a medir 3.5-22 ms de altura y 19-35 cms de diámetro, cubierto con espinas planas 
+	negras, produce frutos de color verde o  amarillo verdoso cuando están maduros, tiene una amplia distribución en el oeste 
+	de la Amazonía.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1132070"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Astrocaryum_chambira"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/wQvNiw2.jpg"/>
+    <ns3:scientificName xml:lang="la">Astrocaryum chambira</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/349"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:commonName xml:lang="es">CHAMBIRA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/446105"/>
+  </ns3:TaxonName>
+  <ns2:Location rdf:about="http://www.ciudadguru.com.co/empresas/cascada-de-la-arenosa-en-mateguadua/tulua/15951514">
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/wefveCHtHxG2">
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:street-address>Mateguada, Valle del Cauca</ns2:street-address>
+      </ns2:Address>
+    </ns2:adr>
+    <rdfs:comment xml:lang="es">Hermoso sitio natural, agua muy fria, con arenas blancas y grandes piedras que la circundan.
+    Los lugareños ofrecen la práctica del Rapell sobre la cascada y Rafting por el Río Tuluá hasta
+    llegar al Jardín Botánico. A 7 kms de la cabecera municipal.</rdfs:comment>
+    <ns2:tel>2260975, 2339300</ns2:tel>
+    <ns5:name xml:lang="es">CASCADA LA ARENOSA</ns5:name>
+    <ns2:email>turismo@tulua.gov.co</ns2:email>
+    <ns5:depiction rdf:resource="http://i.imgur.com/mJd34Ks.jpg"/>
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Lugares"/>
+    <ns5:depiction rdf:resource="https://www.youtube.com/embed/gChA97Gc1xs"/>
+  </ns2:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2970419">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/NdKc3qr.jpg"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5365"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Leucaena_leucocephala"/>
+    <ns3:scientificName xml:lang="la">Leucaena glauca</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/46244235"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3866"/>
+    <ns3:shortDescription xml:lang="es">Árbol de 3-15 ms de altura y 10-35 cms de diámetro. La corteza es gris a marrón con fisuras superficiales verticales 
+	de color naranja a marrón. Es una especie que se adapta a una gran variedad de suelos siempre y cuando estén bien drenados 
+	y no tengan un nivel de acidez exagerado. Es nativa de México.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">LEUCAENA</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/8700701">
+    <ns3:commonName xml:lang="es">PALMA ABANICO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Washingtonia_filifera"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns3:scientificName xml:lang="la">Washingtonia filifera</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/WGJzE6S.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1315"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/145714"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1127834"/>
+    <ns3:shortDescription xml:lang="es">Esta palma alcanza 24 ms de alto y 120 cms de diámetro y la parte superior de su tallo está cubierto por hojas muertas. 
+	Sus flores son de color blanco. Sus frutos son pequeños y de color negro, es una especie ornamental. Se utiliza en las 
+	calles y parques de muchas ciudades tropicales y subtropicales como decoración.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/6109699">
+    <ns3:commonName xml:lang="es">PALMA DÁTIL</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1306"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Date_palm"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/vkvSPL4.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/42345"/>
+    <ns3:scientificName xml:lang="la">Phoenix dactylifera</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Esta palma solitaria alcanza 30 ms de altura o más. Sus raíces son visibles en la base. Sus frutos de forma 
+	cilíndrica miden hasta 5 x 1,5 cms son de color café amarillento a café rojizo, son comestibles y carnosos. Sus hojas 
+	son útiles para la elaboración de una gran variedad de artículos como abanicos, recipientes y esteras. </ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1135088"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3152205"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2705764">
+    <ns3:shortDescription xml:lang="es">Puede alcanzar una altura de 10-15 ms, con un diámetro de 7-10 cms, es de color verde con pelos blancos en algunas 
+	partes. Esta planta es empleada como ornamental. Se encuentra en Colombia, Costa Rica, Ecuador, Salvador, Guatemala, Honduras,
+	Puerto Rico, Nicaragua, Panamá, Estados Unidos e India. </ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2394"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1115606"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelJardinBotanico/Flora"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/rCRDVDp.jpg"/>
+    <ns3:scientificName xml:lang="la">Bambusa longispiculata</ns3:scientificName>
+    <ns3:commonName xml:lang="es">MAHAL BAMBOO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/47448"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Bambusa_longispiculata"/>
+    <ns3:kingdomName xml:lang="es">Vegetal</ns3:kingdomName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2962824"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3086337"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5594205"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3067261"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/8225137"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3785984"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2767031"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3190491"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2734435"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2984339"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2953986"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7141666"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/8311514"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7262410"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3059672"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/8138695"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3694437"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5417812"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3169446"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5420509"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7649215"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/3152195"/>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns4:availabilityTimes>24 Horas</ns4:availabilityTimes>
+  </rdf:Description>
+</rdf:RDF>

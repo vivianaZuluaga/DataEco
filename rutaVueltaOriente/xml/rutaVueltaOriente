@@ -1,0 +1,2489 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns11="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns8="http://umbel.org/umbel#"
+  xmlns:ns9="http://geo.linkeddata.es/ontology/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns10="http://www.w3.org/2002/07/owl#"
+  xmlns:ns12="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns1="http://purl.org/NET/c4dm/timeline.owl#"
+  xmlns:ns2="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:ns3="http://purl.org/goodrelations/v1#"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://purl.org/ontology/wo/"
+  xmlns:ns6="http://purl.org/acco/ns#"
+  xmlns:ns7="http://xmlns.com/foaf/0.1/"
+>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3172537">
+    <ns7:depiction rdf:resource="http://i.imgur.com/QFrVu0e.jpg"/>
+    <ns5:shortDescription xml:lang="es">Árbol de 15 a 30 ms de altura y de 90 cms de diámetro con un tronco recto. Sus hojas, compuestas de 5 folíolos 
+    de borde liso y arreglados como los dedos de una mano, se caen durante la estación seca. Florece cuando ha perdido 
+    las hojas; las flores son muy atractivas, se agrupan en racimos de color blanco o rosado.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="https://biota.wordpress.com/2008/12/25/el-cultivo-del-roble-de-sabana-tabebuia-rosea/"/>
+    <ns5:scientificName xml:lang="la">Tabebuia rosea</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/429709"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Tabebuia_rosea"/>
+    <ns5:commonName xml:lang="es">GUAYACÁN ROSADO</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/596778"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2880642">
+    <ns7:depiction rdf:resource="http://i.imgur.com/gxKVrLI.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1151543"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.uco.edu.co/floraorienteantioquia/fagaceae/Quercus-humboldtii-Bonpl/Paginas/default.aspx"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3511"/>
+    <ns5:scientificName xml:lang="la">Quercus humboldtii</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Árbol monoico caducifolio, de aproximadamente 25 ms de altura, con copa amplia y redondeada. Hojas glabras 
+    deciduas agrupadas al final de las ramas. Flores pequeñas, apétalas de color amarillento. El fruto es una nuez o 
+    bellota ovoide sostenida en la base por una cúpula escamosa. Su madera es de baja calidad, pero muy resistente.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">ROBLE</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Quercus_humboldtii"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5231804">
+    <ns5:commonName xml:lang="es">TORCAZA MORADA</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/gfEc6JL.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:shortDescription xml:lang="es">Alcanza unos 30 cms de longitud, es muy arisca y vuela alto. Plomiza, tiene la frente, cubiertas, espalda y 
+    pecho castaño violáceos. Las patas rojas y el pico negro. Se mantiene solitaria, en parejas y en bandadas de hasta 
+    500 individuos.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46281203"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://www.ecured.cu/Paloma_colorada"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8931"/>
+    <ns5:scientificName xml:lang="la">Columba cayennensis</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Columba_cayennensis"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3067261">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/921"/>
+    <ns5:shortDescription xml:lang="es">Árbol semicaducifolio muy ramificado, llega a alcanzar 4-5 ms de altura, con la corteza clara y lisa. Hojas 
+    simples, opuestas, base redondeada, intenso colorido al exponerse al sol. Flores amarillentas de escasa 
+    importancia ornamental. Especie venenosa en todas sus partes, especialmente el látex.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/QESKUE8.jpg"/>
+    <ns5:commonName xml:lang="es">LECHERO (CAUCHO)</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Euphorbia_cotinifolia"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/457243"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1145074"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:scientificName xml:lang="la">Euphorbia cotinifolia</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2479071">
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/cYGuZOk.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Forpus_conspicillatus"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Periquito+de+Anteojos+-+Forpus+conspicillatus"/>
+    <ns5:scientificName xml:lang="la">Forpus conspicillatus</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1178012"/>
+    <ns5:commonName xml:lang="es">PERIQUITO DE ANTEOJOS</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Mide alrededor de 13 cms con el pico marfil. El macho es principalmente verde, más claro y más amarillento debajo, 
+    región ocular azul, coberturas alares superiores e inferiores y rabadillas azul violeta. La hembra es completamente 
+    verde (no azul), más brillante, verde esmeralda alrededor de los ojos, frente y rabadilla.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1265750"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5357677">
+    <ns7:depiction rdf:resource="http://i.imgur.com/mqQyaGg.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/8685157"/>
+    <ns5:commonName xml:lang="es">GUAMO</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/199163"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Árbol con 8-15 ms de altura, tronco bajo, ramificando algunas veces casi desde la base, copa algo rala. Hojas 
+    compuestas; flores con cáliz verdoso y corola blanquecina, perfumadas. El fruto es una vaina cilíndrica 
+    indehiscente, de color verde. Las semillas son negras, cubiertas por una pulpa blanca, suave y azucarada.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Guama_(fruta)"/>
+    <ns5:scientificName xml:lang="la">Inga edulis</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Inga_edulis"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2495858">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Columbina_talpacoti"/>
+    <ns5:shortDescription xml:lang="es">Tiene un largo total promedio de 16.5 cms. El macho es principalmente rufo canela, con las partes inferiores más 
+    pálidas y la coronilla contrastante gris clara, la hembra es mucho más opaca especialmente por debajo y con la 
+    espalda rojiza. Se alimenta principalmente de semillas.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Columbina talpacoti</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/g2ws5Rr.jpg"/>
+    <ns5:commonName xml:lang="es">TORTOLITA COMÚN</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2516"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/504887"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/914637"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5417812">
+    <ns5:shortDescription xml:lang="es">Arbolito de 3-5 ms de altura, frutos aromáticos, de color rojizo pasando a negro. se distribuye en paises como
+    Belice, Bolivia, Brasil, República Dominicana, Jamaica, Puerto Rico, Islas Virginias, Colombia, Costa Rica, Ecuador, 
+    El Salvador, Guayanas Francesa, Guatemala, Guyanas, Honduras, México, Panamá, Perú, Surinam, Venezuela.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">ARRAYÁN</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/2USVhtl.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3779"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2508566"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1453369"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15357705"/>
+    <ns5:scientificName xml:lang="la">Eugenia biflora</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5226883">
+    <ns5:scientificName xml:lang="la">Micrurus mipartitus</ns5:scientificName>
+    <ns5:commonName xml:lang="es">RABO DE AJÍ</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.serpientes-snakes.com.ar/superfamilias/micrurus_mipartitus.htm"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1055830"/>
+    <ns5:shortDescription xml:lang="es">Cuerpo cilíndrico que puede alcanzar hasta 120 cms. De 34-84 anillos negros alternados con anillos amarillo 
+    claro o blanco más pequeños. En la cola tiene entre 1-9 anillos, el negro se alterna con el rojo. La cabeza es 
+    negra y cubre hasta la parte posterior de los ojos, luego inicia un anillo rojo o anaranjado amplio. Es venenosa.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5079828"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/0Lh0LY3.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/430902"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2481721">
+    <ns7:depiction rdf:resource="http://i.imgur.com/t9NEsPh.jpg"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049439"/>
+    <ns5:scientificName xml:lang="la">Tringa flavipes</ns5:scientificName>
+    <ns5:commonName xml:lang="es">TIGUE CHICO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Tringa_flavipes"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/161739"/>
+    <ns5:shortDescription xml:lang="es">Mide de 23-25 cms, pesa de 48-114 grs. La hembra es un poco más grande que el macho. Presenta patas amarillas y 
+    pico de color negro, delgado y recto. En plumaje reproductivo presenta partes superiores moteadas de gris pardusco. 
+    En plumaje no reproductivo sus partes superiores son de color gris pálido.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Andarrios+Patiamarillo+-+Tringa+flavipes"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2861312">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:scientificName xml:lang="la">Philodendron spp</ns5:scientificName>
+    <ns5:commonName xml:lang="es">FILODENDRO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Philodendron"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/29342"/>
+    <ns5:shortDescription xml:lang="es">Es una especie muy variable en su forma y su ecología. Presenta peciolos que miden de 283-108 cms de largo y de 
+    4-17 mms de diámetro, de color verde oscuro. Sus hojas son de forma triangular ovada, miden de 27-101 cms de 
+    largo por 25-90 cms de ancho, presentan ápice acuminado, haz de color verde oscuro y envés verde claro.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2197"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/71613"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/QFt7Jif.jpg"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2962831">
+    <ns5:commonName xml:lang="es">CHIMINANGO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/404691"/>
+    <ns5:shortDescription xml:lang="es">Árbol de 5-20 ms, espinoso; hojas compuestas. Las flores son amarillentas o blanco verdosas y se producen 
+    en cabezuelas como de 1 cm de diámetro, dispuestas en racimos axilares o terminales. La legumbre mide unos 15 
+    cms es retorcida y encorvada, con semillas negras y brillantes, rodeadas de un arilo carnoso, comestible.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Pithecellobium_dulce"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/642629"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3546"/>
+    <ns5:scientificName xml:lang="la">Pithecellobium dulce</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/rVRJY0L.jpg"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2433176">
+    <ns5:commonName xml:lang="es">MURCIÉLAGO FRUGÍVORO</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/H7kfU1x.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/327438"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:scientificName xml:lang="la">Carollia perspicillata</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="https://www.cortolima.gov.co/sites/default/files/images/stories/centro_documentos/pom_prado/diagnostico/apendices/ap_quiropteros.pdf"/>
+    <ns5:shortDescription xml:lang="es">Pelaje color pardo oscuro a pardo grisáceo, generalmente tricoloreado oscuro-claro-oscuro .Abdomen de color 
+    pardo grisáceo. Presenta el uropatagio desnudo y la cola no excede la mitad del mismo. No posee líneas faciales 
+    ni dorsales. El 50% de su alimentación se basa en frutos de arbustos y pequeños árboles.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Carollia_perspicillata"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/40233"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5415081">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Crescentia_cujete"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/578228"/>
+    <ns5:scientificName xml:lang="la">Crescentia cujete</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1125401"/>
+    <ns5:commonName xml:lang="es">TOTUMO</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1396"/>
+    <ns5:shortDescription xml:lang="es">Este árbol alcanza los 10 ms de altura. Sus ramas son largas y extendidas. Sus hojas tienen forma de espátula 
+    y miden hasta 15 cms de largo. Sus flores son grandes de color púrpura amarillento. Su fruto de forma elipsoide tiene 
+    una cáscara dura y no se abre por si solo, sus semillas son numerosas.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/wcKphwP.jpg"/>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="https://www.facebook.com/La-Marina-Tulua-Valle-Ecoturismo-y-Diversion-102570483183016/">
+    <rdfs:comment xml:lang="es">Cuenta con polideportivo cubierto, juegos infantiles, establecimiento de alimentos y bebidas, plaza de mercado, donde 
+    los domingos los agricultores y campesinos ponen en venta la producción de carnes, provenientes de las fincas cercanas, 
+    además es el punto de encuentro de los habitantes y un ambiente esparcimiento para sus visitantes. Ubicado frente a la iglesia 
+    y la estación de policía.</rdfs:comment>
+    <ns4:email>No disponible</ns4:email>
+    <ns7:depiction rdf:resource="http://i.imgur.com/GErJR9N.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/5S6Po9VY1tC2">
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns7:name xml:lang="es">PARQUE PRINCIPAL</ns7:name>
+    <ns4:tel>No disponible</ns4:tel>
+  </ns4:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3190491">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:commonName xml:lang="es">TROMPILLO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Trichilia pallida</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Árbol de hasta 20 ms de altura, de madera blanda, corteza viva quebradiza, fibrosa y delgada. Hojas de 15 cms 
+    de largo por 10 cms de ancho, compuestas, alternas, dispuestas en forma de hélice. Flores pequeñas, de color crema y 
+    dispuestas en inflorescencias axilares sobre sus ramitas. Frutos capsulares dehiscentes, con pelitos cortos y suaves.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2271"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/IGn4Hl0.jpg"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15526615"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/597422"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/592301"/>
+  </ns5:TaxonName>
+  <ns12:Recurso-turistico rdf:about="http://190.14.254.237/dataseteco/RutaVueltaAOriente/">
+    <rdfs:label xml:lang="es">RUTA VUELTA A ORIENTE</rdfs:label>
+    <ns8:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns8:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Empresas"/>
+    <ns8:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns8:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <ns8:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+    <ns8:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+    <ns8:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Restaurantes"/>
+    <ns9:formaParteDe>
+      <ns9:Municipio rdf:about="http://dbpedia.org/resource/Tulua">
+        <ns2:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+        <ns9:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+        <ns2:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <rdfs:label>Corazón del Valle</rdfs:label>
+      </ns9:Municipio>
+    </ns9:formaParteDe>
+    <rdfs:comment xml:lang="es">Al llegar al hipermercado La 14 y enrutarse hacia la Escuela de Policía 
+Simón Bolívar de Tuluá (Esbol) inicia la Vuelta a Oriente.  Senderos entre plantaciones de especies nativas en 150 hectáreas, a 
+1.100 metros sobre el nivel del mar y 24 grados de temperatura, en promedio, esperan al visitante.</rdfs:comment>
+    <ns7:depiction rdf:resource="http://i.imgur.com/xbaeiIt.jpg"/>
+  </ns12:Recurso-turistico>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5231932">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/913248"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/78212"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Tapera_naevia"/>
+    <ns5:scientificName xml:lang="la">Tapera naevia</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Tres+Pies+-+Tapera+naevia"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/z5mzfMS.jpg"/>
+    <ns5:shortDescription xml:lang="es">Mide de 26-29 cms y pesa alrededor de 52 grs. Presenta iris café a verdoso, pico café a café naranja, patas 
+    café grisáceas y piel desnuda alrededor del ojo de color amarillo. Color café por encima con estriado ante y 
+    negro y álula negra prominente. Presenta cresta rufa estriada de negro.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">TRESPIÉS</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2437581">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Dasyprocta_fuliginosa"/>
+    <ns5:scientificName xml:lang="la">Dasyprocta fuliginosa</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/127456"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/193455"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/665"/>
+    <ns5:shortDescription xml:lang="es">El dorso puede ser de color café rojizo, café amarillo o amarillo grisáceo. Puede presentar finas estrías negras 
+    en el pelaje. Las partes anteriores del dorso pueden ser cafés o negras. La parte posterior del dorso tiene pelos largos 
+    de color negro con las puntas amarillas. El vientre varía desde café hasta negro.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">GUATÍN</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/pWHRfbT.jpg"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7429082">
+    <ns5:shortDescription xml:lang="es">Roedor pequeño, no rebasa los 21 cms de largo total y se caracteriza por poseer una cola aparentemente desnuda, 
+    pero con vellosidades finas. El color puede variar mucho, desde el gris claro hasta el café o negro y 
+    combinaciones de los anteriores. Olfato muy desarrollado, lo ayuda en encontrar los alimentos.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Mus musculus</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/Ov6b29i.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://www.ecured.cu/Rat%C3%B3n_casero"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328450"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q2683493"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/10090"/>
+    <ns5:commonName xml:lang="es">RATÓN CASERO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2454954">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2847"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/792206"/>
+    <ns5:commonName xml:lang="es">GUAMERA</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Longitud de 19.4 cms en machos y 86.9 cms en hembras. La coloración dorsal va de café claro a café más 
+    oscuro con una serie de manchas dorsales también de color café, que algunas veces pueden fusionarse dando la 
+    apariencia de una línea recta o en zigzag en la región medio dorsal; la cabeza es café oscuro.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/121346"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Leptodeira_annulata"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/hrXCrrS.jpg"/>
+    <ns5:scientificName xml:lang="la">Leptodeira annulata</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5228831">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/121135"/>
+    <ns5:shortDescription xml:lang="es">Carpintero de gran tamaño, aproximadamente 36 cms de longitud. Cresta prominente de color rojo, al igual que el 
+    "bigote" y la coronilla. Lados de la cabeza y partes superiores de color negro. La espalda es negra con dos líneas 
+    blancas que no se unen. Garganta con estrías de blanco y negro, pecho negro y abdomen barrado.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Dryocopus_lineatus"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1177478"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carpintero+Real"/>
+    <ns5:commonName xml:lang="es">CARPINTERO REAL</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:scientificName xml:lang="la">Dryocopus lineatus</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/klbmpwY.jpg"/>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="https://www.facebook.com/pages/La-Marina-Moralito/596105267145768">
+    <ns7:depiction rdf:resource="http://i.imgur.com/nyC1cgz.jpg"/>
+    <ns4:email>No disponible</ns4:email>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/e3qMhtrL66o">
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns7:name xml:lang="es">MORALITO</ns7:name>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <ns4:tel>No disponible</ns4:tel>
+    <rdfs:comment xml:lang="es">Cuenta con espacios para la integración familiar y de grupos, ofrece recreación, piscinas naturales, servicio de alimentos 
+    y bebidas, juegos infantiles, kioscos, parqueadero.</rdfs:comment>
+  </ns4:Location>
+  <ns3:Location rdf:about="https://www.facebook.com/pages/Restaurante-El-Mirador-Via-La-Marina/600740703382784">
+    <ns3:hasOpeningHoursSpecification>
+      <ns3:OpeningHoursSpecification rdf:about="http://i.imgur.com/BJM64TK.jpg">
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns3:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">19:00:00</ns3:closes>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns3:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns3:opens>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns3:OpeningHoursSpecification>
+    </ns3:hasOpeningHoursSpecification>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Restaurantes"/>
+    <ns3:description xml:lang="es">Restaurante campestre</ns3:description>
+    <ns7:depiction rdf:resource="http://i.imgur.com/oJ8gmA9.jpg"/>
+    <ns3:name xml:lang="es">EL MIRADOR</ns3:name>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/WZFtPETEM122">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:street-address>Vía La Marina, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns4:tel>No disponible</ns4:tel>
+  </ns3:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7141666">
+    <ns5:shortDescription xml:lang="es">Árbol perennifolio, de 5-13 ms de altura con un diámetro de 6-20 cms. Copa en forma de sombrilla, abierta e 
+    irregular. Hojas estipuladas, simples, alternas; de 5-12 cms de largo por 2-4 cms de ancho. Los árboles se 
+    reconocen por sus ramas que crecen con una orientación típicamente horizontal o ligeramente colgantes.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Trema micrantha</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/PXakwq0.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.conabio.gob.mx/conocimiento/info_especies/arboles/doctos/69-ulmac2m.pdf"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/28954"/>
+    <ns5:commonName xml:lang="es">ZURRUMBO</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Trema_micrantha"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/231353"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8225137">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Acacia_farnesiana"/>
+    <ns5:commonName xml:lang="es">AROMO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Acacia farnesiana</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/72368"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2237"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/WqonGiJ.jpg"/>
+    <ns5:shortDescription xml:lang="es">Arbusto muy ramificado desde la base que alcanza 3-5 m de altura. Tronco de corteza oscura y ramaje tortuoso 
+    en zig-zag. Follaje semicaduco en ocasiones. Hojas con dos espinas blancas y rectas de 2-3 cms de 
+    longitud en la base de las mismas. Flores de color amarillo dorado, fragantes, de 1-1.5 cms de diámetro.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/684149"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2495358">
+    <ns5:commonName xml:lang="es">TORCAZA NAGUIBLANCA</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4608"/>
+    <ns5:scientificName xml:lang="la">Zenaida auriculata</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Zenaida_auriculata"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/115703"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049710"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/hxq6Rw2.jpg"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Mide 25 cms. Café oliváceo uniforme por encima, excepto la coronilla gris azulada: lados del cuello con visos 
+    rosados y algo de verde iridiscentes; cara anteada con tinte vináceo; puntas de las plumas de la cola rufo 
+    acanelado, contrastando con una banda medial negra. Por debajo anteado vináceo, la garganta más pálida.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+  </ns5:TaxonName>
+  <ns3:Location rdf:about="https://www.facebook.com/centrodebienestardelanciano.casadelosabuelos">
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/x6F3d8PftmR2">
+        <ns4:street-address>Tuluá, Valle del Cauca</ns4:street-address>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+      </ns4:Address>
+    </ns4:adr>
+    <ns3:hasOpeningHoursSpecification>
+      <ns3:OpeningHoursSpecification rdf:about="https://www.youtube.com/embed/6tMqqSnkDxQ">
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns3:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns3:opens>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns3:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns3:closes>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns3:OpeningHoursSpecification>
+    </ns3:hasOpeningHoursSpecification>
+    <ns3:description xml:lang="es">Entidad sin ánimo de lucro que atiende en la actualidad adultos mayores en condición de vulnerabilidad familiar, social y 
+    económica, siendo la institución encargada de satisfacer sus necesidades básicas. Ubicada en el Km 2 vía al corregimiento de 
+    La Rivera.</ns3:description>
+    <ns3:name xml:lang="es">CASA DE LOS ABUELOS ALONSO LOZANO GUERRERO</ns3:name>
+    <ns4:email>No disponible</ns4:email>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Empresas"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/tT2IN04.jpg"/>
+    <ns4:tel>2242194, 2255093, 3155560047</ns4:tel>
+  </ns3:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2767031">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/39510"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1083826"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/jPeW0t6.jpg"/>
+    <ns5:shortDescription xml:lang="es">Planta perenne con distintos usos medicinales, alimenticios y textiles. Las hojas de entre 15 y 30 cms de ancho 
+    y más de un metro de largo, salen todas desde el centro donde permanecen enrolladas a un tallo central y terminan 
+    en el ápice en una aguja fina de unos 5 cms de longitud. Florece una sola vez en su vida.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://enciclopedia.us.es/index.php/Agave_americana"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Agave_americana"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">CABUYA</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Agave americana</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2482802">
+    <ns5:commonName xml:lang="es">ATRAPA MOSCAS COPETE VERDE</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Verdoso"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:scientificName xml:lang="la">Empidonax virescens</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Mide entre 13-14.5 cms de longitud y pesa de 12.2-14 grs. Los adultos presentan corona, cuello y partes 
+    superiores verde oliva, alas negruzcas. El vientre y las plumas infracaudales son amarillo pálido, su pico es largo 
+    y plano con mandibula superior negra e inferior naranja pálido y sus patas son grises.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/209628"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/BQtSLjr.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Empidonax_virescens"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1046721"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2476195">
+    <ns5:commonName xml:lang="es">COLIBRÍ NUCA BLANCA</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/gB61cJv.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:scientificName xml:lang="la">Florisuga mellivora</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/304640"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Florisuga_mellivora"/>
+    <ns5:shortDescription xml:lang="es">Tiene un largo total promedio de 10.2 cms, pico corto (20 mms) y decurvado en la punta. El macho con 
+    cabeza, garganta y pecho azul lustroso, bajas partes interiores blancas, cola principalmente blanca con ápice negro. 
+    La hembra verde broncíneo por encima, pecho moreno a verdoso y escamado blanco, cola verde oscura.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1048777"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2554"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3169446">
+    <ns7:depiction rdf:resource="http://i.imgur.com/GEQ3Wfq.jpg"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6035263"/>
+    <ns5:scientificName xml:lang="la">Myrsine guianensis</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/486714"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Árbol de todos los climas, está adaptado para prosperar en circunstancias difíciles, de 6-21 ms de altura. Hojas 
+    alternas, lustrosas por el haz, claras por el envés, son duras. Flores y frutos (bayas pequeñas) crecen agrupados 
+    en bolitas apretadas a lo largo de las ramas. Los pequeños frutos maduran en negro.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681410"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://sites.google.com/site/reservachagualos/biota-en-los-chagualos/myrsine-guianensis"/>
+    <ns5:commonName xml:lang="es">CHAGUALO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7262619">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/182113"/>
+    <ns5:commonName xml:lang="es">HIGUERÓN</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:scientificName xml:lang="la">Ficus glabrata</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1026"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Ficus_glabrata"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol grande de hasta 40 ms de altura, con follaje vistoso. Las hojas son alargadas y grandes. Los frutos tienen 
+    forma de higo y son verdes. Planta con uso medicinal, sus frutos son laxantes y alimento para avifauna, la madera 
+    es usada en cajonería y formaleta. Además, esta especie es empleada en la protección de fuentes de agua.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/Vw76IUy.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46243853"/>
+  </ns5:TaxonName>
+  <ns3:Location rdf:about="https://www.facebook.com/UnivalleSedeTulua06/">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Empresas"/>
+    <ns4:tel>2241816</ns4:tel>
+    <ns7:homepage rdf:resource="http://tulua.univalle.edu.co/"/>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/V8JRNVrhLus">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:street-address>Calle 43 No 43 - 33, Tuluá, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns4:email>academica.tulua@correounivalle.edu.co</ns4:email>
+    <ns3:description xml:lang="es">Universidad pública considerada la principal institución de educación superior del suroccidente del país.</ns3:description>
+    <ns3:hasOpeningHoursSpecification>
+      <ns3:OpeningHoursSpecification rdf:about="https://www.youtube.com/embed/3o_g3l1iC_4">
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns3:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns3:opens>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns3:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">17:00:00</ns3:closes>
+      </ns3:OpeningHoursSpecification>
+    </ns3:hasOpeningHoursSpecification>
+    <ns7:depiction rdf:resource="http://i.imgur.com/my7qVD9.jpg"/>
+    <ns3:name xml:lang="es">UNIVERSIDAD DEL VALLE SEDE TULUÁ</ns3:name>
+  </ns3:Location>
+  <ns6:HotelRoom rdf:about="http://i.imgur.com/ZRdVYRs.jpg">
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="https://www.facebook.com/pages/Finca-La-Cantera-Tulua/212484658901980">
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns3:hasValue>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+    <ns6:partOf>
+      <ns6:Hotel rdf:about="https://www.facebook.com/fincahotellacantera/">
+        <ns3:description xml:lang="es">Cómodas habitaciones, cabañas, zona de camping, lago, kiosko para conferencias, seminarios y eventos, pista de baile, 
+    zona de BBQ, fogon de leña. Ofrece al turista senderos ecológicos para caminatas al aire libre, también rutas de 
+    ciclomontañismo para el viajero intrépido, visita al alto de La Cruz y el Jardín Botánico. Ubicada en el Km 1 Doble Calzada</ns3:description>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns3:name xml:lang="es">LA CANTERA</ns3:name>
+        <ns7:depiction rdf:resource="http://i.imgur.com/FwIvEpW.jpg"/>
+        <ns4:tel>3113242282, 3174892540</ns4:tel>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns4:adr rdf:resource="https://goo.gl/maps/Ck73WX3L5Tu"/>
+        <ns4:email>No disponible</ns4:email>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns6:Hotel>
+    </ns6:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://i.imgur.com/JZIBlhm.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+  </ns6:HotelRoom>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2489208">
+    <ns5:scientificName xml:lang="la">Notiochelidon cyanoleuca</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:commonName xml:lang="es">GOLONDRINA AZUL</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Notiochelidon_cyanoleuca"/>
+    <ns5:shortDescription xml:lang="es">Mide 13 cms aproximadamente; por encima es azul lustroso debajo blanco inmaculado, infracaudales negras; cola 
+    ligeramente ahorquillada. Las migratorias del sur son ligeramente más grandes; el interior de las alas es gris. Las 
+    jóvenes son de color verduzco con lustre azul en partes superiores.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/fNUpbf3.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4697"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1178581"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/72892"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/4084063">
+    <ns5:scientificName xml:lang="la">Citharexylum kunthianum</ns5:scientificName>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15493663"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/IrOLx8Z.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Arbusto que alcanza hasta 10 ms de altura, con ramas largas y extendidas. Frutos verdes y de color anaranjado 
+    o morado intenso al madurar. Flores en racimos sencillos, blancos y fragantes, tubulosas, pequeñas, que producen 
+    frutos abayados de 4 mms con el cáliz persistente, con 2 semillas aplanadas redondas.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5387105"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/222864"/>
+    <ns5:commonName xml:lang="es">PALO BLANCO</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3777"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2872695">
+    <ns7:depiction rdf:resource="http://i.imgur.com/6c0i38S.jpg"/>
+    <ns5:scientificName xml:lang="la">Anthurium andraeanum</ns5:scientificName>
+    <ns5:commonName xml:lang="es">ANTURIO</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/226677"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Anthurium"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Anthurium_andraeanum"/>
+    <ns5:shortDescription xml:lang="es">Herbácea perenne de hojas verdes brillantes ovaladas o acorazonadas. Lo que se conoce como flor es una hoja 
+    modificada llamada Espata que puede ser roja, blanca, amarilla, entre otros. La Espata rodea el espádice compuesto 
+    por pequeñas flores que se agrupan alrededor de un eje central.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1142454"/>
+  </ns5:TaxonName>
+  <ns6:HotelRoom rdf:about="http://i.imgur.com/d690JRu.jpg">
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://i.imgur.com/NwTwTCv.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="http://www.mivalledecompras.com/servicios/stulua/alquileres/fincas/finca villa lina en la iveria/index.html">
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns3:hasValue>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+    <ns6:partOf>
+      <ns3:Individual rdf:about="https://www.twitter.com/Ecodataset/status/763489482062561282">
+        <ns4:adr rdf:resource="https://goo.gl/maps/t7DczPasTxK2"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns7:depiction rdf:resource="http://i.imgur.com/KwJhf9j.jpg"/>
+        <ns3:description xml:lang="es">Sitio campestre para recrearse y descansar, tiene una amplia zona verde, pasesos ecológicos a caballo, fogón de leña, 
+    sitio de juegos y más. Ideal para sus eventos empresariales o familiares, los fines de semana o retiros espirituales. Ubicada
+    a 15 minutos de Tuluá.</ns3:description>
+        <ns4:email>mivalledecompras.com@gmail.com</ns4:email>
+        <ns3:name xml:lang="es">VILLA LINA</ns3:name>
+        <ns4:tel>3152630133, 2242946</ns4:tel>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns3:Individual>
+    </ns6:partOf>
+  </ns6:HotelRoom>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2488602">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/58209"/>
+    <ns5:commonName xml:lang="es">AZULEJO COMÚN</ns5:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1052952"/>
+    <ns5:scientificName xml:lang="la">Thraupis episcopus</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Thraupis_episcopus"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/lBS8Gds.jpg"/>
+    <ns5:shortDescription xml:lang="es">Largo total promedio de 16.5 cms. Cabeza, cuello y partes inferiores gris azul pálido, en contraste con alta espalda 
+    más oscura y más azul; alas y cola marginadas de azuloso, hombros azul claro a oscuro. Su alimentación consiste 
+    mayoritariamente de frutas, y puede complementarse con flores, insectos y pequeños invertebrados.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Azulejo+Com%C3%BAn"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3084012">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.saludparati.com/anamu.htm"/>
+    <ns5:commonName xml:lang="es">ANAMÚ</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/ApOc6ry.jpg"/>
+    <ns5:shortDescription xml:lang="es">Planta herbácea perenne, crece hasta aproximadamente 1 m de altura. En algunos lugares se le conoce como 
+    "yerba de ajo" debido al fuerte olor a ajo que emana, especialmente de las raíces. La raíz posee propiedades 
+    anestésicas y analgésicas y se considera más poderosa que las hojas.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/594860"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Petiveria_alliacea"/>
+    <ns5:scientificName xml:lang="la">Petiveria alliacea</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/46142"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7269222">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Zanthoxylum_rhoifolium"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/39954266"/>
+    <ns5:shortDescription xml:lang="es">Árbol de 5-9 ms de altura, copa aplanada, fuste recto y corto, tronco grisáceo o castaño, acanalado en la base, 
+    fuertes aguijones, aguijones en rámulas y hojas. Ramificaciones largas, ascendentes. Follaje siempreverde, hojas 
+    compuestas, alternas, pinnadas, con espinas rectas dorsales, raquis canaliculado, con pelos estrellados.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Zanthoxylum_rhoifolium"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/549434"/>
+    <ns5:scientificName xml:lang="la">Zanthoxylum rhoifolium</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/itfk4vL.jpg"/>
+    <ns5:commonName xml:lang="es">TACHUELO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2481720">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Andarr%C3%ADos+Mayor+-+Tringa+melanoleuca"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/vJuNFpu.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/161682"/>
+    <ns5:scientificName xml:lang="la">Tringa melanoleuca</ns5:scientificName>
+    <ns5:commonName xml:lang="es">TIGUE GRANDE</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Mide de 29-33 cms, pesa de 111-235 grs. Presenta patas amarillas y pico negro ligeramente decurvado. El adulto 
+    en condición no reproductiva presenta partes altas de color gris parduzco con puntos y márgenes blancos. En plumaje 
+    reproductivo presenta estrías oscuras en la cabeza y el cuello y puntos negruzcos en el pecho.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049431"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Tringa_melanoleuca"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2480518">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Gavil%C3%A1n+Caminero"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/223488"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:commonName xml:lang="es">GAVILÁN CAMINERO</ns5:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049099"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Pequeño de 33-41 cms de longitud total. Los ojos, base de la mandíbula superior y patas son amarillos. Presenta 
+    un parche rufo en la base de las plumas primarias. La cabeza, el dorso, la garganta y el pecho  en su parte 
+    superior son gris pardusco y el vientre es barrado de color blanco y café. La cola es gris a rufa.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/6N47kRq.jpg"/>
+    <ns5:scientificName xml:lang="la">Buteo magnirostris</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Buteo_magnirostris"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5229564">
+    <ns7:depiction rdf:resource="http://i.imgur.com/qOTvZ37.jpg"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Fluvicola pica</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Su longitud es de 13 cms. Es blanco con occipucio y centro de la espalda negros: presenta alas y cola de color 
+    negro; márgenes de las primarias internas y ápice de la cola de color blanco. Los jóvenes son similares a los 
+    adultos pero más opacos. Ha sido observado alimentándose de mariposas y libélulas.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Viudita+Com%C3%BAn"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/196030"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Fluvicola_pica"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1053132"/>
+    <ns5:commonName xml:lang="es">VIUDITA COMÚN</ns5:commonName>
+  </ns5:TaxonName>
+  <ns9:Municipio rdf:about="http://dbpedia.org/resource/Riofrio,_Valle_del_Cauca">
+    <ns2:geometry>
+      <ns2:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <ns2:SpatialThing>4.083333</ns2:SpatialThing>
+        <ns2:SpatialThing>4.156111</ns2:SpatialThing>
+      </ns2:point>
+    </ns2:geometry>
+    <ns2:geometry>
+      <ns2:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <ns2:SpatialThing>-76.199997</ns2:SpatialThing>
+        <ns2:SpatialThing>76.287781</ns2:SpatialThing>
+      </ns2:point>
+    </ns2:geometry>
+    <ns9:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+  </ns9:Municipio>
+  <ns3:Location rdf:about="https://www.youtube.com/watch?v=OhTiILsaCrw">
+    <ns4:email>No disponible</ns4:email>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/V6bajHY3FTs">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns3:hasOpeningHoursSpecification>
+      <ns3:OpeningHoursSpecification rdf:about="https://www.facebook.com/Vivero-el-jardin-de-mi-casa-644309525690362/">
+        <ns3:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns3:closes>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns3:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns3:opens>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns3:OpeningHoursSpecification>
+    </ns3:hasOpeningHoursSpecification>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Empresas"/>
+    <ns3:name xml:lang="es">VIVERO EL JARDÍN DE MI CASA</ns3:name>
+    <ns7:depiction rdf:resource="http://i.imgur.com/XYu6NOk.jpg"/>
+    <ns3:description xml:lang="es">Para toda ocasión regala un recuerdo que perdure. Plantas ornamentales, arboles frutales, orquídeas, palmas y
+    bromelias.</ns3:description>
+    <ns4:tel>3154924598, 3177365775</ns4:tel>
+  </ns3:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8311514">
+    <ns5:commonName xml:lang="es">PÍSAMO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Erythrina poeppigiana</ns5:scientificName>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5837321"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/416279"/>
+    <ns5:shortDescription xml:lang="es">Árbol grande que puede alcanzar hasta 35 ms de altura. Presenta aguijones gruesos. Las flores son de color 
+    rojo-anaranjado y se encuentran en racimos erectos. Los frutos son legumbres de hasta 25 cms de largo. Produce gran 
+    cantidad de follaje que sirve como abono en cultivos, regenera suelos al fijar nitrógeno.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://aprendeenlinea.udea.edu.co/ova/?q=node/455"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/647292"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/vYig5sj.jpg"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2932389">
+    <ns5:scientificName xml:lang="la">Solanum torvum</ns5:scientificName>
+    <ns5:commonName xml:lang="es">FRIEGAPLATOS</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/119830"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Solanum_torvum"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/n9zVGBJ.jpg"/>
+    <ns5:shortDescription xml:lang="es">Arbusto de hasta 2.5 ms de altura, cubierto de pelos estrellados (con las ramas libres, es decir unidas 
+    únicamente en la base), armado de espinas dispersas rectas o algunas recurvadas. Hojas escasamente lobadas, 
+    cubiertas con pelos estrellados; flores blancas. Frutos globosos, verdes, sin pelillos.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.conabio.gob.mx/malezasdemexico/solanaceae/solanum-torvum/fichas/ficha.htm"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581201"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7757322">
+    <ns7:depiction rdf:resource="http://i.imgur.com/jgbdHkv.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.opepa.org/index.php?option=com_content&amp;task=view&amp;id=236&amp;Itemid=30"/>
+    <ns5:commonName xml:lang="es">QUICHES</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4616"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/33260"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Bromelia"/>
+    <ns5:shortDescription xml:lang="es">Planta con hojas arrosetadas y sin tallo aparente. Crece encima de las ramas y troncos de los árboles. Las 
+    hojas forman una especie de “estanque” en el centro de la roseta, donde se acumula agua. Lo más llamativo son las 
+    flores que, en realidad, son hojas que toman un color diferente.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Bromelia spp</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2433194">
+    <ns5:scientificName xml:lang="la">Glossophaga soricina</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/27638"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:shortDescription xml:lang="es">Presenta orejas cortas y redondeadas, trago triangular con la punta aguda. Labio inferior con un surco profundo 
+    bordeado de pequeñas verrugas, membrana alar ligada al metatarso, uropatagio bien desarrolado, 
+    calcáneo menor que el pie, pulgar grande. La coloración de las partes superiores varía del café oscuro al claro.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3463"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/327431"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/bwWMWxz.jpg"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Glossophaga_soricina"/>
+    <ns5:commonName xml:lang="es">MURCIÉLAGO NECTIVORO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3152195">
+    <ns5:shortDescription xml:lang="es">Árbol de 2-20 ms con un tallo de 45 cms de diámetro, corteza externa agrietada. Hojas simples, agudas a acuminadas, 
+    aserradas, estrellado-tomentosas; flores amarillentas, fragantes, enzimas axilares pequeñas; cáliz estrellado - 
+    tomentoso, pétalos de 3 mms, fruto leñoso, globolo u oval, de 2-4 cms con tubérculos duros.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/93772"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/RLlU52L.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Guazuma_ulmifolia"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">GUACIMO</ns5:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584815"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1243"/>
+    <ns5:scientificName xml:lang="la">Guazuma ulmifolia</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8206387"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2760842">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.rarepalmseeds.com/es/pix/HelGri.shtml"/>
+    <ns5:scientificName xml:lang="la">Heliconia griggsiana</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:commonName xml:lang="es">PLATANILLO</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/KmDXQiB.png"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/796949"/>
+    <ns5:shortDescription xml:lang="es">Heliconia de tamaño mediano, con inflorescencias colgantes, espiraladas, las cuales tienen brácteas 
+    rojizo-rosadas,amarillas o verdes, con quillas de color morado oscuro, cubiertas por un estrato fino, ceroso, 
+    de tonalidad blanca. Las hojas tienen la vena central marrón y el envés blancuzco.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15329832"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1118024"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2433573">
+    <ns5:shortDescription xml:lang="es">Cuerpo alargado y musculoso, cabeza redondeada, rostro corto y ojos grandes y separados. Piernas y brazos 
+    cortos, pero hábiles para sujetarse. Pelaje corto, aterciopelado y muy tupido, de un color marrón en la espalda 
+    que se va oscureciendo al llegar a la cola y la cabeza y amarillento por la parte inferior.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">PERRO DE MONTE</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/xgjy7vU.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Potos_flavus"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Potos_flavus"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/29067"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328067"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:scientificName xml:lang="la">Potos flavus</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5231103">
+    <ns5:shortDescription xml:lang="es">Mide entre 11.8-13.4 cms y pesa de 16.8-31 grs. Es ligeramente crestado y con pico cónico de tamaño medio. 
+    Presenta cabeza gris; nuca y lados del cuello rufos, formando un collar que se extiende hacia los lados 
+    del pecho. Las plumas de su cola son cafés con los bordes rufos. Su garganta es blanca y el pecho blanco grisáceo.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Copet%C3%B3n+Com%C3%BAn+-+Zonotrichia+capensis"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/44391"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Zonotrichia_capensis"/>
+    <ns5:scientificName xml:lang="la">Zonotrichia capensis</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/916840"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/LeBUJrL.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:commonName xml:lang="es">GORRIÓN DE COLLAR RUFO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3190504">
+    <ns5:scientificName xml:lang="la">Guarea trichilioides</ns5:scientificName>
+    <ns5:commonName xml:lang="es">CEDRO MACHO</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Guarea_guidonia"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/gqHHXy3.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581915"/>
+    <ns5:shortDescription xml:lang="es">Árbol que presenta una base estriada, el tronco recto y sin ramificaciones. Alcanza una altura entre 25-30 ms 
+    y un diámetro de hasta 1 m. Las hojas son de gran tamaño, de 20-60 cms de largo y se encuentran dispuestas de manera 
+    alterna. La corteza es áspera, con muchas fisuras longitudinales y de color pardo, con un evidente matiz rojizo.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/669"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43908"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2874515">
+    <ns5:shortDescription xml:lang="es">Las hojas de esta planta presentan 5 lóbulos, tienen vellos suaves, y margen dentado. Sus frutos son de forma 
+    oval o redondeada, miden hasta 2 ms de diámetro, son carnosos, su interior es de color amarillo o rojo cuando maduros. 
+    Sus semillas son de color blanco a café.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3661"/>
+    <ns5:commonName xml:lang="es">ZAPALLO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Cucurbita_maxima"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/03w1Evy.jpg"/>
+    <ns5:scientificName xml:lang="la">Cucurbita maxima</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1342"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584406"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8138695">
+    <ns5:commonName xml:lang="es">NACEDERO</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681367"/>
+    <ns5:scientificName xml:lang="la">Trichanthera gigantea</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3595"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/eGYfPLm.jpg"/>
+    <ns5:shortDescription xml:lang="es">Árbol de hojas simples, opuestas, ápice acuminado, glabras o pubescentes en las venas, ovadas a oblongas, 
+    pecíolo 1-5 cms de largo, limbo hasta 26 cms de largo por 14 cms de ancho. Inflorescencia en panícula terminal 5-15 cms 
+    de largo. Flores con cáliz 10-12 mms de largo, tomentoso. El fruto es una cápsula de 1.5-2 cms de largo, pubescente.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5637186"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Trichanthera"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2957438">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/347003"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/YX0s7N2.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://lailahuber.blogspot.com.co/2011_01_01_archive.html"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Senna_spectabilis"/>
+    <ns5:scientificName xml:lang="la">Senna spectabilis</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/418255"/>
+    <ns5:commonName xml:lang="es">FLOR AMARILLO</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol de 8 a 10 ms de altura y de 40 cms de diámetro en el tronco. Su copa tiene forma globosa. Su corteza es 
+    marrón oscura y rugosa. Es de follaje caduco. Hojas compuestas, pinnadas, de color verde medio, discoloras y 
+    pubescentes. Flores amarillas que forman inflorescencias terminales. Sus frutos son legumbres cilíndricas.</ns5:shortDescription>
+  </ns5:TaxonName>
+  <ns11:Event rdf:about="http://elperiodicowebregion.blogspot.com.co/2015/06/desde-el-llano-llegaron-familias.html">
+    <ns11:time>
+      <ns1:Interval rdf:about="http://elperiodicowebtulua.blogspot.com.co/2015/06/nacional-de-vaqueria-en-tulua.html">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-30T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+    <rdfs:label xml:lang="es">NACIONAL DE VAQUERÍA</rdfs:label>
+    <ns7:depiction rdf:resource="https://goo.gl/youtube/bPDpDWeVzEs"/>
+    <rdfs:comment xml:lang="es">Evento del carnaval de apertura de la Feria de Tuluá. Participan vaqueros de varias regiones del país. Realizado en el 
+	Rancho Las Palmas.</rdfs:comment>
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/rchRKxTBmF62">
+        <rdfs:label xml:lang="es">La Rivera, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <ns7:depiction rdf:resource="http://i.imgur.com/lzsE2Ig.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+  </ns11:Event>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2981948">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3559"/>
+    <ns5:commonName xml:lang="es">CARBONERO</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/647621"/>
+    <ns5:scientificName xml:lang="la">Calliandra pittieri</ns5:scientificName>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15492902"/>
+    <ns5:shortDescription xml:lang="es">Árbol de unos 5 ms de altura, su follaje y copa en forma de parasol, al igual que sus flores en pomos 
+    blanco-rosados, ayudan a reconocerlo. La hoja es pequeña; el fruto es una vaina o legumbre que al calentar el sol 
+    expulsa las semillas. Casi todo el año se observa esta especie con flores y frutos.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/226080"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/lxjvAyg.jpg"/>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="http://www.eltabloide.com.co/un-picacho-lleno-de-mitos-y-leyendas/">
+    <ns4:tel>No disponible</ns4:tel>
+    <ns7:name xml:lang="es">CERRO EL PICACHO</ns7:name>
+    <ns4:email>No disponible</ns4:email>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/Y7rJbfcAxcy">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>El Picacho, Tuluá, Valle del Cauca</ns4:street-address>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+      </ns4:Address>
+    </ns4:adr>
+    <ns7:depiction rdf:resource="https://www.youtube.com/embed/BYkSVIzh5CY"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/RNN9f6T.jpg"/>
+    <rdfs:comment xml:lang="es">Sitio de peregrinación, cada año por la misma fecha de mayo, cientos de Tulueños suben. Se puede observar un lindo amanecer 
+    o un hermoso atardecer. Se practican parapente, paracaidismo, ciclismo.</rdfs:comment>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+  </ns4:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3114910">
+    <ns7:depiction rdf:resource="http://i.imgur.com/KZlnfHV.jpg"/>
+    <ns5:commonName xml:lang="es">SAUCE PLAYERO</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Tessaria integrifolia</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Árbol de 3-10 ms de altura de follaje persistente y copa pequeña. Se caracteriza por su silueta delgada. Sus 
+    hojas simples son de color grisáceo y pubescentes. Sus flores son violáceas y se presentan en capítulos 
+    terminales.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6143507"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/313942"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2100"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5114705"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7333251">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5676853"/>
+    <ns5:scientificName xml:lang="la">Escobedia scabrifolia</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Hierba perenne, erecta, que alcanza un tamaño de 40–100 cms de alto, glabra; tallo simple. Hojas opuestas. Flores 
+    solitarias en las axilas de las hojas. Uso de sus raíces anaranjadas como colorante natural de los alimentos y uso 
+    en la medicina popular; se ha comprobado que las flores tienen sustancias antibacteriales.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/374682"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q21399372"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/zQoark4.jpg"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">AZAFRÁN DE RAÍZ</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://agrodiversos.blogspot.com.co/p/blog-page.html?view=timeslide"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5229662">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/917493"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/B50ISOf.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/121427"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Tyrannus_melancholicus"/>
+    <ns5:scientificName xml:lang="la">Tyrannus melancholicus</ns5:scientificName>
+    <ns5:commonName xml:lang="es">SIRIRÍ COMÚN</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:shortDescription xml:lang="es">Mide cerca de 22 cms y pesa 40 grs. Tiene la cabeza gris con una máscara negruzca, posee un parche naranja oculto 
+    en la coronilla. Su espalda es oliva grisáceo, sus alas y cola son de un tono café negruzco, su garganta es gris 
+    pálido, las partes bajas inferiores son amarillas. El pico y las patas son negros.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Sirir%C3%AD+Com%C3%BAn"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2439270">
+    <ns5:scientificName xml:lang="la">Rattus rattus</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Rattus_rattus"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328447"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/10117"/>
+    <ns5:shortDescription xml:lang="es">Mide aproximadamente entre 14-20 cms y pesa entre 100-240 grs. La parte dorsal es negro rayado con pelos 
+    negros y blancos sobre los costados. Las orejas son medianas y desnudas. La trompa es larga y punteada. La cola es 
+    robusta, ligeramente más larga que la longitud de la cabeza y el cuerpo. Las patas son largas y gruesas.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/1Siv2Yv.jpg"/>
+    <ns5:commonName xml:lang="es">RATA COMÚN</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5394"/>
+  </ns5:TaxonName>
+  <ns11:Event rdf:about="http://elperiodicowebregion.blogspot.com.co/2010/09/fiestas-del-campesino-y-la-alegria.html">
+    <rdfs:label xml:lang="es">FIESTAS DEL CAMPESINO</rdfs:label>
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/qqkBHrAmJa12">
+        <rdfs:label xml:lang="es">La Iberia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <rdfs:comment xml:lang="es">Es la fiesta anual donde se reúnen todos los habitantes de la vereda, familias y amigos; se realizan actividades típicas 
+	como cabalgatas, presentación de espectáculos, marrano engrasado, competencias infantiles y muestras de los campesinos.</rdfs:comment>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/52ldlxo.jpg"/>
+    <ns11:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767898777864794113">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-18T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+  </ns11:Event>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/114907430">
+    <ns5:shortDescription xml:lang="es">Este árbol alcanza los 25 ms de altura. Su tronco recto y de corteza color gris pardusco ligeramente escamosa o 
+    agrietada alcanza los 40 cms de diámetro. Su copa tiene forma de parasol, su follaje distribuido por 
+    ramilletes es de color verde amarillento, sus ramas son gruesas, vidriosas.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5056477"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:commonName xml:lang="es">MANO DE OSO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Oreopanax floribundum</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1081"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Dendropanax_colombianus"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/0zETXyz.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/52502"/>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="https://www.twitter.com/Ecodataset/status/764645876329512961">
+    <ns4:email>No disponible</ns4:email>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <rdfs:comment xml:lang="es">Cuenta con polideportivo cubierto, juegos infantiles, monumento a las víctimas.</rdfs:comment>
+    <ns7:depiction rdf:resource="https://www.youtube.com/embed/KCifoTh--d0"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/kkgKuhQ.jpg"/>
+    <ns4:tel>No disponible</ns4:tel>
+    <ns7:name xml:lang="es">PARQUE PRINCIPAL LA MORALIA</ns7:name>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/k9zJoVNP4L82">
+        <ns4:street-address>La Moralia, Valle del Cauca</ns4:street-address>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+      </ns4:Address>
+    </ns4:adr>
+  </ns4:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2456089">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/121327"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/CCodOyF.jpg"/>
+    <ns5:commonName xml:lang="es">FALSA CORAL</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/794729"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2843"/>
+    <ns5:shortDescription xml:lang="es">Longitud máxima de 100 cms. Presenta anillos rojos y negros, los últimos en pares, inclusive el primer anillo 
+    nucal. Entre los anillos negros hay un anillo de color blanco o amarillo. La cabeza clara arriba, pero el hocico 
+    y la región parietal manchados de negro. Banda ocular negra.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Erythrolamprus_bizona"/>
+    <ns5:scientificName xml:lang="la">Erythrolamprus bizona</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7649215">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/246517"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/580043"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/aUOYVfk.jpg"/>
+    <ns5:scientificName xml:lang="la">Cordia alliodora</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Árbol de tamaño mediano a grande, que en estado maduro alcanza una altura superior a los 30 ms 
+    y hasta 1 m de diámetro. De fuste recto, cilíndrico y con frecuencia limpio de ramas en un 50 a 60% de 
+    la altura total. Corteza externa blancuzca, algo fisurada, dura y de grosor medio. Flores blancas.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">NOGAL CAFETERO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Cordia_alliodora"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://maderas.ut.edu.co/especies/pagina_especie.php?especie=LAUREL"/>
+  </ns5:TaxonName>
+  <ns3:Location rdf:about="https://www.facebook.com/pages/Escuela-de-Policia-Simon-Bolivar/334490836608164">
+    <ns4:tel>2257192 ext. 130</ns4:tel>
+    <ns7:depiction rdf:resource="http://i.imgur.com/PCNkCT0.jpg"/>
+    <ns4:email>esbol.oac@policia.gov.co</ns4:email>
+    <ns3:hasOpeningHoursSpecification>
+      <ns3:OpeningHoursSpecification rdf:about="https://www.youtube.com/embed/iSA4bUzyzFs">
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns3:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns3:closes>
+        <ns3:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns3:opens>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns3:OpeningHoursSpecification>
+    </ns3:hasOpeningHoursSpecification>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Empresas"/>
+    <ns3:description xml:lang="es">Centro de formación policial del suroccidente colombiano, tiene como objetivo principal, capacitar a los futuros policías, 
+    a través de un proyecto educativo institucional, dirigido a satisfacer las necesidades de seguridad y convivencia 
+    ciudadana. Ubicada en el Km 1 vía al corregimiento de La Rivera</ns3:description>
+    <ns7:homepage rdf:resource="http://policia.seedlabs.co/escuelas/simon-bolivar"/>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/GgVE6MRkP5z">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:street-address>Tuluá, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns3:name xml:lang="es">ESCUELA DE POLICÍA SIMÓN BOLÍVAR</ns3:name>
+  </ns3:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8474174">
+    <ns5:scientificName xml:lang="la">Carica goudotiana</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/262682"/>
+    <ns5:shortDescription xml:lang="es">Planta que alcanza hasta 4 ms de altura, tallo grueso en la base y se adelgaza en la parte superior. Hojas 
+    pecioladas de 17 a 34 cms, presenta flores de color amarillo-crema masculinas, femeninas y hermafroditas. El fruto 
+    es una baya ovoide comestible de color amarillo al madurar, con múltiples semillas.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Vasconcellea_goudotiana"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5731417"/>
+    <ns5:commonName xml:lang="es">PAPAYUELA</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/2d6mzrP.jpg"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5165"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7262410">
+    <ns7:depiction rdf:resource="http://i.imgur.com/2YhtzfX.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/594677"/>
+    <ns5:commonName xml:lang="es">MATAPALOS</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/319808"/>
+    <ns5:scientificName xml:lang="la">Ficus involuta</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="https://elmundoenimagenes13.wordpress.com/2014/11/29/ficus-estrangulador-en-monteverde-costa-rica/"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Árbol "estrangulador", que suele crecer encima de otros árboles, abrazándolos con sus fuertes raíces. Puede 
+    alcanzar hasta 20 ms de altura. Hojas alternas, algo gruesas, brillantes, con venas notorias. "Frutos" (siconos) 
+    normalmente pequeños y redondos, usualmente rojizos o amarillentos adornados con motas.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Ficus_aurea"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5231459">
+    <ns5:commonName xml:lang="es">CUCARACHERO COMÚN</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Troglodytes_aedon"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/qjJcsqN.jpg"/>
+    <ns5:shortDescription xml:lang="es">Mide 11.4 cms. Café grisáceo por encima, con barrado negruzco indistinto en alas y cola; débil superciliar 
+    blanco; por debajo más o menos rosáceo, usualmente más pálido en garganta y abdomen; infracaudales uniformes o 
+    barradas. Mantiene la cola erecta mientras salta activamente a lo largo de setos o matorrales.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cucarachero+Com%C3%BAn"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1050659"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/58211"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:scientificName xml:lang="la">Troglodytes aedon</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2440779">
+    <ns5:commonName xml:lang="es">ARMADILLO, GURRE</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Cuerpo cubierto con un caparazón formado por pequeñas placas óseas unidas entre sí; en su parte media, este 
+    caparazón tiene una serie de bandas verticales que le dan flexibilidad, permitiendo que el animal doble su cuerpo. 
+    La cola y la parte superior de la cabeza también están cubiertas con placas óseas.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.opepa.org/index.php?option=com_content&amp;task=view&amp;id=708&amp;Itemid=29"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/ZZWQB6s.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Dasypus_novemcinctus"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328482"/>
+    <ns5:scientificName xml:lang="la">Dasypus novemcinctus</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9361"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2962824">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1129495"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Pithecellobium lanceolatum</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Arbustos de 0.75-12 ms de altura, corteza estriada. Hojas bipinnadas, cada pinna exactamente con 2 
+    foliolos. Flores fragantes con perianto verde pálido con pelos densos, agrupadas en inflorescencias, 
+    largas, laxas, solitarias o en parejas. Frutos 1-2 por espiga, pedunculados, valvas curvadas, rojos en la madurez, lampiños.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/I3dpH20.jpg"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15459116"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/642793"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2153"/>
+    <ns5:commonName xml:lang="es">ESPINO DE MONO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5777723">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9620"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/qYFO2lk.jpg"/>
+    <ns5:shortDescription xml:lang="es">Cánido de tamaño mediano (5-7 Kgs), la cola es moderadamente peluda, con la punta negra y oscura en la base. El 
+    rostro es largo y puntiagudo, la cabeza es relativamente corta y estrecha. El pelaje generalmente es gris oscuro a 
+    negro a lo largo del dorso, la línea media en el vientre incluyendo las patas son gris a negro.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">ZORRO GRIS</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Dusicyon_thous_azarae"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/421"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328685"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:scientificName xml:lang="la">Dusicyon thous</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="https://www.facebook.com/pages/Rancho-Las-Palmas/246671912037940">
+    <ns7:depiction rdf:resource="https://www.youtube.com/embed/sVlkViwdHHA"/>
+    <ns4:tel>224 3939, 315 569 3615</ns4:tel>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/eMjWbhVFiPw">
+        <ns4:street-address>La Rivera, Tuluá Valle del Cauca</ns4:street-address>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+      </ns4:Address>
+    </ns4:adr>
+    <ns4:email>No disponible</ns4:email>
+    <rdfs:comment xml:lang="es">Lugar de encuentro en donde se llevan a cabo diversos eventos, cuenta con pista de ciclomontañismo. Ubicado 
+    en el Km 1 detrás del Centro Comercial Tuluá La 14.</rdfs:comment>
+    <ns7:name xml:lang="es">RANCHO LAS PALMAS</ns7:name>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/DKmsfRt.jpg"/>
+  </ns4:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5420509">
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/260140"/>
+    <ns5:scientificName xml:lang="la">Psidium guineense</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Árbol pequeño que alcanza un tamaño de 1-7 ms de altura, una planta de crecimiento relativamente lento. Las 
+    hojas son angostas en los extremos y a veces los bordes están enroscados. Las flores son blancas y los frutos 
+    globosos, de color verde-amarillento.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Psidium_guineense"/>
+    <ns5:commonName xml:lang="es">GUAYABO CIMARRÓN</ns5:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2508601"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Psidium_guineense"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/Zmy88xF.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2436860">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Sylvilagus_brasiliensis"/>
+    <ns5:scientificName xml:lang="la">Sylvilagus brasiliensis</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:commonName xml:lang="es">CONEJO SABANERO</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.opepa.org/index.php?option=com_content&amp;task=view&amp;id=709&amp;Itemid=29"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/483865"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/118008"/>
+    <ns5:shortDescription xml:lang="es">Más pequeño que los conejos domesticados de origen europeo. Tiene un pelaje bastante uniforme, café oscuro 
+    con algunas manchas café-anaranjadas, diferente de los colores y patrones que suelen mostrar los conejos 
+    domésticos. Es más frecuente verlo en las horas del amanecer y del atardecer, cuando es más activo.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/UXzUUrS.jpg"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8033909">
+    <ns7:isPrimaryTopicOf rdf:resource="http://hergol.biologia.ucr.ac.cr/taxa/index.php?taxon=1145&amp;cl=Lista%20de%20plantas%20del%20Refugio%20de%20VS%20Golfito"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol que alcalza 1–8 ms de altura, tallos jóvenes generalmente fuertes y con médula grande, densamente vellosos 
+    a escasamente puberulentos. Hojas ovadas de 10–25 cms de largo y 6–18 cms de ancho, ápice generalmente acuminado. 
+    Inflorescencias estaminadas con pubescencia como la de los tallos jóvenes.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/1REwEIV.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1143557"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681401"/>
+    <ns5:scientificName xml:lang="la">Acalypha macrostachya</ns5:scientificName>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q9574549"/>
+    <ns5:commonName xml:lang="es">ACALIFA</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/4155046">
+    <ns7:depiction rdf:resource="http://i.imgur.com/D5VIXzt.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://guaduabambucolombia.com/guadua-inmunizada/vivero/"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/323898"/>
+    <ns5:scientificName xml:lang="la">Guadua angustifolia bicolor</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5846334"/>
+    <ns5:commonName xml:lang="es">GUADUA RAYADA</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Bambú gigante, espinoso, con culmos erectos y huevos que alcanzan alturas hasta de 25 ms y diámetros entre 10-25 
+    cms. Sus entrenudos tienen paredes hasta de 2 cms de espesor. Se diferencia de la especie tipo por tener rayas 
+    longitudinales amarillas sobre el culmo verde. Tiene gran potencial para la fabricación de artesanías.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1491422"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns11:Event rdf:about="https://www.facebook.com/Club-de-parapente-tulua-528121404021970">
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/iSLVDv8eTWC2">
+        <rdfs:label xml:lang="es">La Iberia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <ns11:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767913157444657152">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-01T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P365D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+    <ns7:depiction rdf:resource="https://goo.gl/youtube/zVAgYrfPCY0"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/1Z0meja.jpg"/>
+    <rdfs:label xml:lang="es">VUELOS EN PARAPENTE</rdfs:label>
+    <rdfs:comment xml:lang="es">Vuelos en parapente desde $100.000 hasta $120.000, incluyen fotos, video, subida al lugar de encuentro. Disfruta 
+	una gran sensación al volar de 20-30 minutos. Punto de encuentro Parador la Iberia. Para más informacion llamar al 3165440241</rdfs:comment>
+  </ns11:Event>
+  <ns11:Event rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1v1--&amp;x=1480713">
+    <ns7:depiction rdf:resource="http://i.imgur.com/438LfFg.jpg"/>
+    <rdfs:label xml:lang="es">FIESTAS DE REYES Y FERIA GANADERA</rdfs:label>
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/qFaNLL7zQ2C2">
+        <rdfs:label xml:lang="es">La Marina, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <rdfs:comment xml:lang="es">La programación de las festividades incluye Cabalgata, feria ganadera y equina, venta de gastronomía típica, juegos 
+	tradicionales de la cultura campesina como "subir un tronco engrasado", carrera de encostalados, entre otros. Se dispone 
+	todo el tiempo de una tarima para presentación de grupos artísticos.</rdfs:comment>
+    <ns7:depiction rdf:resource="https://goo.gl/youtube/TswybiVKASo"/>
+    <ns11:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767897508722991104">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-07T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+  </ns11:Event>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3170241">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Asclepias_curassavica"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1100"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Es una hierba que alcanza hasta 1,5 ms de alto y tiene abundante exudado de color blanco, considerado tóxico. 
+    Sus hojas son en forma de lanza miden hasta 12 cms de longitud y 2 cms de ancho. Sus flores de corola roja y 
+    corona amarilla se disponen en umbelas. Su fruto es una cápsula que contiene numerosas semillas.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">BENCENUCO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/52823"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581283"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:scientificName xml:lang="la">Asclepias curassavica</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/6SuR7d7.jpg"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5218919">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328589"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q20907812"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:shortDescription xml:lang="es">Las plantas de las patas están cubiertas con pelos, la cola es larga con el borde distal de color negro, 
+    presenta manchas faciales excepto en ejemplares muy jóvenes. Suele alimentarse de aves de corral y cuyes de los cuales 
+    únicamente devora el cerebro. Se ha reportado que emite un olor desagradable cuando se siente acorralada.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Mustela frenata</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/TfQw5uP.jpg"/>
+    <ns5:commonName xml:lang="es">COMADREJA</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4332"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/55048"/>
+  </ns5:TaxonName>
+  <ns3:Location rdf:about="https://www.twitter.com/Ecodataset/status/765348363785175040">
+    <ns3:description xml:lang="es">Eventos, recreación, platos a la carta, postres, café, bar. Ubicado en el km 7  de la vía.</ns3:description>
+    <ns4:tel>No disponible</ns4:tel>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/UwPdvJvFAin">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>La Marina, Valle del cauca</ns4:street-address>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+      </ns4:Address>
+    </ns4:adr>
+    <ns3:hasOpeningHoursSpecification>
+      <ns3:OpeningHoursSpecification rdf:about="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Restaurantes/paradorIberia.mp4">
+        <ns3:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">20:00:00</ns3:closes>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns3:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:00:00</ns3:opens>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+      </ns3:OpeningHoursSpecification>
+    </ns3:hasOpeningHoursSpecification>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Restaurantes"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/TyZ7QSv.jpg"/>
+    <ns3:name xml:lang="es">PARADOR LA IBERIA</ns3:name>
+  </ns3:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2456438">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2816562"/>
+    <ns5:scientificName xml:lang="la">Tantilla melanocephala</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/IOAAUil.jpg"/>
+    <ns5:commonName xml:lang="es">TIERRERA</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/121370"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:shortDescription xml:lang="es">Cabeza alargada y no diferenciada del cuello, ojos pequeños y el cuerpo cilíndrico y delgado. Presenta un color 
+    pardo amarillento o rojizo, cada escama dorsal posee pigmentos pardos, la cabeza es de color negro, el abdomen es 
+    de color blanco y sin manchas. Esta serpiente logra medir aproximadamente 50 cms de longitud, incluyendo la cola.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Tantilla_melanocephala"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.serpientesdevenezuela.net/web/index.php/component/content/article?id=124"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5391845">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/579063"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/42337"/>
+    <ns5:scientificName xml:lang="la">Bidens pilosa</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Bidens_pilosa"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:commonName xml:lang="es">CADILLO</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/f1339X1.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3516"/>
+    <ns5:shortDescription xml:lang="es">Hierba pequeña, erecta anual que crece hasta 1 m de altura. Tiene hojas verde intenso dentadas, bordes 
+    espinosos y produce pequeñas flores amarillas y fruto negro. Su raíz tiene un aroma distintivo similar al de 
+    una zanahoria. Es originaria de la selva amazónica y otras áreas tropicales de América del Sur.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5219955">
+    <ns7:depiction rdf:resource="http://i.imgur.com/7NmK2l6.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/289603"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/91500"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Chironectes_minimus"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Partes superiores de color gris; cabeza marrón oscura o negruzca, con sendas manchas grisáceas a los lados de 
+    la frente; línea media dorsal angosta, marrón oscura o negruzca que se dilata a nivel de las paletas; partes 
+    inferiores incluyendo labios y garganta, blancos; manos y pies blanco-rosado; pulgar de los pies sin garra.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Chironectes minimus</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3489"/>
+    <ns5:commonName xml:lang="es">CHUCHA DE AGUA</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5228112">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1047228"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Colinus_cristatus"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/114915"/>
+    <ns5:scientificName xml:lang="la">Colinus cristatus</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/WnuKXZc.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3456"/>
+    <ns5:commonName xml:lang="es">PERDIZ COMÚN</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Presenta un tamaño entre 20-23 cms. Cresta aguda conspicua. Macho: cara y garganta blanquecinos; nuca negra 
+    punteada de blanco; partes inferiores café punteado; puntos blancos grandes en pecho y flancos; vientre barrado de 
+    negro. Hembra: más opaca, cresta café, garganta estriada de negro.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="https://www.facebook.com/LasMariasValle/">
+    <rdfs:comment xml:lang="es">Recreación, sano esparcimiento y descanso, un sitio para alejarte del ruido de la ciudad y compenetrarte con la 
+    naturaleza. Zona WiFi, alojamiento, restaurante, piscina, sauna, parqueadero gratis y mucho más. Ubicado a 15 minutos de Tuluá.</rdfs:comment>
+    <ns7:name xml:lang="es">CENTRO RECREACIONAL LAS MARÍAS</ns7:name>
+    <ns7:depiction rdf:resource="http://i.imgur.com/wttl4ey.jpg"/>
+    <ns4:email>visitalasmarias@gmail.com</ns4:email>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/vyuRs9SLc4G2">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>La Moralia, Valle del Cauca</ns4:street-address>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+      </ns4:Address>
+    </ns4:adr>
+    <ns4:tel>316 7796220, 318 8001754</ns4:tel>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+  </ns4:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2480830">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1048666"/>
+    <ns5:commonName xml:lang="es">GARZA DEL GANADO</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Mide entre 46-56 cms y pesa de 340-390 grs. Tiene un aspecto rechoncho y su cuerpo es completamente blanco con 
+    el pico amarillo y las patas verde opaco. Durante el período reproductivo también es blanca con la coronilla, la 
+    espalda y el pecho amarillentos y el pico y las patas rojizos.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Bubulcus_ibis"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/110668"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/vdQzk2p.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garcita+del+Ganado+-+Bubulcus+ibis"/>
+    <ns5:scientificName xml:lang="la">Bubulcus ibis</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns11:Event rdf:about="http://www.eltabloide.com.co/vibra-el-morro-de-el-picacho/">
+    <ns11:time>
+      <ns1:Interval rdf:about="http://www.eltabloide.com.co/category/picacho/">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-14T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/5y7xQPvYVNL2">
+        <rdfs:label xml:lang="es">El Picacho, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <rdfs:label xml:lang="es">FIESTAS DEL RETORNO AL MORRO DEL PICACHO</rdfs:label>
+    <rdfs:comment xml:lang="es">Cabalgata, reinado de la vaca, ciclopaseo, exhibición de parapentes, festival gastronómico, artistas y competencias 
+	de ciclomontañismo.</rdfs:comment>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/tt8Nwkr.jpg"/>
+  </ns11:Event>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2484396">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/84836"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1052069"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cham%C3%B3n+Par%C3%A1sito"/>
+    <ns5:commonName xml:lang="es">CHAMÓN PARÁSITO</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/3PD6Rbw.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Molothrus_bonariensis"/>
+    <ns5:shortDescription xml:lang="es">Mide alrededor de 22 cms. Tiene un pico corto, cónico y ojos oscuros en ambos sexos. Los machos son totalmente 
+    negros púrpura lustroso. La hembra es café grisáceo opaco por encima, mucho más pálido debajo. Vive en áreas 
+    abiertas, como parques y potreros. Es un ave parásita de cría, pone sus huevos en los nidos de otros pájaros.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Molothrus bonariensis</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5421056">
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5775222"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol que alcanza hasta los 10 ms de altura; tiene ramitas algo angulosas; las hojas obovadas, 
+    cartilaginosas, de 5-10 cms de largo, con peciolo delgado de 1-2 cms. Las inflorescencias con 4-5 pétalos 
+    blancos o rosados. Fruto subgloboso u obovoide de 2 cms de longitud.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/156471"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/4gOFj8B.jpg"/>
+    <ns5:commonName xml:lang="es">CUCHARO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Clusia minor</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584881"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Clusia_minor"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5421132">
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1471"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582237"/>
+    <ns5:scientificName xml:lang="la">Sapindus saponaria</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/NLfHDfp.jpg"/>
+    <ns5:commonName xml:lang="es">CHAMBIMBE</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/171222"/>
+    <ns5:shortDescription xml:lang="es">Árbol de unos 15 ms de alto, hojas alternas pinnadas; flores pequeñas, fragantes, muy abundantes en 
+    inflorescencia terminal paniculada, 5 pétalos blancos que alternan con los sépalos; frutos globosos, amarillentos, 
+    de 2 cms de diámetro, de envoltura translúcida; semillas duras, de color negro lustroso.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Sapindus_saponaria"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2482755">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4535"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/371930"/>
+    <ns5:commonName xml:lang="es">BICHOFUÉ GRITÓN</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/fEdFf4L.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Pitangus_sulphuratus"/>
+    <ns5:shortDescription xml:lang="es">Atrapamoscas que mide 22 cms y pesa aproximadamente 65 grs, es grande y robusto con un pico grande 
+    y fuerte, cola relativamente corta, patas negras; coronilla negra circundada por amplia banda blanca; parche amarillo 
+    oculto en la coronilla; lados de la cabeza negros; pequeña mancha amarilla en la mejilla.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Pitangus sulphuratus</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/916841"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2956947">
+    <ns5:commonName xml:lang="es">MARTIN GALVES</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Arbusto de 1 a 7.5 ms de altura, con ramas robustas y el follaje joven pubescente. Hojas de 30 - 100 cms de 
+    longitud; flores amarillas vistosas, en racimos terminales o situados en axilas superiores; semillas aplanadas. Las 
+    hojas poseen propiedades laxantes, antimicrobianas y fungicidas, utilizadas para curar problemas de piel.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Senna_alata"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/53923"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/MopkM3T.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Senna_alata"/>
+    <ns5:scientificName xml:lang="la">Senna alata</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/703879"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3152240">
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/Yf3t4i0.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Ochroma_pyramidale"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:scientificName xml:lang="la">Ochroma pyramidale</ns5:scientificName>
+    <ns5:commonName xml:lang="es">BALSO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/66662"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584793"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/388"/>
+    <ns5:shortDescription xml:lang="es">Árbol de los bosques tropicales, puede alcanzar hasta 40 ms de altura. Flores de color blanco-amarillento. 
+    Los frutos son cápsulas con numerosas semillas cubiertas por un algodón castaño claro. Es adecuado para recuperar 
+    áreas degradadas. Produce la madera de menor densidad, empleada en la fabricación de juguetes.</ns5:shortDescription>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3190087">
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6170902"/>
+    <ns5:commonName xml:lang="es">JUSTARRAZÓN</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol pequeño alcanza un tamaño de 3-8 ms de altura, generalmente con ramitas y tronco espinosos. 
+    Flores pequeñas blancuzcas. Corteza de color gris a castaño, untanto lisa y con grietas verticales. Hojas
+    lampiñas, de color verde, lustrosas en el haz y más pálidas en el envés.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582230"/>
+    <ns5:scientificName xml:lang="la">Zanthoxylum monophyllum</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="https://books.google.com.co/books?id=76LnQRyBNS4C&amp;pg=PA273&amp;lpg=PA273&amp;dq=Muchas+flores+peque%C3%B1as+blancuzcas.+Corteza+de+color+gris+a+casta%C3%B1o+es+un+tanto+lisa+y+tiene+grietas+verticales&amp;source=bl&amp;ots=cO6FbZyRBj&amp;sig=50szGhYLic-cmIZYtuzDr0GI9zA&amp;hl=es&amp;sa=X&amp;redir_esc=y#v=onepage&amp;q=Muchas%20flores%20peque%C3%B1as%20blancuzcas.%20Corteza%20de%20color%20gris%20a%20casta%C3%B1o%20es%20un%20tanto%20lisa%20y%20tiene%20grietas%20verticales&amp;f=false"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/ceJ3yfH.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43887"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2496209">
+    <ns5:scientificName xml:lang="la">Crotophaga ani</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Crotophaga_ani"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/103947"/>
+    <ns5:commonName xml:lang="es">GARRAPATERO COMÚN</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/3NdIvQi.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/915111"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garrapatero+Com%C3%BAn+-+Crotophaga+ani"/>
+    <ns5:shortDescription xml:lang="es">Mide cerca de 35 cms, los machos pesan alrededor de 115 grs y las hembras cerca de 95 grs. El adulto es de color 
+    negro lustroso con iris café a negro y piel alrededor del ojo negra. Su pico es arqueado, lateralmente comprimido 
+    con quilla delgada, ancho en la base y curvado hacia abajo hasta la frente. Sus patas son negras y su cola larga.</ns5:shortDescription>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2969284">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3636"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Mimosa pudica</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:commonName xml:lang="es">DORMIDERA</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/DR3zxji.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/76306"/>
+    <ns5:shortDescription xml:lang="es">Planta herbácea de unos 50 cms de altura y perennifolia. Tallo espinoso, ramificado, leñoso, con pelos rígidos en 
+    dirección a la parte terminal. Capacidad de plegar las hojas cuando las tocan; esto  se debe a un mecanismo de 
+    defensa de la planta. Flores lilas claras o rosado brillante con estambres prominentes y vistosos.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/417449"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Mimosa_pudica"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5421429">
+    <ns5:scientificName xml:lang="la">Malpighia glabra</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/OKgpAfF.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/398658"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1522"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/71611"/>
+    <ns5:commonName xml:lang="es">HUESITO</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Alcanza los 8 ms de altura. El tronco es usualmente bajo y torcido, la copa es baja y densa. Las hojas son 
+    pequeñas y sus flores de color rosado. El fruto mide entre 1-25 cms de diámetro; es redonda con tres costillas, 
+    su color varía entre amarillo anaranjado y rojo oscuro de acuerdo al grado de madurez.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Malpighia_glabra"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2953986">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/167663"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/9fCUTaf.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Gliricidia_sepium"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.tropicalforages.info/Multiproposito/key/Multiproposito/Media/Html/Gliricidia%20sepium.htm"/>
+    <ns5:commonName xml:lang="es">MATARRATÓN</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/642632"/>
+    <ns5:shortDescription xml:lang="es">Árbol perenne, con raíces profundas; crece de 10–15 ms de altura y 40 cms de diámetro en el tallo, produce 
+    muchas  ramificaciones. Hojas compuestas de 2–6 cms de largo, de forma elíptica y de color verde en la 
+    superficie. Flores en racimos de 2 cms de largo, color entre rosa y púrpura claro.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Gliricidia sepium</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2984472">
+    <ns5:shortDescription xml:lang="es">Árbol de 7 a 15 ms; tallo leñoso recto con anillos marcados, de color verde-grisáceo, algunas 
+    veces ramificado desde la parte baja, pocas ramas y ubicadas en la parte alta. Hojas pecioladas, grandes, con 8-10 
+    lóbulos, ásperas al tacto, palmeadas. Inflorescencias con espinas pendientes de un mismo pedúnculo.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/61334"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/XkxkEpT.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://docplayer.es/6336435-Mangifera-indica-familia-anacardiaceae-mango.html"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Yarumo"/>
+    <ns5:commonName xml:lang="es">YARUMO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Cecropia sp</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/77071"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3059672">
+    <ns5:shortDescription xml:lang="es">Árbol que alcanza hasta 16 ms de altura. Hojas color verde claro. Corteza externa café, interna blanca, 
+    desprende en placa. Inflorescencias con tomento amarillo. Conocido como sangre de drago, debido a la savia 
+    roja y viscosa que exuda su corteza, ampliamente utilizada en la medicina tradicional Latinoamericana.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/323053"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/OWQrNxM.jpg"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1146430"/>
+    <ns5:commonName xml:lang="es">SANGREGAO</ns5:commonName>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3004383"/>
+    <ns5:scientificName xml:lang="la">Croton gossypiifolius</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.scielo.org.mx/scielo.php?script=sci_arttext&amp;pid=S0370-59432013000300003"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5407273">
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol pequeño que llega a alcanzar hasta 10 ms de altura, de follaje compacto, hojas simples, coriáceas 
+    verde oscuro, grandes y brillantes; muy susceptible al frío. Su fruto, la guanábana, mide entre 14 y 40 cms de 
+    largo y entre 10 y 20 cms de ancho, la pulpa es blanca, jugosa, aromática y de sabor agridulce a dulce.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/o19PpMB.jpg"/>
+    <ns5:commonName xml:lang="es">GUANÁBANA</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="https://encolombia.com/economia/agroindustria/cultivo/cultivodeguanabana/"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Annona_muricata"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1054863"/>
+    <ns5:scientificName xml:lang="la">Annona muricata</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13337"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8688754">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Arbusto de hasta 2.5 ms de altura; tallos y ramas más o menos densamente canescente-estrigosos. Hojas lanceoladas, 
+    la nervadura prominente. Flores densamente agrupadas, primero aglomeradas, pero alargándose y 
+    generalmente oblongas en el fruto. Crece en selvas bajas caducifolias, en rocas calizas y sitios alterados.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www1.inecol.edu.mx/publicaciones/resumeness/FLOVER/41-nash_II.pdf"/>
+    <ns5:commonName xml:lang="es">VENTUROSA</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/eDKstWg.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/662443"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15430229"/>
+    <ns5:scientificName xml:lang="la">Lantana canescens</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/487147"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3694437">
+    <ns5:commonName xml:lang="es">COCA MONTAÑERA</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/e0D1v7t.jpg"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15379800"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13511"/>
+    <ns5:shortDescription xml:lang="es">Arbusto muy ramificado que crece 1-5 ms de altura. La planta se cosecha en el medio silvestre para uso local 
+    como medicina para las cefaleas, adontalgias y los resfriados. Se conoce también como Siona o Kofán.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Erythroxylum ulei</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5404247"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3600"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2734435">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1089"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5764286"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/DrULYAp.jpg"/>
+    <ns5:scientificName xml:lang="la">Chamaedorea pinnatifrons</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/348487"/>
+    <ns5:commonName xml:lang="es">PALMA MOLINILLO</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Es una palma de tallo solitario de color verde, de hasta 2,5 ms de alto y entre 1-2 cms de diámetro. Sus hojas 
+    tienen de 4 a 6 pinnas. Sus flores masculinas y femeninas son semejantes. Sus inflorescencias son de color naranja. 
+    Sus frutos de forma elipsoide son de color naranja a negro según su madurez.</ns5:shortDescription>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1091015"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns3:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1515737">
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="https://famsa_imagenes2.storage.googleapis.com/155711024TITANIO_perfil.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="https://www.datos.gov.co/Cultura/Fincas-y-casas-campestres-Municipio-de-Tulu-/x5f2-nrzc/data">
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns3:hasValue>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns6:partOf>
+      <ns6:Hotel rdf:about="https://www.twitter.com/Ecodataset/status/763526953987080192">
+        <ns3:description xml:lang="es">Capacidad de alojamiento para 30 personas, cuenta con un sendero que va acompañado del río Morales, amplias zonas verdes, 
+    tiene a disposición de sus visitantes diversos juegos para compartir en familia. Ubicada a 5 minutos del balneario las Marías.</ns3:description>
+        <ns4:tel>3185935231</ns4:tel>
+        <ns4:email>No disponible</ns4:email>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns3:name xml:lang="es">LA ISABELA</ns3:name>
+        <ns4:adr rdf:resource="https://goo.gl/maps/7zjBQ9xerZ82"/>
+        <ns7:depiction rdf:resource="http://i.imgur.com/tx2q1oE.jpg"/>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+      </ns6:Hotel>
+    </ns6:partOf>
+  </ns3:SomeItems>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3033969">
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Licaria"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/61876"/>
+    <ns5:scientificName xml:lang="la">Licaria sp</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/hUD4xVp.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/128634"/>
+    <ns5:shortDescription xml:lang="es">Árbol de hoja perenne con una copa amplia y redondeada; puede alcanzar hasta 16 ms de altura. El tronco puede 
+    ser de 20 cms de diámetro. Todas las partes de la planta tienen un aroma picante. El árbol se extrae de la 
+    naturaleza por su madera, que se utiliza a nivel local en la fabricación de muebles.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5226729"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">AGUACATILLO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2498402">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8874"/>
+    <ns5:scientificName xml:lang="la">Dendrocygna bicolor</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Dendrocygna_bicolor"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/914528"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">IGUAZA MARÍA</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:shortDescription xml:lang="es">Mide de 45-53 cms y pesa de 621-755 grs. Es principalmente de color café canela con una línea a lo largo de 
+    la nuca de color café oscuro. Sus alas y espalda son negruzcas con un notorio escamado marrón claro.  Al vuelo 
+    resaltan sus alas negruzcas, internamente cafés y una banda blanca en la base dorsal de la cola.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/MBgH4Dh.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Iguaza+Mar%C3%ADa+-+Dendrocygna+bicolor"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5396865">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:scientificName xml:lang="la">Vernonia brasiliana</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/sjd3pJO.jpg"/>
+    <ns5:shortDescription xml:lang="es">Arbusto de 1.50 ms de altura, bien ramificado, hojas oblongo–elípticas de 6x3 cms, que despiden un olor fuerte 
+    al tocarlas. Inflorescencia en capítulos. Infrutescencias en forma de brochita.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">OLIVÓN</ns5:commonName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q21302707"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biovirtual.unal.edu.co/ICN/?controlador=ShowObject&amp;accion=show&amp;id=82852"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6181144"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/434694"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/4142909">
+    <ns7:isPrimaryTopicOf rdf:resource="www.bambumex.org/paginas/Rracemiflorum.pdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5822829"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15521956"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/464972"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Bambú de 10–15 ms de largo y 5–10 mms de ancho, erecto en la base, tallo hueco, generalmente decumbente en 
+    la vegetación aledaña. Un promedio de 50 ramas por nudo, no verticiladas sino creciendo en forma de abanico en la 
+    base. Las ramas primarias de 35 cms de largo; cúlmeas lisas y brillantes. Más bien delgado y frágil.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/fFAovYc.jpg"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">CARRIZO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Rhipidocladum racemiflorum</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5218725">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:commonName xml:lang="es">MURCIÉLAGO DE COLA LIBRA</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Molossus molossus</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/27622"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2504"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/327951"/>
+    <ns5:shortDescription xml:lang="es">Posee la base del pelaje pálida, la parte dorsal es negra, marrón oscuro o castaño. Tiene un hocico 
+    ancho con mentón redondeado, las orejas son cortas y redondeadas. La cola generalmente es del 50% a 60% de 
+    la longitud del cuerpo. se alimentan de insectos, mariposas nocturnas, hormigas voladoras y escarabajos.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Molossus_molossus"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/IDrZUo4.jpg"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+  </ns5:TaxonName>
+  <ns11:Event rdf:about="http://www.eltabloide.com.co/memoria-y-dignidad-campesina-en-la-moralia/">
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/Xsj8ugEpHXv">
+        <rdfs:label xml:lang="es">La Moralia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <ns7:depiction rdf:resource="http://i.imgur.com/4VEPRb1.jpg"/>
+    <ns7:depiction rdf:resource="https://goo.gl/youtube/3KL8SgdMwyM"/>
+    <rdfs:comment xml:lang="es">Homenaje a las víctimas del paramilitarismo.</rdfs:comment>
+    <rdfs:label xml:lang="es">DÍA DE LAS VÍCTIMAS</rdfs:label>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+    <ns11:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767903221813772288">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-04T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+  </ns11:Event>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5594205">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1123434"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5619428"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol que crece hasta 10 ms de altura, 4 ms de fuste y 30 cms de diámetro. Corteza verdosa por fuera y 
+    amarillenta por dentro; sin exudado pero con olor a limón o ruda. Hojas compuestas, de 15-25 cms. Flores 
+    blanco–verdosas, pequeñas que dan lugar a frutos en un folículo marrón, con una semilla negra.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15387993"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3772"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/gUuiZB0.jpg"/>
+    <ns5:scientificName xml:lang="la">Amyris pinnata</ns5:scientificName>
+    <ns5:commonName xml:lang="es">CIPRÉS DE ESTACÓN</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3188585">
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">NIGUITO</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/703ZLjF.jpg"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Miconia"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:shortDescription xml:lang="es">Arbusto con copa redondeada, hojas simples opuestas, el borde es finamente aserrado, haz verde oscuro. 
+    Inflorescencias muy tupidas en panículas terminales, de color verde pálido. Las flores son pequeñas y amarillentas, 
+    blancas o rosadas. El fruto es una baya de color rojo al madurar. Se utiliza como leña.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/60394"/>
+    <ns5:scientificName xml:lang="la">Miconia sp</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4918"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/263288"/>
+  </ns5:TaxonName>
+  <ns6:HotelRoom rdf:about="https://www.facebook.com/pages/La-Umbria/207406979406042">
+    <ns6:partOf>
+      <ns3:Individual rdf:about="https://www.facebook.com/pages/Casa-De-Retiro-La-Umbria-Tulua/854376261242075">
+        <ns4:adr rdf:resource="https://goo.gl/maps/pQ1K5DD1U642"/>
+        <ns4:tel>2243075, 2255606</ns4:tel>
+        <ns3:name xml:lang="es">LA UMBRIA CASA DE RETIROS Y CONVIVENCIAS</ns3:name>
+        <ns7:depiction rdf:resource="http://i.imgur.com/Mcr7R3w.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns4:email>diocebuga@hotmail.com</ns4:email>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns3:description xml:lang="es">En ambiente campestre y natural que permite el silencio y el recogimiento. La Diócesis de Buga ofrece a sus visitantes 
+    este lugar con sencillas, pero confortables habitaciones, áreas de zonas verdes, amplios corredores, salón de conferencias 
+    o reuniones, baños sociales, servicio de comedor, entre otros.</ns3:description>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns3:Individual>
+    </ns6:partOf>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://i.imgur.com/mDUSPGF.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="http://www.diocesisdebuga.org/index.shtml?apc=f---;1;-;-;&amp;x=8968">
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns3:hasValue>
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+  </ns6:HotelRoom>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2951499">
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q953611"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/bie0GOH.jpg"/>
+    <ns5:scientificName xml:lang="la">Mucuna pruriens</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Mucuna_pruriens"/>
+    <ns5:commonName xml:lang="es">CONGOLO</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Planta anual, arbusto trepador con largos zarcillos que le permiten llegar a más de 15 ms. Sus granos son 
+    blancos, lavanda o púrpura; flores y vainas cubiertas de pelos anaranjados, causantes de severa hinchazón y alergia
+    si se ponen en contacto con la piel. Se usa en la medicina tradicional.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/157652"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/645045"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2433270">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/27634"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2452"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/RAsubX0.jpg"/>
+    <ns5:commonName xml:lang="es">MURCIÉLAGO CARA RAYADA</ns5:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/327359"/>
+    <ns5:scientificName xml:lang="la">Artibeus lituratus</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns5:shortDescription xml:lang="es">Murciélago de tamaño grande, con el cuerpo grueso y macizo. Tiene la cabeza ancha y corta; la hoja nasal es pequeña 
+    en forma de punta de lanza y con la base redondeada; las orejas son medianas y redondeadas; el labio inferior posee 
+    verrugas. Tiene cuatro bandas blancas en la cara, muy notorias. El pelaje dorsal es muy largo pero sedoso, de color café.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Artibeus_lituratus"/>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="https://www.facebook.com/La-Rochela-612135438799528">
+    <ns4:tel>3152253329, 3185344484, 3155079632</ns4:tel>
+    <ns7:name xml:lang="es">LA ROCHELA</ns7:name>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <rdfs:comment xml:lang="es">Ofrece servicio de camping, piscina de aguas naturales alimentadas por una de las quebradas de la zona, es ideal para 
+    familias y grupos, cuenta con sala de juegos de mesa, cancha de vóley playa, alquiler de caballos y zonas verdes. Ubicada en el 
+    Km 8 de la vía.</rdfs:comment>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/mRy7QrqNvqx">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:street-address>Vía La Marina - Tuluá, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns7:depiction rdf:resource="http://i.imgur.com/unia8WG.jpg"/>
+    <ns4:email>balneariolarochela@gmail.com</ns4:email>
+  </ns4:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5219666"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/8708187">
+    <ns7:depiction rdf:resource="http://i.imgur.com/RDUpfjg.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13428"/>
+    <ns5:commonName xml:lang="es">LAUREL JIGUA</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Cinnamomum cinnamomifolia</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/488334"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Phoebe_cinnamomifolia"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6074391"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol que alcanza los 18 ms de altura y 40 cms de diámetro en su tronco; su copa es globosa; su follaje de 
+    color verde oscuro y brillante; su ramificación es abundante. Las hojas son simples, alternas, dispuestas en forma 
+    de hélices. Las flores son de color blanco, pequeñas y fragantes. La madera y las hojas poseen un agradable olor.</ns5:shortDescription>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3086337">
+    <ns5:commonName xml:lang="es">CORDONCILLO</ns5:commonName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/230L7S7.jpg"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3577"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Piper aduncum</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/486213"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Piper_aduncum"/>
+    <ns5:shortDescription xml:lang="es">Árbol pequeño de 2-6 ms de alto, profusamente ramificado, con nudos hinchados y prominentes, a menudo de color 
+    rojizo, tallos verde pálidos, amarillentos o de color marrón. Inflorescencias curvadas en flor y/o fruto; flores 
+    densamente agrupadas sobre el raquis. Fruto redondeado-obpiramidal, glabro, de color marrón cuando seco.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/130377"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5407147">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Annona_cherimola"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.lachirimoya.org/chirimoyo-arbol-chirimoya/"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol de hoja caduca, a excepción de aquellas zonas de invierno suave donde mantiene sus hojas ovaladas 
+    hasta la primavera. Mide hasta 8 ms, es de tronco estrecho y copa ancha de forma redonda. Su fruto es la chirimoya, 
+    en su interior contiene una pulpa comestible de color blanco con un sabor dulce, levemente ácido.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/tvWPVMm.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1054913"/>
+    <ns5:commonName xml:lang="es">CHIRIMOYO</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Annona cherimola</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/49314"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2477507">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/458187"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Crypturellus_soui"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/ZBqTreQ.jpg"/>
+    <ns5:commonName xml:lang="es">PONCHITA</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Crypturellus soui</ns5:scientificName>
+    <ns5:shortDescription xml:lang="es">Mide aproximadamente 21.5-24 cms de largo, se trata de una especie tímida, reservada y solitaria. Es un ave 
+    regordeta reconocida por su pequeño tamaño, su  plumaje es de color marrón “hollín” con una sombra gris en la 
+    cabeza,  su cuello es parduzco, con la garganta blanquecina, su vientre es de color canela brillante.</ns5:shortDescription>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns7:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Crypturellus_soui"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1178390"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2984660">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1368"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/RSCjvMG.jpg"/>
+    <ns5:scientificName xml:lang="la">Brosimum alicastrum</ns5:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/596209"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/194253"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Árbol de gran porte que puede alcanzar 45 ms, y alcanza un diámetro aproximado de 1.5 ms en su tronco. Su copa 
+    es generalmente piramidal y densa. las flores son numerosas. La infrutescencias es globosa, mide de 1.5-2 cms de 
+    diámetro, al madurar son amarillas, parduscas o anaranjadas.</ns5:shortDescription>
+    <ns5:commonName xml:lang="es">GUAIMARO</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Brosimum_alicastrum"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2984339">
+    <ns7:depiction rdf:resource="http://i.imgur.com/IVimLXQ.jpg"/>
+    <ns5:shortDescription xml:lang="es">Arbusto de 1-6 ms de altura, tallos suculentos, con pelos urticantes. Hojas alternas, anchas, ovadas, base cordada 
+    redondeada, borde irregularmente dentado con dientes grandes, envés pubescente con pelos urticantes sobre las nervaduras. 
+    Flores masculinas globosas; flores femeninas en cimas escorpioides. Fruta con drupa jugosa.</ns5:shortDescription>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1247"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/594148"/>
+    <ns5:scientificName xml:lang="la">Urera baccifera</ns5:scientificName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681502"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Urera_baccifera"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">ORTIGA BRAVA</ns5:commonName>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5380041">
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.herbotecnia.com.ar/exo-ricino.html"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1151096"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:shortDescription xml:lang="es">Arbusto perenne muy ramificado que alcanza entre 2 y 4 metros de altura, de raíz superficial y 
+    tallo erecto, color rojo-vinoso, recubierto por una tenue capa de cera. Hojas grandes, alternas, pigmentación 
+    rosada. Florece casi todo el año, pero sobre todo en verano. De las semillas se obtiene "aceite de ricino".</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3988"/>
+    <ns5:commonName xml:lang="es">HIGUERILLA</ns5:commonName>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Ricinus_communis"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/iKojJu1.jpg"/>
+    <ns5:scientificName xml:lang="la">Ricinus communis</ns5:scientificName>
+  </ns5:TaxonName>
+  <ns4:Location rdf:about="https://www.facebook.com/pages/Coodeco-La-Marina-Tulua-Valle/330765627124567">
+    <ns7:name xml:lang="es">COODECO O BRISAS DEL RÍO MORALES</ns7:name>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/MFTuskB4DXN2">
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+      </ns4:Address>
+    </ns4:adr>
+    <ns4:tel>No disponible</ns4:tel>
+    <ns4:email>No disponible</ns4:email>
+    <rdfs:comment xml:lang="es">Balneario con aguas naturales.</rdfs:comment>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/hp4KyVh.jpg"/>
+  </ns4:Location>
+  <ns11:Event rdf:about="http://ganecentro.com/noticias/desafio-guerreros-gane-x5/">
+    <ns7:depiction rdf:resource="https://goo.gl/youtube/fNK21W2k6hQ"/>
+    <rdfs:label xml:lang="es">DESAFÍO GUERREROS GANE X5</rdfs:label>
+    <rdfs:comment xml:lang="es">Evento en el que se busca fomentar la practica del deporte para tener una vida saludable. Es un recorrido en el que se 
+	pondrá a prueba la fortaleza mental, resistencia física, agilidad y trabajo en equipo. Realizado en el Rancho Las Palmas.</rdfs:comment>
+    <ns7:depiction rdf:resource="http://i.imgur.com/yRKmOVw.jpg"/>
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/nPXddjXKX2n">
+        <rdfs:label xml:lang="es">La Rivera, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <ns11:time>
+      <ns1:Interval rdf:about="http://ganecentro.com/noticias/revive-la-emocion-de-desafio-guerreros-ganex5/">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-03T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+  </ns11:Event>
+  <ns3:Location rdf:about="https://www.facebook.com/rancho.jlarivera">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Restaurantes"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/mvSK4Zm.jpg"/>
+    <ns3:hasOpeningHoursSpecification>
+      <ns3:OpeningHoursSpecification rdf:about="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Restaurantes/ranchoJ.mp4">
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns3:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">10:00:00</ns3:opens>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns3:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns3:closes>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns3:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns3:OpeningHoursSpecification>
+    </ns3:hasOpeningHoursSpecification>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/go382c2uXfL2">
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:street-address>El Picacho, Tuluá, Valle del Cauca</ns4:street-address>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+      </ns4:Address>
+    </ns4:adr>
+    <ns3:description xml:lang="es">Piscina para niños y adultos, kiosco pequeño para eventos, senderos ecológicos, cancha de fútbol, alquiler de caballos, 
+    interacción con animales de granja: patos, gallinas, ganzos, cabras y otros. Delicioso sancocho de gallina. Ubicado 
+    sobre el Km 2 de la vía.</ns3:description>
+    <ns4:tel>3155793565, 3187122567</ns4:tel>
+    <ns3:name xml:lang="es">RANCHO J</ns3:name>
+  </ns3:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2439920">
+    <ns5:commonName xml:lang="es">CHUCHA COMÚN</ns5:commonName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328504"/>
+    <ns5:shortDescription xml:lang="es">Puede llegar a medir entre 45-60 cms de largo. Cuerpo de color negro, gris o amarillo, con dos capas de pelo. 
+    Las orejas son puntiagudas y negras; cola desprovista de pelo. Las hembras son generalmente más pequeñas que los machos, anidan 
+    en una cavidad o madriguera de un árbol, después de un período de gestación de 14 días dan a luz hasta ocho crías.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9268"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Didelphis_marsupialis"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2509"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns5:scientificName xml:lang="la">Didelphis marsupialis</ns5:scientificName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/TNuNdEz.jpg"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2760874"/>
+  <ns11:Event rdf:about="http://www.mtbcolombia.com/noticias/item/el-valle-se-prepara-para-la-valida-nacional">
+    <rdfs:comment xml:lang="es">Evento en donde los ciclomontañistas (categorias infantil, prejuvenil, master) compiten por los puntos que entrega la 
+	válida. Una pista seca de mucha habilidad, manejo, técnica y fuerza. Realizada en el Rancho Las Palmas.</rdfs:comment>
+    <ns7:depiction rdf:resource="https://goo.gl/youtube/a3-x_tlZYNE"/>
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/wYtUHVgpVTP2">
+        <rdfs:label xml:lang="es">La Rivera, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <ns11:time>
+      <ns1:Interval rdf:about="http://www.coc.org.co/all-news/tulua-sera-sede-de-la-ii-valida-nacional-de-mtb/">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-06T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns11:time>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+    <rdfs:label xml:lang="es">VÁLIDA NACIONAL DE CICLOMONTAÑISMO</rdfs:label>
+    <ns7:depiction rdf:resource="http://i.imgur.com/Umldzk8.jpg"/>
+  </ns11:Event>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2972961">
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Pithecellobium_saman"/>
+    <ns5:shortDescription xml:lang="es">Árbol grande y umbraculiforme que llega a medir 60 ms de altura. La densa y simétrica copa puede alcanzar 80 
+    ms de ancho. Cuenta con un tronco corto, grueso y una corteza gris oscura. Las hojas son perennes y 
+    de disposición alternada, de 25–40 cms de largo. Las flores de color entre rosado y verde.</ns5:shortDescription>
+    <ns7:depiction rdf:resource="http://i.imgur.com/9oRNcJq.jpg"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/76910"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://documents.mx/documents/arbol-emblematicos-de-los-estados.html"/>
+    <ns5:commonName xml:lang="es">SAMÁN</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Pithecellobium saman</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46244366"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/4155017"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3093023"/>
+  <ns4:Location rdf:about="https://www.facebook.com/pages/Tres-Piedras-La-Marina/1401175110175669">
+    <ns4:email>No disponible</ns4:email>
+    <rdfs:comment xml:lang="es">Ofrece servicios de alimentos y bebidas, recreación, espacios de práctica de motocross, canchas de voley playa, alquiler 
+    de caballos, todo esto se disfruta con el río que pasa por este establecimiento deleitando con sus naturales y puras aguas a 
+    sus visitantes.</rdfs:comment>
+    <ns4:tel>No disponible</ns4:tel>
+    <ns7:depiction rdf:resource="http://i.imgur.com/nyr3AXR.jpg"/>
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/4VpMavgHgTx">
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns7:name xml:lang="es">BALNEARIO TRES PIEDRAS</ns7:name>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+  </ns4:Location>
+  <ns6:HotelRoom rdf:about="http://i.imgur.com/DjzCERq.jpg">
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="https://www.facebook.com/SebastianHernandezCastrillon/">
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns3:hasValue>
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://i.imgur.com/qn7NgA2.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns6:partOf>
+      <ns3:Individual rdf:about="https://www.facebook.com/Hostal-Santsebastian-995216180540544">
+        <ns3:name xml:lang="es">CHALET SANT SEBASTIAN</ns3:name>
+        <ns4:email>No disponible</ns4:email>
+        <ns4:tel>3154924598</ns4:tel>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns4:adr rdf:resource="https://goo.gl/maps/iz6Ti1YCmQx"/>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns7:depiction rdf:resource="http://i.imgur.com/QUd4xJd.jpg"/>
+        <ns3:description xml:lang="es">Ofrece la oportunidad de disfrutar con su familia, amigos de un ambiente sano, pleno contacto con la naturaleza. Lago 
+    para pesca, a 10 minutos encuentras balnearios con piscinas de agua natural, paseo ecológico. Ubicado vía El Diamante.</ns3:description>
+      </ns3:Individual>
+    </ns6:partOf>
+  </ns6:HotelRoom>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3785984">
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/JhBECIF.jpg"/>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15547475"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5627731"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/298314"/>
+    <ns5:shortDescription xml:lang="es">Árbol de hasta 20 ms de altura y 60 cms de diámetro en su tronco, de corteza lisa. Hojas de 20 a 32 cms de largo, 
+    compuestas, alternas, dispuestas en forma de hélice, borde aserrado. Flores de 7 mms de diámetro, blancas, agrupadas 
+    en inflorescencias terminales. Frutos redondos, pubescentes café, con 3 semillas negras brillantes.</ns5:shortDescription>
+    <ns5:scientificName xml:lang="la">Cupania cinerea</ns5:scientificName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1413"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns5:commonName xml:lang="es">MESTIZO</ns5:commonName>
+  </ns5:TaxonName>
+  <ns6:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1515736">
+    <ns6:partOf>
+      <ns3:Individual rdf:about="https://www.twitter.com/Ecodataset/status/763493126220775424">
+        <ns4:tel>3163211199, 3182262773, 2242590</ns4:tel>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns3:name xml:lang="es">FINCA BELLA VISTA</ns3:name>
+        <ns4:email>No disponible</ns4:email>
+        <ns3:description xml:lang="es">Cuenta con capacidad para ubicar en la vivienda a 10 personas, una amplia zona de camping que cobija a 
+    más de 30 campistas, salón para 50 personas. En este espacio puedes disfrutar de la interacción directa con la naturaleza 
+    mediante un recorrido por un agradable sendero ecológico acompañado por una encantadora quebrada.</ns3:description>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns7:depiction rdf:resource="http://i.imgur.com/vPufIKq.jpg"/>
+        <ns4:adr rdf:resource="https://goo.gl/maps/rzFdYDP41v72"/>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns3:Individual>
+    </ns6:partOf>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://n4.sdlcdn.com/imgs/b/u/r/bed-de330.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="http://i.imgur.com/6ZNSZmA.jpg">
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns3:hasValue>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns6:HotelRoom>
+  <ns11:Event rdf:about="http://turismotulua.blogspot.com.co/2014/07/caracterizacion-del-inventario.html">
+    <rdfs:label xml:lang="es">BAILE DEL 31 DE DICIEMBRE</rdfs:label>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Eventos"/>
+    <rdfs:comment xml:lang="es">Se reúnen las familias de la vereda y hacen un baile con cena, concursos y una actividad muy llamativa, que consiste en 
+	leer un pergamino con refranes de los personajes típicos de la región, también bebidas típicas, buñuelos, natilla y dulce manjar 
+	blanco. Cada una de las familias lleva un muñeco “Año viejo”, y los queman simultáneamente a media noche.</rdfs:comment>
+    <ns11:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/WHPFE1ukYHK2">
+        <rdfs:label xml:lang="es">La Iberia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns11:place>
+    <ns11:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767900391610650625">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-31T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns11:time>
+    <ns7:depiction rdf:resource="http://i.imgur.com/7heSlcY.jpg"/>
+  </ns11:Event>
+  <ns4:Location rdf:about="https://www.facebook.com/reserva.chagualos">
+    <ns4:adr>
+      <ns4:Address rdf:about="https://goo.gl/maps/DXSZCo17J432">
+        <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+        <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+        <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+      </ns4:Address>
+    </ns4:adr>
+    <ns4:tel>No disponible</ns4:tel>
+    <rdfs:comment xml:lang="es">Es un área natural protegida dedicada a la conservación, investigación, educación ambiental, ecoturismo, y agroecología, 
+    su ecosistema principal hace parte del bosque subandino. Ubicada a 15.5 kilómetros de la ciudad de Tuluá y a 3 Kilómetros 
+    del casco urbano del corregimiento de La Marina.</rdfs:comment>
+    <ns4:email>reservachagualos@gmail.com</ns4:email>
+    <ns7:name xml:lang="es">LA RESERVA NATURAL DE LA SOCIEDAD CIVIL LOS CHAGUALOS</ns7:name>
+    <ns7:depiction rdf:resource="https://www.youtube.com/embed/8hUawerN5Ek"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Lugares"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/Auduk3K.jpg"/>
+  </ns4:Location>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5216933"/>
+  <ns3:SomeItems rdf:about="https://www.facebook.com/finca.lalinda.1">
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="http://www.mivalledecompras.com/servicios/stulua/alquileres/fincas/villalinda tulua valle/index.html">
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns3:hasValue>
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://i.imgur.com/ajLSDOw.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+    <ns6:partOf>
+      <ns3:Individual rdf:about="https://www.youtube.com/embed/ZXgZCMzGCog">
+        <ns7:depiction rdf:resource="http://i.imgur.com/0MEtcXS.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns4:adr rdf:resource="https://goo.gl/maps/HnkCTRqcw482"/>
+        <ns3:name xml:lang="es">FINCA LA LINDA</ns3:name>
+        <ns7:homepage rdf:resource="http://www.turismoboga.com/fincalin.html"/>
+        <ns3:description xml:lang="es">Piscina para adultos e infantil, sauna, cancha de fútbol, tejo, ping pong, sapo, salón de villar, zonas verdes, 
+    juegos infantiles, juegos de mesa, horno, fogón de leña, estufa a gas, parqueadero con 
+    capacidad para 20 vehículos.</ns3:description>
+        <ns4:email>mivalledecompras.com@gmail.com</ns4:email>
+        <ns4:tel>3176369765, 2242759, 2257332</ns4:tel>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+      </ns3:Individual>
+    </ns6:partOf>
+  </ns3:SomeItems>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5223229">
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/121322"/>
+    <ns5:commonName xml:lang="es">CAZADORA</ns5:commonName>
+    <ns5:scientificName xml:lang="la">Clelia clelia</ns5:scientificName>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Clelia_clelia"/>
+    <ns7:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2796"/>
+    <ns5:shortDescription xml:lang="es">Alcanza una longitud máxima de 22.80 cms. La coloración del dorso en juveniles es rojo profundo, la cabeza es 
+    negra con una banda nucal de color crema o blanco; los adultos presentan una coloración gris oscura en el 
+    dorso, las escamas labiales son mas pálidas y la región ventral es de color crema grisáceo.</ns5:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/454628"/>
+    <ns7:depiction rdf:resource="http://i.imgur.com/7N4mN4Z.jpg"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2481942"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/7898917">
+    <ns5:commonName xml:lang="es">CUERNO VENADO</ns5:commonName>
+    <ns5:shortDescription xml:lang="es">Árbol con espinas de hasta 5 cms, ramificadas en la base del tronco y luego se hacen simples y muy agudas en 
+    las ramas, a veces ausentes, hojas de base cuneada a redondeada, glabras.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="https://www.wikidata.org/wiki/Q17562923"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5731214"/>
+    <ns7:isPrimaryTopicOf rdf:resource="https://books.google.com.co/books?id=Omzm3LW0mZUC&amp;pg=PA291&amp;lpg=PA291&amp;dq=luego+se+hacen+simples+y+muy+agudas+enlas+ramas,+a+veces+ausentes,+hojas+de+base+cuneada+a+redondeada,+glabras&amp;source=bl&amp;ots=uF5rXApwK9&amp;sig=-mw17zF-AVrKieGSFcKcMRSJ02E&amp;hl=es&amp;sa=X&amp;redir_esc=y#v=onepage&amp;q=luego%20se%20hacen%20simples%20y%20muy%20agudas%20enlas%20ramas%2C%20a%20veces%20ausentes%2C%20hojas%20de%20base%20cuneada%20a%20redondeada%2C%20glabras&amp;f=false"/>
+    <ns5:kingdomName xml:lang="es">Vegetal</ns5:kingdomName>
+    <ns7:depiction rdf:resource="http://i.imgur.com/ZE9vHOS.jpg"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Flora"/>
+    <ns5:scientificName xml:lang="la">Xylosma prunifolium</ns5:scientificName>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/179718"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3190638"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2438073">
+    <ns7:depiction rdf:resource="http://i.imgur.com/uFjpu60.jpg"/>
+    <ns5:scientificName xml:lang="la">Oryzomys alfaroi</ns5:scientificName>
+    <ns5:commonName xml:lang="es">RATÓN SILVESTRE</ns5:commonName>
+    <ns7:isPrimaryTopicOf rdf:resource="http://zoologia.puce.edu.ec/Vertebrados/mamiferos/FichaEspecie.aspx?Id=2126"/>
+    <ns5:kingdomName xml:lang="es">Animal</ns5:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1179993"/>
+    <ns5:shortDescription xml:lang="es">De tamaño pequeño. Hocico largo y pronunciado, ojos grandes, orejas medianas pero bien evidentes, de color 
+    negruzco a marrón oscuro y de apariencia desnuda. Pelaje suave y uniforme. Dorso de color marrón rojizo oscuro a 
+    marrón negruzco. Su dieta llega a incluir hojas verdes, frutas, semillas e insectos.</ns5:shortDescription>
+    <ns10:sameAs rdf:resource="http://dbpedia.org/resource/Oryzomys_alfaroi"/>
+    <ns10:sameAs rdf:resource="http://www.uniprot.org/taxonomy/530171"/>
+    <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Fauna"/>
+  </ns5:TaxonName>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5420380"/>
+  <ns3:SomeItems rdf:about="https://www.facebook.com/pages/En-Villa-Agaton-La-Iberia/483913585039109">
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="http://www.livevalledelcauca.com/tulua/finca-campestre-villa-agaton.html">
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ns3:hasValue>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+    <ns6:partOf>
+      <ns6:Hotel rdf:about="https://www.facebook.com/villaagaton/">
+        <ns4:tel>3188218334, 3166245893, 2243191</ns4:tel>
+        <ns4:email>No disponible</ns4:email>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns3:description xml:lang="es">Cuenta con una cabaña para 20 personas, jacuzzi, turco, voley playa, asador, kiosco tipo discoteca, fogón de leña, mini 
+    fútbol, TV satelital, está totalmente amoblada. Ubicada a 10 minutos de Tuluá.</ns3:description>
+        <ns7:depiction rdf:resource="http://i.imgur.com/5d3r7ge.jpg"/>
+        <ns3:name xml:lang="es">FINCA CAMPESTRE VILLA AGATÓN</ns3:name>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns4:adr rdf:resource="https://goo.gl/maps/y6hmmAMyizD2"/>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns6:Hotel>
+    </ns6:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://corona.vteximg.com.br/arquivos/ids/161827-1000-1000/637207502000_F1.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+  </ns3:SomeItems>
+  <ns6:HotelRoom rdf:about="http://www.tc.columbia.edu/housing/guest-and-conference-housing/guest-housing/rooms/ghRoom.jpg">
+    <ns6:partOf>
+      <ns3:Individual rdf:about="https://www.twitter.com/Ecodataset/status/763574753894498304">
+        <ns4:email>No disponible</ns4:email>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:description xml:lang="es">Ofrece pasadías y hospedaje. Capacidad para 14 personas, zona de camping, río y charcos, kiosco, senderos ecológicos, 
+    huerta casera, juegos infantiles, zona para asados, interacción con animales de granja.</ns3:description>
+        <ns7:depiction rdf:resource="http://i.imgur.com/KpLCwSW.jpg"/>
+        <ns4:tel>2260752</ns4:tel>
+        <ns3:name xml:lang="es">ANTIGUO CODECOT</ns3:name>
+        <ns4:adr rdf:resource="https://goo.gl/maps/Y6B3L5Msdzv"/>
+        <ns8:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaVueltaAOriente/Alojamientos"/>
+        <ns6:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns3:Individual>
+    </ns6:partOf>
+    <ns6:bed>
+      <ns6:BedDetails rdf:about="http://www.flatdogscamp.com/wp-content/uploads/2011/08/Chalet-room.jpg">
+        <ns6:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns6:quantity>
+      </ns6:BedDetails>
+    </ns6:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns6:numberOfRooms>
+      <ns3:QuantitativeValue rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475499">
+        <ns3:hasUnitOfMeasurement>C62</ns3:hasUnitOfMeasurement>
+        <ns3:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns3:hasValue>
+      </ns3:QuantitativeValue>
+    </ns6:numberOfRooms>
+  </ns6:HotelRoom>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/3173930"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2467661"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2459658"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2433536"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2874484"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5406697"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/2932944"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5289743"/>
+  <ns5:TaxonName rdf:about="http://www.gbif.org/species/5289798"/>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns6:availabilityTimes>24 Horas</ns6:availabilityTimes>
+  </rdf:Description>
+  <ns4:Address rdf:about="https://goo.gl/maps/rzFdYDP41v72">
+    <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/y6hmmAMyizD2">
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+    <ns4:street-address>Vía La Marina, Valle del Cauca</ns4:street-address>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/pQ1K5DD1U642">
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+    <ns4:street-address>La Rivera, Tuluá, Valle del Cauca</ns4:street-address>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/7zjBQ9xerZ82">
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+    <ns4:street-address>Vía La Marina, Valle del Cauca</ns4:street-address>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/iz6Ti1YCmQx">
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+    <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/Ck73WX3L5Tu">
+    <ns4:street-address>Vía al Picacho, Tuluá, Valle del Cauca</ns4:street-address>
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/t7DczPasTxK2">
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+    <ns4:street-address>La Iberia, Valle del Cauca</ns4:street-address>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/HnkCTRqcw482">
+    <ns4:street-address>La Marina, Valle del Cauca</ns4:street-address>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+  </ns4:Address>
+  <ns4:Address rdf:about="https://goo.gl/maps/Y6B3L5Msdzv">
+    <ns4:country-name xml:lang="es">Colombia</ns4:country-name>
+    <ns4:locality xml:lang="es">Tuluá</ns4:locality>
+    <ns4:street-address>Vía La Marina, La Moralia, Valle del Cauca</ns4:street-address>
+  </ns4:Address>
+</rdf:RDF>
+

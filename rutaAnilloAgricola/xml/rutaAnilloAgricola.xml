@@ -1,0 +1,1377 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns8="http://geo.linkeddata.es/ontology/"
+  xmlns:ns9="http://www.w3.org/2002/07/owl#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns10="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns1="http://purl.org/goodrelations/v1#"
+  xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns3="http://purl.org/ontology/wo/"
+  xmlns:ns4="http://purl.org/acco/ns#"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+  xmlns:ns6="http://www.w3.org/2003/01/geo/wgs84_pos#"
+  xmlns:ns7="http://umbel.org/umbel#"
+>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5229128">
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cigue%C3%B1uela+-+Himantopus+mexicanus"/>
+    <ns3:scientificName xml:lang="la">Himantopus mexicanus</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/F3hows7.jpg"/>
+    <ns3:commonName xml:lang="es">CIGÜEÑUELA, CIGÜEÑUELA AMERICANA</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Mide de 35-40 cms y pesa de 166-205 grs. Presenta patas muy largas y pico largo, delgado y negro. El macho en estado 
+    reproductivo tiene las patas y el iris rojo brillante y su nuca, espalda, alas y parte posterior de la cabeza son de 
+    color negro. El resto de sus partes son blancas menos la parte superior del pecho que presenta tinte rosa.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049561"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Himantopus_mexicanus"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/227231"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2440779"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2489212">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1050800"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1740326"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Ixpldaw.jpg"/>
+    <ns3:shortDescription xml:lang="es">Mide 12 cms de longitud y pesa entre 9.1 y 10.5 grs. Su plumaje es gris opaco, gris parduzco a negro parduzco, con 
+    el pecho y el vientre más claros, grisáceos a blacuzcos y penachos blancos en los muslos. El oído, los lados del cuello, 
+    el iris, el pico y las patas son de color castaño oscuro.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Neochelidon tibialis</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Neochelidon_tibialis"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Neochelidon_tibialis"/>
+    <ns3:commonName xml:lang="es">GOLONDRINA SELVÁTICA</ns3:commonName>
+  </ns3:TaxonName>
+  <ns1:SomeItems rdf:about="http://i.imgur.com/QsK17rv.jpg">
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://www.mivalledecompras.com/servicios/stulua/alquileres/fincas/fincavillajacob/">
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns1:hasValue>
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:partOf>
+      <ns1:Individual rdf:about="https://www.facebook.com/Finca-VillaJacob-1533300763660562/">
+        <ns1:description xml:lang="es">Sitio campestre para recrearse y descansar, habitaciones con baño privado, además cocina, 
+    piscina, una amplia zona verde, fogón de leña, kiosco de juegos. Ubicada por el callejón de la Capilla a 10 
+    minutos de Tuluá.</ns1:description>
+        <ns2:email>No disponible</ns2:email>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+        <ns2:tel>3104951792, 3146560061, 3044117513</ns2:tel>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns2:adr rdf:resource="https://goo.gl/maps/Y9wRrEzBSGT2"/>
+        <ns1:name xml:lang="es">FINCA VILLA JACOB</ns1:name>
+        <ns5:depiction rdf:resource="http://i.imgur.com/USKW6kJ.jpg"/>
+      </ns1:Individual>
+    </ns4:partOf>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://i.imgur.com/H7FEhFm.jpg">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+  </ns1:SomeItems>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2479902">
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Pionus_menstruus"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cotorra+Cheja+-+Pionus+menstruus"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/2ucGhZ9.jpg"/>
+    <ns3:commonName xml:lang="es">COTORRA CABECIAZUL, COTORRA CHEJA</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Mide entre 24-28 cms y pesa de 209-295 grs. Presenta cabeza y pecho azul, y cobertoras auriculares negruzcas. Su pico 
+    es pardusco con la base rosácea y tiene el área ocular desnuda blanquecina. El resto del cuerpo es principalmente verde 
+    con las plumas infracaudales y la base de la superficie inferior de la cola rojas.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13214"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1178041"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Pionus menstruus</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns10:Recurso-turistico rdf:about="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/">
+    <ns8:formaParteDe>
+      <ns8:Municipio rdf:about="http://dbpedia.org/resource/Tulua">
+        <ns8:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+        <ns6:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+        <rdfs:label>Corazón del Valle</rdfs:label>
+        <ns6:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+      </ns8:Municipio>
+    </ns8:formaParteDe>
+    <rdfs:label xml:lang="es">RUTA ANILLO AGRÍCOLA</rdfs:label>
+    <rdfs:comment xml:lang="es">Se inicia en la capilla del Santo Aparecido, a tan solo 80 metros del 
+supermercado Comfandi Chiminangos, por la vía que conduce al corregimiento de Tres Esquinas. El turista tendrá la oportunidad 
+de conocer una escultura conservada hace más de 100 años, con una importante tradición oral relativa a los milagros que ha 
+concedido a sus creyentes. Continuando por la vía se adentrará en el poblado de Tres Esquinas posteriormente llegará a La 
+Palmera, Bocas de Tuluá, La Caballera y conectará con la vía que conduce finalmente al corregimiento de Nariño. Este último 
+tramo es comúnmente denominado el Anillo Agroturístico.</rdfs:comment>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Empresas"/>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Flora"/>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Eventos"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/LHjqsqt.jpg"/>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Restaurantes"/>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Lugares"/>
+    <ns7:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+  </ns10:Recurso-turistico>
+  <ns4:HotelRoom rdf:about="https://www.facebook.com/villastamford.soto">
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://mivalledecompras.com/servicios/stulua/alquileres/fincas/fincavillastamfort">
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns1:hasValue>
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://i.imgur.com/hReO1On.jpg">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns4:partOf>
+      <ns1:Individual rdf:about="https://www.youtube.com/embed/0qJR4UNfqrQ">
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns1:name xml:lang="es">FINCA VILLA STAMFORD</ns1:name>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+        <ns2:adr rdf:resource="https://goo.gl/maps/56rMdnXS6Yw"/>
+        <ns5:depiction rdf:resource="http://i.imgur.com/qfz0H56.jpg"/>
+        <ns2:tel>3136132871, 3105417776, 2324843</ns2:tel>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns2:email>No disponible</ns2:email>
+        <ns1:description xml:lang="es">Sitio campestre para recrearse y descansar, habitaciones con baño privado, cocina interna, piscina adultos y niños, 
+    amplia zona verde, fogón de leña, asador, kiosco y más. Ubicada en el callejón de las Viudas.</ns1:description>
+      </ns1:Individual>
+    </ns4:partOf>
+  </ns4:HotelRoom>
+  <ns1:Location rdf:about="https://www.facebook.com/Institucion-Educativa-Tecnica-Occidente-134974479939448/">
+    <ns2:tel></ns2:tel>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Empresas"/>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/BUTrUuSDjCK2">
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:street-address>Vía a Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <ns5:depiction rdf:resource="http://i.imgur.com/eC5RRwe.jpg"/>
+    <ns1:name xml:lang="es">INSTITUCIÓN EDUCATIVA TÉCNICA OCCIDENTE</ns1:name>
+    <ns2:email>No disponible</ns2:email>
+    <ns1:hasOpeningHoursSpecification>
+      <ns1:OpeningHoursSpecification rdf:about="www.occiportal.jimdo.com">
+        <ns1:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">06:00:00</ns1:opens>
+        <ns1:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns1:closes>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+      </ns1:OpeningHoursSpecification>
+    </ns1:hasOpeningHoursSpecification>
+    <ns5:homepage rdf:resource="http://ietecnicaoccidente.tripod.com/"/>
+    <ns1:description xml:lang="es">Espacio de socialización, en donde se amplían, ratifican o construyen nuevos conocimientos, comportamientos, 
+    modos de relación y aceptación del otro. Ubicada frente a la capilla del Santo Aparecido.</ns1:description>
+  </ns1:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2478367">
+    <ns3:commonName xml:lang="es">CARPINTERO CULIRROJO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1177616"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/qAYQro9.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Veniliornis_kirkii"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Veniliornis kirkii</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Mide 15-16.5 cms de longitud y pesa 28-30 grs. El plumaje de sus partes superiores es verde oliva, con un 
+    lustre dorado a anaranjado en el lomo y las coberteras alares. El macho tiene la cara color oliva fusco, la coronilla 
+    y la parte posterior del cuello color gris pizarra. La hembra presenta la corona y la nuca color marrón oscuro.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/315388"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.naturalista.mx/taxa/18020-Veniliornis-kirkii"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2490135">
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/722450"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1052462"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Cercomacra_nigricans"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://neotropical.birds.cornell.edu/portal/species/overview?p_p_spp=386611"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:commonName xml:lang="es">HORMIGUERO YEGUA</ns3:commonName>
+    <ns3:scientificName xml:lang="la">Cercomacra nigricans</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/isv6Iob.jpg"/>
+    <ns3:shortDescription xml:lang="es">Forma una especie de grupo con otros tres hormigueros cuyos machos son en gran parte negro con unas marcas blancas 
+    (Carbonaria, Melanaria, Ferdinandi). De este grupo, el Hormiguero Yegua es el más extendido geográficamente. Las hembras 
+    son muy oscuras con marcas blancas en las alas y garganta.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns2:Location rdf:about="https://issuu.com/natucreativa/docs/humedales_del_valle_geogr__fico_del/177">
+    <rdfs:comment xml:lang="es">Se trata de un humedal cubierto en gran porcentaje por macrófitas; la zona amortiguadora en su mayoría son pastos 
+    utilizados para el ganado; se encuentra aledaño al río Tuluá, el cual lo surte constantemente. Ubicado en las Haciendas 
+    Bilbao y Normandía.</rdfs:comment>
+    <ns2:tel></ns2:tel>
+    <ns5:name xml:lang="es">HUMEDAL BOCAS DE TULUÁ - LA SAPERA</ns5:name>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Lugares"/>
+    <ns5:depiction rdf:resource="https://www.youtube.com/embed/cncHUYEsr2k"/>
+    <ns2:email>cuentosverdes@cvc.gov.co</ns2:email>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/8jXReqSHzkA2">
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:street-address>Bocas de Tuluá, Tuluá, Valle del Cauca</ns2:street-address>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <ns5:depiction rdf:resource="http://i.imgur.com/vNIj2k4.png"/>
+  </ns2:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2478125">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/56082"/>
+    <ns3:scientificName xml:lang="la">Melanerpes rubricapillus</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1177502"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://ecojugando.wordpress.com/2015/08/20/carpintero-habado-melanerpes-rubricapillus/"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/85VGq9C.jpg"/>
+    <ns3:shortDescription xml:lang="es">Los adultos son de 205 mms de largo y pesan 48 grs. Tienen un lomo blanco con negro parecido al color de las cebras, 
+    alas y los muslos blancos. La cola es negra con algo de blanco y las partes inferiores pardo oscuro. El macho tiene 
+    un parche de corona roja en la nuca; la hembra tiene una corona color beige y la nuca pálida.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Melanerpes_rubricapillus"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">CARPINTERO HABADO</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2480951">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/399589"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/4VB1RoI.jpg"/>
+    <ns3:commonName xml:lang="es">GARZÓN AZUL</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garz%C3%B3n+Azul"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Ardea_cocoi"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Ardea cocoi</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Ave grande de 102-130 cms de longitud. Presenta el alto pecho, los muslos y el cuello blancos, este último con estrías 
+    en su parte frontal. La coronilla es negra con dos plumas largas que cuelgas sobre el cuello, el abdomen también es negro 
+    y la espalda y cola son azul grisáceo. Es la garza más grande y esbelta de todas las garzas en Colombia.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1048971"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2482921">
+    <ns3:shortDescription xml:lang="es">Mide cerca de 16.5 cms. Tiene pico negro y corto, sus partes superiores son de tonalidad café en contraste con su 
+    coronilla y lados de la cabeza que son negros, posee un parche naranja dorado oculto en la coronilla. Tiene garganta blanca 
+    y el resto de partes inferiores son de matiz amarillo brillante.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Myiozetetes cayanensis</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1053224"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:commonName xml:lang="es">SUELDA CRESTINEGRA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Myiozetetes_cayanensis"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/sThcSOC.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Suelda+Crestinegra"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/478635"/>
+  </ns3:TaxonName>
+  <ns2:Location rdf:about="https://www.facebook.com/pages/Capilla-Santo-Aparecido/161137537424017">
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/2qhg5w2iAjk">
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:street-address>Vía Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+      </ns2:Address>
+    </ns2:adr>
+    <rdfs:comment xml:lang="es">En la capilla se conserva una escultura de porcelana que refleja el Cristo descendido de la Cruz. Dicha escultura 
+    fue encontrada hace más de 100 años por una campesina tulueña y es venerada por los milagros que ha concedido a sus 
+    creyentes. Ubicada antes de la vereda El Cairo, sobre la vía principal.</rdfs:comment>
+    <ns5:name xml:lang="es">CAPILLA DEL SANTO APARECIDO</ns5:name>
+    <ns5:depiction rdf:resource="https://www.youtube.com/embed/WeQNXoFSjL0"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Lugares"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/iG762nC.png"/>
+    <ns2:email>No disponible</ns2:email>
+    <ns2:tel></ns2:tel>
+  </ns2:Location>
+  <ns1:Location rdf:about="https://www.facebook.com/supermercadosydrogueriascomfandi">
+    <ns1:hasOpeningHoursSpecification>
+      <ns1:OpeningHoursSpecification rdf:about="http://www.bigpass.com.co/buscador/details.php?ide=125896">
+        <ns1:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns1:opens>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns1:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns1:closes>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns1:OpeningHoursSpecification>
+    </ns1:hasOpeningHoursSpecification>
+    <ns5:homepage rdf:resource="http://www.comfandi.com.co"/>
+    <ns1:name xml:lang="es">SUPERMERCADO COMFANDI</ns1:name>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/pkTqvXMsgrj">
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:street-address>Calle 23 No. 7 - 11, Tuluá, Valle del Cauca</ns2:street-address>
+      </ns2:Address>
+    </ns2:adr>
+    <ns2:tel>2310819</ns2:tel>
+    <ns5:depiction rdf:resource="http://i.imgur.com/ImKLnVA.png"/>
+    <ns1:description xml:lang="es">Variedad de productos, calidad, promociones permanentes, atención amable y oportuna.</ns1:description>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Empresas"/>
+    <ns2:email>No disponible</ns2:email>
+  </ns1:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5229146">
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Pellar+Com%C3%BAn+-+Vanellus+chilensis"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Lqw4muO.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/50404"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Mide de 32-38 cms. Ambos sexos son similares. Presenta pico rosa con punta negra, patas rosa y una cresta occipital 
+    larga y aguda de color negro. Por encima es principalmente de color gris pardusco con hombros color verde broncíneo. 
+    Tiene la frente, parche gular y pecho negros. Su vientre y rabadilla son blancos y su cola negra.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049062"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Vanellus_chilensis"/>
+    <ns3:commonName xml:lang="es">PELLAR, GALLINAZO COMÚN</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Vanellus chilensis</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2491335">
+    <ns3:scientificName xml:lang="la">Sporophila nigricollis</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Mide de 8.5-10.3 cms y pesa de 8.5-11.2 grs. El macho presenta iris café, pico azul grisáceo y patas negruzcas. Su 
+    cabeza hasta la nuca y el pecho son de color negro y el resto de partes altas son de color oliva pálido. La hembra es de 
+    color café cálido en gran parte de su cabeza, nuca, manto y baja espalda.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:commonName xml:lang="es">ESPIGUERO CAPUCHINO</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/5GP58vb.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/917113"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Espiguero+Capuchino+-+Sporophila+nigricollis"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/138930"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Sporophila_nigricollis"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2478564">
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Campephilus melanoleucos</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/piiWNiz.jpg"/>
+    <ns3:shortDescription xml:lang="es">Mide de 33-38 cms y pesa de 181-284 grs. Presenta pico largo de color grisáceo a blancuzco con punta cincelada y 
+    culmen levemente curvo. Tiene iris blanco a amarillento pálido, piel ocular grisácea y patas gris a gris-verde. El 
+    macho presenta plumas de color ante blanquecino alrededor de la base  del pico.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/315367"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carpintero+Marcial+-+Campephilus+melanoleucos"/>
+    <ns3:commonName xml:lang="es">CARPINTERO MARCIAL</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1177548"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Campephilus_melanoleucos"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2370605">
+    <ns3:shortDescription xml:lang="es">Alcanza los 45 cms y los 2 kgs. De color verde oliva a marrón, a menudo con escamas azules dispersas; bases de escamas 
+    en el cuerpo con crecientes marcas oscuras; aleta dorsal oliva, con un delgado borde exterior entre amarillento a rojo; 
+    aleta caudal oliva con puntos nacarados en la porción superior, de rojo a amarillento por debajo.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://biogeodb.stri.si.edu/caribbean/es/thefishes/species/4505"/>
+    <ns3:scientificName xml:lang="la">Tilapia rendalli</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8129"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/212062"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">MOJARRA HERBÍVORA, TILAPIA HERBÍVORA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Tilapia_rendalli"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/rBjlcu4.jpg"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2480824">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/433628"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garcita+Rayada+-+Butorides+striata"/>
+    <ns3:shortDescription xml:lang="es">Ave robusta de 35-48 cms y un peso que oscila entre 135-250 grs. Su cuerpo es predominantemente azul grisáceo con la 
+    coronilla negra y los lados de la cabeza, cuello y pecho de color gris. Tiene una raya blanca que va desde la garganta y 
+    se hace más ancha en el pecho, la espalda es gris verdoso y la cola y alas verde oscuro.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1065041"/>
+    <ns3:scientificName xml:lang="la">Butorides striata</ns3:scientificName>
+    <ns3:commonName xml:lang="es">GARCITA RAYADA</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/APOXbvi.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Butorides_striata"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2480873">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Egretta_thula"/>
+    <ns3:scientificName xml:lang="la">Egretta thula</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garza+Patiamarilla"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/110681"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Mide entre 47.5-67 cms y pesa cerca de 370 grs. Se caracteriza por tener el cuerpo totalmente blanco con el pico y las 
+    patas negras con los dedos amarillos. Tiene los ojos amarillos y una pequeña banda amarilla que se extiende por delante 
+    de estos hasta la base del pico. En plumaje nupcial es igualmente blanca pero con plumas más largas y recurvadas.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">GARZA PATIAMARILLA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1048667"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/tYXpH2E.jpg"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5221813">
+    <ns5:depiction rdf:resource="http://i.imgur.com/x07f7b9.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/795614"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/161134"/>
+    <ns3:shortDescription xml:lang="es">Alcanza una longitud total de aproximadamente 80 cms y pesa entre 200-500 gr. El color del dorso va desde el verde al 
+    oliva-marrón, a marrón con rayas oscuras. El vientre es de color amarillo. Sus dedos son muy largos y tienen garras 
+    afiladas. Los machos están adornados por una cresta y por una papada de color.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">IGUANA JESUCRISTO</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Basiliscus basiliscus</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.waza.org/es/zoo/zoologico-virtual-galeria/basiliscus-basiliscus"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Basiliscus_basiliscus"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2481846">
+    <ns3:commonName xml:lang="es">GALLITO DE CIÉNAGA</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Gallito+de+Ci%C3%A9naga+-+Jacana+jacana"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Jacana_jacana"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/6oLpRzy.jpg"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Mide de 21-25 cms, los machos pesan de 88-119 grs aproximadamente y las hembras de 140-151 grs. Presenta pico amarillo 
+    con escudo frontal bilobulado de color rojo y carúnculas laterales del mismo color. Sus patas son largas con dedos también 
+    largos, ambos de color verdoso. Su cabeza, cuello y partes inferiores son negros.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Jacana jacana</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049284"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/54508"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5204264">
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/211218"/>
+    <ns3:commonName xml:lang="es">SARDINA, SARDINITA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/642543"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://www.cortolima.gov.co/sites/default/files/images/stories/centro_documentos/pom_coello/diagnostico/apendices/ap_peces.pdf"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Astyanax microlepis</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Es una especie de colores muy variados dependiendo del sitio de captura. Presenta una mancha caudal negra  
+    bien  marcada. Aletas anaranjadas, cuerpo plateado con visos amarillos. La línea predorsal es completamente escamada 
+    y la línea lateral con 50 o más escamas las cuales son pequeñas y finas.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q6398228"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/rn4LoLr.jpg"/>
+  </ns3:TaxonName>
+  <ns1:Location rdf:about="https://www.youtube.com/embed/_kQesussw3k">
+    <ns5:homepage rdf:resource="www.cvc.gov.co"/>
+    <ns1:hasOpeningHoursSpecification>
+      <ns1:OpeningHoursSpecification rdf:about="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/EmpresaslicenciaAvestruces.pdf">
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns1:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time"></ns1:opens>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns1:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time"></ns1:closes>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns1:OpeningHoursSpecification>
+    </ns1:hasOpeningHoursSpecification>
+    <ns2:tel>2257083</ns2:tel>
+    <ns1:name xml:lang="es">ZOOCRIADERO DE AVESTRUCES LA SIRENA</ns1:name>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/A3tVoWjpmMQ2">
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:street-address>La Palmera, Tuluá, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+      </ns2:Address>
+    </ns2:adr>
+    <ns1:description xml:lang="es">Criadero de avestruces, comercialización de huevos y plumas. Ubicado en la Hacienda La Sirena.</ns1:description>
+    <ns5:depiction rdf:resource="http://i.imgur.com/SGXyLbc.png"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Empresas"/>
+    <ns2:email>No disponible</ns2:email>
+  </ns1:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2478237">
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/381865"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1177467"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/1UPyRnQ.jpg"/>
+    <ns3:commonName xml:lang="es">CARPINTERO PECHIPUNTEADO, CARPINTERO BUCHIPECOSO</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Mide 20 cms de longitud. La frente es negra, la coronilla roja, lados de la cabeza blancos, bordeados por debajo de 
+    un bigote rojo (solo en los machos). Garganta manchada de negro y blanco. Pecho y abdomen amarillo claro oliva, con 
+    puntos negros. La espalda es de color amarillo oliva oscuro barrado de negro.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Colaptes_punctigula"/>
+    <ns3:scientificName xml:lang="la">Colaptes punctigula</ns3:scientificName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carpintero+Buchipecoso"/>
+  </ns3:TaxonName>
+  <ns4:HotelRoom rdf:about="http://i.imgur.com/w3QswAp.jpg">
+    <ns4:partOf>
+      <ns1:Individual rdf:about="https://www.twitter.com/Ecodataset/status/">
+        <ns1:description xml:lang="es">Capacidad para 20 personas, mesa de billar, juegos de mesa, 
+    piscina, asador, kiosko, zona de camping, zona de hamacas, eventos sociales.</ns1:description>
+        <ns2:tel>3175174964, 3167999472</ns2:tel>
+        <ns2:adr rdf:resource="https://goo.gl/maps/azbNQKuB2K42"/>
+        <ns5:depiction rdf:resource="http://i.imgur.com/R3SkKFT.jpg"/>
+        <ns1:name xml:lang="es">FINCA CAMPESTRE LA ISABELLA</ns1:name>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns2:email>info@livevalledelcauca.com</ns2:email>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+      </ns1:Individual>
+    </ns4:partOf>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://i.imgur.com/dDu5y6d.jpg">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://www.livevalledelcauca.com/tulua/finca-campestre-la-isabella.html">
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:hasValue>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns4:HotelRoom>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2474165">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1047258"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:shortDescription xml:lang="es">Perdiz de color café y pecho gris, raya negra desde el ojo hasta un lado del cuello, la hembra con pecho estriado, 
+    la perdiz más pequeña de Colombia. Mide entre 17-20 cms, pesa aproximadamente 150 grs. </ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/CDgCEPE.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1356621"/>
+    <ns3:scientificName xml:lang="la">Rhynchortyx cinctus</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Rhynchortyx_cinctus"/>
+    <ns3:commonName xml:lang="es">PERDIZ SELVÁTICA</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://colombiacuriosa.blogspot.com.co/2016/05/pava-y-afines.html"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2479071"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2452613">
+    <ns3:shortDescription xml:lang="es">Se distribuye en la cordillera central y occidental de Colombia. Es una serpiente inofensiva que cumple un importante rol 
+    dentro de la cadena alimenticia, ya que se alimenta de roedores y anfibios.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Dendrophidion bivittatus</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://abc.finkeros.com/serpientes-en-nuestras-fincas-jarretera/"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/699575"/>
+    <ns3:commonName xml:lang="es">GUARDACAMINO, ESTERILLA, JARRETERA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q5124943"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/IofqAh1.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/815721"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2484103">
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Chrysomus_icterocephalus"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Turpial+Cabeciamarillo"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Yza4Mpv.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/284088"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Chrysomus icterocephalus</ns3:scientificName>
+    <ns3:commonName xml:lang="es">MONJITA CABECIAMARILLA, MONJITA</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">El macho mide alrededor de 18 cms y la hembra 16.5 cms. El peso promedio para los machos es de 35.9 grs y el peso de 
+    las hembras es de 37.4 grs. Tienen pico cónico y agudo. El macho es negro con cabeza, garganta y alto pecho color 
+    amarillo brillante. La hembra presenta por encima un color oliva pardusco opaco.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/993346"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2482934">
+    <ns5:depiction rdf:resource="http://i.imgur.com/4QvEWMG.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Machetornis_rixosa"/>
+    <ns3:shortDescription xml:lang="es">Tamaño aproximado de 19 cms. Tiene los ojos rojos y  patas largas que le facilitan caminar sobre el suelo. 
+    Es principalmente café oliva pálido por encima, su coronilla es más gris y con la cresta naranja encendido usualmente 
+    oculta (en el macho únicamente); una estrecha línea ocular negruzca, alas y cola parduscas.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Machetornis rixosa</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/285035"/>
+    <ns3:commonName xml:lang="es">SIRIRÍ BUEYERO, ATRAPAMOSCAS GANADERO</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Ganadero"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/495241"/>
+  </ns3:TaxonName>
+  <ns1:Location rdf:about="https://www.facebook.com/pages/Avicola-La-Chica/375601145975612">
+    <ns5:depiction rdf:resource="http://i.imgur.com/iwFz4zG.jpg"/>
+    <ns1:name xml:lang="es">AVICOLA LA CHICA</ns1:name>
+    <ns1:hasOpeningHoursSpecification>
+      <ns1:OpeningHoursSpecification rdf:about="http://directoriotelefonico.info/directorio/de/tulua/a/150">
+        <ns1:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns1:opens>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns1:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns1:closes>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns1:OpeningHoursSpecification>
+    </ns1:hasOpeningHoursSpecification>
+    <ns5:homepage rdf:resource="No diponible"/>
+    <ns2:email>No disponible</ns2:email>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Empresas"/>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/dp6m5j9xDo62">
+        <ns2:street-address>Avícola - La Chica Vía a Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <ns2:tel>2303387</ns2:tel>
+    <ns1:description xml:lang="es">Comercialización de huevos</ns1:description>
+  </ns1:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5229939">
+    <ns3:commonName xml:lang="es">TURPIAL AMARILLO</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/84827"/>
+    <ns3:scientificName xml:lang="la">Icterus nigrogularis</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Turpial+Amarillo"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Icterus_nigrogularis"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/f43frzM.jpg"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1050858"/>
+    <ns3:shortDescription xml:lang="es">Mide entre 20-21 cms. Los machos tienen un peso promedio de 39.5 grs y las hembras 37.4 grs. Su plumaje principalmente 
+    es de color amarillo limón con la región ocular, babero, alas y cola color negro. Presenta una barra alar blanca 
+    estrecha pero nítida y las márgenes de las rémiges internas son blanquecinos.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2474337">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049274"/>
+    <ns3:scientificName xml:lang="la">Aramus guarauna</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/54356"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carrao+-+Aramus+guarauna"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Aramus_guarauna"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/5TkiAuS.jpg"/>
+    <ns3:commonName xml:lang="es">CARRAO, RASCÓN CAUCANO</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Mide de 61-71 cms y pesa de 1130-1370 grs el macho y de 1050-1170 grs la hembra. Presenta alas anchas y redondeadas, 
+    pico largo ligeramente decurvado y patas largas. El macho es de color café aceitoso con estrías blanquecinas en cabeza, 
+    cuello y alta espalda. La hembra es similar al macho pero levemente más pequeña.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns1:SomeItems rdf:about="https://www.facebook.com/piedrarojatulua">
+    <ns4:partOf>
+      <ns1:Individual rdf:about="https://www.facebook.com/Piedra-Roja-Tulua-222463944443876">
+        <ns1:description xml:lang="es">Cuenta con alquiler de cabañas, canchas de fútbol, servicio de piscina, salón para eventos sociales, juegos y 
+    un ambiente acogedor que no puede dejar de visitar. Ubicado en la Vereda Papayal.</ns1:description>
+        <ns2:adr rdf:resource="https://goo.gl/maps/xp8uxKxpR7L2"/>
+        <ns5:homepage rdf:resource="www.complejopiedraroja.com"/>
+        <ns2:tel>3174030301, 3174783629, 3103701115</ns2:tel>
+        <ns5:depiction rdf:resource="http://i.imgur.com/fXKwhIT.jpg"/>
+        <ns1:name xml:lang="es">PIEDRA ROJA COMPLEJO TURÍSTICO</ns1:name>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:email>piedrarojatulua@hotmail.com</ns2:email>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+      </ns1:Individual>
+    </ns4:partOf>
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://i.imgur.com/XITlQoT.jpg">
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:hasValue>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://i.imgur.com/fmqTZ94.jpg">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+  </ns1:SomeItems>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2484936">
+    <ns5:isPrimaryTopicOf rdf:resource="https://ecojugando.wordpress.com/2015/12/17/pijui-pechiblanco-o-chamicero-palido-synallaxis-albescens/"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/88181"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1050187"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Synallaxis_albescens"/>
+    <ns3:commonName xml:lang="es">RASTROJERO PÁLIDO, CHAMICERO PÁLIDO</ns3:commonName>
+    <ns3:scientificName xml:lang="la">Synallaxis albescens</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/LBHfbd5.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:shortDescription xml:lang="es">Mide entre 14-17 cms de longitud y pesa 13-15 grs. Es un pájaro esbelto con una cola de 9,3 cms longitud. El plumaje de 
+    sus partes superiores es principalmente de color marrón claro, con las alas y cola más oscuras. Tienen el píleo de color 
+    castaño rojizo al igual que la nuca y las coberteras alares. Sus partes inferiores son blanquecinas.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/8400492">
+    <ns3:commonName xml:lang="es">PIPONA</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/YIukHx0.jpg"/>
+    <ns3:scientificName xml:lang="la">Poecilia mexicana</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/48701"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">Mide entre los 6-9 cms los machos y entre 10-12 cms las hembras. En estado salvaje va del pardo al grisáceo, pasando 
+    por el verde oliva y morado tenue, encontrándose en ocasiones individuos melánicos, y presentando los machos dominantes 
+    y algunas hembras alfa tonalidades que van del amarillo al naranja en los bordes de las aletas caudal y dorsal.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.pezadicto.com/poecilia-mexicana-molly-mexicano/"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/211878"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Poecilia_mexicana"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2476441">
+    <ns5:isPrimaryTopicOf rdf:resource="https://www.medellin.gov.co/biodiversidad/seccion.hyg?seccion=5&amp;submenu=1"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1273441"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/edFZpRK.jpg"/>
+    <ns3:commonName xml:lang="es">AMAZILIA COLIRRUFO</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57392"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Amazilia tzacatl</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Mide aproximadamente 9.1 cms. Se reconoce fácilmente por su pico rojizo con la punta negra y su cola café-rojiza oscura. 
+    Emite silbidos agudos y una serie rápida de “tsip” propios de estas aves. El colibrí colirrufo caza insectos durante vuelos 
+    cortos. También busca sus presas en hojas, ramas y telas de araña.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Amazilia_tzacatl"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2486044">
+    <ns3:commonName xml:lang="es">TREPATRONCOS CAMPESTRE, TREPADOR CAMPESTRE</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/8qWrKJG.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Lepidocolaptes_souleyetii"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2590"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/917806"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:scientificName xml:lang="la">Lepidocolaptes souleyetii</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/75977"/>
+    <ns3:shortDescription xml:lang="es">Posee un largo total promedio de 20 cms. Pico delgado, ligeramente decurvado (25 mms), coronilla y nuca café negruzco 
+    y finalmente estriado de blanco ante; a veces alto manto también estriado finamente; espalda café rufo uniforme; 
+    rabadilla, alas y colas rufa; garganta ante; resto de partes inferiores café.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+  </ns3:TaxonName>
+  <ns1:Location rdf:about="https://www.facebook.com/pages/Parador-Narino/1500318653527283">
+    <ns5:depiction rdf:resource="http://i.imgur.com/q1ovJTd.jpg"/>
+    <ns2:tel>2315868</ns2:tel>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Restaurantes"/>
+    <ns1:name xml:lang="es">RESTAURANTE Y PARADOR NARIÑO</ns1:name>
+    <ns1:description xml:lang="es">Sancocho de gallina, platos típicos a la carta, se atienden reuniones sociales.</ns1:description>
+    <ns1:hasOpeningHoursSpecification>
+      <ns1:OpeningHoursSpecification rdf:about="http://www.ciudadguru.com.co/empresas/restaurante-y-parador-narino/tulua/15724654">
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns1:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">17:00:00</ns1:closes>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns1:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">00:00:00</ns1:opens>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns1:OpeningHoursSpecification>
+    </ns1:hasOpeningHoursSpecification>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/jXWsgvVddiE2">
+        <ns2:street-address>Vía Nariño, Tuluá, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <ns5:homepage>No disponible</ns5:homepage>
+  </ns1:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2496210">
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Crotophaga_major"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/g4c7YiA.jpg"/>
+    <ns3:commonName xml:lang="es">GARRAPATERO GRANDE, GARRAPATERO MAYOR</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Mide alrededor de 46 cms, los machos pesan en promedio 162 grs y las hembras 145 grs. Presenta ojos blancos, patas negras 
+    y pico negro comprimido lateralmente con culmen arqueado en la base de la mandíbula superior. El adulto es de color negro-azul 
+    lustroso con los bordes de las plumas de las alas verde broncíneo y cola con lustre púrpura.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/914612"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garrapatero+Mayor+-+Crotophaga+major"/>
+    <ns3:scientificName xml:lang="la">Crotophaga major</ns3:scientificName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/48617"/>
+  </ns3:TaxonName>
+  <ns1:Location rdf:about="https://www.facebook.com/Mama-Cubatas-1684533791806093/">
+    <ns1:name xml:lang="es">MAMÁ CUBATAS</ns1:name>
+    <ns1:hasOpeningHoursSpecification>
+      <ns1:OpeningHoursSpecification rdf:about="http://eventerbee.com/event/el-caribefunk-en-tulua-18-de-junio,961838740604403">
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns1:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns1:opens>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns1:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">01:00:00</ns1:closes>
+        <ns1:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns1:OpeningHoursSpecification>
+    </ns1:hasOpeningHoursSpecification>
+    <ns5:depiction rdf:resource="http://i.imgur.com/RBt0z5d.jpg"/>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/eEKb1nRc4Fz">
+        <ns2:street-address>Bocas de Tuluá, Tuluá, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <ns2:email>No disponible</ns2:email>
+    <ns1:description xml:lang="es">Un lugar diferente con espacios sofisticados.</ns1:description>
+    <ns2:tel>3165131438</ns2:tel>
+    <ns5:homepage rdf:resource=""/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Empresas"/>
+  </ns1:Location>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2482755"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2439920"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2483612">
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/me2Raon.jpg"/>
+    <ns3:commonName xml:lang="es">GUARDA PUENTES</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Sayornis nigricans</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1046718"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Guardapuentes"/>
+    <ns3:shortDescription xml:lang="es">Mide entre 15-19 cms y pesa alrededor de 18 grs. Su cabeza, pecho, partes superiores y alas son color negro hollín, 
+    mientras que su abdomen es blanco, al igual que los márgenes de las cobertoras alares, rémiges internas y rectríces 
+    externas. Presenta iris café oscuro y pico y patas negras.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/183530"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Sayornis_nigricans"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7341834">
+    <ns3:shortDescription xml:lang="es">Mide 11.4 cms. El macho es amarillo encendido con oliva-amarillento en partes superiores. Las alas y cola son 
+    negruzcas fuertemente marginadas de amarillo. El pecho y los lados tienen estrías de color rufo. La hembra es más 
+    opaca y con más oliva por encima. Es una de las reinitas más comunes de Colombia.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/123634"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Setophaga_petechia"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Reinita+amarilla"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Setophaga petechia</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/Bi54eBO.jpg"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">REINITA DORADA, REINITA AMARILLA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/918547"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2495358"/>
+  <ns8:Municipio rdf:about="http://dbpedia.org/resource/Riofrio,_Valle_del_Cauca">
+    <ns6:geometry>
+      <ns6:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <ns6:SpatialThing>4.083333</ns6:SpatialThing>
+        <ns6:SpatialThing>4.156111</ns6:SpatialThing>
+      </ns6:point>
+    </ns6:geometry>
+    <ns8:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+    <ns6:geometry>
+      <ns6:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <ns6:SpatialThing>76.287781</ns6:SpatialThing>
+        <ns6:SpatialThing>-76.199997</ns6:SpatialThing>
+      </ns6:point>
+    </ns6:geometry>
+  </ns8:Municipio>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2481868">
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cormor%C3%A1n+Neotropical+-+Phalacrocorax+brasilianus"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Phalacrocorax_brasilianus"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/37046"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/cHMcMp7.jpg"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Phalacrocorax	brasilianus</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1065006"/>
+    <ns3:commonName xml:lang="es">CORMORÁN NEOTROPICAL</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Mide entre 58-73 cms y pesa alrededor de 1800 grs. El adulto es negro brillante con pico negro, largo y delgado con 
+    un gancho en el extremo. Sus patas también son negras y presenta una bolsa gular y piel facial desnuda de color amarillo 
+    opaco delineado en su parte posterior por una estrecha banda blanca.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5229693">
+    <ns3:commonName xml:lang="es">SIRIRÍ TIJERETA, SIRIRÍ TIJERETÓN</ns3:commonName>
+    <ns3:scientificName xml:lang="la">Tyrannus savana</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/917500"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/KJO2DtD.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Sirir%C3%AD+Tijereta"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/137541"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:shortDescription xml:lang="es">El tamaño de los machos es de 38 cms y el de las hembras de solo 28 cms. Tiene la cola muy larga y profundamente 
+    ahorquillada (más corta en la hembra). Presentan la coronilla, nuca y lados de la cabeza hasta debajo de los ojos, 
+    de color negro. La espalda es gris claro, las alas más oscuras, cola negra.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Tyrannus_savana"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2433194"/>
+  <ns1:SomeItems rdf:about="http://amarillasaz.com/co/finca-la-herradura/tulua/anuncio-37317">
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns4:partOf>
+      <ns1:Individual rdf:about="https://www.facebook.com/fincalaherradura.tuluavalle">
+        <ns2:email>No disponible</ns2:email>
+        <ns2:tel>3103747120</ns2:tel>
+        <ns1:name xml:lang="es">FINCA LA HERRADURA</ns1:name>
+        <ns2:adr rdf:resource="https://goo.gl/maps/9UQfQtZPmmE2"/>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns1:description xml:lang="es">Alquiler de cabañas. Ubicada en la Vereda Gato Negro</ns1:description>
+        <ns5:depiction rdf:resource="http://i.imgur.com/z7Sj7ag.jpg"/>
+      </ns1:Individual>
+    </ns4:partOf>
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://www.nexdu.com/co/Finca-La-Herradura-Tulua">
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:hasValue>
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://tulua.linkbyme.co/finca-la-herradura-if232497/">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+  </ns1:SomeItems>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5221610">
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Lepidodactylus_lugubris"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/8832483"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://tuatera.com/fororeptiles/gecko-cuidados/lepidodactylus-lugubris-cuidados-informacion-terrario/"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/47724"/>
+    <ns3:scientificName xml:lang="la">Lepidodactylus lugubris</ns3:scientificName>
+    <ns3:commonName xml:lang="es">GUECO ENLUTADO, GUECO, GECO</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Mide aproximadamente 45 mms de longitud. Tiene un color de fondo pálido cremoso con un marrón oscuro o beige 
+    superpuesto en zigzag. Pueden cambiar tonos de color entre blanco, marrón, rojizo-marrón, beige y gris. Sus partes 
+    inferiores son siempre de color beige y, a veces moteado. Las crías son réplicas en miniatura de los adultos.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/wnDBsv4.jpg"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2480415">
+    <ns3:shortDescription xml:lang="es">Mide entre 41-46 cms. Cuenta con alas medianas a largas, anchas hacia los extremos y cola cuadrada. Posee un pico delgado 
+    y fuertemente curvado. Su piel facial y patas son de color rojo-naranja. Los machos adultos manifiestan uniformemente un 
+    color negro pizarra. Las hembras adultas por encima tienen un color café negruzco.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Rostrhamus sociabilis</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Caracolero+Com%C3%BAn"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049023"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/156764"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/0C3UnfY.jpg"/>
+    <ns3:commonName xml:lang="es">CARACOLERO, CARACORELO COMÚN</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Rostrhamus_sociabilis"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2480863">
+    <ns3:commonName xml:lang="es">GUACO COMÚN</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Nycticorax_nycticorax"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Guaco+Com%C3%BAn+-+Nycticorax+nycticorax"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8901"/>
+    <ns3:scientificName xml:lang="la">Nycticorax nycticorax</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/8XCZd5O.jpg"/>
+    <ns3:shortDescription xml:lang="es">Ave robusta que mide de 61-69cms, con cuello corto y pico grande, y ojos de gran tamaño. Puede llegar a pesar más de 
+    650 grs. Pico negro, patas amarillas verdoso. Coronilla y espalda negro lustroso; alas y cola gris; frente y lados de 
+    la cabeza en partes inferiores blanquecinas; ojos rojos.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1048731"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2483647">
+    <ns3:commonName xml:lang="es">PECHIRROJO, ATRAPAMOSCAS PECHIRROJO</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/pLQ00lY.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Pechirrojo"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1050412"/>
+    <ns3:shortDescription xml:lang="es">Mide 14cms. Cresta corta. El macho tiene coronilla y partes inferiores escarlata brillante; lista ocular, occipucio 
+    y partes superiores café hollin. La hembra es muy diferente: por encima café ceniza oscuro; garganta y pecho blancos 
+    estrecha y difusamente barrados de negruzco; bajas partes inferiores salmon rosáceo; centro del abdomen a menudo blanco.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/371933"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Pyrocephalus_rubinus"/>
+    <ns3:scientificName xml:lang="la">Pyrocephalus rubinus</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2497365">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/507958"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/9ghzI8b.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Currucut%C3%BA+Com%C3%BAn+-+Megascops+choliba"/>
+    <ns3:shortDescription xml:lang="es">Mide de 20-24 cms y pesa de 97-160 grs. Presenta iris amarillo, pico gris verdoso con punta gris y patas de color café 
+    grisáceo. Tiene disco facial gris claro con bordes negros prominentes, coronilla y partes superiores con estrías 
+    oscuras, plumas de vuelo y cola barradas de ante pálido y café. Por debajo es principalmente blanco.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">CURRUCUTÚ, CURRUCUTÚ COMÚN</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Megascops choliba</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1025097"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Megascops_choliba"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2483274">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/196049"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Espatulilla+Com%C3%BAn"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Todirostrum_cinereum"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1053321"/>
+    <ns3:scientificName xml:lang="la">Todirostrum cinereum</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Mide de 8.8-10.2 cms y pesa entre 4.4-8 grs. El macho tiene la frente, lados de la cabeza y la coronilla negro 
+    lustroso con un tono gris pizarra en el occipucio y oliva en la espalda y la rabadilla. Sus alas son negras con los bordes 
+    y puntas de las cobertoras de color amarillo.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/P2dpbXd.jpg"/>
+    <ns3:commonName xml:lang="es">ESPATULILLA, ESPATULILLA COMÚN</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2480812">
+    <ns5:depiction rdf:resource="http://i.imgur.com/j6i05MZ.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:shortDescription xml:lang="es">Mide entre 46-56 cms, con un peso promedio de 559 grs. Los adultos presentan su plumaje negro característico con trazos 
+    de verde azuloso metálico oscuro sobre todo en las alas, tiene el pico rojizo curvado al igual que su cara o región 
+    desnuda de la cabeza y patas.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Phimosus_infuscatus"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/555323"/>
+    <ns3:scientificName xml:lang="la">Phimosus infuscatus</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049667"/>
+    <ns3:commonName xml:lang="es">COQUITO, GALLINAZO NEGRO</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Coquito+-+Phimosus+infuscatus"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2435146">
+    <ns3:commonName xml:lang="es">PUMA, LEÓN, YAGUARUNDI</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/vRm3s3s.jpg"/>
+    <ns3:shortDescription xml:lang="es">Presenta dos formas en la coloración de su pelaje: una de color castaño rojizo, y otra parda casi negra o 
+    grisácea. Alcanza una longitud de 50-70 cms de largo, más la cola que mide de 30-60 cms. Mide en promedio 
+    33 cms de altura. Los adultos alcanzan un peso entre los 3.5-9.1 kgs. Se alimenta de pequeños mamíferos y aves.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1053885"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1608482"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.naturalista.mx/taxa/74989-Puma-yagouaroundi"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Puma_yagouaroundi"/>
+    <ns3:scientificName xml:lang="la">Puma yagouaroundi</ns3:scientificName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2450419">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/174802"/>
+    <ns3:commonName xml:lang="es">LISA DE HOJARASCA</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://zoologia.puce.edu.ec/Vertebrados/reptiles/FichaEspecie.aspx?Id=1669"/>
+    <ns3:shortDescription xml:lang="es">Lagartija de longitud máxima de 45 mms en machos y 41 mms en hembras. Dorso sepia o café, tornándose más pálido 
+    hasta la altura de la cola, donde se vuelve habano, rojizo o anaranjado. Tiene una hilera de círculos oscuros con centros 
+    claros, semejantes a pequeños ojos, a cada lado del cuerpo.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/KzXznVz.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1053458"/>
+    <ns3:scientificName xml:lang="la">Cercosaura argulus</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q5313776"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5217587"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/7913436"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2491862">
+    <ns3:shortDescription xml:lang="es">Mide aproximadamente 14 cms su color es amarillo brillante. El Macho por encima tiene color amarillo oliva débilmente 
+    estriado de pardusco en la espalda; la coronilla anterior es naranja brillante la cabeza y partes inferiores tienen 
+    amarillo dorado. La hembra es más opaca y menos naranja en la coronilla.</ns3:shortDescription>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">CANARIO CORONADO, SICALIS CORONADO</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.avesyturismo.com/canario-criollo-sicalis-coronado.html"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Sicalis flaveola</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/6yNqA10.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Sicalis_flaveola"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/922690"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/163868"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2434584">
+    <ns3:scientificName xml:lang="la">Cerdocyon thous</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9620"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:commonName xml:lang="es">ZORRO CAÑERO</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Es un canino de tamaño mediano (5-7 Kgs.), la cola es moderadamente peluda, con la punta negra y oscura en la base. 
+    El rostro es largo y puntiagudo, la cabeza es relativamente corta y estrecha. El pelaje generalmente es gris oscuro a negro 
+    a lo largo del dorso, la línea media en el vientre incluyendo las patas son gris a negro.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/421"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/328685"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/8hK48Hw.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Cerdocyon_thous"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2479159">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1177979"/>
+    <ns3:commonName xml:lang="es">PERICO FRENTIRROJO</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Aratinga_wagleri"/>
+    <ns3:shortDescription xml:lang="es">Ave que mide cerca de 36 cms y pesa de 162-217 grs. Es de color verde con las partes inferiores un poco más amarillentas. 
+    Su frente y coronilla son rojas con algunas manchas del mismo color en la garganta y lados del cuello. Su cola es larga y 
+    aguda con la superficie inferior amarillo oliva, al igual que el interior de sus alas.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Perico+Chocolero+-+Psittacara+wagleri"/>
+    <ns3:scientificName xml:lang="la">Aratinga wagleri</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/867391"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/r5i1z4v.jpg"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2475486">
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Chloroceryle_americana"/>
+    <ns3:shortDescription xml:lang="es">Mide aproximadamente 20 cms, la hembra pesa entre 33-35 grs y el macho de 29-40 grs. El macho es verde oscuro en las 
+    partes superiores con algo de bronze en la coronilla. Presenta collar blanco y manchas del mismo color en las plumas 
+    primarias, secundarias y en las cobertoras alares. Tiene una banda pectoral rufa y su garganta y vientre son blancos.</ns3:shortDescription>
+    <ns3:scientificName xml:lang="la">Chloroceryle americana</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Mart%C3%ADn+Pescador+Chico+-+Chloroceryle+americana"/>
+    <ns3:commonName xml:lang="es">MARTÍN PESCADOR CHICO</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/OMbLt4u.jpg"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/917144"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57406"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2491741">
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1050405"/>
+    <ns3:scientificName xml:lang="la">Volatinia jacarina</ns3:scientificName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Volatinero+Negro+-+Volatinia+jacarina"/>
+    <ns3:shortDescription xml:lang="es">Mide de 8.7-10.9 cms y pesa de 8-12 grs. Presenta pico cónico con culmen levemente decurvado. El macho tiene la 
+    cabeza, el cuello, partes superiores y partes inferiores de color negro con azul oscuro iridiscente. La hembra es de color 
+    marrón, más oscuro por encima que por debajo.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">ESPIGUERO SALTARÍN, CANARIO CORONADO, VOLATINERO NEGRO</ns3:commonName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/135452"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Volatinia_jacarina"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/aKmiHzx.jpg"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2489203">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/72878"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1050747"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Golondrina+Barranquera+-+Stelgidopteryx+ruficollis"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:commonName xml:lang="es">GOLONDRINA BARRANQUERA</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/h0D1RCC.jpg"/>
+    <ns3:scientificName xml:lang="la">Stelgidopteryx ruficollis</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Stelgidopteryx_ruficollis"/>
+    <ns3:shortDescription xml:lang="es">Mide 13 cms y pesa entre 14-18 grs. Es principalmente café grisáceo, sus alas y cola son café negruzcas y las barbas 
+    de la plumas primarias externas son rigidas. Presenta garganta café y el resto de partes inferiores café grisáceo 
+    oscuro las cuales se vuelven amarillentas hacia el abdomen.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2481066">
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Pigua"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Milvago_chimachima"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/2oR826R.jpg"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049220"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/56337"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:scientificName xml:lang="la">Milvago chimachima</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Mide 41 cms de largo y pesa 330 grs. Es de tamaño pequeño, de constitución liviana, cola más bien larga, y “ventana” grande 
+    de color ante en las primarias. En los adultos la cabeza, región inferior y el forro de las alas son de color ante claro. 
+    La línea postocular es negra. El pico y las patas son entre azul claro y verdoso.</ns3:shortDescription>
+    <ns3:commonName xml:lang="es">PIGUA</ns3:commonName>
+  </ns3:TaxonName>
+  <ns4:HotelRoom rdf:about="https://www.facebook.com/pages/Finca-La-Calenita/1431019867115336">
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="https://www.facebook.com/pages/Narino-Finca-La-Calenita/1535586643352277">
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:hasValue>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="https://www.facebook.com/profile.php?id=100009334215790">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns4:partOf>
+      <ns4:Hotel rdf:about="https://www.youtube.com/embed/fUycJ_7Zacg">
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns5:depiction rdf:resource="http://i.imgur.com/CuyuQUz.png"/>
+        <ns2:adr rdf:resource="https://goo.gl/maps/iiRh1N7xQE92"/>
+        <ns1:name xml:lang="es">FINCA LA CALEÑITA CASA BANQUETERA</ns1:name>
+        <ns2:email>No disponible</ns2:email>
+        <ns1:description xml:lang="es">Finca campestre para eventos sociales y familiares. Piscina, kiosko y una hermosa casa a tu servicio. 
+    Ubicada en el callejón Mejoral.</ns1:description>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+        <ns2:tel>3183456354</ns2:tel>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns4:Hotel>
+    </ns4:partOf>
+  </ns4:HotelRoom>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2436860"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2481798">
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Andarr%C3%ADos+Maculado+-+Actitis+macularius"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Actitis_macularius"/>
+    <ns3:scientificName xml:lang="la">Actitis macularius</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/nQye6qQ.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/190659"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1064984"/>
+    <ns3:commonName xml:lang="es">ANDARRÍOS MANCHADO, ANDARRÍOS MACULADO</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Mide de 18-20 cms, pesa de 19-64 grs y presenta una envergadura de 37-40 cms. En plumaje no reproductivo presenta 
+    pico de color negro con la mandíbula amarillenta, patas amarillo opaco, cuerpo de color café oliva por encima con una 
+    línea superciliar blanquecina y partes inferiores blancas con borrón pardusco en los lados del pecho.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/4285694">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8128"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:shortDescription xml:lang="es">Puede medir hasta 60 cms y pesar 4 Kgs. Fácilmente reconocible debido a su cuerpo comprimido, a las líneas verticales 
+    separadas de color oscuro y a la barra en la aleta caudal. En época reproductiva el color de las aletas se vuelve 
+    rojizo. Se alimenta de algas bentonicas, fitoplancton, huevos de otras especies de peces y larvas.</ns3:shortDescription>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/585"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/6YTmwYK.jpg"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">TILAPIA NILÓTICA, MOJARRA</ns3:commonName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Oreochromis_niloticus"/>
+    <ns3:scientificName xml:lang="la">Oreochromis niloticus</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/356343"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2475466">
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/488310"/>
+    <ns3:scientificName xml:lang="la">Megaceryle torquata</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Mide alrededor de 40 cms, los machos pesan entre 254-330 grs y las hembras entre 274-325 grs.  El macho es de color azul 
+    grisáceo en las partes superiores, presenta pecho y vientre rufo. En frente de los ojos tiene dos manchas 
+    semicirculares blancas. Sus plumas primarias son negras y las cobertoras infracaudales blancas con barras grises.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Mart%C3%ADn+Pescador+Mayor+-+Megaceryle+torquata"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/46KDzC8.jpg"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Megaceryle_torquata"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1049955"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">MARTÍN PESCADOR GRANDE, MARTÍN PESCADOR MEDIANO</ns3:commonName>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2498393">
+    <ns5:depiction rdf:resource="http://i.imgur.com/5yZLaEG.jpg"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:commonName xml:lang="es">PISINGO, IGUAZA COMÚN</ns3:commonName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.audubon.org/es/guia-de-aves/ave/pijije-alas-blancas"/>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Dendrocygna_autumnalis"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8873"/>
+    <ns3:scientificName xml:lang="la">Dendrocygna autumnalis</ns3:scientificName>
+    <ns3:shortDescription xml:lang="es">Ave acuática espectacularmente colorida, sociable y ruidosa; tiene un pico rosa brillante, cuello y patas largas, 
+    pecho castaño y vientre negro. Prefiere los lagos de agua dulce poco profundos; puede llegar a los que están 
+    en medio del campo. Se alimenta principalmente de semillas de varias hierbas e insectos.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/1267835"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5224503">
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Lampropeltis_triangulum"/>
+    <ns3:scientificName xml:lang="la">Lampropeltis triangulum</ns3:scientificName>
+    <ns3:commonName xml:lang="es">CORAL, FALSA CORAL, MATA GANADO</ns3:commonName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/f34QpnV.jpg"/>
+    <ns5:isPrimaryTopicOf rdf:resource="https://www.ecured.cu/Lampropeltis_triangulum"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/140017"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/792617"/>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns3:shortDescription xml:lang="es">Tiene una longitud entre 80-180 cms. Serpiente delgada y esbelta, cabeza ovalada y algo puntiaguda. Su cuerpo está 
+    cubierto por anillos de colores rojo, negro y amarillo. El amarillo puede variar desde tonos muy vivos o pasteles 
+    (a veces casi blancos) a tonos más anaranjados. El rojo suele ser más vivo.</ns3:shortDescription>
+  </ns3:TaxonName>
+  <ns4:HotelRoom rdf:about="https://www.facebook.com/eventos.micabana">
+    <ns4:partOf>
+      <ns4:Hotel rdf:about="https://www.youtube.com/embed/FwF0DNd-qOQ">
+        <ns2:adr rdf:resource="https://goo.gl/maps/vrmxo7Rz8M72"/>
+        <ns2:email>No disponible</ns2:email>
+        <ns1:name xml:lang="es">CLUB BALNEARIO MI CABAÑA</ns1:name>
+        <ns2:tel>3182230849</ns2:tel>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns1:description xml:lang="es">Dedicados a la realización de reuniones sociales, sancocho de gallina. Cuenta con piscina, cabañas, restaurante, 
+    discoteca. Ubicado en el Km 5 Vía Riofrío</ns1:description>
+        <ns5:depiction rdf:resource="http://i.imgur.com/DnVGwKO.jpg"/>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+      </ns4:Hotel>
+    </ns4:partOf>
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://www.nexdu.com/co/Mi-Cabana-Club-Balneario-Tulua">
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:hasValue>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://www.amarillasinternet.com/balneariomicabana/">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+  </ns4:HotelRoom>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2490722">
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/922675"/>
+    <ns3:shortDescription xml:lang="es">Mide alrededor de 24 cms. Es de color café sucio con pico negro. Por encima es de color café oscuro opaco uniforme 
+    a café oliva opaco, su garganta es blanca estriada de negruzco y gradualmente café oliva pálido en el pecho. El centro 
+    del abdomen e infracaudales son blancos.</ns3:shortDescription>
+    <ns5:depiction rdf:resource="http://i.imgur.com/qowJLGA.jpg"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns3:commonName xml:lang="es">MIRLA OLLERA</ns3:commonName>
+    <ns3:scientificName xml:lang="la">Turdus ignobilis</ns3:scientificName>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Turdus_ignobilis"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Mirla+Ollera"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/411541"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5229564"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2480830"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5231459"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5230791">
+    <ns3:scientificName xml:lang="la">Hirundo rustica</ns3:scientificName>
+    <ns5:depiction rdf:resource="http://i.imgur.com/4a0HLx2.jpg"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43150"/>
+    <ns5:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Golondrina+Tijereta+-+Hirundo+rustica"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/917688"/>
+    <ns3:commonName xml:lang="es">GOLONDRINA TIJERETA</ns3:commonName>
+    <ns3:shortDescription xml:lang="es">Mide alrededor de 18 cms y pesa de 16-24 grs. El macho presenta frente y garganta rufa, coronilla y partes altas 
+    azul lustroso y cola negra con parches blancos. Las plumas externas de la cola son notoriamente elongadas. Presenta 
+    una amplia banda pectoral azul y el resto de las partes inferiores de color crema.</ns3:shortDescription>
+    <ns9:sameAs rdf:resource="http://dbpedia.org/resource/Hirundo_rustica"/>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+  </ns3:TaxonName>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5959202"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2489208"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2433270"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2402060">
+    <ns5:depiction rdf:resource="http://i.imgur.com/wX8oLGa.jpg"/>
+    <ns3:commonName xml:lang="es">VERINGO, PEZ CUCHILLO</ns3:commonName>
+    <ns5:isPrimaryTopicOf rdf:resource="http://izt.ciens.ucv.ve/mbucv/peces/Proyecto%20Atlas/PaginaWeb/GYMNOTIFORMES_STERNOPYGIDAE_Familia_Sternopygus%20macrurus.htm"/>
+    <ns3:shortDescription xml:lang="es">Puede medir más de 38 cms de longitud total. El ojo característicamente presenta el borde orbital libre. Es de color 
+    oscuro con una banda blanca. Encima de la aleta pectoral posee una mancha oscura verticalmente alargada. La 
+    aleta anal es larga dejando libre un pedúnculo largo en forma de filamento.</ns3:shortDescription>
+    <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Fauna"/>
+    <ns9:sameAs rdf:resource="http://eol.org/pages/205876"/>
+    <ns3:scientificName xml:lang="la">Sternopygus macrurus</ns3:scientificName>
+    <ns3:kingdomName xml:lang="es">Animal</ns3:kingdomName>
+    <ns9:sameAs rdf:resource="http://www.wikidata.org/entity/Q5611023"/>
+    <ns9:sameAs rdf:resource="http://www.uniprot.org/taxonomy/77841"/>
+  </ns3:TaxonName>
+  <ns1:SomeItems rdf:about="http://i.imgur.com/sh6Sy2R.jpg">
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://mivalledecompras.com/servicios/stulua/alquileres/fincas/fincaennarino">
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns1:hasValue>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://i.imgur.com/N5engS1.jpg">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns4:partOf>
+      <ns1:Individual rdf:about="https://www.facebook.com/Genesis.finca/">
+        <ns2:tel>3122064128, 3128881294, 3123467429</ns2:tel>
+        <ns5:depiction rdf:resource="http://i.imgur.com/kOINh1e.jpg"/>
+        <ns2:email>ORLA.0822@gmail.com</ns2:email>
+        <ns1:name xml:lang="es">VILLA GÉNESIS</ns1:name>
+        <ns1:description xml:lang="es">Para eventos empresariales y familiares, dos cabañas para alojamiento los fines de semana (con o sin alimentación).</ns1:description>
+        <ns2:adr rdf:resource="https://goo.gl/maps/iiRh1N7xQE92"/>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns1:Individual>
+    </ns4:partOf>
+  </ns1:SomeItems>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2459658"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5226883"/>
+  <ns1:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475507">
+    <ns4:partOf>
+      <ns4:Hotel rdf:about="https://www.twitter.com/Ecodataset/status/770222399069511680">
+        <ns1:description xml:lang="es">Ofrece pasadías y hospedaje. Capacidad para 7 personas, zona de camping, piscina, kiosco pequeño para eventos, 
+    senderos ecológicos, juegos, mesa de billar y mesa de ping pong. Ubicada en el callejón Las Viudas</ns1:description>
+        <ns5:depiction rdf:resource="http://i.imgur.com/PcYSh4U.jpg"/>
+        <ns2:tel>2253083, 2312366, 3128472553</ns2:tel>
+        <ns1:name xml:lang="es">VILLA MI RUBÍ</ns1:name>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns7:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/RutaDelAnilloAgricola/Alojamientos"/>
+        <ns2:adr rdf:resource="https://goo.gl/maps/gwfwM1bw2b72"/>
+        <ns2:email>No disponible</ns2:email>
+      </ns4:Hotel>
+    </ns4:partOf>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://www.furniturekraft.com/uploads/products/910e-bed%20copy.jpg">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <ns4:numberOfRooms>
+      <ns1:QuantitativeValue rdf:about="http://www.tulua-valle.gov.co/sitio.shtml?apc=B---1475507-1481399-1475507&amp;x=1475507">
+        <ns1:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns1:hasValue>
+        <ns1:hasUnitOfMeasurement>C62</ns1:hasUnitOfMeasurement>
+      </ns1:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns1:SomeItems>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5231932"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5217567"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5216933"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2488602"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5786666"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2495858"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5229662"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/5219666"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2498139"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2496209"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2498402"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2428968"/>
+  <ns3:TaxonName rdf:about="http://www.gbif.org/species/2481942"/>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns4:availabilityTimes>24 Horas</ns4:availabilityTimes>
+  </rdf:Description>
+  <ns2:Address rdf:about="https://goo.gl/maps/xp8uxKxpR7L2">
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+    <ns2:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+  </ns2:Address>
+  <ns2:Address rdf:about="https://goo.gl/maps/56rMdnXS6Yw">
+    <ns2:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+  </ns2:Address>
+  <ns2:Address rdf:about="https://goo.gl/maps/Y9wRrEzBSGT2">
+    <ns2:street-address>Narino, Tuluá, Valle del Cauca</ns2:street-address>
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+  </ns2:Address>
+  <ns2:Address rdf:about="https://goo.gl/maps/vrmxo7Rz8M72">
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+    <ns2:street-address>Narino, Tuluá, Valle del Cauca</ns2:street-address>
+  </ns2:Address>
+  <ns2:Address rdf:about="https://goo.gl/maps/iiRh1N7xQE92">
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+    <ns2:street-address>Narino, Tuluá, Valle del Cauca</ns2:street-address>
+  </ns2:Address>
+  <ns2:Address rdf:about="https://goo.gl/maps/gwfwM1bw2b72">
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+    <ns2:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+  </ns2:Address>
+  <ns2:Address rdf:about="https://goo.gl/maps/9UQfQtZPmmE2">
+    <ns2:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+  </ns2:Address>
+  <ns2:Address rdf:about="https://goo.gl/maps/azbNQKuB2K42">
+    <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+    <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+    <ns2:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+  </ns2:Address>
+</rdf:RDF>

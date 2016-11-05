@@ -1,0 +1,1208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns11="http://www.w3.org/2002/07/owl#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:ns8="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:ns9="http://umbel.org/umbel#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns10="http://geo.linkeddata.es/ontology/"
+  xmlns:ns12="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns1="http://purl.org/NET/c4dm/timeline.owl#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://purl.org/ontology/wo/"
+  xmlns:ns5="http://purl.org/acco/ns#"
+  xmlns:ns6="http://xmlns.com/foaf/0.1/"
+  xmlns:ns7="http://www.w3.org/2003/01/geo/wgs84_pos#"
+>
+  <ns2:Location rdf:about="http://www.paginasamarillas.com.co/empresas/empresa-de-transporte-salonica-sa/riofrio-15722768">
+    <ns2:name>EMPRESA DE TRANSPORTE SALÓNICA S.A</ns2:name>
+    <ns6:homepage rdf:resource="http://empresite.eleconomistaamerica.co/TRANSPORTES-SALONICA-SA.html"/>
+    <ns3:tel>2008028</ns3:tel>
+    <ns3:email>No disponible</ns3:email>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/shQcqeb18Kq">
+        <ns3:street-address>Cll 10 # 2 - 02, Salónica, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Riofrio</ns3:locality>
+        <ns3:country-name>Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Empresas"/>
+    <ns2:description>Dedicada al transporte de pasajeros por vía terrestre, con sede en la ciudad de Tuluá.</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.planetacolombia.com/empresa-de-transporte-salonica-sa-F150AC1041BD5">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">20:00:00</ns2:closes>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">05:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns6:image rdf:resource="http://i.imgur.com/JzqdDqD.jpg"/>
+  </ns2:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2479798">
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5340"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:commonName xml:lang="es">PERICO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Budgerigar"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/9Iv5waw.jpg"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13146"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/914969"/>
+    <ns4:scientificName xml:lang="la">Melopsittacus undulatus</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Se alimenta preferiblemente de semillas de gramíneas y cultivos. Esta ave puede vivir hasta los 21 años de edad 
+ 	aproximadamente, es muy común en Autralia pero se ha introducido en otras regiones porque es usada como mascota.</ns4:shortDescription>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5229447">
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1050075"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:scientificName xml:lang="la">Ortalis ruficauda</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Rufous-vented_chachalaca"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4256"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/bmlBCxg.jpg"/>
+    <ns4:shortDescription xml:lang="es">Mide aproximadamente 53 cms; carece de plumas en la garganta cuya piel es roja y las plumas de la cola forman un 
+ 	penacho largo y delgado. Es principalmente herbívora y furgívora, se alimenta de frutos, brotes y hojas. Las hembras 
+ 	de esta especie ponen entre dos y cuatro huevos.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/301604"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:commonName xml:lang="es">GUACHARACA</ns4:commonName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5786666">
+    <ns4:commonName xml:lang="es">CHIGÜIRO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Capybara"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:scientificName xml:lang="la">Hydrochoerus hydrochaeris</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/326517"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/"/>
+    <ns4:shortDescription xml:lang="es">Se encuentra en los valles de los principales ríos de Suramérica: Magdalena, Orinoco, Amazonas, Rio de la plata y 
+ 	Panamá. Se alimenta de hierbas, considerada una especie social. Es el roedor más grande del mundo, su coloración varía entre 
+ 	gris oliváceo, pardo rojizo y marrón.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/294"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/10149"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3183534">
+    <ns4:scientificName xml:lang="la">Syzygium jambos</ns4:scientificName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/cqjBG6A.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/2508661"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Cinchona_pubescens"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/334483"/>
+    <ns4:commonName xml:lang="es">POMO</ns4:commonName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Es una especie de copa globosa, amplia, redondeada de follaje denso, verde obscuro y con hojas jóvenes rojizas. 
+ 	Se distribuye en las laderas de la Sierra Nevada de Santa Marta y las tres cordilleras, es usada como planta ornamental 
+ 	en  parques, avenidas, separadores. El fruto es consumido por aves y mamíferos silvestres.</ns4:shortDescription>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3565"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5228199">
+    <ns4:scientificName xml:lang="la">Gallinula chloropus</ns4:scientificName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/Odiee1N.jpg"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">En Colombia se distribuye en Bogotá, La Guajira y Valle del Cauca. Suele medir entre 33-36 cms; su plumaje es de color 
+ 	gris, más oscuro en la cabeza y el cuello. Las patas se tornan de un color verdoso. Se la puede encontrar en climas 
+ 	húmedos y tropicales.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Common_moorhen"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9123"/>
+    <ns4:commonName xml:lang="es">GALLINETA</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1049299"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4238"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2433536">
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/South_American_coati"/>
+    <ns4:commonName xml:lang="es">CUSUMBO</ns4:commonName>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/328601"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:shortDescription xml:lang="es">Partes superiores rojizo encendido; cola con anillos blanquecinos y negros. Se encuentra en Colombia, Ecuador, Perú, 
+ 	Argentina y las Guayanas. Su alimentación consiste principalmente de frutas y raíces, pero también consume pequeños 
+ 	invertebrados. Habita bósques de zona tropical y sub-tropical.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Nasua nasua</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9651"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/CD9AIqw.jpg"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3490"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5233">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8930"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Columbidae"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4464"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/PPPKQQv.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/7978"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Se alimentan de legumbres, granos, semillas, desechos de comida que busca en la basura en zonas urbanas, mide 
+ 	de 29 a 35 cm de largo, son descendientes de las palomas bravías salvajes del sur de Europa. Tienen patas rojizas, 
+ 	ojos rojos anaranjados, y picos grises.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Columbidae</ns4:scientificName>
+    <ns4:commonName xml:lang="es">PALOMAS</ns4:commonName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3084014">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1580009"/>
+    <ns4:shortDescription xml:lang="es">Es una planta leñosa en la base con brotes de hasta 5 ms de largo, se puede encontrar en la Amazonía, 
+ 	cerca de los establecimientos de los indios Yanomami; tambien tiene uso medicinal.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Phytolacca rivinoides</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:commonName xml:lang="es">GUAGUA</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/t1vbei6.jpg"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns6:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Phytolacca_rivinoides"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/482121"/>
+    <ns11:sameAs rdf:resource="http://www.wikidata.org/entity/Q12219768"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3105048">
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Espeletia"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/oaanuoD.jpg"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4855"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/6260580"/>
+    <ns4:scientificName xml:lang="la">Espeletia</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/185152"/>
+    <ns4:commonName xml:lang="es">FRAILEJONES</ns4:commonName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:shortDescription xml:lang="es">Se encuentra en áreas de páramo; con una altura máxima de 4 ms, tallos delgados. Está presente en la región Andina en 
+ 	la Cordillera Central.</ns4:shortDescription>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5405976">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/436207"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:scientificName xml:lang="la">Arnica montana</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/482128"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Arnica_montana"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4998"/>
+    <ns4:commonName xml:lang="es">ARNICA</ns4:commonName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/DQ3ct3t.jpg"/>
+    <ns4:shortDescription xml:lang="es">Esta especie se encuentra presente en áreas de páramo; mide 1 m de altura, sus flores tienen tonalidades de 
+ 	fucsia a violeta.</ns4:shortDescription>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2490719">
+    <ns6:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Turdus_merula"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="https://www.wikidata.org/wiki/Q21348750"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:commonName xml:lang="es">MIRLA</ns4:commonName>
+    <ns4:shortDescription xml:lang="es">El macho es de color negro, con el pico de color amarillo y un anillo del mismo color alrededor del ojo, tiene un 
+ 	vasto repertorio de cantos. La hembra es parda en la parte de arriba, con tintes rojizos en el pecho y mentón gris. 
+ 	Se alimenta de una gran variedad de insectos, gusanos también consume frutas y, a veces, semillas.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9187"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1177498"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/zEgRzcm.jpg"/>
+    <ns4:scientificName xml:lang="la">Turdus merula</ns4:scientificName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2435099">
+    <ns11:sameAs rdf:resource="http://eol.org/pages/311910"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Cougar"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/31kUvXJ.jpg"/>
+    <ns4:scientificName xml:lang="la">Puma concolor</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Esta especie ha sido reportada en los departamentos de Vaupés, Vichada, Amazonas, Antioquia, Bolivar y Casanare. 
+ 	El puma concolor caza principalmente de noche y puede adapatarse a varios tipos de hábitat.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/348"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9696"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:commonName xml:lang="es">PUMA</ns4:commonName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5544303">
+    <ns4:scientificName xml:lang="la">Anacardium excelsum</ns4:scientificName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/6935004"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1070"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/638922"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Anacardium_excelsum"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:commonName xml:lang="es">CARACOLÍ</ns4:commonName>
+    <ns4:shortDescription xml:lang="es">Alcanza hasta 40 ms de altura, su tronco produce un líquido de color rojizo, sus ramas son gruesas y abundantes. 
+ 	Sus flores miden 3 mms de diámetro aproximadamente, son de color rosado blancuzco y crecen agrupadas en inflorescencias 
+ 	terminales.</ns4:shortDescription>
+    <ns6:depiction rdf:resource="http://i.imgur.com/00ML9MC.jpg"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2878688">
+    <ns6:depiction rdf:resource="http://i.imgur.com/6zla8xY.jpg"/>
+    <ns4:shortDescription xml:lang="es">Éste árbol alcanza de 15-20 ms de altura. Las ramas más viejas son de color cenizo; sus flores son de color 
+ 	verde amarillento. La cocción de la corteza se usa para curar la diarrea, para enjuagues bucales, para 
+ 	combatir la gengivitis y las inflamaciones entre otras aplicaciones medicinales.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1726"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Quercus_robur"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/38942"/>
+    <ns4:scientificName xml:lang="la">Quercus robur</ns4:scientificName>
+    <ns4:commonName xml:lang="es">ROBLE</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1151323"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5225">
+    <ns11:sameAs rdf:resource="http://eol.org/pages/7971"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Nightjar"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/mLHt0HH.jpg"/>
+    <ns4:shortDescription xml:lang="es">Presenta patas débiles, pico pequeño, cerdas rictales conspicuas, ojos grandes ubicados en los lados de la 
+ 	cabeza y boca grande con paladar muy sensible, la cual puede abrir horizontal y verticalmente utilizando un mecanismo 
+ 	de extensión de su mandíbula inferior.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/48286"/>
+    <ns4:commonName xml:lang="es">CHOTACABRAS</ns4:commonName>
+    <ns4:scientificName xml:lang="la">Caprimulgidae</ns4:scientificName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=CAPRIMULGIDAE+-+Chotacabras+y+Guardacaminos"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5358205">
+    <ns4:commonName xml:lang="es">TACHUELO</ns4:commonName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/lt9YxZy.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/415795"/>
+    <ns4:scientificName xml:lang="la">Pictetia aculeata</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Árbol caduco pequeño, común en áreas secas. Las ramitas son espinosas y las hojas casi redondas tienen punta 
+ 	espinosa. Florece y fructifica todo el año. Produce una madera muy fina, pero debido a las pequeñas dimensiones sólo 
+ 	se utiliza para postes de cercas. Tambiés es usado con fines ornamentales.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Pictetia_aculeata"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://www.wikidata.org/entity/Q6075171"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/77292"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3861855">
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1021"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/5434731"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Esta planta puede medir hasta 20 ms de altura, su corteza desprende escamas rojizas. Las flores son de color violeta 
+ 	y muy llamativas. El fruto es de un color café claro, posee muchas semillas en su interior.</ns4:shortDescription>
+    <ns6:depiction rdf:resource="http://i.imgur.com/1v1n1El.jpg"/>
+    <ns4:scientificName xml:lang="la">Tibouchina lepidota</ns4:scientificName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://www.wikidata.org/entity/Q6146392"/>
+    <ns4:commonName xml:lang="es">SIETECUEROS</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1160661"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2481047">
+    <ns4:scientificName xml:lang="la">Falco peregrinus</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Está presente en todos los continentes, menos en la Antártida. En Colombia se puede observar a lo largo de todo 
+ 	el país. Se alimenta de una gran variedad de aves de diferentes tamaños, sus presas más comunes son patos o palomas. Es uno 
+ 	de los halcones de mayor tamaño de casi todo el continente americano.</ns4:shortDescription>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/0lD8LSP.jpg"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1049164"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Peregrine_falcon"/>
+    <ns4:commonName xml:lang="es">HALCÓN</ns4:commonName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4543"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8954"/>
+  </ns4:TaxonName>
+  <ns5:Hotel rdf:about="http://www.riofrio-valle.gov.co/index.shtml?apc=bjxx-1-&amp;x=2720854">
+    <ns6:homepage rdf:resource="http://www.fincasantateresita.8m.com/"/>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+    <ns5:partOf rdf:resource="http://www.riofrio-valle.gov.co/index.shtml?apc=bjxx-1-&amp;x=2720854"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/2uMdPYJkN1n">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Vía Riofrío - Salónica, Riofrío, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns5:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.riofrio-valle.gov.co/sitios_visitar.shtml">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns5:numberOfRooms>
+    <ns2:name xml:lang="es">FINCA-HOTEL SANTA TERESITA</ns2:name>
+    <ns5:bed>
+      <ns5:BedDetails rdf:about="http://www.fincasantateresita.8m.com/tarifas.html">
+        <ns5:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns5:quantity>
+      </ns5:BedDetails>
+    </ns5:bed>
+    <ns2:description xml:lang="es">Alojamiento en habitaciones multiples con baño privado, servicio de restaurante criollo, 
+	piscina de agua natural, kiosco para eventos con capacidad para 50 personas, caminatas y cabalgatas ecológicas, 
+	zona de camping. Ubicada en la Vereda el Crucero.</ns2:description>
+    <ns6:depiction rdf:resource="http://i.imgur.com/lUSf4vV.jpg"/>
+    <ns3:tel>2244447, 2259381, 3104580461, 3004738684</ns3:tel>
+    <ns5:feature>
+      <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+        <ns5:availabilityTimes>24 Horas</ns5:availabilityTimes>
+      </rdf:Description>
+    </ns5:feature>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns3:email>fincasantateresita@hotmail.com</ns3:email>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Alojamientos"/>
+  </ns5:Hotel>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2901294">
+    <ns4:scientificName xml:lang="la">Cinchona pubescens</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Árbol que puede alcanzar hasta 15 ms de altura, copa mediana densa con follaje verde; sus flores son de color 
+ 	rosado-violáceo y sus frutos son de color negruzco cuando estan maduros. El tronco es algo torcido.</ns4:shortDescription>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:commonName xml:lang="es">CASCARILLA</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1110181"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/50278"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3665"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/UY24rUo.jpg"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Cinchona_pubescens"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5384064">
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Opuntia_ficus-indica"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1548"/>
+    <ns4:shortDescription xml:lang="es">Este cactus puede crecer hasta 4 ms de altura. Sus frutos o “higos” tienen un bello color amarillo-rojo y un sabor 
+ 	muy agradable, además contienen un alto valor nutritivo: proteínas, calorías, grasa, calcio y fósforo son algunos de los 
+ 	componentes de este fruto.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Opuntia ficus-indica</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/479484"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/371859"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/6zpl1XS.jpg"/>
+    <ns4:commonName xml:lang="es">TUNO</ns4:commonName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2754207">
+    <ns6:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Bomarea_multiflora"/>
+    <ns4:commonName xml:lang="es">CORTAPICO</ns4:commonName>
+    <ns4:scientificName xml:lang="la">Bomarea multiflora</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/488910"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1086318"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/5MTUlYV.jpg"/>
+    <ns4:shortDescription xml:lang="es">Es una planta con frutos de color púrpura; sus hojas son de un color marrón ténue. Sus flores tienen un color entre 
+ 	rojo, amarillo y a veces violáceo. Está presente en Ecuador, Colombia, Bolivia y Venezuela.</ns4:shortDescription>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Bomarea_multiflora"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5406086">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/167003"/>
+    <ns4:shortDescription xml:lang="es">Árbol propio de la zona andina de Colombia y Venezuela; de 8-10 ms de altura. Sus flores son blancas a manera 
+ 	de margaritas. Crece en áreas intervenidas donde se constituye en un valioso constructor del ecosistema y formador 
+ 	del nicho para promover el desarrollo de otras especies.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Montanoa quadrangularis</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Q15564996"/>
+    <ns4:commonName xml:lang="es">ÁRBOLOCO</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/bjnH5BU.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/6247581"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3513"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/4170835">
+    <ns6:depiction rdf:resource="http://i.imgur.com/42u4szJ.jpg"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Esta planta crece hasta 3.5 ms de altura y su tallo alcanza 50 cms de diámetro; sus hojas tienen forma elíptica y 
+ 	miden entre 1-3.5 cms de largo por 0.6-1.4 cms de ancho. Sus flores son pequeñas, de color blanco y sus frutos son bayas 
+ 	de color morado oscuro a negro al madurar.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.wikidata.org/entity/Q15395050"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/6946968"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57538"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1603"/>
+    <ns4:commonName xml:lang="es">MORTIÑO</ns4:commonName>
+    <ns4:scientificName xml:lang="la">Vaccinium meridionale</ns4:scientificName>
+  </ns4:TaxonName>
+  <ns8:Event rdf:about="http://www.riofrio-valle.gov.co/eventos.shtml?apc=cdxx-1-&amp;x=2722611">
+    <rdfs:comment xml:lang="es">Se realizan presentaciones artísticas, actividades recreativas como el concurso Raja Leña, en el cual se dan tres troncos 
+	a cada participante y debe astillarlos en media hora.</rdfs:comment>
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/BG9VJyksD0U"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/xGBq9Yf.jpg"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Eventos"/>
+    <rdfs:label xml:lang="es">FIESTAS ECOTURÍSTICAS Y DEL RETORNO</rdfs:label>
+    <ns8:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/769954296548974593">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-27T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P4D</ns1:duration>
+      </ns1:Interval>
+    </ns8:time>
+    <ns8:place>
+      <rdf:Description rdf:about="http://www.geonames.org/3671462">
+        <rdfs:label xml:lang="es">Fenicia, Riofrío, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns8:place>
+  </ns8:Event>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2498056">
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4502"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/45886553"/>
+    <ns4:shortDescription xml:lang="es">La cabeza verde del macho contrasta con su pico amarillo, collar blanco, pecho castaño, flancos grises y flecos 
+ 	rizados negros en la punta de la cola. La hembra es moteada con manchas negras en el pico anaranjado. Consume una gran 
+ 	variedad de alimentos entre ellos artrópodos, gusanos, insectos, caracoles y algunos productos dados por las personas.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Anas platyrhynchos domesticus</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Domestic_duck"/>
+    <ns4:commonName xml:lang="es">PATO</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/loEy21I.jpg"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8839"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5289">
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Category:Trochilidae"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Hummingbird"/>
+    <ns4:commonName xml:lang="es">COLIBRÍ</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9244"/>
+    <ns4:scientificName xml:lang="la">Trochilidae</ns4:scientificName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/sCgxVN4.jpg"/>
+    <ns4:shortDescription xml:lang="es">También se le conoce como picaflor; el más pequeño de los colibrís mide aproximadamente 6 cms y el más grande 
+ 	conocido mide 25 cms. Se alimenta del néctar de las flores principalmente rojas o naranjas brillantes, también come 
+ 	algunos insectos como arañas, avispas, hormigas y escarabajos.</ns4:shortDescription>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/8021"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/1450">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/772159"/>
+    <ns6:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Strigiformes"/>
+    <ns4:shortDescription xml:lang="es">Tienen grandes ojos mirando hacia adelante lo que les da la visión amplia y poderosa, algunas especies tienen los 
+	oídos dispuestos asimétricamente en la cabeza, es un ave nocturna que se alimenta de insectos y pequeños roedores.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Owl"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/696"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:scientificName xml:lang="la">Strigiformes</ns4:scientificName>
+    <ns4:commonName xml:lang="es">BÚHO</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/bsN0NdG.jpg"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2433401">
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Spectacled_bear"/>
+    <ns4:shortDescription xml:lang="es">En comparación con otros osos del mundo, es de tamaño mediano. La coloración del pelaje es uniforme, negra o café 
+ 	negruzca, con pelo áspero de 55-120 mms de largo. Consume hierbas y brotes.</ns4:shortDescription>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:commonName xml:lang="es">OSO DE ANTEOJOS</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/6Ugecli.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/328076"/>
+    <ns4:scientificName xml:lang="la">Tremarctos ornatus</ns4:scientificName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/281"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9638"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2483680">
+    <ns4:commonName xml:lang="es">ATRAPAMOSCAS</ns4:commonName>
+    <ns4:scientificName xml:lang="la">Onychorhynchus coronatus</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Su longitud es de 16.5 cms. El patrón de coloración es poco notable excepto en las raras ocasiones cuando despliega 
+ 	la cresta de una forma espectacular. En condiciones naturales se le ha visto abrirla durante el acicalamiento. La 
+ 	cola es naranja y el cuerpo café claro.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Real"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/zUmhKr3.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1053240"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/360224"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Royal_flycatcher"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2433750">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/169417"/>
+    <ns4:commonName xml:lang="es">NUTRIA</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/2849553"/>
+    <ns4:scientificName xml:lang="la">Lutrinae</ns4:scientificName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/rqc4d42.jpg"/>
+    <ns4:shortDescription xml:lang="es">Animal de costumbres acuáticas, con abundante pelaje impermeable, esto le permite manter su calor corporal. Se alimenta 
+ 	principalmente de peces, aunque también de anfibios e invertebrados acuáticos.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Otter"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Otter"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5534">
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:commonName xml:lang="es">MUSARAÑAS</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Shrew"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/8714"/>
+    <ns6:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Soricidae"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/GAFfFru.jpg"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9376"/>
+    <ns4:scientificName xml:lang="la">Soricidae</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Son insectívoros y de cuerpo pequeño, el hocico es alargado y en forma de punta y sus orejas se esconden tras su 
+ 	pelaje, los ojos son minúsculos. La fecundidad de estos animales es asombrosa.</ns4:shortDescription>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3022502">
+    <ns4:scientificName xml:lang="la">Prunus dulcis</ns4:scientificName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/doRSxmc.jpg"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Almond"/>
+    <ns4:commonName xml:lang="es">ALMENDROS</ns4:commonName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.granada.org/internet/arboles.nsf/bus/14?OpenDocument"/>
+    <ns4:shortDescription xml:lang="es">Árbol que puede alcanzar 10 ms de talla, con tronco rara vez derecho. Hojas simples de 7.5-12.5 cms de longitud. Frutos 
+ 	de color verde, carnosos que miden unos 3-6 cms de longitud. Soporta muy bien la sequía y le perjudica el exceso de agua.</ns4:shortDescription>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/46326125"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3755"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2698931">
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1118453"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/49489"/>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Guzmania_gloriosa"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Conocida por sus hojas largas, rígidas y arqueadas de un intenso color verde, no alcanza una gran altura. Es una 
+ 	planta originaria de regiones suroccidentales de América del sur y de las Antillas.</ns4:shortDescription>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:commonName xml:lang="es">QUICHE</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/mx5bC8K.jpg"/>
+    <ns4:scientificName xml:lang="la">Guzmania gloriosa</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Guzmania_gloriosa"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2685742">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3321"/>
+    <ns4:shortDescription xml:lang="es">Este árbol tiene una forma pulcra y piramidal en su juventud, con rígidas ramas ascendentes, pero con la edad se 
+ 	extiende formando un árbol ancho y plano con ramas enormes de 30 ms o más de altura.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Cedrus</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://www.wikidata.org/entity/Q128550"/>
+    <ns4:commonName xml:lang="es">CEDRO</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/w1Qz4fK.jpg"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2242"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/34221"/>
+  </ns4:TaxonName>
+  <ns3:Location rdf:about="http://www.riofrio-valle.gov.co/index.shtml?apc=bjxx-2-&amp;x=2720839">
+    <ns3:tel>2268216, 2268518</ns3:tel>
+    <ns6:name xml:lang="es">HUMEDAL CANTARRANA</ns6:name>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/aQnRwhYV7PS2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Riofrío, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/xUt92wqHkXg"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/CDEVm8e.jpg"/>
+    <ns3:email>contactenos@riofrio-valle.gov.co</ns3:email>
+    <rdfs:comment xml:lang="es">El humedal Cantarrana regula los cauces de las quebradas Madrigal y Cascajal que surten los acueductos de esas 
+     dos veredas. Ubicado a 3 Km desde la cabecera municipal.</rdfs:comment>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+  </ns3:Location>
+  <ns2:Location rdf:about="http://www.informacion-empresas.co/Empresa_HACIENDA-NORMANDIA-SAS.html">
+    <ns6:image rdf:resource="http://i.imgur.com/zOeUtAu.png"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/ES2j7t5JST32">
+        <ns3:locality>Riofrio</ns3:locality>
+        <ns3:street-address>Km 14 Vía Tulua-Riofrío, Riofrío, Valle del Cauca</ns3:street-address>
+        <ns3:country-name>Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:email>No disponible</ns3:email>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://empresite.eleconomistaamerica.co/HACIENDA-NORMANDIA-SAS.html">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">06:00:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">19:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:name>HACIENDA NORMANDIA SAS</ns2:name>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Empresas"/>
+    <ns6:homepage rdf:resource="http://fichas.findthecompany.com.mx/l/130857814/Hacienda-Normandia-SAS-en-Riofrio"/>
+    <ns2:description>Empresa privada fundada en el 1999 que cuenta actualmente con 60 empleados.</ns2:description>
+    <ns3:tel>3162421352</ns3:tel>
+  </ns2:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2479612">
+    <ns4:commonName xml:lang="es">LORO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Yellow-crowned_amazon"/>
+    <ns4:scientificName xml:lang="la">Amazona ochrocephala</ns4:scientificName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4151"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Esta especie se distribuye en La Guajira, Magdalena, Cesar, Chocó, Amazonas, Bolívar, Caldas, Caquetá, Guaviare, 
+ 	Antioquia, Atlántico, Córdoba, Meta, Huila y Norte de Santander. Mide 36 cms, pico es pálido, cuerpo es de color 
+ 	verde principalmente.</ns4:shortDescription>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/151761"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1178062"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/MDcEBUq.jpg"/>
+  </ns4:TaxonName>
+  <ns3:Location rdf:about="http://noticiasasopromay.blogspot.com.co/2012_06_01_archive.html">
+    <ns3:email>contactenos@riofrio-valle.gov.co</ns3:email>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/JJktYcue2Zt">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>El Rubí, Riofrío, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/ZFsI0Cg.jpg"/>
+    <rdfs:comment xml:lang="es">Reserva natural privada del Ingenio Carmelita, ubicada en la Vereda El Rubí entre 2.500 y 2.700 m.s.n.m. 
+     (340 Has. De Extensión)</rdfs:comment>
+    <ns3:tel>2268216, 2268518</ns3:tel>
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/AuWsKQC1Jhc"/>
+    <ns6:name xml:lang="es">RESERVA LIVERPOOL</ns6:name>
+  </ns3:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5421144">
+    <ns11:sameAs rdf:resource="http://eol.org/pages/582326"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Dodonaea_viscosa"/>
+    <ns4:shortDescription xml:lang="es">Vive en bósques húmedos y secos, alcanza los 7 ms de altura. Las hojas miden 7 cms de largo por 2,5 cms de ancho. 
+ 	Frutos de 1.5 cms de diámetro, rojizos cuando juveniles y café claro cuando están maduros.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/151065"/>
+    <ns4:scientificName xml:lang="la">Dodonaea viscosa</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/OyW1Lbw.jpg"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1415"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:commonName xml:lang="es">HAYUELO</ns4:commonName>
+  </ns4:TaxonName>
+  <ns8:Event rdf:about="http://www.valledelcauca.gov.co/turismo/publicaciones.php?id=28443">
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/7T1FAjEcWa0"/>
+    <ns8:place>
+      <rdf:Description rdf:about="http://www.geonames.org/3670755">
+        <rdfs:label xml:lang="es">Riofrío, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns8:place>
+    <ns6:depiction rdf:resource="http://i.imgur.com/0gc6Uce.png"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Eventos"/>
+    <rdfs:label xml:lang="es">FERIA DE RIOFRÍO</rdfs:label>
+    <ns8:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/769992497317707781">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-10T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+      </ns1:Interval>
+    </ns8:time>
+    <rdfs:comment xml:lang="es">Se realizan conciertos de diferentes artistas y en horas de la tarde se ubican lugares para la venta de productos 
+ 	comercializados por los habitantes del municipio.</rdfs:comment>
+  </ns8:Event>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3180085">
+    <ns4:scientificName xml:lang="la">Myrtus communis</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Planta aromática que mide entre 1-3 ms de altura, las hojas son de color verde oscuro y tienen de 3-5 cm de largo. Las 
+ 	flores son de color blanco, pero a veces se tornan rosadas, con cinco pétalos. Se usa como anticatarral.</ns4:shortDescription>
+    <ns6:depiction rdf:resource="http://i.imgur.com/O0UYO0X.jpg"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Myrtus_communis"/>
+    <ns4:commonName xml:lang="es">ARRAYÁN</ns4:commonName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1617"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/2508590"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/119949"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2431776">
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Salamandra"/>
+    <ns4:commonName xml:lang="es">SALAMANDRA</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/333311"/>
+    <ns4:shortDescription xml:lang="es">Esta especie se puede encontrar en zonas húmedas, se oculta durante el día bajo las piedras, troncos caídos y hojas. 
+ 	Puede llegar a medir entre 12-23 cms de longitud y vivir hasta los 20 años.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57571"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/cJ86d4t.jpg"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Fire_salamander"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:scientificName xml:lang="la">Salamandra salamandra</ns4:scientificName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3685">
+    <ns4:shortDescription xml:lang="es">Aves de tamaño medio a grande y la mayoría de sus miembros presentan cuellos y patas largas. Sus patas largas y fuertes 
+ 	les permiten cruzar ríos poco profundos. Se encuentran en regiones tropicales principalmente, se pueden reproducir en 
+ 	colonias bastante grandes o bien en algunas mas modestas.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8901"/>
+    <ns4:scientificName xml:lang="la">Ardeidae</ns4:scientificName>
+    <ns4:commonName xml:lang="es">GARZA</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Heron"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/8013"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/iPehz0A.jpg"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=ARDEIDAE+-+Garzas"/>
+  </ns4:TaxonName>
+  <ns3:Location rdf:about="https://www.facebook.com/VAYJUFincaEcoturistica/">
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/saWfPiVCj6E"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/2kG9Yv6.png"/>
+    <ns3:tel>3146977558, 3116035261﻿</ns3:tel>
+    <ns6:name xml:lang="es">VAYJÚ ECOTURISMO</ns6:name>
+    <rdfs:comment xml:lang="es">Ofrece a sus visitantes avistamiento de aves, muros para escalar, canopy en el río Riofrío, pista de habilidades, 
+     senderos ecológicos, cabalgatas, piscina con agua natural, contacto con animales, camping y cabañas. Acceso por vía 
+     pavimentada en carro particular o en el bus de Tuluá a Salónica. Abierto de lunes a jueves 
+     a partir de las 9:00 am hasta las 5:30 pm; viernes, sábado y domingo jornada continua. Más información 
+     en http://www.vayju.com/</rdfs:comment>
+    <ns3:email>info@vayju.com</ns3:email>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/FpogG14WkaQ2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Km 6 Via Riofrío - Salonica, Riofrío, Valle Del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+  </ns3:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5414222">
+    <ns4:scientificName xml:lang="la">Ilex aquifolium</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/46322600"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Generalmente mide de 2-5 ms, pero en algunas ocasiones pueden alcanzar hasta 12 ms de altura. Las hojas son brillantes 
+ 	y miden de 4-7.5 cms de longitud, estas son usadas como antipirético, diurético suave y tónico.</ns4:shortDescription>
+    <ns6:depiction rdf:resource="http://i.imgur.com/dgFG7WA.jpg"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4298"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1797"/>
+    <ns4:commonName xml:lang="es">ACEBO</ns4:commonName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Ilex_aquifolium"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2984476">
+    <ns4:shortDescription xml:lang="es">Árbol de 30 ms de altura con tronco recto y hueco. Se encuentra en las Antillas Mayores y Menores y en América Central, 
+ 	tambien en America del Sur en los países de Venezuela, Colombia, Brasil y las Guayanas.</ns4:shortDescription>
+    <ns4:commonName xml:lang="es">YARUMO</ns4:commonName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/210352"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/ueMusmv.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/46242436"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Cecropia_peltata"/>
+    <ns4:scientificName xml:lang="la">Cecropia peltata</ns4:scientificName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5108"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3120946">
+    <ns11:sameAs rdf:resource="http://eol.org/pages/850415"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3888"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/RFQGzwx.jpg"/>
+    <ns4:shortDescription xml:lang="es">Hierba de 40-80 cms de altura. El fruto de esta planta es de color negro. La ingestión de infusión de la planta se usa 
+ 	para evitar hemorragias durante la menstruación.</ns4:shortDescription>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4220"/>
+    <ns4:commonName xml:lang="es">ALTAMISA</ns4:commonName>
+    <ns4:scientificName xml:lang="la">Artemisia vulgaris</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Artemisia_vulgaris"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2753090">
+    <ns4:shortDescription xml:lang="es">Planta bulbosa de tamaño grande, presenta flores blancas agrupadas en ramilletes terminales. Algunos afirman 
+ 	que procede de oriente; es usada en la medicina alternativa como antiespasmódico, tisanas para la hidropesia, entre otras.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Lilium_candidum"/>
+    <ns4:commonName xml:lang="es">AZUCENA</ns4:commonName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/kbENh3v.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1003297"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Lilium_candidum"/>
+    <ns4:scientificName xml:lang="la">Lilium candidum</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/83802"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2480830"/>
+  <rdf:Description rdf:about="http://190.14.254.237/dataseteco/Riofrio/">
+    <ns6:depiction rdf:resource="http://i.imgur.com/2XEPrR1.jpg"/>
+  </rdf:Description>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2721307">
+    <ns6:depiction rdf:resource="http://i.imgur.com/ENxnztV.jpg"/>
+    <ns4:scientificName xml:lang="la">Rhynchospora nervosa</ns4:scientificName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:shortDescription xml:lang="es">Puede alcanzar una altura de 30-40 cms. Las hojas son de color verde oliva y llegan a medir entre 25-35 cms de 
+ 	longitud por 1 mm de ancho. Los frutos son de color pardo-anaranjado a pardo-oscuro. Se puede encontrar desde México 
+ 	hasta el sur de Brasil y norte de Argentina.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/249178"/>
+    <ns4:commonName xml:lang="es">TOTE</ns4:commonName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3625"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/76499"/>
+    <ns11:sameAs rdf:resource="http://www.wikidata.org/entity/Q15555289"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2433359">
+    <ns4:scientificName xml:lang="la">Caenolestes</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:commonName xml:lang="es">RUNCHOS</ns4:commonName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Caenolestes"/>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Caenolestes"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/G9BPwh7.jpg"/>
+    <ns4:shortDescription xml:lang="es">Estos animales son insectívoros y nocturnos, son buenos trepadores de árboles y se pueden encontrar en Colombia, 
+ 	Ecuador y al noroeste de Venezuela, es considerada una especie solitaria.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/37886"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/15588"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2480804">
+    <ns4:shortDescription xml:lang="es">Se alimenta principalmente de peces pequeños y en menor medida de insectos acuáticos y camarones. Mide entre 65.8-81.0 
+ 	cms. El pico tiene forma de cuchara y presenta manchas pequeñas de color verdoso. La cabeza y la parte superior de 
+ 	la garganta son descubiertas y de color verdoso.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4221"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/371920"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/hU5VYB8.jpg"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/46390584"/>
+    <ns4:scientificName xml:lang="la">Ajaia ajaja</ns4:scientificName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:commonName xml:lang="es">GARZA PALETA</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Roseate_spoonbill"/>
+  </ns4:TaxonName>
+  <ns2:Location rdf:about="http://www.livevalledelcauca.com/tulua/restaurante-ecoparque-vayju.html">
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.eltiempo.com/archivo/documento/CMS-13708315">
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:00:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:name xml:lang="es">RESTAURANTE VAYJÚ</ns2:name>
+    <ns6:homepage rdf:resource="http://www.vayju.com/"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Restaurantes"/>
+    <ns2:description xml:lang="es">Ofrece delicias típicas de la comida Colombiana con las que seguro te deleitarás. En Vayjú encontrarás un 
+     delicioso Sancocho de Gallina para que vengas y disfrutes acompañado de tu familia y amigos. Además no podía 
+     faltar una buena Bandeja Paisa con chicharrón.</ns2:description>
+    <ns3:tel>3146977558, 3176699094</ns3:tel>
+    <ns6:depiction rdf:resource="http://i.imgur.com/X4X8uQh.jpg"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/nJPYDitXkRP2">
+        <ns3:street-address>Km 6 Vía Riofrío - Salónica, Riofrío, Valle Del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+  </ns2:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2487672">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/196037"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/AGz0NXW.jpg"/>
+    <ns4:commonName xml:lang="es">SALTARÍN</ns4:commonName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2609"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/919301"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/White-bearded_manakin"/>
+    <ns4:shortDescription xml:lang="es">Se distribuye en la región Amazónica, Orinoquía y en toda la región del Caribe. Se alimenta principalmente de bayas y 
+ 	en menor proporción de insectos. Es una de las especies más ruidosos, es diurna y arbórea. Además de Colombia, también se 
+ 	la puede encontrar en Argentina, Paraguay, Brasil, Ecuador, Guayanas, Trinidad y Tobago y Venezuela.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Manacus manacus</ns4:scientificName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/7930239">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/378037"/>
+    <ns4:shortDescription xml:lang="es">Árbol de hasta 15 ms de altura, con hojas de 10-19 cms de largo por 6-9 cms de ancho, lisas y rígidamente acartonadas 
+ 	cuando están secas.</ns4:shortDescription>
+    <ns6:depiction rdf:resource="http://i.imgur.com/kiNSCaD.jpg"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3801"/>
+    <ns4:commonName xml:lang="es">MATAPALO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Lilium_candidum"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/6958325"/>
+    <ns4:scientificName xml:lang="la">Ficus trigona</ns4:scientificName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2482062">
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Podicipediformes"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/hoEnP7x.jpg"/>
+    <ns4:commonName xml:lang="es">ZAMBULLIDOR</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1049444"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/555330"/>
+    <ns4:shortDescription xml:lang="es">Mide 44 cms de largo. Se lo encuentra en cuerpos de agua como lagunas, lagos, arroyos, también en costas de mar. Se 
+ 	alimenta de peces que pesca sumergiéndose en el agua. Su cuello es largo, de color café rojizo; el pico es largo, 
+ 	puntiagudo y ligeramente encorvado hacia arriba.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Podiceps major</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Great_grebe"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+  </ns4:TaxonName>
+  <ns3:Location rdf:about="http://www.rutasdelpaisajeculturalcafetero.com/publicaciones/parque_natural_regional_paramo_del_duende_pub">
+    <ns3:email>secretariadevivienda@riofrio-valle.gov.co</ns3:email>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+    <ns6:name xml:lang="es">PARQUE NATURAL REGIONAL PÁRAMO DEL DUENDE</ns6:name>
+    <ns6:depiction rdf:resource="http://i.imgur.com/8xxvoXr.jpg"/>
+    <ns3:tel>2268216</ns3:tel>
+    <rdfs:comment xml:lang="es">Con una caida promedio de 17 metros, río Volcanes, se observan aves Asomas. Área ideal para la investigación y 
+     la observación de flora y fauna.</rdfs:comment>
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/Sp533NukCt8"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/qziatSoJ9Y32">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Fenicia, Riofrío, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+  </ns3:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2423530">
+    <ns4:shortDescription xml:lang="es">Se la puede encontrar en los bosques húmedos y zonas inundables. La piel sobre el vientre es lisa, el pecho y vientre 
+ 	son negros, es una especie pequeña y está presente en Ecuador, Colombia, Brasil y Perú.</ns4:shortDescription>
+    <ns4:scientificName xml:lang="la">Edalorhina perezi</ns4:scientificName>
+    <ns4:commonName xml:lang="es">RANA VAQUITA</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/YTwHFDS.jpg"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Edalorhina_perezi"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/318278"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2735"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1036652"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3083750">
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/586526"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/u4bWdpt.jpg"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/35922"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Atriplex_canescens"/>
+    <ns4:shortDescription xml:lang="es">Es un arbusto nativo de California y también se encuentra en otras partes de Norteamérica y Suramérica. Las flores en 
+ 	verano no son tan llamativas, pero cuando florecen son muy vistosos. Nuevas especies y variedades de este genero 
+ 	continuan surgiendo.</ns4:shortDescription>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:scientificName xml:lang="la">Atriplex canescens</ns4:scientificName>
+    <ns4:commonName xml:lang="es">CHAMISO</ns4:commonName>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Atriplex_canescens"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5304469">
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Dracaena_draco"/>
+    <ns4:commonName xml:lang="es">DRAGO</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/EahW9fX.jpg"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/100532"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:shortDescription xml:lang="es">Árbol con el tronco grisáceo y ramificado, sus frutos son de color rojo anaranjado. Las flores poseen un color 
+ 	blanco-verdoso. La resina de esta especie es llamada "Sangre de dragón" y es comercializada y usada medicinalmente.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/46321891"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Dracaena_draco"/>
+    <ns4:scientificName xml:lang="la">Dracaena draco</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2475290">
+    <ns4:commonName xml:lang="es">BARRANQUEROS</ns4:commonName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/dc5K3Nd.jpg"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57426"/>
+    <ns4:shortDescription xml:lang="es">Se alimenta de pequeños insectos, también captura pequeños lagartos y serpientes. Se conoce por su cabeza voluminosa, 
+ 	con una banda azul clara que rodea su coronilla negra y se vuelve morada en la nuca; se encuentra en bosques húmedos y 
+ 	secos.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3452"/>
+    <ns4:scientificName xml:lang="la">Momotus momota</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Blue-crowned_motmot"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1050064"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5788512">
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/Bapm5Vn.jpg"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns4:scientificName xml:lang="la">Spizaetus isidori</ns4:scientificName>
+    <ns4:shortDescription xml:lang="es">Mide entre 64-74 cms de largo. Es grande y robusta con cabeza, cuello y dorso negros. Con una cresta aguda. Tiene 
+ 	las alas anchas pero proporcionalmente largas y por debajo son color crema con puntas negras y coberteras rufas. Prefiere 
+ 	los bosques húmedos montanos. Se alimenta de aves de gran tamaño y también de mamíferos.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/214437"/>
+    <ns4:commonName xml:lang="es">ÁGUILA</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Black-and-chestnut_eagle"/>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=%C3%81guila+crestada"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1048938"/>
+  </ns4:TaxonName>
+  <ns3:Location rdf:about="http://www.riofrio-valle.gov.co/directorio_turisrico.shtml?apc=blxx-1-&amp;x=2721146">
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+    <ns6:name xml:lang="es">PARQUE RECREACIONAL RICARDO ALVARADO CRUZ</ns6:name>
+    <ns3:tel>2268216, 2268518</ns3:tel>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/Ye2zWFPtpMM2">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Riofrío, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:email>contactenos@riofrio-valle.gov.co</ns3:email>
+    <ns6:depiction rdf:resource="http://i.imgur.com/QeXkX3q.jpg"/>
+    <rdfs:comment xml:lang="es">Hermoso parque recreacional ubicado a 500 ms de la cabecera municipal de Riofrío.</rdfs:comment>
+  </ns3:Location>
+  <ns12:Recurso-turistico rdf:about="http://dbpedia.org/resource/Riofrio_Valle_del_Cauca">
+    <ns9:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Eventos"/>
+    <rdfs:comment xml:lang="es">Por la carretera panorama se encuentra el Municipio de Riofrío, 
+su diversidad de pisos térmicos va de la mano con su topografía y orografía. Es conocido como una autentica reserva turística, por 
+poseer los parajes más típicos del valle, riqueza ecológica y abundante fauna.</rdfs:comment>
+    <ns9:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Alojamientos"/>
+    <ns9:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns9:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Restaurantes"/>
+    <ns9:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns9:hasCharacteristic rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+    <rdfs:label xml:lang="es">RIOFRÍO</rdfs:label>
+  </ns12:Recurso-turistico>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5349620">
+    <ns6:depiction rdf:resource="http://i.imgur.com/602pK3r.jpg"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:scientificName xml:lang="la">Erythrina fusca</ns4:scientificName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3538"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Erythrina_fusca"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/556509"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/644276"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:shortDescription xml:lang="es">Es una especie originaria de Norte América; actualmente se encuentra en Centro y Sur América. Este árbol alcanza los 15 
+ 	ms de altura, sus flores son de color naranja, agrupadas. Es una planta fijadora de nitrógeno y, por lo tanto, sirve 
+ 	para recuperación de suelos. La bebida del cocimiento de sus flores es sedativa.</ns4:shortDescription>
+    <ns4:commonName xml:lang="es">PÍZAMO</ns4:commonName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3036520">
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1081"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Oreopanax"/>
+    <ns4:scientificName xml:lang="la">Oreopanax floribundum</ns4:scientificName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/52502"/>
+    <ns4:shortDescription xml:lang="es">Es fácil de reconocer por la forma de sus hojas, que parecen los dedos de una mano abierta. Es usada como una especie 
+ 	ornamental, debido a su forma característica; sus flores son de color crema y sus frutos de color verde, pero cuando maduran 
+ 	se tornan de un color violeta.</ns4:shortDescription>
+    <ns4:commonName xml:lang="es">MANO DE OSO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/5056477"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/lmG0BYj.jpg"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+  </ns4:TaxonName>
+  <ns8:Event rdf:about="http://mobile.pueblosdecolombia.com/Departamento%20del%20Valle%20del%20Cauca/fiestas/26459/Salonica.html">
+    <ns8:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/769996208295346177">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-09T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+      </ns1:Interval>
+    </ns8:time>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Eventos"/>
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/4ObHOKolrRY"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/rEh73KD.jpg"/>
+    <rdfs:comment xml:lang="es">Se realizan actividades recreativas y conciertos de diferentes artistas.</rdfs:comment>
+    <rdfs:label xml:lang="es">FIESTAS DE SALÓNICA</rdfs:label>
+    <ns8:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/pXZPmiHenbQ2">
+        <rdfs:label xml:lang="es">Salónica, Riofrío, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns8:place>
+  </ns8:Event>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3129176">
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/72900"/>
+    <ns4:commonName xml:lang="es">CHILCA</ns4:commonName>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Baccharis_dracunculifolia"/>
+    <ns4:shortDescription xml:lang="es">Arbusto leñoso, en general de 2-3 ms de altura, de hojas perennes y forma globosa. Sus tallos son cilíndricos y 
+ 	con pequeños pelos.</ns4:shortDescription>
+    <ns6:depiction rdf:resource="http://i.imgur.com/DmS28Yc.png"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/6181269"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Baccharis_dracunculifolia"/>
+    <ns4:scientificName xml:lang="la">Baccharis dracunculifolia</ns4:scientificName>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3190647">
+    <ns4:commonName xml:lang="es">CRUCETO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Myrtus"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/ZK1mr7z"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/46326128"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43725"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:shortDescription xml:lang="es">Arbusto que llega a alcanzar los 5 ms de altura. El extracto de la madera es usado como insecticida natural. Puede 
+ 	traer efectos segundarios en humanos si se usa como pesticida en los cultivos.</ns4:shortDescription>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Quassia_amara"/>
+    <ns4:scientificName xml:lang="la">Quassia amara</ns4:scientificName>
+  </ns4:TaxonName>
+  <ns3:Location rdf:about="http://bibliotecadigital.icesi.edu.co/biblioteca_digital/handle/10906/41280?locale=de">
+    <ns3:tel>3177194645, 3158679031</ns3:tel>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+    <rdfs:comment xml:lang="es">Integrada por 2 municipios (Riofrío y Trujillo), cultivo de peces en jaula, avistamiento de aves, pesca deportiva, 
+     camping, paseos en bote. Más información en www.humedalmadrigal.com</rdfs:comment>
+    <ns3:email>sogorronesmadrigal@hotmail.com</ns3:email>
+    <ns6:name xml:lang="es">MADRE VIEJA MADRIGAL</ns6:name>
+    <ns6:depiction rdf:resource="http://i.imgur.com/03Pemo9.png"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/Ze5wUxVTuDp">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Riofrío, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/DHC-jWC5vfo"/>
+  </ns3:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5354656">
+    <ns4:shortDescription xml:lang="es">Alcanza los 2 ms de altura; las flores son solitarias y de color amarillo. El fruto tiene pelos pequeños. 
+ 	Crece en márgenes de caminos y cultivos abandonados a menudo es cultivado como una planta ornamental.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3835"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns6:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Cytisus_scoparius"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/703895"/>
+    <ns4:scientificName xml:lang="la">Cytisus scoparius</ns4:scientificName>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/LwKNXmi.jpg"/>
+    <ns4:commonName xml:lang="es">ESCOBO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Cytisus_scoparius"/>
+  </ns4:TaxonName>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/5338267">
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/382"/>
+    <ns4:scientificName xml:lang="la">Uncaria tomentosa</ns4:scientificName>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Uncaria_tomentosa"/>
+    <ns4:commonName xml:lang="es">UÑA DE GATO</ns4:commonName>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1096909"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/128375"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/GILTCS7.jpg"/>
+    <ns4:shortDescription xml:lang="es">Es típica de bosques fuertemente intervenidos, trochas y ríos pequeños. Estudios farmacológicos han mostrado que los 
+ 	alcaloides de esta especie tienen efecto antitumoral. Es antidiabética, antirreumática y antiinflamatoria, además se utiliza 
+ 	en el tratamiento contra gastritis, enfermedades hepáticas, reumatismo, artritis y cirrosis.</ns4:shortDescription>
+  </ns4:TaxonName>
+  <ns3:Location rdf:about="http://mapasamerica.dices.net/colombia/mapa.php?nombre=Vereda-Vigorosa&amp;id=4582">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/daQ8kovQ15S2">
+        <ns3:street-address>Gato Cansado, Riofrío, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <rdfs:comment xml:lang="es">Ciclomontañismo, venta de agua de panela con queso y sancocho de gallina. Ubicada a 11.5 kms de la cabecera municipal.</rdfs:comment>
+    <ns6:depiction rdf:resource="https://www.youtube.com/embed/c63bDwCiJqg"/>
+    <ns3:email>contactenos@riofrio-valle.gov.co</ns3:email>
+    <ns6:name xml:lang="es">VEREDA LA VIGOROZA</ns6:name>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Lugares"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/ku8zAMo.jpg"/>
+    <ns3:tel>2268216, 2268518</ns3:tel>
+  </ns3:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2480637">
+    <ns4:commonName xml:lang="es">GAVILÁN</ns4:commonName>
+    <ns4:scientificName xml:lang="la">Accipiter nisus</ns4:scientificName>
+    <ns6:depiction rdf:resource="http://i.imgur.com/XyvXEUa.jpg"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Fauna"/>
+    <ns6:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Accipiter_nisus"/>
+    <ns4:kingdomName xml:lang="es">Animal</ns4:kingdomName>
+    <ns4:shortDescription xml:lang="es">Cuerpo pequeño, con alas redondeadas, patas largas y un pico fuerte y poderoso. La cola siempre es más larga que las 
+ 	alas, y en el macho adulto presenta unas cuatro a cinco franjas onduladas. Las hembras pueden ser hasta un 25% más 
+ 	grandes que los machos.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/993372"/>
+    <ns11:sameAs rdf:resource="http://dbpedia.org/resource/Eurasian_sparrowhawk"/>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/1048393"/>
+  </ns4:TaxonName>
+  <ns2:Location rdf:about="http://www.indizze.co/hospital-kennedy-ese">
+    <ns6:image rdf:resource="http://i.imgur.com/wFLVGaW.png"/>
+    <ns3:email>kennedyese@hkriofrio.com</ns3:email>
+    <ns6:homepage rdf:resource="http://www.hkriofrio.gov.co/"/>
+    <ns2:description>Empresa social del estado que brinda servicios de baja complejidad, enfatizados en la promoción de la salud, la 
+    prevención de la enfermedad y la calidad en la atención. Urgencias 24 horas.</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.riofrio-valle.gov.co/tramites.shtml?apc=t-l1--&amp;x=2719612">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">17:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:name>HOSPITAL KENEDY</ns2:name>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Empresas"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/AWe5VBCpMzB2">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Riofrio</ns3:locality>
+        <ns3:street-address>Calle 7 # 10 - 65, Riofrío, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:tel>2268100, 2268101</ns3:tel>
+  </ns2:Location>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/7359544">
+    <ns4:shortDescription xml:lang="es">Este árbol se encuentra en la cordillera oriental colombiana, alcanza los 25 ms de altura; tiene corteza lisa y de 
+ 	color gris. Sus flores son blancas y pequeñas. Su madera es usada para la construccion de vigas, columnas y cercas. 
+ 	Las hojas sirven para aliviar la fiebre al ganado.</ns4:shortDescription>
+    <ns11:sameAs rdf:resource="http://eol.org/pages/5552584"/>
+    <ns6:depiction rdf:resource="http://i.imgur.com/VXiVsOm.jpg"/>
+    <ns4:kingdomName xml:lang="es">Vegetal</ns4:kingdomName>
+    <ns4:commonName xml:lang="es">ENCENILLO</ns4:commonName>
+    <ns6:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1761"/>
+    <ns11:sameAs rdf:resource="http://www.uniprot.org/taxonomy/189904"/>
+    <ns11:sameAs rdf:resource="http://www.wikidata.org/entity/Q5405356"/>
+    <ns9:isRelatedTo rdf:resource="http://190.14.254.237/dataseteco/Riofrio/Flora"/>
+    <ns4:scientificName xml:lang="la">Weinmannia tomentosa</ns4:scientificName>
+  </ns4:TaxonName>
+  <ns10:Municipio rdf:about="http://dbpedia.org/resource/Riofrio,_Valle_del_Cauca">
+    <ns7:geometry>
+      <ns7:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#long">
+        <ns7:SpatialThing>-76.199997</ns7:SpatialThing>
+        <ns7:SpatialThing>76.287781</ns7:SpatialThing>
+      </ns7:point>
+    </ns7:geometry>
+    <ns10:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+    <ns7:geometry>
+      <ns7:point rdf:about="http://www.w3.org/2003/01/geo/wgs84_pos#lat">
+        <ns7:SpatialThing>4.083333</ns7:SpatialThing>
+        <ns7:SpatialThing>4.156111</ns7:SpatialThing>
+      </ns7:point>
+    </ns7:geometry>
+  </ns10:Municipio>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/3152240"/>
+  <ns10:Municipio rdf:about="http://dbpedia.org/resource/Tulua">
+    <ns7:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#long"/>
+    <ns10:formaParteDe rdf:resource="http://www.wikidata.org/entity/Q5762107"/>
+    <ns7:geometry rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos#lat"/>
+    <rdfs:label>Corazón del Valle</rdfs:label>
+  </ns10:Municipio>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/2926634"/>
+  <ns4:TaxonName rdf:about="http://www.gbif.org/species/7429082"/>
+</rdf:RDF>
