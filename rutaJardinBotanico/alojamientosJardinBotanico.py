@@ -13,7 +13,7 @@ from rutaJardinBotanico import g
 
 
 def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcion, uriRoom, uriValue, 
-	uriBed, numHabitaciones, numCamas, imagen):
+	uriBed, numHabitaciones, numCamas, imagen, linkURI):
 	if webpage != "No disponible":
 		g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)))	
 			
@@ -54,15 +54,17 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
 	g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
 
 	#g.add( (URIRef(uri), VCARD.cateogry, Literal("Alojamientos de la Ruta del Maíz")))
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaJardin.Alojamientos)))
+	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaJardin['Alojamientos.rdf'])))
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+
 
 alojamientos(
-	facebook['jbjuanmariacespedes'] ,#uribed
+	 rutaJardin['Alojamientos.rdf#jardinBotanico'],
 	'JARDÍN BOTÁNICO JUAN MARÍA CÉSPEDES',
 	'http://inciva.gov.co/patrimonios-turisticos/jardin-botanico-juan-maria-cespedes-tulua/',
 	'3206888271, 3156361319',
 	'jardinbotanico@inciva.gov.co',
-	'Tuluá, Valle del Cauca', #direccion
+	'Mateguada, Valle del Cauca', #direccion
 	maps['7SWSXJa77pQ2'],
 	"""El Jardín Botánico Juan María Céspedes es un centro de investigaciones del Instituto para
 	la Investigación y la Preservación del Patrimonio Cultural y Natural del Valle del Cauca - INCIVA. Ubicado en el 
@@ -73,6 +75,26 @@ alojamientos(
 	'2',#NumHabitaciones
 	'8',#NumCamas
 	imgur['QCAEQ1y.jpg'],
+	facebook['jbjuanmariacespedes']
+)
+
+alojamientos(
+	 rutaJardin['Alojamientos.rdf#casaCampestre'],
+	'CASA CAMPESTRE MATEGUADUA',
+	'No disponible',
+	'3016070060',
+	'No disponible',
+	'Mateguada, Valle del Cauca', #direccion
+	maps['HwUEQxtVVWu'],
+	"""Cuenta con cocina, estufa de gas, nevera, asador, fogón de leña. Ubicada en el corregimiento de Mateguadua a 
+	700 ms del Jardín Botánico Juan María Céspedes, a orillas de la carretera y cerca del río Tuluá.""",
+	facebook['QueHayPaHacerTulua/photos/a.1051206711587508.1073741826.315617475146439/1051206934920819/?type=3'],
+	facebook['QueHayPaHacerTulua'],
+	facebook['QueHayPaHacerTulua/photos/a.1051206711587508.1073741826.315617475146439/1051206901587489/?type=3'],
+	'3',#NumHabitaciones
+	'5',#NumCamas
+	imgur['EVYhBtm.jpg'],
+	facebook['media/set/?set=a.1051206711587508.1073741826.315617475146439&type=3']
 )
 
 #print(g.serialize(format='pretty-xml'))

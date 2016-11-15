@@ -13,7 +13,7 @@ from rutaAnilloAgricola import g
 
 
 def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcion, uriRoom, uriValue, 
-    uriBed, numHabitaciones, numCamas, imagen):
+    uriBed, numHabitaciones, numCamas, imagen, linkURI):
     if webpage != "No disponible":
         g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)))
             
@@ -52,11 +52,12 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
     g.add( (URIRef(uriRoom), ACCO.bed, URIRef(uriBed)))
     g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo.Alojamientos)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Alojamientos.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 
 alojamientos(
-    youtube['FwF0DNd-qOQ'],#uri
+    rutaAnillo['Alojamientos.rdf#miCabana'],#uri
     "CLUB BALNEARIO MI CABAÑA",#nombre
     "No disponible",#webpage
     "3182230849",#telefono
@@ -70,11 +71,12 @@ alojamientos(
     "http://www.amarillasinternet.com/balneariomicabana/",#uriBed
     "",#numHab
     "",#numCamas
-    imgur['DnVGwKO.jpg']#imagen
+    imgur['DnVGwKO.jpg'],#imagen
+    youtube['FwF0DNd-qOQ']
 )
 
 alojamientos(
-    facebook['Finca-VillaJacob-1533300763660562/'],#uri
+    rutaAnillo['Alojamientos.rdf#villaJacob'],#uri
     "FINCA VILLA JACOB",#nombre
     "No disponible",#webpage
     "3104951792, 3146560061, 3044117513",#telefono
@@ -89,11 +91,12 @@ alojamientos(
     imgur['H7FEhFm.jpg'],#uriBed
     "4",#numHab
     "4",#numCamas
-    imgur['USKW6kJ.jpg']#imagen
+    imgur['USKW6kJ.jpg'],#imagen
+    facebook['Finca-VillaJacob-1533300763660562/']
 )
 
 alojamientos(
-    facebook['Piedra-Roja-Tulua-222463944443876'],#uri
+    rutaAnillo['Alojamientos.rdf#piedraRoja'],#uri
     "PIEDRA ROJA COMPLEJO TURÍSTICO",#nombre
     "http://www.complejopiedraroja.com",#webpage
     "3174030301, 3174783629, 3103701115",#telefono
@@ -107,11 +110,12 @@ alojamientos(
     imgur['fmqTZ94.jpg'],#uriBed
     "",#numHab
     "",#numCamas
-    imgur['fXKwhIT.jpg']#imagen
+    imgur['fXKwhIT.jpg'],#imagen
+    facebook['Piedra-Roja-Tulua-222463944443876']
 )
 
 alojamientos(
-    facebook['fincalaherradura.tuluavalle'],#uri
+    rutaAnillo['Alojamientos.rdf#fincaHerradura'],#uri
     "FINCA LA HERRADURA",#nombre
     "No disponible",#webpage
     "3103747120",#telefono
@@ -124,11 +128,12 @@ alojamientos(
     "http://tulua.linkbyme.co/finca-la-herradura-if232497/",#uriBed
     "",#numHab
     "",#numCamas
-    imgur['z7Sj7ag.jpg']#imagen
+    imgur['z7Sj7ag.jpg'],#imagen
+    facebook['fincalaherradura.tuluavalle']
 )
 
 alojamientos(
-    youtube['0qJR4UNfqrQ'],#uri
+    rutaAnillo['Alojamientos.rdf#villaStamford'],#uri
     "FINCA VILLA STAMFORD",#nombre
     "No disponible",#webpage
     "3136132871, 3105417776, 2324843",#telefono
@@ -142,12 +147,13 @@ alojamientos(
     imgur['hReO1On.jpg'],#uriBed
     "4",#numHab
     "29",#numCamas
-    imgur['qfz0H56.jpg']#imagen
+    imgur['qfz0H56.jpg'],#imagen
+    youtube['0qJR4UNfqrQ']
 )
 
 '''alojamientos(
     twitter['770219551191687168'],#uri
-    "Villa Adriana",#nombre
+    "VILLA ADRIANA",#nombre
     "No disponible",#webpage
     "2251615, 2251817, 316 420 84 14",#telefono
     "No disponible",#email
@@ -182,7 +188,7 @@ alojamientos(
 )'''
 
 alojamientos(
-    facebook['Genesis.finca/'],#uri
+    rutaAnillo['Alojamientos.rdf#genesis'],#uri
     "VILLA GÉNESIS",#nombre
     "No disponible",#webpage
     "3122064128, 3128881294, 3123467429",#telefono
@@ -195,12 +201,13 @@ alojamientos(
     imgur['N5engS1.jpg'],#uriBed
     "5",#numHab
     "25",#numCamas
-    imgur['kOINh1e.jpg']#imagen
+    imgur['kOINh1e.jpg'],#imagen
+    facebook['Genesis.finca/']
 )
 
 
 alojamientos(
-    twitter['770222399069511680'],#uri
+    rutaAnillo['Alojamientos.rdf#miRubi'],#uri
     "VILLA MI RUBÍ",#nombre
     "No disponible",#webpage
     "2253083, 2312366, 3128472553",#telefono
@@ -214,7 +221,8 @@ alojamientos(
     "http://www.furniturekraft.com/uploads/products/910e-bed%20copy.jpg",#uriBed
     "3",#numHab
     "7",#numCamas
-    imgur['PcYSh4U.jpg']#imagen
+    imgur['PcYSh4U.jpg'],#imagen
+    twitter['770222399069511680']
 )
 
 '''alojamientos(
@@ -292,7 +300,7 @@ alojamientos(
 
 ##############################################3
 alojamientos(
-    youtube['fUycJ_7Zacg'],#uri
+    rutaAnillo['Alojamientos.rdf#laCalenita'],#uri
     "FINCA LA CALEÑITA CASA BANQUETERA",#nombre
     "No disponible",#webpage
     "3183456354",#telefono
@@ -306,11 +314,12 @@ alojamientos(
     facebook['profile.php?id=100009334215790'],#uriBed
     "",#numHab
     "",#numCamas
-    imgur['CuyuQUz.png']#imagen
+    imgur['CuyuQUz.png'],#imagen
+    youtube['fUycJ_7Zacg']
 )
 
 alojamientos(
-    twitter[''],#uri
+    rutaAnillo['Alojamientos.rdf#laIsabella'],#uri
     "FINCA CAMPESTRE LA ISABELLA",#nombre
     "No disponible",#webpage
     "3175174964, 3167999472",#telefono
@@ -324,7 +333,8 @@ alojamientos(
     imgur['dDu5y6d.jpg'],#uriBed
     "",#numHab
     "20",#numCamas
-    imgur['R3SkKFT.jpg']#imagen
+    imgur['R3SkKFT.jpg'],#imagen
+    twitter['796178416772988929']
 )
 
 #print (g.serialize(format='pretty-xml'))

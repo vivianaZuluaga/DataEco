@@ -13,23 +13,26 @@ from fauna import g
 
 #g = Graph()
 
-def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3):
+def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
     g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
     g.add( (URIRef(uri), WILDLIFE.commonName, Literal(nombre_comun, lang="es") ) )
     g.add( (URIRef(uri), WILDLIFE.scientificName, Literal(nombre_cientifico, lang="la")) )
     g.add( (URIRef(uri), WILDLIFE.shortDescription, Literal(descripcion, lang="es")) )
     g.add( (URIRef(uri), FOAF.depiction, URIRef(imagen)))
     g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Vegetal', lang="es")) )
+    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web
     
-    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web del que se tomo la des
-    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia
-    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) ) #Link a EOL
-    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF a UniProt
+    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF
+    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF
     
-    g.add( (URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz.Flora)) )
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
+    
+    g.add( (URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Flora.rdf'])) )
+    
 
 flora(
-    gbif['7413206'],
+    rutaMaiz['Flora.rdf#citrusNobilis'],
     "MANDARINA",
     "Citrus Nobilis",
     """El árbol es un frutal espinoso, con ramas delgadas, con las hojas tanto amplias como delgadas. 
@@ -38,11 +41,12 @@ flora(
     dbpedia['Citrus_nobilis'],
     eol['27915528'],
 	'http://www.sabelotodo.org/agricultura/frutales/mandarina.html',
-	uniprot['481549']
+	uniprot['481549'],
+	gbif['7413206']
 )
 
 flora(
-    gbif['8206387'],
+    rutaMaiz['Flora.rdf#citrusSinensis'],
     "NARANJO",
     "Citrus Sinensis",
     """El naranjo es un frutal de hasta 10 ms de altura con la copa muy redondeada. Tallos ligeramente espinosos, 
@@ -51,11 +55,12 @@ flora(
     dbpedia['Citrus_sinensis'],
     eol['582206'],
 	'https://climafrutal.wordpress.com/naranjo/',
-	uniprot['2711']
+	uniprot['2711'],
+	gbif['8206387']
 )
 
 flora(
-    gbif['3190171'],
+    rutaMaiz['Flora.rdf#citrusLimon'],
     "LIMÓN",
     "Citrus Limon",
     """El limonero es un frutal de porte mediano que puede llegar a vivir 70 años. De tronco leñoso, amarillento 
@@ -65,11 +70,12 @@ flora(
     dbpedia['Citrus_limon'],
     eol['582200'],
 	'http://www.consumer.es/web/es/bricolaje/jardin/2002/04/04/40671.php',
-	uniprot['2708']
+	uniprot['2708'],
+	gbif['3190171']
 )
 
 flora(
-    gbif['3152205'],
+    rutaMaiz['Flora.rdf#theobromaCacao'],
     "CACAO",
     "Theobroma Cacao L.",
     """Arbusto pequeño de hasta 10 m. Tallo leñoso, recto, con brotes, corteza delgada de color café. Hojas perennes 
@@ -79,11 +85,12 @@ flora(
     dbpedia['Theobroma_cacao'],
     eol['484592'],
 	'https://issuu.com/lorenarojastorres/docs/visita_granja_mama_lulu.docx',
-	uniprot['3641']
+	uniprot['3641'],
+	gbif['3152205']
 )
 
 flora(
-    gbif['3034046'],
+    rutaMaiz['Flora.rdf#perseaAmericana'],
     "AGUACATE",
     "Persea Americana",
     """Árbol de unos 10 m de altura. Tallo leñoso. Perennifolio, hojas alternas, pedunculadas, de color verde 
@@ -93,11 +100,12 @@ flora(
     dbpedia['Persea_americana'],
     eol['596888'],
 	'http://www.farmaconsejos.com/plantas-medicinales/aguacate/',
-	uniprot['3435']
+	uniprot['3435'],
+	gbif['3034046']
 )
 
 flora(
-    gbif['2874190'],
+    rutaMaiz['Flora.rdf#passifloraEdulis'],
     "MARACUYÁ",
     "Passiflora Edulis",
     """Enredadera trepadora; puede alcanzar los 9 ms de longitud en condiciones climáticas favorables, 
@@ -107,11 +115,12 @@ flora(
     dbpedia['Passiflora_edulis'],
     eol['584518'],
 	'https://es.wikipedia.org/wiki/Passiflora_edulis',
-	uniprot['78168']
+	uniprot['78168'],
+	gbif['2874190']
 )
 
 flora(
-    gbif['2762752'],
+    rutaMaiz['Flora.rdf#musaParadisiaca'],
     "PLÁTANO",
     "Musa × Paradisiaca L.",
     """Planta con el tallo bien desarrollado. Hojas grandes, oblongas, lámina con la vena media bien desarrollada 
@@ -120,11 +129,12 @@ flora(
     dbpedia['Musa_paradisiaca'],
     eol['1116069'],
 	'http://aprendeenlinea.udea.edu.co/ova/?q=node/730',
-	uniprot['89151']
+	uniprot['89151'],
+	gbif['2762752']
 )
 
 flora(
-    gbif['2703912'],
+    rutaMaiz['Flora.rdf#saccharumOfficinarum'],
     "CAÑA DE AZÚCAR",
     "Saccharum Officinarum L.",
     """Es una planta perenne con un tallo macizo, de hasta 6 ms de altura y 2-8 cms de diametro; aparece por lo 
@@ -134,11 +144,12 @@ flora(
     dbpedia['Saccharum_officinarum_L'],
     eol['1115140'],
 	'http://dicci-eponimos.blogspot.com.co/2010/06/cana-de-castilla.html',
-	uniprot['4547']
+	uniprot['4547'],
+	gbif['2703912']
 )
 
 flora(
-    gbif['5289743'],
+    rutaMaiz['Flora.rdf#gyneriumSagittatum'],
     "CAÑA BRAVA",
     "Gynerium Sagittatum",
     """Es una planta silvestre de hasta 4 ms de alto. Posee tallos gruesos, sólidos y muy resistentes que le han 
@@ -147,11 +158,12 @@ flora(
     dbpedia['Gynerium_sagittatum'],
     eol['1115272'],
 	'http://animalesyplantasdeperu.blogspot.com.co/2008/05/la-caa-brava-gynerium-sagittatum.html',
-	uniprot['42053']
+	uniprot['42053'],
+	gbif['5289743']
 )
 
 flora(
-    gbif['5290052'],
+    rutaMaiz['Flora.rdf#zeaMays'],
     "MAÍZ",
     "Zea Mays",
     """Planta herbáceae que puede alcanzar hasta los 2,5 m de altura. El tallo internamente tiene una médula 
@@ -161,11 +173,12 @@ flora(
     dbpedia['Zea_Mays'],
     eol['1115259'],
 	'http://aprendeenlinea.udea.edu.co/ova/?q=node/521',
-	uniprot['4577']
+	uniprot['4577'],
+	gbif['5290052']
 )
 
 flora(
-    gbif['2760874'],
+    rutaMaiz['Flora.rdf#heliconiaBihai'],
     "HELICONIA",
     "Heliconia Bihai",
     """Es una planta muy llamativa por la inflorescencia que tiene en forma de espiga caracterizada por una serie de 
@@ -175,11 +188,12 @@ flora(
     dbpedia['Heliconia_bihai'],
     eol['1118068'],
 	'http://www.hogarmania.com/jardineria/fichas/plantas/201410/heliconia-bihai-26384.html',
-	uniprot['446146']
+	uniprot['446146'],
+	gbif['2760874']
 )
 
 flora(
-    gbif['3060998'],
+    rutaMaiz['Flora.rdf#manihotEsculenta'],
     "YUCA",
     "Manihot Esculenta",
     """Es un arbusto perenne, que alcanza los dos metros de altura. Su raíz es cilíndrica y oblonga, y alcanza 
@@ -189,11 +203,12 @@ flora(
     dbpedia.Cassava,
     eol['1154718'],
 	'https://es.wikipedia.org/wiki/Manihot_esculenta',
-	uniprot['3983']
+	uniprot['3983'],
+	gbif['3060998']
 )
 
 flora(
-    gbif['2874484'],
+    rutaMaiz['Flora.rdf#caricaPapaya'],
     "PAPAYA",
     "Carica Papaya",
     """Planta herbácea, de hasta 8 ms de altura; con látex lechoso. Tallos cilindrico, simple, sin ramificar, termina 
@@ -203,11 +218,12 @@ flora(
     dbpedia['Carica_papaya'],
     eol['585682'],
 	'http://aprendeenlinea.udea.edu.co/ova/?q=node/691',
-	uniprot['3649']
+	uniprot['3649'],
+	gbif['2874484']
 )
 
 flora(
-    gbif['8482252'],
+    rutaMaiz['Flora.rdf#lycopersicumPimpinellifolium'],
     "TOMATE CHERRI",
     "Lycopersicum Pimpinellifolium",
     """Planta anual de porte arbustivo o rastrero. Las hojas son sencillas, pecioladas y de limbo hendido. Toda 
@@ -217,11 +233,12 @@ flora(
     dbpedia['Solanum_pimpinellifolium'],
     eol['590239'],
 	'http://www.frutasiru.com/catalogo-ficha.php?fml=12&prod=56',
-	uniprot['286530']
+	uniprot['286530'],
+	gbif['8482252']
 )
 
 flora(
-    gbif['5288819'],
+    rutaMaiz['Flora.rdf#ananasComosus'],
     "PIÑA",
     "Ananas Comosus",
     """Planta perenne terrestre, con forma de roseta abierta que produce uno de los frutos tropicales más consumidos. 
@@ -230,11 +247,12 @@ flora(
     dbpedia['Ananas_comosus'],
     eol['1126520'],
 	'http://plantasyjardin.com/2013/03/ananas-cosmosus-una-de-las-frutas-tropicales-mas-consumidas/',
-	uniprot['4615']
+	uniprot['4615'],
+	gbif['5288819']
 )
 
 flora(
-    gbif['5420380'],
+    rutaMaiz['Flora.rdf#psidiumGuajava'],
     "GUAYABA",
     "Psidium Guajava",
     """Arbolito de follaje persistente que puede alcanzar 4-6 ms de altura, con el tronco corto y algo tortuoso. Hojas 
@@ -244,11 +262,12 @@ flora(
     dbpedia['Psidium_guajava'],
     eol['2508593'],
 	'http://www.jardinbotanico.uma.es/bbdd/index.php/jb-11-01/',
-	uniprot['120290']
+	uniprot['120290'],
+	gbif['5420380']
 )
 
 flora(
-    gbif['4093687'],
+    rutaMaiz['Flora.rdf#tabebuiaGuayacan'],
     "GUAYACÁN",
     "Tabebuia guayacan (Seem.) Hemsl.",
     """Es un árbol grande de hasta 40 ms de alto y 100 cms de diámetro con tronco recto, cilíndrico y raramente irregular 
@@ -257,11 +276,12 @@ flora(
     dbpedia['Handroanthus_guayacan'],
     eol['5637530'],
 	'http://www.discoverlife.org/20/q?search=Tabebuia+guayacan',
-	uniprot['429699']
+	uniprot['429699'],
+	gbif['4093687']
 )
 
 flora(
-    gbif['5406697'],
+    rutaMaiz['Flora.rdf#ceibaPentandra'],
     "CEIBA",
     "Ceiba Pentandra (L.) Gaertn",
     """Árbol de 50 ms de altura, tallo de 2 ms de diámetro, abombado, corteza gris clara y anillada, copa 
@@ -270,11 +290,12 @@ flora(
     dbpedia['Ceiba_pentandra'],
     eol['584794'],
 	'http://recursosbiologicos.eia.edu.co/ecologia/estudiantes/ceiba.htm',
-	uniprot['193163']
+	uniprot['193163'],
+	gbif['5406697']
 )
 
 flora(
-    gbif['5357108'],
+    rutaMaiz['Flora.rdf#cassiaFistula'],
     "ÉBANO FALSO",
     "Cassia Fistula",
     """Árbol de 10-15 ms de alto; ramas de tendencia ascendente. Hojas grandes, caducas, ovadas, acuminadas y péndulas. 
@@ -283,11 +304,12 @@ flora(
     dbpedia['Cassia_fistula'],
     eol['704102'],
 	'http://docplayer.es/12485087-Ixora-ixora-coccinea-l-jazmin-del-diablo-buque-de-novia.html',
-	uniprot['53852']
+	uniprot['53852'],
+	gbif['5357108']
 )
-'''
+
 flora(
-    gbif['4155017'],
+    rutaMaiz['Flora.rdf#guaduaAngustifolia'],
     "GUADUA",
     "Guadua Angustifolia",
     """La raíz es un rizoma que almacena los nutrimentos, estos rizomas producen raicillas adventicias, el tallo de 
@@ -297,11 +319,12 @@ flora(
     dbpedia.Guadua,
     eol['5800278'],
 	'https://en.wikipedia.org/wiki/Guadua_angustifolia',
-	uniprot['323898']
+	uniprot['323898'],
+	gbif['4155017']
 )
-'''
+
 flora(
-    gbif['2858244'],
+    rutaMaiz['Flora.rdf#narcissusPseudonarcissus'],
     "NARCISO",
     "Narcissus Pseudonarcissus",
     """Es una planta de hojas estrechas y alargadas. Sus flores son de color blanco, amarillo o rosa y de forma simple. 
@@ -310,11 +333,12 @@ flora(
     dbpedia['Narcissus_primigenius'],
     eol['1004073'],
 	'https://en.wikipedia.org/wiki/Narcissus_pseudonarcissus',
-	uniprot['39639']
+	uniprot['39639'],
+	gbif['2858244']
 )
 
 flora(
-    gbif['2891606'],
+    rutaMaiz['Flora.rdf#pelargoniumZonale'],
     "GERANIO",
     "Pelargonium Zonale",
     """Hojas en forma generalmente acorazonada y de diferentes tonalidades de verde, de floración prolongada, 
@@ -324,11 +348,12 @@ flora(
     dbpedia['Pelargonium_zonale'],
     eol['595134'],
 	'http://floresandra.galeon.com/algunas.htm',
-	uniprot['4032']
+	uniprot['4032'],
+	gbif['2891606']
 )
 
 flora(
-    gbif['5331181'],
+    rutaMaiz['Flora.rdf#violaOdorata'],
     "VIOLETA",
     "Viola Odorata",
     """Planta perenne rizomatosa que se expande mediante estalones y puede formar una buena cubierta de suelo, 
@@ -338,11 +363,12 @@ flora(
     dbpedia['Viola_odorata'],
     eol['584573'],
 	'http://menospetroleo.blogspot.com.co/2013/03/plantas-vistas-en-el-curso-de-bosque.html',
-	uniprot['97441']
+	uniprot['97441'],
+	gbif['5331181']
 )
 
 flora(
-    gbif['3189636'],
+    rutaMaiz['Flora.rdf#camelliaJaponica'],
     "CAMELIA",
     "Camellia Japonica",
     """Arbusto ramificado de 2 ms de altura, hojas anchas elípticas con filo aserrado, haz de color verde oscuro 
@@ -352,11 +378,12 @@ flora(
     dbpedia['Camellia_japonica'],
     eol['484988'],
 	'http://www.slideshare.net/CamiloAlejandroMarin/herbario-escolar-2012',
-	uniprot['4443']
+	uniprot['4443'],
+	gbif['3189636']
 )
 
 flora(
-    gbif['8008378'],
+    rutaMaiz['Flora.rdf#chrysanthemumLeucanthemum'],
     "MARGARITA COMÚN",
     "Chrysanthemum Leucanthemum",
     """Es una planta herbácea con hojas hendidas. Las flores están siempre reunidas en una inflorescencia llamada 
@@ -365,11 +392,12 @@ flora(
     dbpedia['Leucanthemum_vulgare'],
     eol['46241383'],
 	'http://aplicaciones2.colombiaaprende.edu.co/concursos/expediciones_botanicas/ver_herbarios_p.php?id=628&id_p=6041',
-	uniprot['99072']
+	uniprot['99072'],
+	gbif['8008378']
 )
 
 flora(
-    gbif['3093023'],
+    rutaMaiz['Flora.rdf#dahlia'],
     "DALIA",
     "Dahlia spp.",
     """Planta herbácea o arbustiva anual, raíz tuberosa, hojas opuestas o verticiladas. Flores dispuestas en 
@@ -379,11 +407,12 @@ flora(
     wikidata.Q130918,
     eol['46321784'],
 	'https://en.wikipedia.org/wiki/Dahlia',
-	uniprot['41562']
+	uniprot['41562'],
+	gbif['3093023']
 )
 
 flora(
-    gbif['8458847'],
+    rutaMaiz['Flora.rdf#irisGermanica'],
     "LIRIO COMÚN",
     "Iris germanica",
     """Tallo terminal con hojas en la base, 35 a 45 cms de largo; herbácea perenne de rizoma vistoso y grueso. 
@@ -392,11 +421,12 @@ flora(
     dbpedia['Iris_germanica'],
     eol['490948'],
 	'https://en.wikipedia.org/wiki/Iris_germanica',
-	uniprot['34205']
+	uniprot['34205'],
+	gbif['8458847']
 )
 
 flora(
-    gbif['2985994'],
+    rutaMaiz['Flora.rdf#hydrangeaMacrophylla'],
     "HORTENSIA",
     "Hydrangea Macrophylla",
     """Planta semiarbustiva, caducifolia, puede llegar a medir 1,5 ms. Tallos ramosos, gruesos, derechos, 
@@ -405,11 +435,12 @@ flora(
     dbpedia['Hydrangea_macrophylla'],
     eol['392374'],
 	'https://en.wikipedia.org/wiki/Hydrangea_macrophylla',
-	uniprot['23110']
+	uniprot['23110'],
+	gbif['2985994']
 )
 
 flora(
-    gbif['2888443'],
+    rutaMaiz['Flora.rdf#papaverRhoeas'],
     "AMAPOLA",
     "Papaver rhoeas",
     """Hierba anual, cubierta de pelos perpendiculares. Hojas simples en la base, alargadas y lobuladas. flores 
@@ -420,11 +451,12 @@ flora(
     dbpedia['Papaver_rhoeas'],
     eol['596241'],
 	'http://www.biotremol.com/una-gran-desconocida-la-amapola/',
-	uniprot['33128']
+	uniprot['33128'],
+	gbif['2888443']
 )
 
 flora(
-    gbif['5421335'],
+    rutaMaiz['Flora.rdf#murrayaPaniculata'],
     "JAZMÍN NARANJA",
     "Murraya Paniculata",
     """Planta con hojas compuestas, alternas, imparipinnadas; los foliolos de 1 a 4 cms de largo, verdes muy oscuros 
@@ -433,11 +465,12 @@ flora(
     dbpedia['Murraya_paniculata'],
     eol['489435'],
 	'https://en.wikipedia.org/wiki/Murraya_paniculata',
-	uniprot['43711']
+	uniprot['43711'],
+	gbif['5421335']
 )
 
 flora(
-    gbif['2874718'],
+    rutaMaiz['Flora.rdf#begoniaSemperflorens'],
     "BEGONIA",
     "Begonia Semperflorens",
     """Herbácea perenne o anual, altura aproximada entre 20-40 cms. Tallo carnoso y ramificado, hojas ovales y 
@@ -447,11 +480,12 @@ flora(
     wikidata.Q843363,
     eol['46341032'],
 	'http://www.laguiadeplantas.com/?s=p&id=354',
-	uniprot['589341']
+	uniprot['589341'],
+	gbif['2874718']
 )
 
 flora(
-    gbif['8176318'],
+    rutaMaiz['Flora.rdf#violaWittrockiana'],
     "PENSAMIENTOS",
     "Viola x wittrockiana",
     """Son plantas híbridas, cuyo ciclo de vida es de un año, y que son cultivadas por sus vistosas flores. 
@@ -461,11 +495,12 @@ flora(
     dbpedia['Viola_x_wittrockiana'],
     eol['46324497'],
 	'https://www.ecured.cu/Pensamiento_(planta)',
-	uniprot['456371']
+	uniprot['456371'],
+	gbif['8176318']
 )
 
 flora(
-    gbif['2750913'],
+    rutaMaiz['Flora.rdf#tulipa'],
     "TULIPÁN",
     "Tulipa spp",
     """Hierba perenne con bulbos o rizomas. Las hojas son alternas y espiraladas, se disponen a lo largo del tallo 
@@ -476,11 +511,12 @@ flora(
     wikidata.Q93201,
     eol['17820'],
 	'http://fichas.infojardin.com/bulbosas/tulipa-tulipan-tulipanes-botanicos-tulipanes-darwin.htm',
-	uniprot['13305']
+	uniprot['13305'],
+	gbif['2750913']
 )
 
 flora(
-    gbif['7598400'],
+    rutaMaiz['Flora.rdf#chrysanthemumMorifolium'],
     "CRISANTEMO",
     "Chrysanthemum Morifolium",
     """Planta de tallo herbáceo y delgado, con hojas alternas suaves al tacto, palmeado, divididas, con bordes 
@@ -489,11 +525,12 @@ flora(
     dbpedia['Chrysanthemum_morifolium'],
     eol['483963'],
 	'https://en.wikipedia.org/wiki/Chrysanthemum_morifolium',
-	uniprot['41568']
+	uniprot['41568'],
+	gbif['7598400']
 )
 
 flora(
-    gbif['3153283'],
+    rutaMaiz['Flora.rdf#magnoliaGrandiflora'],
     "MAGNOLIA",
     "Magnolia Grandiflora L.",
     """Es un árbol de tamaño medio a grande de 20-30 ms de altura. Las hojas son perennes, simples o ampliamente 
@@ -503,11 +540,12 @@ flora(
     dbpedia['Magnolia_grandiflora'],
     eol['1154991'],
 	'http://vida-flores.blogspot.com.co/',
-	uniprot['3406']
+	uniprot['3406'],
+	gbif['3153283']
 )
 
 flora(
-    gbif['4935172'],
+    rutaMaiz['Flora.rdf#cattleyaTrianae'],
     "FLOR DE MAYO",
     "Cattleya Trianae",
     """Planta epífita, con pseudobulbos de largo variable que llevan a su extremidad una o a dos hojas sin pecíolo. 
@@ -516,11 +554,12 @@ flora(
     dbpedia['Cattleya_trianae'],
     eol['1090706'],
 	'http://orquideascolombiana.blogspot.com.co/',
-	uniprot['142280']
+	uniprot['142280'],
+	gbif['4935172']
 )
 
 flora(
-    gbif['5289798'],
+    rutaMaiz['Flora.rdf#cynodonPlectostachyus'],
     "PASTO ESTRELLA",
     "Cynodon Plectostachyus",
     """Es una gramínea perenne, de vida larga, frondosa y rastrera, produce estolones de rápido crecimiento, con 
@@ -530,11 +569,12 @@ flora(
     wikidata.Q959222,
     eol['1114873'],
 	'https://www.scribd.com/doc/229139076/Plantas-forrajeras-Ecuador',
-	uniprot['751635']
+	uniprot['751635'],
+	gbif['5289798']
 )
 
 flora(
-    gbif['2895345'],
+    rutaMaiz['Flora.rdf#coffeaArabica'],
     "CAFÉ",
     "Coffea Arabica",
     """El cafeto es un arbusto o árbol pequeño, perennifolio, de fuste recto que puede alcanzar los 10 ms en 
@@ -543,11 +583,12 @@ flora(
     dbpedia['Coffea_arabica'],
     eol['46321583'],
 	'https://es.wikipedia.org/wiki/Coffea',
-	uniprot['13443']
+	uniprot['13443'],
+	gbif['2895345']
 )
 
 flora(
-    gbif['3190638'],
+    rutaMaiz['Flora.rdf#mangiferaIndica'],
     "MANGO",
     "Mangifera Indica",
     """El mango típico constituye un árbol de tamaño mediano, de 10-30 ms de altura. El tronco es más o menos recto, 
@@ -556,11 +597,12 @@ flora(
     dbpedia['Mangifera_indica'],
     eol['582270'],
 	'http://www.empresario.com.co/recursos/page_flip/MEGA/mega_mango/files/ficha%20mango.pdf',
-	uniprot['29780']
+	uniprot['29780'],
+	gbif['3190638']
 )
 
 flora(
-    gbif['2856504'],
+    rutaMaiz['Flora.rdf#alliumFistulosum'],
     "CEBOLLA LARGA",
     "Allium Fistulosum",
     """Las raíces se producen en la base del tallo, son fasciculadas y poco abundantes. Cada hoja tiene una base 
@@ -571,11 +613,12 @@ flora(
     dbpedia['Allium_fistulosum'],
     eol['1084499'],
 	'https://es.wikipedia.org/wiki/Allium_fistulosum',
-	uniprot['35875']
+	uniprot['35875'],
+	gbif['2856504']
 )
 
 flora(
-    gbif['2932944'],
+    rutaMaiz['Flora.rdf#capsicumAnnuum'],
     "AJÍ",
     "Capsicum Annuum",
     """Planta anual, que puede alcanzar hasta 1 m de altura, de tallos empinados y ramosos, con las hojas aovadas 
@@ -585,11 +628,12 @@ flora(
     dbpedia['Capsicum_annuum_var._minimum'],
     eol['581098'],
 	'http://ornamentalis.com/capsicum-annuum/',
-	uniprot['4072']
+	uniprot['4072'],
+	gbif['2932944']
 )
 
 flora(
-    gbif['8659902'],
+    rutaMaiz['Flora.rdf#urticaDioica'],
     "ORTIGA",
     "Urtica Dioica",
     """Es una planta arbustiva perenne que puede alcanzar hasta 1,5 ms de altura. Tallos erectos cuadrangulares, 
@@ -599,11 +643,12 @@ flora(
     dbpedia['Urtica_dioica'],
     eol['46373617'],
 	'https://es.wikipedia.org/wiki/Urtica_dioica',
-	uniprot['3501']
+	uniprot['3501'],
+	gbif['8659902']
 )
 
 flora(
-    gbif['2926634'],
+    rutaMaiz['Flora.rdf#rosmarinusOfficinalis'],
     "ROMERO",
     "Rosmarinus Officinalis",
     """Arbusto perenne, verde, leñoso y muy aromático de hasta 2 ms de altura que crece espontáneamente o en cultivo. 
@@ -613,11 +658,12 @@ flora(
     dbpedia['Rosmarinus_officinalis'],
     eol['46323937'],
 	'http://www.biodiversidad.co/fichas/1003',
-	uniprot['39367']
+	uniprot['39367'],
+	gbif['2926634']
 )
 
 flora(
-    gbif['3034871'],
+    rutaMaiz['Flora.rdf#coriandrumSativum'],
     "CILANTRO",
     "Coriandrum Sativum",
     """Es una hierba anual de hasta 60 cms, sin pelos y brillante. Los tallos del cilantro son erectos y delgados. 
@@ -626,11 +672,12 @@ flora(
     dbpedia['Coriandrum_sativum'],
     eol['581687'],
 	'http://viverovirtualrd.blogspot.com.co/2009/01/coriandrum-sativum-cilantro.html',
-	uniprot['4047']
+	uniprot['4047'],
+	gbif['3034871']
 )
 
 flora(
-    gbif['2857697'],
+    rutaMaiz['Flora.rdf#alliumCepa'],
     "CEBOLLA",
     "Allium Cepa",
     """Planta bienal cultivada como anual. Hojas semicilíndricas que nacen de un bulbo subterráneo provisto de 
@@ -640,11 +687,12 @@ flora(
     dbpedia['Allium_cepa'],
     eol['1084354'],
 	'http://agroespoch2.blogspot.com.co/2015/01/cristian-inga.html',
-	uniprot['4679']
+	uniprot['4679'],
+	gbif['2857697']
 )
 
 flora(
-    gbif['2856681'],
+    rutaMaiz['Flora.rdf#alliumSativum'],
     "AJO",
     "Allium Sativum",
     """Alcanza entre 30 y 40 cms de altura, sus hojas son macizas, radicales y largas. Sus flores son blancas y 
@@ -654,11 +702,12 @@ flora(
     dbpedia['Allium_sativum'],
     eol['1084926'],
 	'http://www.labin.net/es/cultivos/ajos/20',
-	uniprot['4682']
+	uniprot['4682'],
+	gbif['2856681']
 )
 
 flora(
-    gbif['2777724'],
+    rutaMaiz['Flora.rdf#aloeVera'],
     "SÁBILA",
     "Aloe Vera",
     """Es una planta perenne, con hojas gruesas organizadas en rosetas, alcanza 50 cms de largo y 7 cms de grosor. 
@@ -667,11 +716,12 @@ flora(
     dbpedia['Aloe_Vera'],
     eol['1085598'],
 	'https://en.wikipedia.org/wiki/Aloe_vera',
-	uniprot['34199']
+	uniprot['34199'],
+	gbif['2777724']
 )
 
 flora(
-    gbif['3070717'],
+    rutaMaiz['Flora.rdf#plukenetiaVolubilis'],
     "SACHA INCHI",
     "Plukenetia Volubilis",
     """Es una planta voluble, trepadora y semileñosa, de abundantes hojas y ramas; de una altura aproximada de 2 ms; 
@@ -681,7 +731,8 @@ flora(
     dbpedia['Plukenetia_volubilis'],
     eol['1152376'],
 	'https://www.scribd.com/doc/20773504/SACHA-INCHI',
-	uniprot['316893']
+	uniprot['316893'],
+	gbif['3070717']
 )
 
 #print(g.serialize(format='pretty-xml'))

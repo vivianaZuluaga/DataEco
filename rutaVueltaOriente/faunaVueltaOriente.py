@@ -8,28 +8,30 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL
-from utils.namespaces import rutaVueltaOriente, uniprot, dbpedia, wikidata, imgur, eol, gbif
+from utils.namespaces import rutaVueltaOriente, rutaMaiz, rioFrio, uniprot, dbpedia, wikidata, imgur, eol, gbif
 from eventosvueltaOriente import g
 
 #g = Graph()
 
-def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3):
+def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
     g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
     g.add( (URIRef(uri), WILDLIFE.commonName, Literal(nombre_comun, lang='es') ) )
     g.add( (URIRef(uri), WILDLIFE.scientificName, Literal(nombre_cientifico, lang='la')) )
     g.add( (URIRef(uri), WILDLIFE.shortDescription, Literal(descripcion, lang='es')) )
     g.add( (URIRef(uri), FOAF.depiction, URIRef(imagen)))
-    g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Animal', lang='es')) )
+    g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Animal', lang='es')) )  
+    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web
     
-    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web del que se tomo la des
-    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia
-    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) ) #Link a EOL
+    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia  
     g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF a UniProt
     
-    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente.Fauna)) )
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
+    
+    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) )
 
 fauna(
-    gbif['5777723'],
+    rutaVueltaOriente['Fauna.rdf#dusicyonThous'],
     "ZORRO GRIS",
     "Dusicyon thous",
     """Cánido de tamaño mediano (5-7 Kgs), la cola es moderadamente peluda, con la punta negra y oscura en la base. El 
@@ -39,11 +41,12 @@ fauna(
     dbpedia['Dusicyon_thous_azarae'],
     eol['328685'],
 	'http://www.biodiversidad.co/fichas/421',
-	uniprot['9620']
+	uniprot['9620'],
+	gbif['5777723']
 )
 
 fauna(
-    gbif['2433270'],
+    rutaVueltaOriente['Fauna.rdf#artibeusLituratus'],
     "MURCIÉLAGO CARA RAYADA",
     "Artibeus lituratus",
     """Murciélago de tamaño grande, con el cuerpo grueso y macizo. Tiene la cabeza ancha y corta; la hoja nasal es pequeña 
@@ -53,11 +56,12 @@ fauna(
     dbpedia['Artibeus_lituratus'],
     eol['327359'],
 	'http://www.biodiversidad.co/fichas/2452',
-	uniprot['27634']
+	uniprot['27634'],
+	gbif['2433270']
 )
 
 fauna(
-    gbif['2433176'],
+    rutaVueltaOriente['Fauna.rdf#carolliaPerspicillata'],
     "MURCIÉLAGO FRUGÍVORO",
     "Carollia perspicillata",
     """Pelaje color pardo oscuro a pardo grisáceo, generalmente tricoloreado oscuro-claro-oscuro .Abdomen de color 
@@ -67,11 +71,12 @@ fauna(
     dbpedia['Carollia_perspicillata'],
     eol['327438'],
 	'https://www.cortolima.gov.co/sites/default/files/images/stories/centro_documentos/pom_prado/diagnostico/apendices/ap_quiropteros.pdf',
-	uniprot['40233']
+	uniprot['40233'],
+	gbif['2433176']
 )
 
 fauna(
-    gbif['2433194'],
+    rutaVueltaOriente['Fauna.rdf#glossophagaSoricina'],
     "MURCIÉLAGO NECTIVORO",
     "Glossophaga soricina",
     """Presenta orejas cortas y redondeadas, trago triangular con la punta aguda. Labio inferior con un surco profundo 
@@ -81,11 +86,12 @@ fauna(
     dbpedia['Glossophaga_soricina'],
     eol['327431'],
 	'http://www.biodiversidad.co/fichas/3463',
-	uniprot['27638']
+	uniprot['27638'],
+	gbif['2433194']
 )
 
 fauna(
-    gbif['2438073'],
+    rutaVueltaOriente['Fauna.rdf#oryzomysAlfaroi'],
     "RATÓN SILVESTRE",
     "Oryzomys alfaroi",
     """De tamaño pequeño. Hocico largo y pronunciado, ojos grandes, orejas medianas pero bien evidentes, de color 
@@ -95,11 +101,12 @@ fauna(
     dbpedia['Oryzomys_alfaroi'],
     eol['1179993'],
 	'http://zoologia.puce.edu.ec/Vertebrados/mamiferos/FichaEspecie.aspx?Id=2126',
-	uniprot['530171']
+	uniprot['530171'],
+	gbif['2438073']
 )
 
 fauna(
-    gbif['2440779'],
+    rutaVueltaOriente['Fauna.rdf#dasypusNovemcinctus'],
     "ARMADILLO, GURRE",
     "Dasypus novemcinctus",
     """Cuerpo cubierto con un caparazón formado por pequeñas placas óseas unidas entre sí; en su parte media, este 
@@ -109,11 +116,12 @@ fauna(
     dbpedia['Dasypus_novemcinctus'],
     eol['328482'],
 	'http://www.opepa.org/index.php?option=com_content&task=view&id=708&Itemid=29',
-	uniprot['9361']
+	uniprot['9361'],
+	gbif['2440779']
 )
 
 fauna(
-    gbif['5219955'],
+    rutaVueltaOriente['Fauna.rdf#chironectesMinimus'],
     "CHUCHA DE AGUA",
     "Chironectes minimus",
     """Partes superiores de color gris; cabeza marrón oscura o negruzca, con sendas manchas grisáceas a los lados de 
@@ -123,11 +131,12 @@ fauna(
     dbpedia['Chironectes_minimus'],
     eol['289603'],
 	'http://www.biodiversidad.co/fichas/3489',
-	uniprot['91500']
+	uniprot['91500'],
+	gbif['5219955']
 )
 
 fauna(
-    gbif['2439920'],
+    rutaVueltaOriente['Fauna.rdf#didelphisMarsupialis'],
     "CHUCHA COMÚN",
     "Didelphis marsupialis",
     """Puede llegar a medir entre 45-60 cms de largo. Cuerpo de color negro, gris o amarillo, con dos capas de pelo. 
@@ -137,11 +146,12 @@ fauna(
     dbpedia['Didelphis_marsupialis'],
     eol['328504'],
 	'http://www.biodiversidad.co/fichas/2509',
-	uniprot['9268']
+	uniprot['9268'],
+	gbif['2439920']
 )
 
 fauna(
-    gbif['2436860'],
+    rutaVueltaOriente['Fauna.rdf#sylvilagusBrasiliensis'],
     "CONEJO SABANERO",
     "Sylvilagus brasiliensis",
     """Más pequeño que los conejos domesticados de origen europeo. Tiene un pelaje bastante uniforme, café oscuro 
@@ -151,11 +161,12 @@ fauna(
     dbpedia['Sylvilagus_brasiliensis'],
     eol['118008'],
 	'http://www.opepa.org/index.php?option=com_content&task=view&id=709&Itemid=29',
-	uniprot['483865']
+	uniprot['483865'],
+	gbif['2436860']
 )
 
 fauna(
-    gbif['5218725'],
+    rutaVueltaOriente['Fauna.rdf#molossusMolossus'],
     "MURCIÉLAGO DE COLA LIBRA",
     "Molossus molossus",
     """Posee la base del pelaje pálida, la parte dorsal es negra, marrón oscuro o castaño. Tiene un hocico 
@@ -165,11 +176,12 @@ fauna(
     dbpedia['Molossus_molossus'],
     eol['327951'],
 	'http://www.biodiversidad.co/fichas/2504',
-	uniprot['27622']
+	uniprot['27622'],
+	gbif['5218725']
 )
 
 fauna(
-    gbif['7429082'],
+    rutaVueltaOriente['Fauna.rdf#musMusculus'],
     "RATÓN CASERO",
     "Mus musculus",
     """Roedor pequeño, no rebasa los 21 cms de largo total y se caracteriza por poseer una cola aparentemente desnuda, 
@@ -179,11 +191,12 @@ fauna(
     wikidata['Q2683493'],
     eol['328450'],
 	'https://www.ecured.cu/Rat%C3%B3n_casero',
-	uniprot['10090']
+	uniprot['10090'],
+	gbif['7429082']
 )
 
 fauna(
-    gbif['2439270'],
+    rutaVueltaOriente['Fauna.rdf#rattusRattus'],
     "RATA COMÚN",
     "Rattus rattus",
     """Mide aproximadamente entre 14-20 cms y pesa entre 100-240 grs. La parte dorsal es negro rayado con pelos 
@@ -193,11 +206,12 @@ fauna(
     dbpedia['Rattus_rattus'],
     eol['328447'],
 	'http://www.biodiversidad.co/fichas/5394',
-	uniprot['10117']
+	uniprot['10117'],
+	gbif['2439270']
 )
 
 fauna(
-    gbif['5218919'],
+    rutaVueltaOriente['Fauna.rdf#mustelaFrenata'],
     "COMADREJA",
     "Mustela frenata",
     """Las plantas de las patas están cubiertas con pelos, la cola es larga con el borde distal de color negro, 
@@ -207,11 +221,12 @@ fauna(
     wikidata['Q20907812'],
     eol['328589'],
 	'http://www.biodiversidad.co/fichas/4332',
-	uniprot['55048']
+	uniprot['55048'],
+	gbif['5218919']
 )
 
 fauna(
-    gbif['2433573'],
+    rutaVueltaOriente['Fauna.rdf#potosFlavus'],
     "PERRO DE MONTE",
     "Potos flavus",
     """Cuerpo alargado y musculoso, cabeza redondeada, rostro corto y ojos grandes y separados. Piernas y brazos 
@@ -221,11 +236,12 @@ fauna(
     dbpedia['Potos_flavus'],
     eol['328067'],
 	'https://es.wikipedia.org/wiki/Potos_flavus',
-	uniprot['29067']
+	uniprot['29067'],
+	gbif['2433573']
 )
 
 fauna(
-    gbif['2480518'],
+    rutaVueltaOriente['Fauna.rdf#buteoMagnirostris'],
     "GAVILÁN CAMINERO",
     "Buteo magnirostris",
     """Pequeño de 33-41 cms de longitud total. Los ojos, base de la mandíbula superior y patas son amarillos. Presenta 
@@ -235,11 +251,12 @@ fauna(
     dbpedia['Buteo_magnirostris'],
     eol['1049099'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Gavil%C3%A1n+Caminero',
-	uniprot['223488']
+	uniprot['223488'],
+	gbif['2480518']
 )
 
 fauna(
-    gbif['2498402'],
+    rutaVueltaOriente['Fauna.rdf#dendrocygnaBicolor'],
     "IGUAZA MARÍA",
     "Dendrocygna bicolor",
     """Mide de 45-53 cms y pesa de 621-755 grs. Es principalmente de color café canela con una línea a lo largo de 
@@ -249,11 +266,12 @@ fauna(
     dbpedia['Dendrocygna_bicolor'],
     eol['914528'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Iguaza+Mar%C3%ADa+-+Dendrocygna+bicolor',
-	uniprot['8874']
+	uniprot['8874'],
+	gbif['2498402']
 )
 
 fauna(
-    gbif['2480830'],
+    rutaVueltaOriente['Fauna.rdf#bubulcusIbis'],
     "GARZA DEL GANADO",
     "Bubulcus ibis",
     """Mide entre 46-56 cms y pesa de 340-390 grs. Tiene un aspecto rechoncho y su cuerpo es completamente blanco con 
@@ -263,12 +281,13 @@ fauna(
     dbpedia['Bubulcus_ibis'],
     eol['1048666'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garcita+del+Ganado+-+Bubulcus+ibis',
-	uniprot['110668']
+	uniprot['110668'],
+	gbif['2480830']
 )
 
 
 fauna(
-    gbif['5231804'],
+    rutaVueltaOriente['Fauna.rdf#columbaCayennensis'],
     "TORCAZA MORADA",
     "Columba cayennensis",
     """Alcanza unos 30 cms de longitud, es muy arisca y vuela alto. Plomiza, tiene la frente, cubiertas, espalda y 
@@ -278,11 +297,12 @@ fauna(
     dbpedia['Columba_cayennensis'],
     eol['46281203'],
 	'https://www.ecured.cu/Paloma_colorada',
-	uniprot['8931']
+	uniprot['8931'],
+	gbif['5231804']
 )
 
 fauna(
-    gbif['2495858'],
+    rutaVueltaOriente['Fauna.rdf#columbinaTalpacoti'],
     "TORTOLITA COMÚN",
     "Columbina talpacoti",
     """Tiene un largo total promedio de 16.5 cms. El macho es principalmente rufo canela, con las partes inferiores más 
@@ -292,11 +312,12 @@ fauna(
     dbpedia['Columbina_talpacoti'],
     eol['914637'],
 	'http://www.biodiversidad.co/fichas/2516',
-	uniprot['504887']
+	uniprot['504887'],
+	gbif['2495858']
 )
 
 fauna(
-    gbif['2495358'],
+    rutaVueltaOriente['Fauna.rdf#zenaidaAuriculata'],
     "TORCAZA NAGUIBLANCA",
     "Zenaida auriculata",
     """Mide 25 cms. Café oliváceo uniforme por encima, excepto la coronilla gris azulada: lados del cuello con visos 
@@ -306,11 +327,12 @@ fauna(
     dbpedia['Zenaida_auriculata'],
     eol['1049710'],
 	'http://www.biodiversidad.co/fichas/4608',
-	uniprot['115703']
+	uniprot['115703'],
+	gbif['2495358']
 )
 
 fauna(
-    gbif['2496209'],
+    rutaVueltaOriente['Fauna.rdf#crotophagaAni'],
     "GARRAPATERO COMÚN",
     "Crotophaga ani",
     """Mide cerca de 35 cms, los machos pesan alrededor de 115 grs y las hembras cerca de 95 grs. El adulto es de color 
@@ -320,11 +342,12 @@ fauna(
     dbpedia['Crotophaga_ani'],
     eol['915111'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garrapatero+Com%C3%BAn+-+Crotophaga+ani',
-	uniprot['103947']
+	uniprot['103947'],
+	gbif['2496209']
 )
 
 fauna(
-    gbif['5231932'],
+    rutaVueltaOriente['Fauna.rdf#taperaNaevia'],
     "TRESPIÉS",
     "Tapera naevia",
     """Mide de 26-29 cms y pesa alrededor de 52 grs. Presenta iris café a verdoso, pico café a café naranja, patas 
@@ -334,11 +357,12 @@ fauna(
     dbpedia['Tapera_naevia'],
     eol['913248'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Tres+Pies+-+Tapera+naevia',
-	uniprot['78212']
+	uniprot['78212'],
+	gbif['5231932']
 )
 
 fauna(
-    gbif['5231103'],
+    rutaVueltaOriente['Fauna.rdf#zonotrichiaCapensis'],
     "GORRIÓN DE COLLAR RUFO",
     "Zonotrichia capensis",
     """Mide entre 11.8-13.4 cms y pesa de 16.8-31 grs. Es ligeramente crestado y con pico cónico de tamaño medio. 
@@ -348,11 +372,12 @@ fauna(
     dbpedia['Zonotrichia_capensis'],
     eol['916840'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Copet%C3%B3n+Com%C3%BAn+-+Zonotrichia+capensis',
-	uniprot['44391']
+	uniprot['44391'],
+	gbif['5231103']
 )
 
 fauna(
-    gbif['2489208'],
+    rutaVueltaOriente['Fauna.rdf#notiochelidonCyanoleuca'],
     "GOLONDRINA AZUL",
     "Notiochelidon cyanoleuca",
     """Mide 13 cms aproximadamente; por encima es azul lustroso debajo blanco inmaculado, infracaudales negras; cola 
@@ -362,11 +387,12 @@ fauna(
     dbpedia['Notiochelidon_cyanoleuca'],
     eol['1178581'],
 	'http://www.biodiversidad.co/fichas/4697',
-	uniprot['72892']
+	uniprot['72892'],
+	gbif['2489208']
 )
 
 fauna(
-    gbif['2484396'],
+    rutaVueltaOriente['Fauna.rdf#molothrusBonariensis'],
     "CHAMÓN PARÁSITO",
     "Molothrus bonariensis",
     """Mide alrededor de 22 cms. Tiene un pico corto, cónico y ojos oscuros en ambos sexos. Los machos son totalmente 
@@ -376,11 +402,12 @@ fauna(
     dbpedia['Molothrus_bonariensis'],
     eol['1052069'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cham%C3%B3n+Par%C3%A1sito',
-	uniprot['84836']
+	uniprot['84836'],
+	gbif['2484396']
 )
 
 fauna(
-    gbif['5228112'],
+    rutaVueltaOriente['Fauna.rdf#colinusCristatus'],
     "PERDIZ COMÚN",
     "Colinus cristatus",
     """Presenta un tamaño entre 20-23 cms. Cresta aguda conspicua. Macho: cara y garganta blanquecinos; nuca negra 
@@ -390,11 +417,12 @@ fauna(
     dbpedia['Colinus_cristatus'],
     eol['1047228'],
 	'http://www.biodiversidad.co/fichas/3456',
-	uniprot['114915']
+	uniprot['114915'],
+	gbif['5228112']
 )
 
 fauna(
-    gbif['5228831'],
+    rutaVueltaOriente['Fauna.rdf#dryocopusLineatus'],
     "CARPINTERO REAL",
     "Dryocopus lineatus",
     """Carpintero de gran tamaño, aproximadamente 36 cms de longitud. Cresta prominente de color rojo, al igual que el 
@@ -404,11 +432,12 @@ fauna(
     dbpedia['Dryocopus_lineatus'],
     eol['1177478'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carpintero+Real',
-	uniprot['121135']
+	uniprot['121135'],
+	gbif['5228831']
 )
 
 fauna(
-    gbif['2479071'],
+    rutaVueltaOriente['Fauna.rdf#forpusConspicillatus'],
     "PERIQUITO DE ANTEOJOS",
     "Forpus conspicillatus",
     """Mide alrededor de 13 cms con el pico marfil. El macho es principalmente verde, más claro y más amarillento debajo, 
@@ -418,11 +447,12 @@ fauna(
     dbpedia['Forpus_conspicillatus'],
     eol['1178012'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Periquito+de+Anteojos+-+Forpus+conspicillatus',
-	uniprot['1265750']
+	uniprot['1265750'],
+	gbif['2479071']
 )
 
 fauna(
-    gbif['2481721'],
+    rutaVueltaOriente['Fauna.rdf#tringaFlavipes'],
     "TIGUE CHICO",
     "Tringa flavipes",
     """Mide de 23-25 cms, pesa de 48-114 grs. La hembra es un poco más grande que el macho. Presenta patas amarillas y 
@@ -432,11 +462,12 @@ fauna(
     dbpedia['Tringa_flavipes'],
     eol['1049439'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Andarrios+Patiamarillo+-+Tringa+flavipes',
-	uniprot['161739']
+	uniprot['161739'],
+	gbif['2481721']
 )
 
 fauna(
-    gbif['2481720'],
+    rutaVueltaOriente['Fauna.rdf#tringaMelanoleuca'],
     "TIGUE GRANDE",
     "Tringa melanoleuca",
     """Mide de 29-33 cms, pesa de 111-235 grs. Presenta patas amarillas y pico negro ligeramente decurvado. El adulto 
@@ -446,11 +477,12 @@ fauna(
     dbpedia['Tringa_melanoleuca'],
     eol['1049431'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Andarr%C3%ADos+Mayor+-+Tringa+melanoleuca',
-	uniprot['161682']
+	uniprot['161682'],
+	gbif['2481720']
 )
 
 fauna(
-    gbif['2488602'],
+    rutaVueltaOriente['Fauna.rdf#thraupisEpiscopus'],
     "AZULEJO COMÚN",
     "Thraupis episcopus",
     """Largo total promedio de 16.5 cms. Cabeza, cuello y partes inferiores gris azul pálido, en contraste con alta espalda 
@@ -460,11 +492,12 @@ fauna(
     dbpedia['Thraupis_episcopus'],
     eol['1052952'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Azulejo+Com%C3%BAn',
-	uniprot['58209']
+	uniprot['58209'],
+	gbif['2488602']
 )
 
 fauna(
-    gbif['2477507'],
+    rutaVueltaOriente['Fauna.rdf#crypturellusSoui'],
     "PONCHITA",
     "Crypturellus soui",
     """Mide aproximadamente 21.5-24 cms de largo, se trata de una especie tímida, reservada y solitaria. Es un ave 
@@ -474,11 +507,12 @@ fauna(
     dbpedia['Crypturellus_soui'],
     eol['1178390'],
 	'https://es.wikipedia.org/wiki/Crypturellus_soui',
-	uniprot['458187']
+	uniprot['458187'],
+	gbif['2477507']
 )
 
 fauna(
-    gbif['2476195'],
+    rutaVueltaOriente['Fauna.rdf#florisugaMellivora'],
     "COLIBRÍ NUCA BLANCA",
     "Florisuga mellivora",
     """Tiene un largo total promedio de 10.2 cms, pico corto (20 mms) y decurvado en la punta. El macho con 
@@ -488,11 +522,12 @@ fauna(
     dbpedia['Florisuga_mellivora'],
     eol['1048777'],
 	'http://www.biodiversidad.co/fichas/2554',
-	uniprot['304640']
+	uniprot['304640'],
+	gbif['2476195']
 )
 
 fauna(
-    gbif['5231459'],
+    rutaVueltaOriente['Fauna.rdf#troglodytesAedon'],
     "CUCARACHERO COMÚN",
     "Troglodytes aedon",
     """Mide 11.4 cms. Café grisáceo por encima, con barrado negruzco indistinto en alas y cola; débil superciliar 
@@ -502,11 +537,12 @@ fauna(
     dbpedia['Troglodytes_aedon'],
     eol['1050659'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cucarachero+Com%C3%BAn',
-	uniprot['58211']
+	uniprot['58211'],
+	gbif['5231459']
 )
 
 fauna(
-    gbif['2482802'],
+    rutaVueltaOriente['Fauna.rdf#empidonaxVirescens'],
     "ATRAPA MOSCAS COPETE VERDE",
     "Empidonax virescens",
     """Mide entre 13-14.5 cms de longitud y pesa de 12.2-14 grs. Los adultos presentan corona, cuello y partes 
@@ -516,11 +552,12 @@ fauna(
     dbpedia['Empidonax_virescens'],
     eol['1046721'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Verdoso',
-	uniprot['209628']
+	uniprot['209628'],
+	gbif['2482802']
 )
 
 fauna(
-    gbif['5229564'],
+    rutaVueltaOriente['Fauna.rdf#fluvicolaPica'],
     "VIUDITA COMÚN",
     "Fluvicola pica",
     """Su longitud es de 13 cms. Es blanco con occipucio y centro de la espalda negros: presenta alas y cola de color 
@@ -530,11 +567,12 @@ fauna(
     dbpedia['Fluvicola_pica'],
     eol['1053132'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Viudita+Com%C3%BAn',
-	uniprot['196030']
+	uniprot['196030'],
+	gbif['5229564']
 )
 
 fauna(
-    gbif['2482755'],
+    rutaVueltaOriente['Fauna.rdf#pitangusSulphuratus'],
     "BICHOFUÉ GRITÓN",
     "Pitangus sulphuratus",
     """Atrapamoscas que mide 22 cms y pesa aproximadamente 65 grs, es grande y robusto con un pico grande 
@@ -544,11 +582,12 @@ fauna(
     dbpedia['Pitangus_sulphuratus'],
     eol['916841'],
 	'http://www.biodiversidad.co/fichas/4535',
-	uniprot['371930']
+	uniprot['371930'],
+	gbif['2482755']
 )
 
 fauna(
-    gbif['5229662'],
+    rutaVueltaOriente['Fauna.rdf#tyrannusMelancholicus'],
     "SIRIRÍ COMÚN",
     "Tyrannus melancholicus",
     """Mide cerca de 22 cms y pesa 40 grs. Tiene la cabeza gris con una máscara negruzca, posee un parche naranja oculto 
@@ -558,11 +597,12 @@ fauna(
     dbpedia['Tyrannus_melancholicus'],
     eol['917493'],
 	'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Sirir%C3%AD+Com%C3%BAn',
-	uniprot['121427']
+	uniprot['121427'],
+	gbif['5229662']
 )
 
 fauna(
-    gbif['5226883'],
+    rutaVueltaOriente['Fauna.rdf#micrurusMipartitus'],
     "RABO DE AJÍ",
     "Micrurus mipartitus",
     """Cuerpo cilíndrico que puede alcanzar hasta 120 cms. De 34-84 anillos negros alternados con anillos amarillo 
@@ -572,11 +612,12 @@ fauna(
     wikidata['Q5079828'],
     eol['1055830'],
 	'http://www.serpientes-snakes.com.ar/superfamilias/micrurus_mipartitus.htm',
-	uniprot['430902']
+	uniprot['430902'],
+	gbif['5226883']
 )
 
 fauna(
-    gbif['5223229'],
+    rutaVueltaOriente['Fauna.rdf#cleliaClelia'],
     "CAZADORA",
     "Clelia clelia",
     """Alcanza una longitud máxima de 22.80 cms. La coloración del dorso en juveniles es rojo profundo, la cabeza es 
@@ -586,11 +627,12 @@ fauna(
     dbpedia['Clelia_clelia'],
     eol['454628'],
 	'http://www.biodiversidad.co/fichas/2796',
-	uniprot['121322']
+	uniprot['121322'],
+	gbif['5223229']
 )
 
 fauna(
-    gbif['2456089'],
+    rutaVueltaOriente['Fauna.rdf#erythrolamprusBizona'],
     "FALSA CORAL",
     "Erythrolamprus bizona",
     """Longitud máxima de 100 cms. Presenta anillos rojos y negros, los últimos en pares, inclusive el primer anillo 
@@ -600,11 +642,12 @@ fauna(
     dbpedia['Erythrolamprus_bizona'],
     eol['794729'],
 	'http://www.biodiversidad.co/fichas/2843',
-	uniprot['121327']
+	uniprot['121327'],
+	gbif['2456089']
 )
 
 fauna(
-    gbif['2454954'],
+    rutaVueltaOriente['Fauna.rdf#leptodeiraAnnulata'],
     "GUAMERA",
     "Leptodeira annulata",
     """Longitud de 19.4 cms en machos y 86.9 cms en hembras. La coloración dorsal va de café claro a café más 
@@ -614,11 +657,12 @@ fauna(
     dbpedia['Leptodeira_annulata'],
     eol['792206'],
 	'http://www.biodiversidad.co/fichas/2847',
-	uniprot['121346']
+	uniprot['121346'],
+	gbif['2454954']
 )
 
 fauna(
-    gbif['2456438'],
+    rutaVueltaOriente['Fauna.rdf#tantillaMelanocephala'],
     "TIERRERA",
     "Tantilla melanocephala",
     """Cabeza alargada y no diferenciada del cuello, ojos pequeños y el cuerpo cilíndrico y delgado. Presenta un color 
@@ -628,11 +672,12 @@ fauna(
     dbpedia['Tantilla_melanocephala'],
     eol['2816562'],
 	'http://www.serpientesdevenezuela.net/web/index.php/component/content/article?id=124',
-	uniprot['121370']
+	uniprot['121370'],
+	gbif['2456438']
 )
 
 fauna(
-    gbif['2437581'],
+    rutaVueltaOriente['Fauna.rdf#dasyproctaFuliginosa'],
     "GUATÍN",
     "Dasyprocta fuliginosa",
     """El dorso puede ser de color café rojizo, café amarillo o amarillo grisáceo. Puede presentar finas estrías negras 
@@ -642,15 +687,16 @@ fauna(
     dbpedia['Dasyprocta_fuliginosa'],
     eol['127456'],
 	'http://www.biodiversidad.co/fichas/665',
-	uniprot['193455']
+	uniprot['193455'],
+	gbif['2437581']
 )
 
 # Fauna presente en la Ruta del Maíz
-g.add( (gbif['5219666'], RDF.type, WILDLIFE.TaxonName) ) # Ardilla
-g.add( (gbif['2481942'], RDF.type, WILDLIFE.TaxonName) ) # Gallinazo
-g.add( (gbif['2459658'], RDF.type, WILDLIFE.TaxonName) ) # Iguana Comun
-g.add( (gbif['2467661'], RDF.type, WILDLIFE.TaxonName) ) # Lagarto
-g.add( (gbif['5216933'], RDF.type, WILDLIFE.TaxonName) ) # Sapo Comun
-g.add( (gbif['2433536'], RDF.type, WILDLIFE.TaxonName) ) # Cusumbo
+g.add( (rioFrio['Fauna.rdf#nasuaNasua'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Cusumbo
+g.add( (rutaMaiz['Fauna.rdf#sciurusGranatensis'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Ardilla
+g.add( (rutaMaiz['Fauna.rdf#coragypsAtratus'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Gallinazo
+g.add( (rutaMaiz['Fauna.rdf#iguanaIguana'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Iguana Comun
+g.add( (rutaMaiz['Fauna.rdf#anolisAuratus'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Lagarto
+g.add( (rutaMaiz['Fauna.rdf#rhinellaMarina'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Sapo Comun
 
 #print (g.serialize(format="pretty-xml")) 

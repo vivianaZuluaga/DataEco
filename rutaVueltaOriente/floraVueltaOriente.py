@@ -8,28 +8,31 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL
-from utils.namespaces import rutaVueltaOriente, uniprot, dbpedia, wikidata, imgur, eol, gbif
+from utils.namespaces import rutaVueltaOriente, rutaMaiz, rutaJardin, uniprot, dbpedia, wikidata, imgur, eol, gbif
 from faunaVueltaOriente import g
 
 #g = Graph()
 
-def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3):
+def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
     g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
     g.add( (URIRef(uri), WILDLIFE.commonName, Literal(nombre_comun, lang="es") ) )
     g.add( (URIRef(uri), WILDLIFE.scientificName, Literal(nombre_cientifico, lang="la")) )
     g.add( (URIRef(uri), WILDLIFE.shortDescription, Literal(descripcion, lang="es")) )
     g.add( (URIRef(uri), FOAF.depiction, URIRef(imagen)))
     g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Vegetal', lang="es")) )
-
-    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web del que se tomo la des
-    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia
-    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) ) #Link a EOL
+    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web
+    
+    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia  
     g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF a UniProt
     
-    g.add( (URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente.Flora)) )
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
+    
+    g.add( (URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) )
+
 
 flora(
-	gbif['8138695'],
+	rutaVueltaOriente['Flora.rdf#trichantheraGigantea'],
     "NACEDERO",
     "Trichanthera gigantea",
     """Árbol de hojas simples, opuestas, ápice acuminado, glabras o pubescentes en las venas, ovadas a oblongas, 
@@ -39,11 +42,12 @@ flora(
     dbpedia['Trichanthera'],
     eol['5637186'],
 	'http://www.biodiversidad.co/fichas/3595',
-	uniprot['681367']
+	uniprot['681367'],
+	gbif['8138695']
 )
 
 flora(
-    gbif['2767031'],
+    rutaVueltaOriente['Flora.rdf#agaveAmericana'],
     "CABUYA",
     "Agave americana",
     """Planta perenne con distintos usos medicinales, alimenticios y textiles. Las hojas de entre 15 y 30 cms de ancho 
@@ -53,11 +57,12 @@ flora(
     dbpedia['Agave_americana'],
     eol['1083826'],
 	'http://enciclopedia.us.es/index.php/Agave_americana',
-	uniprot['39510']
+	uniprot['39510'],
+	gbif['2767031']
 )
 
 flora(
-    gbif['5407147'],
+    rutaVueltaOriente['Flora.rdf#annonaCherimola'],
     "CHIRIMOYO",
     "Annona cherimola",
     """Árbol de hoja caduca, a excepción de aquellas zonas de invierno suave donde mantiene sus hojas ovaladas 
@@ -67,11 +72,12 @@ flora(
     dbpedia['Annona_cherimola'],
     eol['1054913'],
 	'http://www.lachirimoya.org/chirimoyo-arbol-chirimoya/',
-	uniprot['49314']
+	uniprot['49314'],
+	gbif['5407147']
 )
 
 flora(
-    gbif['5407273'],
+    rutaVueltaOriente['Flora.rdf#annonaMuricata'],
     "GUANÁBANA",
     "Annona muricata",
     """Árbol pequeño que llega a alcanzar hasta 10 ms de altura, de follaje compacto, hojas simples, coriáceas 
@@ -81,11 +87,12 @@ flora(
     dbpedia['Annona_muricata'],
     eol['1054863'],
 	'https://encolombia.com/economia/agroindustria/cultivo/cultivodeguanabana/',
-	uniprot['13337']
+	uniprot['13337'],
+	gbif['5407273']
 )
 
 flora(
-    gbif['2872695'],
+    rutaVueltaOriente['Flora.rdf#anthuriumAndraeanum'],
     "ANTURIO",
     "Anthurium andraeanum",
     """Herbácea perenne de hojas verdes brillantes ovaladas o acorazonadas. Lo que se conoce como flor es una hoja 
@@ -95,11 +102,12 @@ flora(
     dbpedia['Anthurium_andraeanum'],
     eol['1142454'],
 	'https://es.wikipedia.org/wiki/Anthurium',
-	uniprot['226677']
+	uniprot['226677'],
+	gbif['2872695']
 )
 
 flora(
-    gbif['2861312'],
+    rutaVueltaOriente['Flora.rdf#philodendron'],
     "FILODENDRO",
     "Philodendron spp",
     """Es una especie muy variable en su forma y su ecología. Presenta peciolos que miden de 283-108 cms de largo y de 
@@ -109,11 +117,12 @@ flora(
     dbpedia['Philodendron'],
     eol['29342'],
 	'http://www.biodiversidad.co/fichas/2197',
-	uniprot['71613']
+	uniprot['71613'],
+	gbif['2861312']
 )
 
 flora(
-    gbif['114907430'],
+    rutaVueltaOriente['Flora.rdf#oreopanaxFloribundum'],
     "MANO DE OSO",
     "Oreopanax floribundum",
     """Este árbol alcanza los 25 ms de altura. Su tronco recto y de corteza color gris pardusco ligeramente escamosa o 
@@ -123,11 +132,12 @@ flora(
     dbpedia['Dendropanax_colombianus'],
     eol['5056477'],
 	'http://www.biodiversidad.co/fichas/1081',
-	uniprot['52502']
+	uniprot['52502'],
+	gbif['114907430']
 )
 
 flora(
-    gbif['2734435'],
+    rutaVueltaOriente['Flora.rdf#chamaedoreaPinnatifrons'],
     "PALMA MOLINILLO",
     "Chamaedorea pinnatifrons",
     """Es una palma de tallo solitario de color verde, de hasta 2,5 ms de alto y entre 1-2 cms de diámetro. Sus hojas 
@@ -137,11 +147,12 @@ flora(
     wikidata['Q5764286'],
     eol['1091015'],
 	'http://www.biodiversidad.co/fichas/1089',
-	uniprot['348487']
+	uniprot['348487'],
+	gbif['2734435']
 )
 
 flora(
-    gbif['3170241'],
+    rutaVueltaOriente['Flora.rdf#asclepiasCurassavica'],
     "BENCENUCO",
     "Asclepias curassavica",
     """Es una hierba que alcanza hasta 1,5 ms de alto y tiene abundante exudado de color blanco, considerado tóxico. 
@@ -151,11 +162,12 @@ flora(
     dbpedia['Asclepias_curassavica'],
     eol['581283'],
 	'http://www.biodiversidad.co/fichas/1100',
-	uniprot['52823']
+	uniprot['52823'],
+	gbif['3170241']
 )
 
 flora(
-    gbif['5391845'],
+    rutaVueltaOriente['Flora.rdf#bidensPilosa'],
     "CADILLO",
     "Bidens pilosa",
     """Hierba pequeña, erecta anual que crece hasta 1 m de altura. Tiene hojas verde intenso dentadas, bordes 
@@ -165,11 +177,12 @@ flora(
     dbpedia['Bidens_pilosa'],
     eol['579063'],
 	'http://www.biodiversidad.co/fichas/3516',
-	uniprot['42337']
+	uniprot['42337'],
+	gbif['5391845']
 )
 
 flora(
-    gbif['3114910'],
+    rutaVueltaOriente['Flora.rdf#tessariaIntegrifolia'],
     "SAUCE PLAYERO",
     "Tessaria integrifolia",
     """Árbol de 3-10 ms de altura de follaje persistente y copa pequeña. Se caracteriza por su silueta delgada. Sus 
@@ -179,11 +192,12 @@ flora(
     wikidata['Q6143507'],
     eol['5114705'],
 	'http://www.biodiversidad.co/fichas/2100',
-	uniprot['313942']
+	uniprot['313942'],
+	gbif['3114910']
 )
 
 flora(
-    gbif['5396865'],
+    rutaVueltaOriente['Flora.rdf#vernoniaBrasiliana'],
     "OLIVÓN",
     "Vernonia brasiliana",
     """Arbusto de 1.50 ms de altura, bien ramificado, hojas oblongo–elípticas de 6x3 cms, que despiden un olor fuerte 
@@ -192,11 +206,12 @@ flora(
     wikidata['Q21302707'],
     eol['6181144'],
 	'http://www.biovirtual.unal.edu.co/ICN/?controlador=ShowObject&accion=show&id=82852',
-	uniprot['434694']
+	uniprot['434694'],
+	gbif['5396865']
 )
 
 flora(
-    gbif['5415081'],
+    rutaVueltaOriente['Flora.rdf#crescentiaCujete'],
     "TOTUMO",
     "Crescentia cujete",
     """Este árbol alcanza los 10 ms de altura. Sus ramas son largas y extendidas. Sus hojas tienen forma de espátula 
@@ -206,11 +221,12 @@ flora(
     dbpedia['Crescentia_cujete'],
     eol['578228'],
 	'http://www.biodiversidad.co/fichas/1396',
-	uniprot['1125401']
+	uniprot['1125401'],
+	gbif['5415081']
 )
 
 flora(
-    gbif['3172537'],
+    rutaVueltaOriente['Flora.rdf#tabebuiaRosea'],
     "GUAYACÁN ROSADO",
     "Tabebuia rosea",
     """Árbol de 15 a 30 ms de altura y de 90 cms de diámetro con un tronco recto. Sus hojas, compuestas de 5 folíolos 
@@ -220,11 +236,12 @@ flora(
     dbpedia['Tabebuia_rosea'],
     eol['596778'],
 	'https://biota.wordpress.com/2008/12/25/el-cultivo-del-roble-de-sabana-tabebuia-rosea/',
-	uniprot['429709']
+	uniprot['429709'],
+	gbif['3172537']
 )
 
 flora(
-    gbif['3152240'],
+    rutaVueltaOriente['Flora.rdf#ochromaPyramidale'],
     "BALSO",
     "Ochroma pyramidale",
     """Árbol de los bosques tropicales, puede alcanzar hasta 40 ms de altura. Flores de color blanco-amarillento. 
@@ -234,11 +251,12 @@ flora(
     dbpedia['Ochroma_pyramidale'],
     eol['584793'],
 	'http://www.biodiversidad.co/fichas/388',
-	uniprot['66662']
+	uniprot['66662'],
+	gbif['3152240']
 )
 
 flora(
-    gbif['7649215'],
+    rutaVueltaOriente['Flora.rdf#cordiaAlliodora'],
     "NOGAL CAFETERO",
     "Cordia alliodora",
     """Árbol de tamaño mediano a grande, que en estado maduro alcanza una altura superior a los 30 ms 
@@ -248,11 +266,12 @@ flora(
     dbpedia['Cordia_alliodora'],
     eol['580043'],
 	'http://maderas.ut.edu.co/especies/pagina_especie.php?especie=LAUREL',
-	uniprot['246517']
+	uniprot['246517'],
+	gbif['7649215']
 )
 
 flora(
-    gbif['7757322'],
+    rutaVueltaOriente['Flora.rdf#bromelia'],
     "QUICHES",
     "Bromelia spp",
     """Planta con hojas arrosetadas y sin tallo aparente. Crece encima de las ramas y troncos de los árboles. Las 
@@ -262,11 +281,12 @@ flora(
     dbpedia['Bromelia'],
     eol['33260'],
 	'http://www.opepa.org/index.php?option=com_content&task=view&id=236&Itemid=30',
-	uniprot['4616']
+	uniprot['4616'],
+	gbif['7757322']
 )
 
 flora(
-    gbif['2956947'],
+    rutaVueltaOriente['Flora.rdf#sennaAlata'],
     "MARTIN GALVES",
     "Senna alata",
     """Arbusto de 1 a 7.5 ms de altura, con ramas robustas y el follaje joven pubescente. Hojas de 30 - 100 cms de 
@@ -276,11 +296,12 @@ flora(
     dbpedia['Senna_alata'],
     eol['703879'],
 	'https://es.wikipedia.org/wiki/Senna_alata',
-	uniprot['53923']
+	uniprot['53923'],
+	gbif['2956947']
 )
 
 flora(
-    gbif['2957438'],
+    rutaVueltaOriente['Flora.rdf#sennaSpectabilis'],
     "FLOR AMARILLO",
     "Senna spectabilis",
     """Árbol de 8 a 10 ms de altura y de 40 cms de diámetro en el tronco. Su copa tiene forma globosa. Su corteza es 
@@ -290,11 +311,12 @@ flora(
     dbpedia['Senna_spectabilis'],
     eol['418255'],
 	'http://lailahuber.blogspot.com.co/2011_01_01_archive.html',
-	uniprot['347003']
+	uniprot['347003'],
+	gbif['2957438']
 )
 
 flora(
-    gbif['8474174'],
+    rutaVueltaOriente['Flora.rdf#caricaGoudotiana'],
     "PAPAYUELA",
     "Carica goudotiana",
     """Planta que alcanza hasta 4 ms de altura, tallo grueso en la base y se adelgaza en la parte superior. Hojas 
@@ -304,11 +326,12 @@ flora(
     dbpedia['Vasconcellea_goudotiana'],
     eol['5731417'],
 	'http://www.biodiversidad.co/fichas/5165',
-	uniprot['262682']
+	uniprot['262682'],
+	gbif['8474174']
 )
 
 flora(
-    gbif['2984472'],
+    rutaVueltaOriente['Flora.rdf#cecropia'],
     "YARUMO",
     "Cecropia sp",
     """Árbol de 7 a 15 ms; tallo leñoso recto con anillos marcados, de color verde-grisáceo, algunas 
@@ -318,11 +341,12 @@ flora(
     dbpedia['Yarumo'],
     eol['61334'],
 	'http://docplayer.es/6336435-Mangifera-indica-familia-anacardiaceae-mango.html',
-	uniprot['77071']
+	uniprot['77071'],
+	gbif['2984472']
 )
 
 flora(
-    gbif['5421056'],
+    rutaVueltaOriente['Flora.rdf#clusiaMinor'],
     "CUCHARO",
     "Clusia minor",
     """Árbol que alcanza hasta los 10 ms de altura; tiene ramitas algo angulosas; las hojas obovadas, 
@@ -332,11 +356,12 @@ flora(
     wikidata['Q5775222'],
     eol['584881'],
 	'https://es.wikipedia.org/wiki/Clusia_minor',
-	uniprot['156471']
+	uniprot['156471'],
+	gbif['5421056']
 )
 
 flora(
-    gbif['2874515'],
+    rutaVueltaOriente['Flora.rdf#cucurbitaMaxima'],
     "ZAPALLO",
     "Cucurbita maxima",
     """Las hojas de esta planta presentan 5 lóbulos, tienen vellos suaves, y margen dentado. Sus frutos son de forma 
@@ -346,11 +371,12 @@ flora(
     dbpedia['Cucurbita_maxima'],
     eol['584406'],
 	'http://www.biodiversidad.co/fichas/1342',
-	uniprot['3661']
+	uniprot['3661'],
+	gbif['2874515']
 )
 
 flora(
-    gbif['3694437'],
+    rutaVueltaOriente['Flora.rdf#erythroxylumUlei'],
     "COCA MONTAÑERA",
     "Erythroxylum ulei",
     """Arbusto muy ramificado que crece 1-5 ms de altura. La planta se cosecha en el medio silvestre para uso local 
@@ -359,11 +385,12 @@ flora(
     wikidata['Q15379800'],
     eol['5404247'],
 	'http://www.biodiversidad.co/fichas/3600',
-	uniprot['13511']
+	uniprot['13511'],
+	gbif['3694437']
 )
 
 flora(
-    gbif['8033909'],
+    rutaVueltaOriente['Flora.rdf#acalyphaMacrostachya'],
     "ACALIFA",
     "Acalypha macrostachya",
     """Árbol que alcalza 1–8 ms de altura, tallos jóvenes generalmente fuertes y con médula grande, densamente vellosos 
@@ -373,11 +400,12 @@ flora(
     wikidata['Q9574549'],
     eol['1143557'],
 	'http://hergol.biologia.ucr.ac.cr/taxa/index.php?taxon=1145&cl=Lista%20de%20plantas%20del%20Refugio%20de%20VS%20Golfito',
-	uniprot['681401']
+	uniprot['681401'],
+	gbif['8033909']
 )
 
 flora(
-    gbif['3059672'],
+    rutaVueltaOriente['Flora.rdf#crotonGossypiifolius'],
     "SANGREGAO",
     "Croton gossypiifolius",
     """Árbol que alcanza hasta 16 ms de altura. Hojas color verde claro. Corteza externa café, interna blanca, 
@@ -387,11 +415,12 @@ flora(
     wikidata['Q3004383'],
     eol['1146430'],
 	'http://www.scielo.org.mx/scielo.php?script=sci_arttext&pid=S0370-59432013000300003',
-	uniprot['323053']
+	uniprot['323053'],
+	gbif['3059672']
 )
 
 flora(
-    gbif['3067261'],
+    rutaVueltaOriente['Flora.rdf#euphorbiaCotinifolia'],
     "LECHERO (CAUCHO)",
     "Euphorbia cotinifolia",
     """Árbol semicaducifolio muy ramificado, llega a alcanzar 4-5 ms de altura, con la corteza clara y lisa. Hojas 
@@ -401,11 +430,12 @@ flora(
     dbpedia['Euphorbia_cotinifolia'],
     eol['1145074'],
 	'http://www.biodiversidad.co/fichas/921',
-	uniprot['457243']
+	uniprot['457243'],
+	gbif['3067261']
 )
 
 flora(
-    gbif['5380041'],
+    rutaVueltaOriente['Flora.rdf#ricinusCommunis'],
     "HIGUERILLA",
     "Ricinus communis",
     """Arbusto perenne muy ramificado que alcanza entre 2 y 4 metros de altura, de raíz superficial y 
@@ -415,11 +445,12 @@ flora(
     dbpedia['Ricinus_communis'],
     eol['1151096'],
 	'http://www.herbotecnia.com.ar/exo-ricino.html',
-	uniprot['3988']
+	uniprot['3988'],
+	gbif['5380041']
 )
 
 flora(
-    gbif['8311514'],
+    rutaVueltaOriente['Flora.rdf#erythrinaPoeppigiana'],
     "PÍSAMO",
     "Erythrina poeppigiana",
     """Árbol grande que puede alcanzar hasta 35 ms de altura. Presenta aguijones gruesos. Las flores son de color 
@@ -429,11 +460,12 @@ flora(
     wikidata['Q5837321'],
     eol['416279'],
 	'http://aprendeenlinea.udea.edu.co/ova/?q=node/455',
-	uniprot['647292']
+	uniprot['647292'],
+	gbif['8311514']
 )
 
 flora(
-    gbif['2953986'],
+    rutaVueltaOriente['Flora.rdf#gliricidiaSepium'],
     "MATARRATÓN",
     "Gliricidia sepium",
     """Árbol perenne, con raíces profundas; crece de 10–15 ms de altura y 40 cms de diámetro en el tallo, produce 
@@ -443,11 +475,12 @@ flora(
     dbpedia['Gliricidia_sepium'],
     eol['642632'],
 	'http://www.tropicalforages.info/Multiproposito/key/Multiproposito/Media/Html/Gliricidia%20sepium.htm',
-	uniprot['167663']
+	uniprot['167663'],
+	gbif['2953986']
 )
 
 flora(
-    gbif['2951499'],
+    rutaVueltaOriente['Flora.rdf#mucunaPruriens'],
     "CONGOLO",
     "Mucuna pruriens",
     """Planta anual, arbusto trepador con largos zarcillos que le permiten llegar a más de 15 ms. Sus granos son 
@@ -457,11 +490,12 @@ flora(
     wikidata['Q953611'],
     eol['645045'],
 	'https://es.wikipedia.org/wiki/Mucuna_pruriens',
-	uniprot['157652']
+	uniprot['157652'],
+	gbif['2951499']
 )
 
 flora(
-    gbif['2880642'],
+    rutaVueltaOriente['Flora.rdf#quercusHumboldtii'],
     "ROBLE",
     "Quercus humboldtii",
     """Árbol monoico caducifolio, de aproximadamente 25 ms de altura, con copa amplia y redondeada. Hojas glabras 
@@ -471,11 +505,12 @@ flora(
     dbpedia['Quercus_humboldtii'],
     eol['1151543'],
 	'http://www.uco.edu.co/floraorienteantioquia/fagaceae/Quercus-humboldtii-Bonpl/Paginas/default.aspx',
-	uniprot['3511']
+	uniprot['3511'],
+	gbif['2880642']
 )
 
 flora(
-    gbif['7898917'],
+    rutaVueltaOriente['Flora.rdf#xylosmaPrunifolium'],
     "CUERNO VENADO",
     "Xylosma prunifolium",
     """Árbol con espinas de hasta 5 cms, ramificadas en la base del tronco y luego se hacen simples y muy agudas en 
@@ -484,11 +519,12 @@ flora(
     wikidata['Q17562923'],
     eol['5731214'],
 	'https://books.google.com.co/books?id=Omzm3LW0mZUC&pg=PA291&lpg=PA291&dq=luego+se+hacen+simples+y+muy+agudas+enlas+ramas,+a+veces+ausentes,+hojas+de+base+cuneada+a+redondeada,+glabras&source=bl&ots=uF5rXApwK9&sig=-mw17zF-AVrKieGSFcKcMRSJ02E&hl=es&sa=X&redir_esc=y#v=onepage&q=luego%20se%20hacen%20simples%20y%20muy%20agudas%20enlas%20ramas%2C%20a%20veces%20ausentes%2C%20hojas%20de%20base%20cuneada%20a%20redondeada%2C%20glabras&f=false',
-	uniprot['179718']
+	uniprot['179718'],
+	gbif['7898917']
 )
 
 flora(
-    gbif['2760842'],
+    rutaVueltaOriente['Flora.rdf#heliconiaGriggsiana'],
     "PLATANILLO",
     "Heliconia griggsiana",
     """Heliconia de tamaño mediano, con inflorescencias colgantes, espiraladas, las cuales tienen brácteas 
@@ -498,11 +534,12 @@ flora(
     wikidata['Q15329832'],
     eol['1118024'],
 	'http://www.rarepalmseeds.com/es/pix/HelGri.shtml',
-	uniprot['796949']
+	uniprot['796949'],
+	gbif['2760842']
 )
 
 flora(
-    gbif['8708187'],
+    rutaVueltaOriente['Flora.rdf#cinnamomumCinnamomifolia'],
     "LAUREL JIGUA",
     "Cinnamomum cinnamomifolia",
     """Árbol que alcanza los 18 ms de altura y 40 cms de diámetro en su tronco; su copa es globosa; su follaje de 
@@ -512,11 +549,12 @@ flora(
     wikidata['Q6074391'],
     eol['488334'],
 	'https://es.wikipedia.org/wiki/Phoebe_cinnamomifolia',
-	uniprot['13428']
+	uniprot['13428'],
+	gbif['8708187']
 )
 
 flora(
-    gbif['3033969'],
+    rutaVueltaOriente['Flora.rdf#licaria'],
     "AGUACATILLO",
     "Licaria sp",
     """Árbol de hoja perenne con una copa amplia y redondeada; puede alcanzar hasta 16 ms de altura. El tronco puede 
@@ -526,11 +564,12 @@ flora(
     wikidata['Q5226729'],
     eol['61876'],
 	'https://es.wikipedia.org/wiki/Licaria',
-	uniprot['128634']
+	uniprot['128634'],
+	gbif['3033969']
 )
 
 flora(
-    gbif['5421429'],
+    rutaVueltaOriente['Flora.rdf#malpighiaGlabra'],
     "HUESITO",
     "Malpighia glabra",
     """Alcanza los 8 ms de altura. El tronco es usualmente bajo y torcido, la copa es baja y densa. Las hojas son 
@@ -540,11 +579,12 @@ flora(
     dbpedia['Malpighia_glabra'],
     eol['398658'],
 	'http://www.biodiversidad.co/fichas/1522',
-	uniprot['71611']
+	uniprot['71611'],
+	gbif['5421429']
 )
 
 flora(
-    gbif['3188585'],
+    rutaVueltaOriente['Flora.rdf#miconia'],
     "NIGUITO",
     "Miconia sp",
     """Arbusto con copa redondeada, hojas simples opuestas, el borde es finamente aserrado, haz verde oscuro. 
@@ -554,11 +594,12 @@ flora(
     dbpedia['Miconia'],
     eol['60394'],
 	'http://www.biodiversidad.co/fichas/4918',
-	uniprot['263288']
+	uniprot['263288'],
+	gbif['3188585']
 )
 
 flora(
-    gbif['3190504'],
+    rutaVueltaOriente['Flora.rdf#guareaTrichilioides'],
     "CEDRO MACHO",
     "Guarea trichilioides",
     """Árbol que presenta una base estriada, el tronco recto y sin ramificaciones. Alcanza una altura entre 25-30 ms 
@@ -568,11 +609,12 @@ flora(
     dbpedia['Guarea_guidonia'],
     eol['581915'],
 	'http://www.biodiversidad.co/fichas/669',
-	uniprot['43908']
+	uniprot['43908'],
+	gbif['3190504']
 )
 
 flora(
-    gbif['3190491'],
+    rutaVueltaOriente['Flora.rdf#trichiliaPallida'],
     "TROMPILLO",
     "Trichilia pallida",
     """Árbol de hasta 20 ms de altura, de madera blanda, corteza viva quebradiza, fibrosa y delgada. Hojas de 15 cms 
@@ -582,11 +624,12 @@ flora(
     wikidata['Q15526615'],
     eol['592301'],
 	'http://www.biodiversidad.co/fichas/2271',
-	uniprot['597422']
+	uniprot['597422'],
+	gbif['3190491']
 )
 
 flora(
-    gbif['8225137'],
+    rutaVueltaOriente['Flora.rdf#acaciaFarnesiana'],
     "AROMO",
     "Acacia farnesiana",
     """Arbusto muy ramificado desde la base que alcanza 3-5 m de altura. Tronco de corteza oscura y ramaje tortuoso 
@@ -596,11 +639,12 @@ flora(
     dbpedia['Acacia_farnesiana'],
     eol['684149'],
 	'http://www.biodiversidad.co/fichas/2237',
-	uniprot['72368']
+	uniprot['72368'],
+	gbif['8225137']
 )
 
 flora(
-    gbif['2981948'],
+    rutaVueltaOriente['Flora.rdf#calliandraPittieri'],
     "CARBONERO",
     "Calliandra pittieri",
     """Árbol de unos 5 ms de altura, su follaje y copa en forma de parasol, al igual que sus flores en pomos 
@@ -610,12 +654,12 @@ flora(
     wikidata['Q15492902'],
     eol['647621'],
 	'http://www.biodiversidad.co/fichas/3559',
-	uniprot['226080']
-	
+	uniprot['226080'],
+	gbif['2981948']
 )
 
 flora(
-    gbif['5357677'],
+    rutaVueltaOriente['Flora.rdf#ingaEdulis'],
     "GUAMO",
     "Inga edulis",
     """Árbol con 8-15 ms de altura, tronco bajo, ramificando algunas veces casi desde la base, copa algo rala. Hojas 
@@ -625,11 +669,12 @@ flora(
     dbpedia['Inga_edulis'],
     eol['8685157'],
 	'https://es.wikipedia.org/wiki/Guama_(fruta)',
-	uniprot['199163']
+	uniprot['199163'],
+	gbif['5357677']
 )
 
 flora(
-    gbif['2969284'],
+    rutaVueltaOriente['Flora.rdf#mimosaPudica'],
     "DORMIDERA",
     "Mimosa pudica",
     """Planta herbácea de unos 50 cms de altura y perennifolia. Tallo espinoso, ramificado, leñoso, con pelos rígidos en 
@@ -639,11 +684,12 @@ flora(
     dbpedia['Mimosa_pudica'],
     eol['417449'],
 	'http://www.biodiversidad.co/fichas/3636',
-	uniprot['76306']
+	uniprot['76306'],
+	gbif['2969284']
 )
 
 flora(
-    gbif['2962831'],
+    rutaVueltaOriente['Flora.rdf#pithecellobiumDulce'],
     "CHIMINANGO",
     "Pithecellobium dulce",
     """Árbol de 5-20 ms, espinoso; hojas compuestas. Las flores son amarillentas o blanco verdosas y se producen 
@@ -653,11 +699,12 @@ flora(
     dbpedia['Pithecellobium_dulce'],
     eol['642629'],
 	'http://www.biodiversidad.co/fichas/3546',
-	uniprot['404691']
+	uniprot['404691'],
+	gbif['2962831']
 )
 
 flora(
-    gbif['2962824'],
+    rutaVueltaOriente['Flora.rdf#pithecellobiumLanceolatum'],
     "ESPINO DE MONO",
     "Pithecellobium lanceolatum",
     """Arbustos de 0.75-12 ms de altura, corteza estriada. Hojas bipinnadas, cada pinna exactamente con 2 
@@ -667,11 +714,12 @@ flora(
     wikidata['Q15459116'],
     eol['642793'],
 	'http://www.biodiversidad.co/fichas/2153',
-	uniprot['1129495']
+	uniprot['1129495'],
+	gbif['2962824']
 )
 
 flora(
-    gbif['2972961'],
+    rutaVueltaOriente['Flora.rdf#pithecellobiumSaman'],
     "SAMÁN",
     "Pithecellobium saman",
     """Árbol grande y umbraculiforme que llega a medir 60 ms de altura. La densa y simétrica copa puede alcanzar 80 
@@ -681,11 +729,12 @@ flora(
     dbpedia['Pithecellobium_saman'],
     eol['46244366'],
 	'http://documents.mx/documents/arbol-emblematicos-de-los-estados.html',
-	uniprot['76910']
+	uniprot['76910'],
+	gbif['2972961']
 )
 
 flora(
-    gbif['2984660'],
+    rutaVueltaOriente['Flora.rdf#brosimumAlicastrum'],
     "GUAIMARO",
     "Brosimum alicastrum",
     """Árbol de gran porte que puede alcanzar 45 ms, y alcanza un diámetro aproximado de 1.5 ms en su tronco. Su copa 
@@ -695,11 +744,12 @@ flora(
     dbpedia['Brosimum_alicastrum'],
     eol['596209'],
 	'http://www.biodiversidad.co/fichas/1368',
-	uniprot['194253']
+	uniprot['194253'],
+	gbif['2984660']
 )
 
 flora(
-    gbif['7262619'],
+    rutaVueltaOriente['Flora.rdf#ficusGlabrata'],
     "HIGUERÓN",
     "Ficus glabrata",
     """Árbol grande de hasta 40 ms de altura, con follaje vistoso. Las hojas son alargadas y grandes. Los frutos tienen 
@@ -709,11 +759,12 @@ flora(
     dbpedia['Ficus_glabrata'],
     eol['46243853'],
 	'http://www.biodiversidad.co/fichas/1026',
-	uniprot['182113']
+	uniprot['182113'],
+	gbif['7262619']
 )
 
 flora(
-    gbif['7262410'],
+    rutaVueltaOriente['Flora.rdf#ficusInvoluta'],
     "MATAPALOS",
     "Ficus involuta",
     """Árbol "estrangulador", que suele crecer encima de otros árboles, abrazándolos con sus fuertes raíces. Puede 
@@ -723,12 +774,13 @@ flora(
     dbpedia['Ficus_aurea'],
     eol['594677'],
 	'https://elmundoenimagenes13.wordpress.com/2014/11/29/ficus-estrangulador-en-monteverde-costa-rica/',
-	uniprot['319808']
+	uniprot['319808'],
+	gbif['7262410']
 	#http://www.biodiversidad.co/fichas/1056
 )
 
 flora(
-    gbif['3169446'],
+    rutaVueltaOriente['Flora.rdf#myrsineGuianensis'],
     "CHAGUALO",
     "Myrsine guianensis",
     """Árbol de todos los climas, está adaptado para prosperar en circunstancias difíciles, de 6-21 ms de altura. Hojas 
@@ -738,11 +790,12 @@ flora(
     wikidata['Q6035263'],
     eol['486714'],
 	'https://sites.google.com/site/reservachagualos/biota-en-los-chagualos/myrsine-guianensis',
-	uniprot['681410']
+	uniprot['681410'],
+	gbif['3169446']
 )
 
 flora(
-    gbif['5417812'],
+    rutaVueltaOriente['Flora.rdf#eugeniaBiflora'],
     "ARRAYÁN",
     "Eugenia biflora",
     """Arbolito de 3-5 ms de altura, frutos aromáticos, de color rojizo pasando a negro. se distribuye en paises como
@@ -752,11 +805,12 @@ flora(
     wikidata['Q15357705'],
     eol['2508566'],
 	'http://www.biodiversidad.co/fichas/3779',
-	uniprot['1453369']
+	uniprot['1453369'],
+	gbif['5417812']
 )
 
 flora(
-    gbif['5420509'],
+    rutaVueltaOriente['Flora.rdf#psidiumGuineense'],
     "GUAYABO CIMARRÓN",
     "Psidium guineense",
     """Árbol pequeño que alcanza un tamaño de 1-7 ms de altura, una planta de crecimiento relativamente lento. Las 
@@ -766,11 +820,12 @@ flora(
     dbpedia['Psidium_guineense'],
     eol['2508601'],
 	'https://es.wikipedia.org/wiki/Psidium_guineense',
-	uniprot['260140']
+	uniprot['260140'],
+	gbif['5420509']
 )
 
 flora(
-    gbif['3084012'],
+    rutaVueltaOriente['Flora.rdf#petiveriaAlliacea'],
     "ANAMÚ",
     "Petiveria alliacea",
     """Planta herbácea perenne, crece hasta aproximadamente 1 m de altura. En algunos lugares se le conoce como 
@@ -780,11 +835,12 @@ flora(
     dbpedia['Petiveria_alliacea'],
     eol['594860'],
 	'http://www.saludparati.com/anamu.htm',
-	uniprot['46142']
+	uniprot['46142'],
+	gbif['3084012']
 )
 
 flora(
-    gbif['3086337'],
+    rutaVueltaOriente['Flora.rdf#piperAduncum'],
     "CORDONCILLO",
     "Piper aduncum",
     """Árbol pequeño de 2-6 ms de alto, profusamente ramificado, con nudos hinchados y prominentes, a menudo de color 
@@ -794,11 +850,12 @@ flora(
     dbpedia['Piper_aduncum'],
     eol['486213'],
 	'http://www.biodiversidad.co/fichas/3577',
-	uniprot['130377']
+	uniprot['130377'],
+	gbif['3086337']
 )
 
 flora(
-    gbif['4155046'],
+    rutaVueltaOriente['Flora.rdf#guaduaAngustifoliaBicolor'],
     "GUADUA RAYADA",
     "Guadua angustifolia bicolor",
     """Bambú gigante, espinoso, con culmos erectos y huevos que alcanzan alturas hasta de 25 ms y diámetros entre 10-25 
@@ -808,11 +865,12 @@ flora(
     wikidata['Q1491422'],
     eol['5846334'],
 	'https://guaduabambucolombia.com/guadua-inmunizada/vivero/',
-	uniprot['323898']
+	uniprot['323898'],
+	gbif['4155046']
 )
 
 flora(
-    gbif['4142909'],
+    rutaVueltaOriente['Flora.rdf#rhipidocladumRacemiflorum'],
     "CARRIZO",
     "Rhipidocladum racemiflorum",
     """Bambú de 10–15 ms de largo y 5–10 mms de ancho, erecto en la base, tallo hueco, generalmente decumbente en 
@@ -822,11 +880,12 @@ flora(
     wikidata['Q15521956'],
     eol['5822829'],
 	'www.bambumex.org/paginas/Rracemiflorum.pdf',
-	uniprot['464972']
+	uniprot['464972'],
+	gbif['4142909']
 )
 
 flora(
-    gbif['5594205'],
+    rutaVueltaOriente['Flora.rdf#amyrisPinnata'],
     "CIPRÉS DE ESTACÓN",
     "Amyris pinnata",
     """Árbol que crece hasta 10 ms de altura, 4 ms de fuste y 30 cms de diámetro. Corteza verdosa por fuera y 
@@ -836,11 +895,12 @@ flora(
     wikidata['Q15387993'],
     eol['5619428'],
 	'http://www.biodiversidad.co/fichas/3772',
-	uniprot['1123434']
+	uniprot['1123434'],
+	gbif['5594205']
 )
 
 flora(
-    gbif['3190087'],
+    rutaVueltaOriente['Flora.rdf#zanthoxylumMonophyllum'],
     "JUSTARRAZÓN",
     "Zanthoxylum monophyllum",
     """Árbol pequeño alcanza un tamaño de 3-8 ms de altura, generalmente con ramitas y tronco espinosos. 
@@ -850,11 +910,12 @@ flora(
     wikidata['Q6170902'],
     eol['582230'],
 	'https://books.google.com.co/books?id=76LnQRyBNS4C&pg=PA273&lpg=PA273&dq=Muchas+flores+peque%C3%B1as+blancuzcas.+Corteza+de+color+gris+a+casta%C3%B1o+es+un+tanto+lisa+y+tiene+grietas+verticales&source=bl&ots=cO6FbZyRBj&sig=50szGhYLic-cmIZYtuzDr0GI9zA&hl=es&sa=X&redir_esc=y#v=onepage&q=Muchas%20flores%20peque%C3%B1as%20blancuzcas.%20Corteza%20de%20color%20gris%20a%20casta%C3%B1o%20es%20un%20tanto%20lisa%20y%20tiene%20grietas%20verticales&f=false',
-	uniprot['43887']
+	uniprot['43887'],
+	gbif['3190087']
 )
 
 flora(
-    gbif['7269222'],
+    rutaVueltaOriente['Flora.rdf#zanthoxylumRhoifolium'],
     "TACHUELO",
     "Zanthoxylum rhoifolium",
     """Árbol de 5-9 ms de altura, copa aplanada, fuste recto y corto, tronco grisáceo o castaño, acanalado en la base, 
@@ -864,11 +925,12 @@ flora(
     dbpedia['Zanthoxylum_rhoifolium'],
     eol['39954266'],
 	'https://es.wikipedia.org/wiki/Zanthoxylum_rhoifolium',
-	uniprot['549434']
+	uniprot['549434'],
+	gbif['7269222']
 )
 
 flora(
-    gbif['3785984'],
+    rutaVueltaOriente['Flora.rdf#cupaniaCinerea'],
     "MESTIZO",
     "Cupania cinerea",
     """Árbol de hasta 20 ms de altura y 60 cms de diámetro en su tronco, de corteza lisa. Hojas de 20 a 32 cms de largo, 
@@ -878,11 +940,12 @@ flora(
     wikidata['Q15547475'],
     eol['5627731'],
 	'http://www.biodiversidad.co/fichas/1413',
-	uniprot['298314']
+	uniprot['298314'],
+	gbif['3785984']
 )
 
 flora(
-    gbif['5421132'],
+    rutaVueltaOriente['Flora.rdf#sapindusSaponaria'],
     "CHAMBIMBE",
     "Sapindus saponaria",
     """Árbol de unos 15 ms de alto, hojas alternas pinnadas; flores pequeñas, fragantes, muy abundantes en 
@@ -892,11 +955,12 @@ flora(
     dbpedia['Sapindus_saponaria'],
     eol['582237'],
 	'http://www.biodiversidad.co/fichas/1471',
-	uniprot['171222']
+	uniprot['171222'],
+	gbif['5421132']
 )
 
 flora(
-    gbif['7333251'],
+    rutaVueltaOriente['Flora.rdf#escobediaScabrifolia'],
     "AZAFRÁN DE RAÍZ",
     "Escobedia scabrifolia",
     """Hierba perenne, erecta, que alcanza un tamaño de 40–100 cms de alto, glabra; tallo simple. Hojas opuestas. Flores 
@@ -906,11 +970,12 @@ flora(
     wikidata['Q21399372'],
     eol['5676853'],
 	'http://agrodiversos.blogspot.com.co/p/blog-page.html?view=timeslide',
-	uniprot['374682']
+	uniprot['374682'],
+	gbif['7333251']
 )
 
 flora(
-    gbif['2932389'],
+    rutaVueltaOriente['Flora.rdf#solanumTorvum'],
     "FRIEGAPLATOS",
     "Solanum torvum",
     """Arbusto de hasta 2.5 ms de altura, cubierto de pelos estrellados (con las ramas libres, es decir unidas 
@@ -920,11 +985,12 @@ flora(
     dbpedia['Solanum_torvum'],
     eol['581201'],
 	'http://www.conabio.gob.mx/malezasdemexico/solanaceae/solanum-torvum/fichas/ficha.htm',
-	uniprot['119830']
+	uniprot['119830'],
+	gbif['2932389']
 )
 
 flora(
-    gbif['3152195'],
+    rutaVueltaOriente['Flora.rdf#guazumaUlmifolia'],
     "GUACIMO",
     "Guazuma ulmifolia",
     """Árbol de 2-20 ms con un tallo de 45 cms de diámetro, corteza externa agrietada. Hojas simples, agudas a acuminadas, 
@@ -934,11 +1000,12 @@ flora(
     dbpedia['Guazuma_ulmifolia'],
     eol['584815'],
 	'http://www.biodiversidad.co/fichas/1243',
-	uniprot['93772']
+	uniprot['93772'],
+	gbif['3152195']
 )
 
 flora(
-    gbif['7141666'],
+    rutaVueltaOriente['Flora.rdf#tremaMicrantha'],
     "ZURRUMBO",
     "Trema micrantha",
     """Árbol perennifolio, de 5-13 ms de altura con un diámetro de 6-20 cms. Copa en forma de sombrilla, abierta e 
@@ -948,11 +1015,12 @@ flora(
     dbpedia['Trema_micrantha'],
     eol['231353'],
 	'http://www.conabio.gob.mx/conocimiento/info_especies/arboles/doctos/69-ulmac2m.pdf',
-	uniprot['28954']
+	uniprot['28954'],
+	gbif['7141666']
 )
 
 flora(
-    gbif['2984339'],
+    rutaVueltaOriente['Flora.rdf#ureraBaccifera'],
     "ORTIGA BRAVA",
     "Urera baccifera",
     """Arbusto de 1-6 ms de altura, tallos suculentos, con pelos urticantes. Hojas alternas, anchas, ovadas, base cordada 
@@ -962,11 +1030,12 @@ flora(
     dbpedia['Urera_baccifera'],
     eol['594148'],
 	'http://www.biodiversidad.co/fichas/1247',
-	uniprot['681502']
+	uniprot['681502'],
+	gbif['2984339']
 )
 
 flora(
-    gbif['4084063'],
+    rutaVueltaOriente['Flora.rdf#citharexylumKunthianum'],
     "PALO BLANCO",
     "Citharexylum kunthianum",
     """Arbusto que alcanza hasta 10 ms de altura, con ramas largas y extendidas. Frutos verdes y de color anaranjado 
@@ -976,11 +1045,12 @@ flora(
     wikidata['Q15493663'],
     eol['5387105'],
 	'http://www.biodiversidad.co/fichas/3777',
-	uniprot['222864']
+	uniprot['222864'],
+	gbif['4084063']
 )
 
 flora(
-    gbif['8688754'],
+    rutaVueltaOriente['Flora.rdf#lantanaCanescens'],
     "VENTUROSA",
     "Lantana canescens",
     """Arbusto de hasta 2.5 ms de altura; tallos y ramas más o menos densamente canescente-estrigosos. Hojas lanceoladas, 
@@ -990,21 +1060,22 @@ flora(
     wikidata['Q15430229'],
     eol['487147'],
 	'http://www1.inecol.edu.mx/publicaciones/resumeness/FLOVER/41-nash_II.pdf',
-	uniprot['662443']
+	uniprot['662443'],
+	gbif['8688754']
 )
 
 #Plantas presentes en la Ruta del Maíz
-g.add( (gbif['3190638'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5406697'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2874484'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5420380'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['4155017'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5289743'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['8206387'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2932944'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5289798'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['3093023'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2760874'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['3173930'], RDF.type, WILDLIFE.TaxonName) )
+g.add( (rutaJardin['Flora.rdf#myrciaPopayanensis'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) )
+g.add( (rutaMaiz['Flora.rdf#mangiferaIndica'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #mango
+g.add( (rutaMaiz['Flora.rdf#ceibaPentandra'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #ceiba
+g.add( (rutaMaiz['Flora.rdf#caricaPapaya'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #papaya
+g.add( (rutaMaiz['Flora.rdf#psidiumGuajava'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #guayaba
+g.add( (rutaMaiz['Flora.rdf#guaduaAngustifolia'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #guadua
+g.add( (rutaMaiz['Flora.rdf#gyneriumSagittatum'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #caña brava
+g.add( (rutaMaiz['Flora.rdf#citrusSinensis'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #naranjo
+g.add( (rutaMaiz['Flora.rdf#capsicumAnnuum'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #aji
+g.add( (rutaMaiz['Flora.rdf#cynodonPlectostachyus'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #pasto estrella
+g.add( (rutaMaiz['Flora.rdf#dahlia'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #dalia
+g.add( (rutaMaiz['Flora.rdf#heliconiaBihai'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Flora.rdf'])) ) #heliconia
 
 #print(g.serialize(format='pretty-xml'))

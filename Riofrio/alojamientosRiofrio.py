@@ -8,12 +8,12 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 from rdflib import Namespace, URIRef, Literal, Graph, XSD
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.ontologias import GR, VCARD, ACCO, UMBEL
-from utils.namespaces import rioFrio, maps, imgur, alcaldiaRiofrio
+from utils.namespaces import rioFrio, maps, imgur, alcaldiaRiofrio, turismoTulua, facebook, youtube, twitter
 from RutaRiofrio import g
 
 
 def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcion, uriRoom, uriValue, 
-	uriBed, numHabitaciones, numCamas, imagen):
+	uriBed, numHabitaciones, numCamas, imagen, linkURI):
 	if webpage != "No disponible":
 		g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)))	
 			
@@ -54,10 +54,11 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
 	g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
 
 	#g.add( (URIRef(uri), VCARD.cateogry, Literal("Alojamientos Riofrío")))
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio.Alojamientos)))
+	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Alojamientos.rdf'])))
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 alojamientos(
-	alcaldiaRiofrio['2720854'],
+	rioFrio['Alojamientos.rdf#santaTeresita'],
 	'FINCA-HOTEL SANTA TERESITA',
 	'http://www.fincasantateresita.8m.com/',
 	'2244447, 2259381, 3104580461, 3004738684',
@@ -68,11 +69,30 @@ alojamientos(
 	piscina de agua natural, kiosco para eventos con capacidad para 50 personas, caminatas y cabalgatas ecológicas, 
 	zona de camping. Ubicada en la Vereda el Crucero.""",
 	alcaldiaRiofrio['index.shtml?apc=bjxx-1-&x=2720854'],
-	alcaldiaRiofrio['sitios_visitar.shtml'],
+	'http://www.fincasantateresita.8m.com/servicios.html',
 	'http://www.fincasantateresita.8m.com/tarifas.html',
 	'4',
 	'12',
-	imgur['lUSf4vV.jpg']
+	imgur['lUSf4vV.jpg'],
+	'http://www.fincasantateresita.8m.com/ubica.html'
+)
+
+alojamientos(
+	rioFrio['Alojamientos.rdf#villaAuriflor'],
+	'FINCA CAMPESTRE VILLA AURIFLOR',
+	'No disponible',
+	'3185160149',
+	'martufloca@hotmail.es',
+	'Madrigal, Riofrío, Valle del Cauca',
+	maps['4aHawXoxoyF2'],
+	"""Alojamiento rural que ofrece habitaciones con baño y TV, billares y juegos de mesa, servicio de restaurante (opcional).""",
+	twitter['798000743403884544'],
+	turismoTulua['17059/villa-auriflor'],
+	facebook['people/Finca-Villa-Auriflor/100006751064793'],
+	'6',
+	'30',
+	imgur['73PrkgD.png'],
+	youtube['NfgrPhUA9So']
 )
 
 #print(g.serialize(format='pretty-xml'))	

@@ -12,23 +12,25 @@ from utils.namespaces import eol, gbif, uniprot, wikidata, dbpedia, rutaMaiz
 from eventos import g
 #g = Graph()
 
-def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3):
+def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
 	g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
 	g.add( (URIRef(uri), WILDLIFE.commonName, Literal(nombre_comun) ) )
 	g.add( (URIRef(uri), WILDLIFE.scientificName, Literal(nombre_cientifico)) )
 	g.add( (URIRef(uri), WILDLIFE.shortDescription, Literal(descripcion)) )
 	g.add( (URIRef(uri), FOAF.depiction, URIRef(imagen)))
 	g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Animal')) )
+	g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web
 	
-	g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web del que se tomo la desc
-	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia 
-	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) ) #Link externo a EOL, no esta en la web de datos
-	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF a UniProt
+	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF
+	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF
 	
-	g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz.Fauna)) )
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
+	
+	g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Fauna.rdf'])) )
 
 fauna(
-	gbif['2496075'],
+	rutaMaiz['Fauna.rdf#leptotilaPlumbeiceps'],
 	"PALOMA MONTARAZ CABECIGRÍS",
 	"Leptotila plumbeiceps",
 	"""La paloma montaraz cabecigrís tiene un tamaño de 25 cms de largo y pesa 155 grs. El dorso y las alas son de color 
@@ -38,11 +40,12 @@ fauna(
 	dbpedia['Grey-headed_dove'],
 	eol['1049748'],
 	'https://es.wikidatapedia.org/wikidata/Leptotila_plumbeiceps',
-	uniprot['135630']
+	uniprot['135630'],
+	gbif['2496075']
 )
 
 fauna(
-	gbif['2476346'],
+	rutaMaiz['Fauna.rdf#chrysolampisMosquitus'],
 	"TUCUSITO RUBÍ",
 	"Chrysolampis mosquitus",
 	"""Es un colibrí pequeño, de pico corto. Sus colores van desde el negro en su mayor parte, 
@@ -52,11 +55,12 @@ fauna(
 	dbpedia['http://dbpedia.org/page/Ruby-topaz_hummingbird'],
 	eol['1048778'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Cabeza+de+Rub%C3%AD',
-	uniprot['472795']
+	uniprot['472795'],
+	gbif['2476346']
 )
 
 fauna(
-	gbif['5228793'],
+	rutaMaiz['Fauna.rdf#picumnusGranadensis'],
 	"CARPINTERO PUNTEADO",
 	"Picumnus granadensis",
 	"""Mide de 8-10 cms y pesa de 12-13 grs. Presenta pico negro y corto. Tiene cuello café grisáceo y partes 
@@ -66,11 +70,12 @@ fauna(
 	dbpedia['Greyish_piculet'],
 	eol['1177576'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Carpinterito+Punteado+-+Picumnus+granadensis',
-	uniprot['56080']
+	uniprot['56080'],
+	gbif['5228793']
 )
 
 fauna(
-	gbif['5959202'],
+	rutaMaiz['Fauna.rdf#thamnophilusMultistriatus'],
 	"BATARÁ CRESTIBARRADO",
 	"Thamnophilus multistriatus",
 	"""Mide 15,7 cms. Tiene los ojos amarillos. El macho tiene la coronilla blanca y negra. La hembra es castaña 
@@ -79,11 +84,12 @@ fauna(
 	dbpedia['Bar-crested_antshrike'],
 	eol['1053773'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Barat%C3%A1+carcajada',
-	uniprot['419668']
+	uniprot['419668'],
+	gbif['5959202']
 )
 
 fauna(
-	gbif['2488439'],
+	rutaMaiz['Fauna.rdf#ramphocelusFlammigerus'],
 	"SANGRETORO LOMO DE FUEGO",
 	"Ramphocelus flammigerus",
 	"""Mide en promedio 19 cms de longitud. El macho es negro con una mancha en la espalda de color
@@ -94,11 +100,12 @@ fauna(
 	dbpedia['Flame-rumped_tanager'],
 	eol['1052874'],
 	'https://es.wikidatapedia.org/wikidata/Ramphocelus_flammigerus',
-	uniprot['1742462']
+	uniprot['1742462'],
+	gbif['2488439']
 )
 
 fauna(
-	gbif['2492244'],
+	rutaMaiz['Fauna.rdf#oryzoborusCrassirostris'],
 	"SEMILLERO PIQUIGRANDE",
 	"Oryzoborus crassirostris",
 	"""Mide 13,5 cms de largo. Se caracteriza por su pico robusto y ancho en la base aunque relativamente corto 
@@ -108,11 +115,12 @@ fauna(
 	dbpedia['Large-billed_seed_finch'],
 	eol['1050364'],
 	'https://es.wikidatapedia.org/wikidata/Oryzoborus_crassirostris',
-	uniprot['200159']
+	uniprot['200159'],
+	gbif['2492244']
 )
 
 fauna(
-	gbif['2498139'],
+	rutaMaiz['Fauna.rdf#anasCyanoptera'],
 	"PATO COLORADO",
 	"Anas cyanoptera",
 	"""Pato pequeño de 38-43 cms de longitud. El macho tiene ojos rojos, espalda 
@@ -122,11 +130,12 @@ fauna(
 	dbpedia['Cinnamon_teal'],
 	eol['1048954'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Pato+Colorado',
-	uniprot['75840']
+	uniprot['75840'],
+	gbif['2498139']
 )
 
 fauna(
-	gbif['7913436'],
+	rutaMaiz['Fauna.rdf#ardeaAlba'],
 	"GARZA BLANCA",
 	"Ardea alba",
 	"""Mide entre 88-104 cms, pesa 900 grs alcanzando algunas el kilogramo. En promedio, los machos son 
@@ -135,11 +144,12 @@ fauna(
 	dbpedia['Great_egret'],
 	eol['1178488'],
 	'http://garzablancareal.blogspot.com.co/',
-	uniprot['110620']
+	uniprot['110620'],
+	gbif['7913436']
 )
 
 fauna(
-	gbif['2447609'],
+	rutaMaiz['Fauna.rdf#gonatodesAlbogularis'],
 	"GECO CABEZA AMARILLA",
 	"Gonatodes albogularis",
 	"""Los adultos tienen una longitud total de sólo 6 cms. Es activo durante el día. Los machos son muy visibles,
@@ -149,11 +159,12 @@ fauna(
 	dbpedia['Yellow-headed_gecko'],
 	eol['794091'],
 	'http://www.waza.org/es/zoo/elegir-una-especie/reptiles/lagartos-y-tuatara/gonatodes-albogularis',
-	uniprot['460622']
+	uniprot['460622'],
+	gbif['2447609']
 )
 
 fauna(
-	gbif['2467661'],
+	rutaMaiz['Fauna.rdf#anolisAuratus'],
 	"CAMALEÓN SABANERO",
 	"Anolis auratus",
 	"""Alcanza una longitud de entre 52 y 58 mms, es un lagarto pequeño con el cuerpo corto y comprimido; 
@@ -163,11 +174,12 @@ fauna(
 	dbpedia['Anolis_fuscoauratus'],
 	eol['795890'],
 	'http://www.biodiversidad.co/fichas/2821',
-	uniprot['323568']
+	uniprot['323568'],
+	gbif['2467661']
 )
 
 fauna(
-	gbif['5227564'],
+	rutaMaiz['Fauna.rdf#cnemidophorusLemniscatus'],
 	"COTEJOS O LAGARTIJAS AZULES",
 	"Cnemidophorus lemniscatus",
 	"""Se encuentra en los paises de Colombia, Venezuela, Ecuador, Panamá, Guyana y Brasil. 
@@ -176,11 +188,12 @@ fauna(
 	dbpedia['Rainbow_whiptail'],
 	eol['1056806'],
 	'http://www.tayrona.org/taganga_fauna_marina/cordados/cnemidophorus_lemniscatus/cnemidophorus_lemniscatus.htm',
-	uniprot['68354']
+	uniprot['68354'],
+	gbif['5227564']
 )
 
 fauna(
-	gbif['2442350'],
+	rutaMaiz['Fauna.rdf#kinosternonLeucostomum'],
 	"TORTUGA DEL FANGO DE BOCA BLANCA",
 	"Kinosternon leucostomum",
 	"""Tiene el caparazón de color marrón oscuro. El plastrón es amarillo o amarillo con manchas oscuras.
@@ -190,11 +203,12 @@ fauna(
 	dbpedia['White-lipped_mud_turtle'],
 	eol['792998'],
 	'https://www.ecured.cu/Tortuga_de_Ci%C3%A9naga_Peque%C3%B1a',
-	uniprot['641010']
+	uniprot['641010'],
+	gbif['2442350']
 )
 
 fauna(
-	gbif['2428968'],
+	rutaMaiz['Fauna.rdf#colostethusFraterdanieli'],
 	"RANA SILBADORA",
 	"Colostethus fraterdanieli",
 	"""Especie de rana de la famila Dendrobatidae, es endémica en los Andes de Colombia (Coordillera central
@@ -203,11 +217,12 @@ fauna(
 	dbpedia['Colostethus_fraterdanieli'],
 	eol['313650'],
 	'https://en.wikidatapedia.org/wikidata/Colostethus_fraterdanieli',
-	uniprot['384860']
+	uniprot['384860'],
+	gbif['2428968']
 )
 
 fauna(
-	gbif['2430957'],
+	rutaMaiz['Fauna.rdf#typhlonectesNatans'],
 	"CULEBRA CIEGA",
 	"Typhlonectes natans",
 	"""Es un reptil escamoso adaptado a la vida en el subsuelo, a la vista son parecidos a las lombrices de
@@ -217,11 +232,12 @@ fauna(
 	dbpedia['Typhlonectes_natans'],
 	eol['333734'],
 	'http://animales-salvajes.buscamix.com/web/content/view/189/262/',
-	uniprot['8456']
+	uniprot['8456'],
+	gbif['2430957']
 )
 
 fauna(
-	gbif['5217567'],
+	rutaMaiz['Fauna.rdf#leptodactylusColombiensis'],
 	"RANA CRIOLLA",
 	"Leptodactylus colombiensis",
 	"""Amplia distribución en la región Andina y cuenca del Orinoco en los departamentos de Amazonas,
@@ -231,11 +247,12 @@ fauna(
 	dbpedia['Leptodactylus_colombiensis'],
 	eol['334546'],
 	'http://anfibiosdelvalledelcauca.com/index.php?option=com_k2&view=item&id=93:leptodactylus-colombiensis&Itemid=434',
-	uniprot['1615739']
+	uniprot['1615739'],
+	gbif['5217567']
 )
 
 fauna(
-	gbif['2352119'],
+	rutaMaiz['Fauna.rdf#ichthyoelephasLongirostris'],
 	"BESUDO",
 	"Ichthyoelephas longirostris",
 	"""Pez similar al bocachico, pero que se distingue por su boca más prominente, con el labio superior mucho más grueso, 
@@ -244,11 +261,12 @@ fauna(
 	'https://www.wikidatadata.org/wikidata/Q5546624',
 	eol['220548'],
 	'http://kate-caicedo-r.blogspot.com.co/2013/03/descripcion-especie-ichthyoelephas.html',
-	uniprot['1577991']
+	uniprot['1577991'],
+	gbif['2352119']
 )
 
 fauna(
-	gbif['2352186'],
+	rutaMaiz['Fauna.rdf#prochilodusMagdalenae'],
 	"BOCACHICO",
 	"Prochilodus magdalenae",
 	"""Pez migratorio de agua dulce, su tamaño es mediano, los ejemplares más grandes pueden alcanzar 
@@ -257,11 +275,12 @@ fauna(
 	dbpedia['Prochilodus_magdalenae'],
 	eol['994607'],
 	'http://elbochachico.blogspot.com.co/2011/03/caracteristicas.html',
-	uniprot['148989']
+	uniprot['148989'],
+	gbif['2352186']
 )
 
 fauna(
-	gbif['5227769'],
+	rutaMaiz['Fauna.rdf#gallusGallus'],
 	"POLLO DE ENGORDE",
 	"Gallus gallus",
 	"""Tiene una cresta en el píleo y unos lóbulos que cuelgan a ambos lados del pico. Los machos son más grandes, 
@@ -271,11 +290,12 @@ fauna(
 	dbpedia['Red_junglefowl'],
 	eol['1049263'],
 	'https://es.wikidatapedia.org/wikidata/Gallus_gallus_domesticus',
-	uniprot['208526']
+	uniprot['208526'],
+	gbif['5227769']
 )
 
 fauna(
-	gbif['8500968'],
+	rutaMaiz['Fauna.rdf#gallusDomesticus'],
 	"GALLINAS PONEDORAS",
 	"Gallus domesticus",
 	"""Las gallinas denominadas ponedoras provienen de cruces a tres vías de razas puras (Leghor, Rhode Island, 
@@ -285,11 +305,12 @@ fauna(
 	dbpedia.Chicken,
 	eol['46340183'],
 	'http://www.granjasantaisabel.com/gallinas-ponedoras.php',
-	uniprot['9031']
+	uniprot['9031'],
+	gbif['8500968']
 )
 
 fauna(
-	gbif['7705930'],
+	rutaMaiz['Fauna.rdf#susScrofa'],
 	"CERDO",
 	"Sus scrofa",
 	"""Mamífero que puede encontrarse en estado salvaje o doméstico. Se trata de un cuadrúpedo con patas cortas 
@@ -298,11 +319,12 @@ fauna(
 	dbpedia['Banded_pig'],
 	eol['328663'],
 	'http://www.dane.gov.co/files/investigaciones/boletines/sacrificio/CP_sacrif_Itrim16.pdf',
-	uniprot['9823']
+	uniprot['9823'],
+	gbif['7705930']
 )
 
 fauna(
-	gbif['2441022'],
+	rutaMaiz['Fauna.rdf#bosTaurus'],
 	"VACAS",
 	"Bos taurus",
 	"""Las vacas pesan más de media tonelada y pueden medir hasta 1.5 ms de altura.
@@ -312,11 +334,12 @@ fauna(
 	dbpedia['Taurine_cattle'],
 	eol['328699'],
 	'http://animalesexoticosdezumba.blogspot.com.co/2016/05/vacas-de-zumbahua.html',
-	uniprot['9913']
+	uniprot['9913'],
+	gbif['2441022']
 )
 
 fauna(
-	gbif['4409366'],
+	rutaMaiz['Fauna.rdf#capraAegagrusHircus'],
 	"CABRA",
 	"Capra aegagrus hircus",
 	"""La cabra doméstica proviene de la forma salvaje Capra aegragus cretica, originaria de la cuenca mediterránea.
@@ -326,11 +349,12 @@ fauna(
 	dbpedia.Goat,
 	eol['2870013'],
 	'http://www.zoobarcelona.cat/es/conoce-el-zoo/animales-por-categorias/detalle-ficha/animal/cabra-domestica/',
-	uniprot['9925']
+	uniprot['9925'],
+	gbif['4409366']
 )
 
 fauna(
-	gbif['5216933'],
+	rutaMaiz['Fauna.rdf#rhinellaMarina'],
 	"SAPO NEOTROPICAL",
 	"Rhinella marina",
 	"""Es muy grande alcanzando una longitud promedio de 10-15 cms, y en algunos casos mucho más grande. La piel del sapo 
@@ -340,11 +364,12 @@ fauna(
 	dbpedia['Cane_toad'],
 	eol['333309'],
 	'https://es.wikidatapedia.org/wikidata/Rhinella_marina',
-	uniprot['8386']
+	uniprot['8386'],
+	gbif['5216933']
 )
 
 fauna(
-	gbif['2428577'],
+	rutaMaiz['Fauna.rdf#dendropsophusColumbianus'],
 	"RANA COMÚN",
 	"Dendropsophus columbianus",
 	"""La longitud rostro-cloacal del macho varía entre los 25.8–29.3 mm y en las hembras varía entre
@@ -354,11 +379,12 @@ fauna(
 	dbpedia['Dendropsophus_columbianus'],
 	eol['331568'],
 	'http://anfibiosdelvalledelcauca.com/index.php?option=com_k2&view=item&id=94:dendropsophus-columbianus&Itemid=450',
-	uniprot['1033692']
+	uniprot['1033692'],
+	gbif['2428577']
 )
 
 fauna(
-	gbif['5217587'],
+	rutaMaiz['Fauna.rdf#leptodactylusFragilis'],
 	"RANA DE BIGOTES",
 	"Leptodactylus fragilis",
 	"""Especie de anfibio anuro de la familia Leptodactylidae.
@@ -367,11 +393,12 @@ fauna(
 	dbpedia['Leptodactylus_fragilis'],
 	eol['1038865'],
 	'https://es.wikidatapedia.org/wikidata/Leptodactylus_fragilis',
-	uniprot['349990']
+	uniprot['349990'],
+	gbif['5217587']
 )
 
 fauna(
-	gbif['2427091'],
+	rutaMaiz['Fauna.rdf#lithobatesCatesbeianus'],
 	"RANA TORO",
 	"Lithobates catesbeianus",
 	"""Es un anfibio de gran tamaño de entre 10-20 cms de longitud hocico-cloaca y un peso entre 60-900 grs. 
@@ -381,11 +408,12 @@ fauna(
 	dbpedia['American_bullfrog'],
 	eol['330963'],
 	'http://wikidatafaunia.com/anfibios/rana-toro/',
-	uniprot['8400']
+	uniprot['8400'],
+	gbif['2427091']
 )
 
 fauna(
-	gbif['8330787'],
+	rutaMaiz['Fauna.rdf#chelydraAcutirostris'],
 	"TORTUGA MORDEDORA",
 	"Chelydra acutirostris",
 	"""Pesa de 4.5-16 kgs Su caparazón  mide de 20-47 cms y una cola tan larga como el caparazón. La cola tiene escamas 
@@ -394,11 +422,12 @@ fauna(
 	dbpedia['South_American_snapping_turtle'],
 	eol['1243673'],
 	'http://animalesanimdo.blogspot.com.co/2015/12/reptiles-reptiles-ecuador-se-ubica-en.html',
-	uniprot['8474']
+	uniprot['8474'],
+	gbif['8330787']
 )
 
 fauna(
-	gbif['5220282'],
+	rutaMaiz['Fauna.rdf#chelonoidisCarbonaria'],
 	"MORROCOY",
 	"Chelonoidis carbonaria",
 	"""La tortuga Morrocoy es terrestre y vive durante muchos años, puede alcanzar una longitud de hasta 51 cms 
@@ -408,11 +437,12 @@ fauna(
 	dbpedia['Chelonoidis_carbonaria'],
 	eol['794307'],
 	'http://www.opepa.org/index.php?option=com_content&task=view&id=101&Itemid=29',
-	uniprot['50047']
+	uniprot['50047'],
+	gbif['5220282']
 )
 
 fauna(
-	gbif['2481942'],
+	rutaMaiz['Fauna.rdf#coragypsAtratus'],
 	"GALLINAZO",
 	"Coragyps atratus",
 	"""Mide aproximadamente entre 56 y 66 cms, tiene un peso en la hembra de 1940 grs y en el macho un peso de 1180 grs.
@@ -421,11 +451,12 @@ fauna(
 	dbpedia['Black_vulture'],
 	eol['1049011'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Gallinazo+Com%C3%BAn',
-	uniprot['33614']
+	uniprot['33614'],
+	gbif['2481942']
 )
 
 fauna(
-	gbif['8370884'],
+	rutaMaiz['Fauna.rdf#liophisLineatus'],
 	"GUARDACAMINOS O ESTERILLA",
 	"Liophis lineatus",
 	"""Especie de serpiente no venenosa e inofensiva. Se caracteriza por tener el dorso amarillo brillante con 
@@ -435,11 +466,12 @@ fauna(
 	wikidata.Q5074452,
 	eol['457860'],
 	'http://www.biodiversidad.co/fichas/681',
-	uniprot['380619']
+	uniprot['380619'],
+	gbif['8370884']
 )
 
 fauna(
-	gbif['5960492'],
+	rutaMaiz['Fauna.rdf#mabuyaUnimarginata'],
 	"ESQUINCO ESPALDA DORADA",
 	"Mabuya unimarginata",
 	"""Es un scíncido grande, hasta 75 mms. Esta lagartija tiene cuerpo elongado, cilíndrico y con notoria 
@@ -449,13 +481,14 @@ fauna(
 	wikidata.Q5128682,
 	eol['458326'],
 	'http://www.sinia.net.ni/multisites/NodoBiodiversidad/images/NodosTematicos/NodoBiodiversidad/Docuementos/Listado%20de%20Reptiles%20de%20Nicaragua.pdf',
-	uniprot['155309']
+	uniprot['155309'],
+	gbif['5960492']
 )
 
 fauna(
-	gbif['5219666'],
+	rutaMaiz['Fauna.rdf#sciurusGranatensis'],
 	"ARDILLA",
-	"Sciurus Granatensis",
+	"Sciurus granatensis",
 	"""Las hembras adultas pesan aproximadamente 465grs, durante la temporada lluviosa 
 	el color del pelaje es rojizo mientras que en tiempo seco cambia a un color más anaranjado, presentan el dorso 
 	color ocre y el vientre varía de blanco a anaranjado. La cola es ocre con salpicaduras de negro.""",
@@ -463,11 +496,12 @@ fauna(
 	dbpedia['Sciurus_granatensis'],
 	eol['313735'],
 	'http://ortizcamachoandrea.blogspot.com.co/2011/11/ardilla-sciurus-granatensis.html',
-	uniprot['226870']
+	uniprot['226870'],
+	gbif['5219666']
 )
 
 fauna(
-	gbif['2428832'],
+	rutaMaiz['Fauna.rdf#hypsiboasPugnax'],
 	"RANA PLATANERA",
 	"Hypsiboas pugnax",
 	"""Es una especie de anfibio de la familia Hylidae. Habita en gran parte de nuestro territorio, encontrándose 
@@ -477,11 +511,12 @@ fauna(
 	wikidata.Q4672609,
 	eol['1019101'],
 	'http://periodicolalenguadominicana.blogspot.com.co/2015/08/la-rana-platanera.html',
-	uniprot['1494916']
+	uniprot['1494916'],
+	gbif['2428832']
 )
 
 fauna(
-	gbif['2459658'],
+	rutaMaiz['Fauna.rdf#iguanaIguana'],
 	"IGUANA",
 	"Iguana iguana",
 	"""Puede medir de 1.5-2 ms. El color verde de su piel le permite confundirse perfectamente con la vegetación.
@@ -491,11 +526,12 @@ fauna(
 	dbpedia['Iguana_iguana'],
 	eol['793235'],
 	'https://es.wikidatapedia.org/wikidata/Iguana_iguana',
-	uniprot['8517']
+	uniprot['8517'],
+	gbif['2459658']
 )
 
 fauna(
-	gbif['5217608'],
+	rutaMaiz['Fauna.rdf#leptodactylusInsularum'],
 	"RANA SAPO BOLIVIANO",
 	"Leptodactylus insularum",
 	"""El macho es un poco más pequeño que la hembra y es de al menos 10 cms del hocico a la cloaca y la hembra hasta 12. 
@@ -505,11 +541,12 @@ fauna(
 	dbpedia['Leptodactylus_insularum'],
 	eol['8819757'],
 	'http://panamasilvestre.blogspot.com.co/2013/05/leptodactylus-insularum-leptodactylidae.html',
-	uniprot['326190']
+	uniprot['326190'],
+	gbif['5217608']
 )
 
 fauna(
-	gbif['2452321'],
+	rutaMaiz['Fauna.rdf#drymarchonMelanurus'],
 	"CAZADORA RABO NEGRO",
 	"Drymarchon melanurus",
 	"""Especie de serpiente colubridae no venenosa. Puede tener una longitud de 180-240 cms. Tiene escamas suaves 
@@ -519,11 +556,12 @@ fauna(
 	dbpedia['Drymarchon_melanurus'],
 	eol['790030'],
 	'https://es.wikidatapedia.org/wikidata/Drymarchon_melanurus',
-	uniprot['1396887']
+	uniprot['1396887'],
+	gbif['2452321']
 )
 
 fauna(
-	gbif['5959976'],
+	rutaMaiz['Fauna.rdf#hemidactylusFrenatus'],
 	"GECKO CASERO COMÚN",
 	"Hemidactylus frenatus",
 	"""La cola es ligeramente más larga que la longitud hocico cloaca. La cabeza, garganta y cuerpo se encuentran 
@@ -533,7 +571,8 @@ fauna(
 	dbpedia['Hemidactylus_frenatus'],
 	eol['793350'],
 	'http://bios.conabio.gob.mx/especies/8000523.pdf',
-	uniprot['47729']
+	uniprot['47729'],
+	gbif['5959976']
 )
 
 #print (g.serialize(format="pretty-xml")) 

@@ -8,27 +8,29 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.ontologias import WILDLIFE, UMBEL, OWL
-from utils.namespaces import rutaAnillo, dbpedia, wikidata, eol, imgur, gbif, uniprot
+from utils.namespaces import rutaAnillo, rutaMaiz, rutaVueltaOriente, rioFrio, dbpedia, wikidata, eol, imgur, gbif, uniprot
 from lugaresAgricola import g
 
 
-def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3):
+def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
     g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
     g.add( (URIRef(uri), WILDLIFE.commonName, Literal(nombre_comun, lang="es") ) )
     g.add( (URIRef(uri), WILDLIFE.scientificName, Literal(nombre_cientifico, lang="la")) )
     g.add( (URIRef(uri), WILDLIFE.shortDescription, Literal(descripcion, lang="es")) )
     g.add( (URIRef(uri), FOAF.depiction, URIRef(imagen)))
-    g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Animal', lang="es")) )
+    g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Animal', lang="es")) )  
+    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web
     
-    g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web del que se tomo la desc
-    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia
-    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink2)) ) #Link RDF a EOL
+    g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia  
     g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF a UniProt
     
-    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo.Fauna)) )
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
+    
+    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
  
 fauna(
-    gbif['5221610'],#uri
+    rutaAnillo['Fauna.rdf#lepidodactylusLugubris'],#uri
     "GUECO ENLUTADO, GUECO, GECO",#nombre comun
     "Lepidodactylus lugubris",#nombre cientifico
     """Mide aproximadamente 45 mms de longitud. Tiene un color de fondo pálido cremoso con un marrón oscuro o beige 
@@ -38,11 +40,12 @@ fauna(
     dbpedia['Lepidodactylus_lugubris'],#link
     eol['8832483'],
     'http://tuatera.com/fororeptiles/gecko-cuidados/lepidodactylus-lugubris-cuidados-informacion-terrario/',
-    uniprot['47724']
+    uniprot['47724'],
+    gbif['5221610']
 )
 
 fauna(
-    gbif['5221813'],#uri
+    rutaAnillo['Fauna.rdf#basiliscusBasiliscus'],#uri
     "IGUANA JESUCRISTO",#nombre comun
     "Basiliscus basiliscus",#nombre cientifico
     """Alcanza una longitud total de aproximadamente 80 cms y pesa entre 200-500 gr. El color del dorso va desde el verde al 
@@ -52,11 +55,12 @@ fauna(
     dbpedia['Basiliscus_basiliscus'],
     eol['795614'],
     'http://www.waza.org/es/zoo/zoologico-virtual-galeria/basiliscus-basiliscus',
-    uniprot['161134']
+    uniprot['161134'],
+    gbif['5221813']
 )
 
 fauna(
-    gbif['2450419'],#uri
+    rutaAnillo['Fauna.rdf#cercosauraArgulus'],#uri
     "LISA DE HOJARASCA",#nombre comun
     "Cercosaura argulus",#nombre cientifico
     """Lagartija de longitud máxima de 45 mms en machos y 41 mms en hembras. Dorso sepia o café, tornándose más pálido 
@@ -66,11 +70,12 @@ fauna(
     wikidata['Q5313776'],
     eol['1053458'],
     'http://zoologia.puce.edu.ec/Vertebrados/reptiles/FichaEspecie.aspx?Id=1669',
-    uniprot['174802']
+    uniprot['174802'],
+    gbif['2450419']
 )
 
 fauna(
-    gbif['2452613'],#uri
+    rutaAnillo['Fauna.rdf#dendrophidionBivittatus'],#uri
     "GUARDACAMINO, ESTERILLA, JARRETERA",#nombre comun
     "Dendrophidion bivittatus",#nombre cientifico
     """Se distribuye en la cordillera central y occidental de Colombia. Es una serpiente inofensiva que cumple un importante rol 
@@ -79,11 +84,12 @@ fauna(
     wikidata['Q5124943'],
     eol['815721'],
     'http://abc.finkeros.com/serpientes-en-nuestras-fincas-jarretera/',
-    uniprot['699575']
+    uniprot['699575'],
+    gbif['2452613']
 )
 
 fauna(
-    gbif['5224503'],#uri
+    rutaAnillo['Fauna.rdf#lampropeltisTriangulum'],#uri
     "CORAL, FALSA CORAL, MATA GANADO",#nombre comun
     "Lampropeltis triangulum",#nombre cientifico
     """Tiene una longitud entre 80-180 cms. Serpiente delgada y esbelta, cabeza ovalada y algo puntiaguda. Su cuerpo está 
@@ -93,11 +99,12 @@ fauna(
     dbpedia['Lampropeltis_triangulum'],
     eol['792617'],
     'https://www.ecured.cu/Lampropeltis_triangulum',
-    uniprot['140017']
+    uniprot['140017'],
+    gbif['5224503']
 )
 
 fauna(
-    gbif['2498393'],#uri
+    rutaAnillo['Fauna.rdf#dendrocygnaAutumnalis'],#uri
     "PISINGO, IGUAZA COMÚN",#nombre comun
     "Dendrocygna autumnalis",#nombre cientifico
     """Ave acuática espectacularmente colorida, sociable y ruidosa; tiene un pico rosa brillante, cuello y patas largas, 
@@ -107,11 +114,12 @@ fauna(
     dbpedia['Dendrocygna_autumnalis'],
     eol['1267835'],
     'http://www.audubon.org/es/guia-de-aves/ave/pijije-alas-blancas',
-    uniprot['8873']
+    uniprot['8873'],
+    gbif['2498393']
 )
 
 fauna(
-    gbif['2474165'],#uri
+    rutaAnillo['Fauna.rdf#rhynchortyxCinctus'],#uri
     "PERDIZ SELVÁTICA",#nombre comun
     "Rhynchortyx cinctus",#nombre cientifico
     """Perdiz de color café y pecho gris, raya negra desde el ojo hasta un lado del cuello, la hembra con pecho estriado, 
@@ -120,11 +128,12 @@ fauna(
     dbpedia['Rhynchortyx_cinctus'],
     eol['1047258'],
     'http://colombiacuriosa.blogspot.com.co/2016/05/pava-y-afines.html',
-    uniprot['1356621']
+    uniprot['1356621'],
+    gbif['2474165']
 )
 
 fauna(
-    gbif['2481868'],#uri
+    rutaAnillo['Fauna.rdf#phalacrocoraxBrasilianus'],#uri
     "CORMORÁN NEOTROPICAL",#nombre comun
     "Phalacrocorax	brasilianus",#nombre cientifico
     """Mide entre 58-73 cms y pesa alrededor de 1800 grs. El adulto es negro brillante con pico negro, largo y delgado con 
@@ -134,11 +143,12 @@ fauna(
     dbpedia['Phalacrocorax_brasilianus'],
     eol['1065006'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cormor%C3%A1n+Neotropical+-+Phalacrocorax+brasilianus',
-    uniprot['37046']
+    uniprot['37046'],
+    gbif['2481868']
 )
 
 fauna(
-    gbif['2480863'],#uri
+    rutaAnillo['Fauna.rdf#nycticoraxNycticorax'],#uri
     "GUACO COMÚN",#nombre comun
     "Nycticorax nycticorax",#nombre cientifico
     """Ave robusta que mide de 61-69cms, con cuello corto y pico grande, y ojos de gran tamaño. Puede llegar a pesar más de 
@@ -148,11 +158,12 @@ fauna(
     dbpedia['Nycticorax_nycticorax'],
     eol['1048731'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Guaco+Com%C3%BAn+-+Nycticorax+nycticorax',
-    uniprot['8901']
+    uniprot['8901'],
+    gbif['2480863']
 )
 
 fauna(
-    gbif['2480824'],#uri
+    rutaAnillo['Fauna.rdf#butoridesStriata'],#uri
     "GARCITA RAYADA",#nombre comun
     "Butorides striata",#nombre cientifico
     """Ave robusta de 35-48 cms y un peso que oscila entre 135-250 grs. Su cuerpo es predominantemente azul grisáceo con la 
@@ -162,11 +173,12 @@ fauna(
     dbpedia['Butorides_striata'],
     eol['1065041'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garcita+Rayada+-+Butorides+striata',
-    uniprot['433628']
+    uniprot['433628'],
+    gbif['2480824']
 )
 
 fauna(
-    gbif['2480951'],#uri
+    rutaAnillo['Fauna.rdf#ardeaCocoi'],#uri
     "GARZÓN AZUL",#nombre comun
     "Ardea cocoi",#nombre cientifico
     """Ave grande de 102-130 cms de longitud. Presenta el alto pecho, los muslos y el cuello blancos, este último con estrías 
@@ -176,11 +188,12 @@ fauna(
     dbpedia['Ardea_cocoi'],
     eol['1048971'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garz%C3%B3n+Azul',
-    uniprot['399589']
+    uniprot['399589'],
+    gbif['2480951']
 )
   
 fauna(
-    gbif['2480873'],#uri
+    rutaAnillo['Fauna.rdf#egrettaThula'],#uri
     "GARZA PATIAMARILLA",#nombre comun
     "Egretta thula",#nombre cientifico
     """Mide entre 47.5-67 cms y pesa cerca de 370 grs. Se caracteriza por tener el cuerpo totalmente blanco con el pico y las 
@@ -190,11 +203,12 @@ fauna(
     dbpedia['Egretta_thula'],
     eol['1048667'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garza+Patiamarilla',
-    uniprot['110681']
+    uniprot['110681'],
+    gbif['2480873']
 )
 
 fauna(
-    gbif['2480812'],#uri
+    rutaAnillo['Fauna.rdf#phimosusInfuscatus'],#uri
     "COQUITO, GALLINAZO NEGRO",#nombre comun
     "Phimosus infuscatus",#nombre cientifico
     """Mide entre 46-56 cms, con un peso promedio de 559 grs. Los adultos presentan su plumaje negro característico con trazos 
@@ -204,11 +218,12 @@ fauna(
     dbpedia['Phimosus_infuscatus'],
     eol['1049667'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Coquito+-+Phimosus+infuscatus',
-    uniprot['555323']
+    uniprot['555323'],
+    gbif['2480812']
 )
 
 fauna(
-    gbif['2480415'],#uri
+    rutaAnillo['Fauna.rdf#rostrhamusSociabilis'],#uri
     "CARACOLERO, CARACORELO COMÚN",#nombre comun
     "Rostrhamus sociabilis",#nombre cientifico
     """Mide entre 41-46 cms. Cuenta con alas medianas a largas, anchas hacia los extremos y cola cuadrada. Posee un pico delgado 
@@ -218,11 +233,12 @@ fauna(
     dbpedia['Rostrhamus_sociabilis'],
     eol['1049023'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Caracolero+Com%C3%BAn',
-    uniprot['156764']
+    uniprot['156764'],
+    gbif['2480415']
 )
 
 fauna(
-    gbif['2481066'],#uri
+    rutaAnillo['Fauna.rdf#milvagoChimachima'],#uri
     "PIGUA",#nombre comun
     "Milvago chimachima",#nombre cientifico
     """Mide 41 cms de largo y pesa 330 grs. Es de tamaño pequeño, de constitución liviana, cola más bien larga, y “ventana” grande 
@@ -232,11 +248,12 @@ fauna(
     dbpedia['Milvago_chimachima'],
     eol['1049220'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Pigua',
-    uniprot['56337']
+    uniprot['56337'],
+    gbif['2481066']
 )
 
 fauna(
-    gbif['2474337'],#uri
+    rutaAnillo['Fauna.rdf#aramusGuarauna'],#uri
     "CARRAO, RASCÓN CAUCANO",#nombre comun
     "Aramus guarauna",#nombre cientifico
     """Mide de 61-71 cms y pesa de 1130-1370 grs el macho y de 1050-1170 grs la hembra. Presenta alas anchas y redondeadas, 
@@ -246,11 +263,12 @@ fauna(
     dbpedia['Aramus_guarauna'],
     eol['1049274'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carrao+-+Aramus+guarauna',
-    uniprot['54356']
+    uniprot['54356'],
+    gbif['2474337']
 )
 
 fauna(
-    gbif['5229146'],#uri
+    rutaAnillo['Fauna.rdf#vanellusChilensis'],#uri
     "PELLAR, GALLINAZO COMÚN",#nombre comun
     "Vanellus chilensis",#nombre cientifico
     """Mide de 32-38 cms. Ambos sexos son similares. Presenta pico rosa con punta negra, patas rosa y una cresta occipital 
@@ -260,11 +278,12 @@ fauna(
     dbpedia['Vanellus_chilensis'],
     eol['1049062'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Pellar+Com%C3%BAn+-+Vanellus+chilensis',
-    uniprot['50404']
+    uniprot['50404'],
+    gbif['5229146']
 )
 
 fauna(
-    gbif['5229128'],#uri
+    rutaAnillo['Fauna.rdf#himantopusMexicanus'],#uri
     "CIGÜEÑUELA, CIGÜEÑUELA AMERICANA",#nombre comun
     "Himantopus mexicanus",#nombre cientifico
     """Mide de 35-40 cms y pesa de 166-205 grs. Presenta patas muy largas y pico largo, delgado y negro. El macho en estado 
@@ -274,11 +293,12 @@ fauna(
     dbpedia['Himantopus_mexicanus'],
     eol['1049561'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cigue%C3%B1uela+-+Himantopus+mexicanus',
-    uniprot['227231']
+    uniprot['227231'],
+    gbif['5229128']
 )
 
 fauna(
-    gbif['2481798'],#uri
+    rutaAnillo['Fauna.rdf#actitisMacularius'],#uri
     "ANDARRÍOS MANCHADO, ANDARRÍOS MACULADO",#nombre comun
     "Actitis macularius",#nombre cientifico
     """Mide de 18-20 cms, pesa de 19-64 grs y presenta una envergadura de 37-40 cms. En plumaje no reproductivo presenta 
@@ -288,11 +308,12 @@ fauna(
     dbpedia['Actitis_macularius'],
     eol['1064984'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Andarr%C3%ADos+Maculado+-+Actitis+macularius',
-    uniprot['190659']
+    uniprot['190659'],
+    gbif['2481798']
 )
 
 fauna(
-    gbif['2481846'],#uri
+    rutaAnillo['Fauna.rdf#jacanaJacana'],#uri
     "GALLITO DE CIÉNAGA",#nombre comun
     "Jacana jacana",#nombre cientifico
     """Mide de 21-25 cms, los machos pesan de 88-119 grs aproximadamente y las hembras de 140-151 grs. Presenta pico amarillo 
@@ -302,11 +323,12 @@ fauna(
     dbpedia['Jacana_jacana'],
     eol['1049284'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Gallito+de+Ci%C3%A9naga+-+Jacana+jacana',
-    uniprot['54508']
+    uniprot['54508'],
+    gbif['2481846']
 )
 
 fauna(
-    gbif['2479159'],#uri
+    rutaAnillo['Fauna.rdf#aratingaWagleri'],#uri
     "PERICO FRENTIRROJO",#nombre comun
     "Aratinga wagleri",#nombre cientifico
     """Ave que mide cerca de 36 cms y pesa de 162-217 grs. Es de color verde con las partes inferiores un poco más amarillentas. 
@@ -316,11 +338,12 @@ fauna(
     dbpedia['Aratinga_wagleri'],
     eol['1177979'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Perico+Chocolero+-+Psittacara+wagleri',
-    uniprot['867391']
+    uniprot['867391'],
+    gbif['2479159']
 )
 
 fauna(
-    gbif['2479902'],#uri
+    rutaAnillo['Fauna.rdf#pionusMenstruus'],#uri
     "COTORRA CABECIAZUL, COTORRA CHEJA",#nombre comun
     "Pionus menstruus",#nombre cientifico
     """Mide entre 24-28 cms y pesa de 209-295 grs. Presenta cabeza y pecho azul, y cobertoras auriculares negruzcas. Su pico 
@@ -330,11 +353,12 @@ fauna(
     dbpedia['Pionus_menstruus'],
     eol['1178041'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Cotorra+Cheja+-+Pionus+menstruus',
-    uniprot['13214']
+    uniprot['13214'],
+    gbif['2479902']
 )
 
 fauna(
-    gbif['2496210'],#uri
+    rutaAnillo['Fauna.rdf#crotophagaMajor'],#uri
     "GARRAPATERO GRANDE, GARRAPATERO MAYOR",#nombre comun
     "Crotophaga major",#nombre cientifico
     """Mide alrededor de 46 cms, los machos pesan en promedio 162 grs y las hembras 145 grs. Presenta ojos blancos, patas negras 
@@ -344,11 +368,12 @@ fauna(
     dbpedia['Crotophaga_major'],
     eol['914612'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Garrapatero+Mayor+-+Crotophaga+major',
-    uniprot['48617']
+    uniprot['48617'],
+    gbif['2496210']
 )
 
 fauna(
-    gbif['2497365'],#uri
+    rutaAnillo['Fauna.rdf#megascopsCholiba'],#uri
     "CURRUCUTÚ, CURRUCUTÚ COMÚN",#nombre comun
     "Megascops choliba",#nombre cientifico
     """Mide de 20-24 cms y pesa de 97-160 grs. Presenta iris amarillo, pico gris verdoso con punta gris y patas de color café 
@@ -358,11 +383,12 @@ fauna(
     dbpedia['Megascops_choliba'],
     eol['1025097'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Currucut%C3%BA+Com%C3%BAn+-+Megascops+choliba',
-    uniprot['507958']
+    uniprot['507958'],
+    gbif['2497365']
 )
 
 fauna(
-    gbif['2476441'],#uri
+    rutaAnillo['Fauna.rdf#amaziliaTzacatl'],#uri
     "AMAZILIA COLIRRUFO",#nombre comun
     "Amazilia tzacatl",#nombre cientifico
     """Mide aproximadamente 9.1 cms. Se reconoce fácilmente por su pico rojizo con la punta negra y su cola café-rojiza oscura. 
@@ -372,11 +398,12 @@ fauna(
     dbpedia['Amazilia_tzacatl'],
     eol['1273441'],
     'https://www.medellin.gov.co/biodiversidad/seccion.hyg?seccion=5&submenu=1',
-    uniprot['57392']
+    uniprot['57392'],
+    gbif['2476441']
 )
 
 fauna(
-    gbif['2475466'],#uri
+    rutaAnillo['Fauna.rdf#megaceryleTorquata'],#uri
     "MARTÍN PESCADOR GRANDE, MARTÍN PESCADOR MEDIANO",#nombre comun
     "Megaceryle torquata",#nombre cientifico
     """Mide alrededor de 40 cms, los machos pesan entre 254-330 grs y las hembras entre 274-325 grs.  El macho es de color azul 
@@ -386,11 +413,12 @@ fauna(
     dbpedia['Megaceryle_torquata'],
     eol['1049955'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Mart%C3%ADn+Pescador+Mayor+-+Megaceryle+torquata',
-    uniprot['488310']
+    uniprot['488310'],
+    gbif['2475466']
 )
 
 fauna(
-    gbif['2475486'],#uri
+    rutaAnillo['Fauna.rdf#chloroceryleAmericana'],#uri
     "MARTÍN PESCADOR CHICO",#nombre comun
     "Chloroceryle americana",#nombre cientifico
     """Mide aproximadamente 20 cms, la hembra pesa entre 33-35 grs y el macho de 29-40 grs. El macho es verde oscuro en las 
@@ -400,11 +428,12 @@ fauna(
     dbpedia['Chloroceryle_americana'],
     eol['917144'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Mart%C3%ADn+Pescador+Chico+-+Chloroceryle+americana',
-    uniprot['57406']
+    uniprot['57406'],
+    gbif['2475486']
 )
 
 fauna(
-    gbif['2478125'],#uri
+    rutaAnillo['Fauna.rdf#melanerpesRubricapillus'],#uri
     "CARPINTERO HABADO",#nombre comun
     "Melanerpes rubricapillus",#nombre cientifico
     """Los adultos son de 205 mms de largo y pesan 48 grs. Tienen un lomo blanco con negro parecido al color de las cebras, 
@@ -414,11 +443,12 @@ fauna(
     dbpedia['Melanerpes_rubricapillus'],
     eol['1177502'],
     'https://ecojugando.wordpress.com/2015/08/20/carpintero-habado-melanerpes-rubricapillus/',
-    uniprot['56082']
+    uniprot['56082'],
+    gbif['2478125']
 )
 
 fauna(
-    gbif['2478367'],#uri
+    rutaAnillo['Fauna.rdf#veniliornisKirkii'],#uri
     "CARPINTERO CULIRROJO",#nombre comun
     "Veniliornis kirkii",#nombre cientifico
     """Mide 15-16.5 cms de longitud y pesa 28-30 grs. El plumaje de sus partes superiores es verde oliva, con un 
@@ -428,11 +458,12 @@ fauna(
     dbpedia['Veniliornis_kirkii'],
     eol['1177616'],
     'http://www.naturalista.mx/taxa/18020-Veniliornis-kirkii',
-    uniprot['315388']
+    uniprot['315388'],
+    gbif['2478367']
 )
 
 fauna(
-    gbif['2478237'],#uri
+    rutaAnillo['Fauna.rdf#colaptesPunctigula'],#uri
     "CARPINTERO PECHIPUNTEADO, CARPINTERO BUCHIPECOSO",#nombre comun
     "Colaptes punctigula",#nombre cientifico
     """Mide 20 cms de longitud. La frente es negra, la coronilla roja, lados de la cabeza blancos, bordeados por debajo de 
@@ -442,11 +473,12 @@ fauna(
     dbpedia['Colaptes_punctigula'],
     eol['1177467'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carpintero+Buchipecoso',
-    uniprot['381865']
+    uniprot['381865'],
+    gbif['2478237']
 )
 
 fauna(
-    gbif['2478564'],#uri
+    rutaAnillo['Fauna.rdf#campephilusMelanoleucos'],#uri
     "CARPINTERO MARCIAL",#nombre comun
     "Campephilus melanoleucos",#nombre cientifico
     """Mide de 33-38 cms y pesa de 181-284 grs. Presenta pico largo de color grisáceo a blancuzco con punta cincelada y 
@@ -456,11 +488,12 @@ fauna(
     dbpedia['Campephilus_melanoleucos'],
     eol['1177548'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Carpintero+Marcial+-+Campephilus+melanoleucos',
-    uniprot['315367']
+    uniprot['315367'],
+    gbif['2478564']
 )
 
 fauna(
-    gbif['2484936'],#uri
+    rutaAnillo['Fauna.rdf#synallaxisAlbescens'],#uri
     "RASTROJERO PÁLIDO, CHAMICERO PÁLIDO",#nombre comun
     "Synallaxis albescens",#nombre cientifico
     """Mide entre 14-17 cms de longitud y pesa 13-15 grs. Es un pájaro esbelto con una cola de 9,3 cms longitud. El plumaje de 
@@ -470,11 +503,12 @@ fauna(
     dbpedia['Synallaxis_albescens'],
     eol['1050187'],
     'https://ecojugando.wordpress.com/2015/12/17/pijui-pechiblanco-o-chamicero-palido-synallaxis-albescens/',
-    uniprot['88181']
+    uniprot['88181'],
+    gbif['2484936']
 )
 
 fauna(
-    gbif['2486044'],#uri
+    rutaAnillo['Fauna.rdf#lepidocolaptesSouleyetii'],#uri
     "TREPATRONCOS CAMPESTRE, TREPADOR CAMPESTRE",#nombre comun
     "Lepidocolaptes souleyetii",#nombre cientifico
     """Posee un largo total promedio de 20 cms. Pico delgado, ligeramente decurvado (25 mms), coronilla y nuca café negruzco 
@@ -484,11 +518,12 @@ fauna(
     dbpedia['Lepidocolaptes_souleyetii'],
     eol['917806'],
     'http://www.biodiversidad.co/fichas/2590',
-    uniprot['75977']
+    uniprot['75977'],
+    gbif['2486044']
 )
 
 fauna(
-    gbif['2490135'],#uri
+    rutaAnillo['Fauna.rdf#cercomacraNigricans'],#uri
     "HORMIGUERO YEGUA",#nombre comun
     "Cercomacra nigricans",#nombre cientifico
     """Forma una especie de grupo con otros tres hormigueros cuyos machos son en gran parte negro con unas marcas blancas 
@@ -498,11 +533,12 @@ fauna(
     dbpedia['Cercomacra_nigricans'],
     eol['1052462'],
     'http://neotropical.birds.cornell.edu/portal/species/overview?p_p_spp=386611',
-    uniprot['722450']
+    uniprot['722450'],
+    gbif['2490135']
 )
 
 fauna(
-    gbif['2483274'],#uri
+    rutaAnillo['Fauna.rdf#todirostrumCinereum'],#uri
     "ESPATULILLA, ESPATULILLA COMÚN",#nombre comun
     "Todirostrum cinereum",#nombre cientifico
     """Mide de 8.8-10.2 cms y pesa entre 4.4-8 grs. El macho tiene la frente, lados de la cabeza y la coronilla negro 
@@ -512,11 +548,12 @@ fauna(
     dbpedia['Todirostrum_cinereum'],
     eol['1053321'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Espatulilla+Com%C3%BAn',
-    uniprot['196049']
+    uniprot['196049'],
+    gbif['2483274']
 )
 
 fauna(
-    gbif['2483612'],#uri
+    rutaAnillo['Fauna.rdf#sayornisNigricans'],#uri
     "GUARDA PUENTES",#nombre comun
     "Sayornis nigricans",#nombre cientifico
     """Mide entre 15-19 cms y pesa alrededor de 18 grs. Su cabeza, pecho, partes superiores y alas son color negro hollín, 
@@ -526,11 +563,12 @@ fauna(
     dbpedia['Sayornis_nigricans'],
     eol['1046718'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Guardapuentes',
-    uniprot['183530']
+    uniprot['183530'],
+    gbif['2483612']
 )
  
 fauna(
-    gbif['2483647'],#uri
+    rutaAnillo['Fauna.rdf#pyrocephalusRubinus'],#uri
     "PECHIRROJO, ATRAPAMOSCAS PECHIRROJO",#nombre comun
     "Pyrocephalus rubinus",#nombre cientifico
     """Mide 14cms. Cresta corta. El macho tiene coronilla y partes inferiores escarlata brillante; lista ocular, occipucio 
@@ -540,11 +578,12 @@ fauna(
     dbpedia['Pyrocephalus_rubinus'],
     eol['1050412'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Pechirrojo',
-    uniprot['371933']
+    uniprot['371933'],
+    gbif['2483647']
 )
 
 fauna(
-    gbif['2482934'],#uri
+    rutaAnillo['Fauna.rdf#machetornisRixosa'],#uri
     "SIRIRÍ BUEYERO, ATRAPAMOSCAS GANADERO",#nombre comun
     "Machetornis rixosa",#nombre cientifico
     """Tamaño aproximado de 19 cms. Tiene los ojos rojos y  patas largas que le facilitan caminar sobre el suelo. 
@@ -554,11 +593,12 @@ fauna(
     dbpedia['Machetornis_rixosa'],
     eol['285035'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Atrapamoscas+Ganadero',
-    uniprot['495241']
+    uniprot['495241'],
+    gbif['2482934']
 )
 
 fauna(
-    gbif['2482921'],#uri
+    rutaAnillo['Fauna.rdf#myiozetetesCayanensis'],#uri
     "SUELDA CRESTINEGRA",#nombre comun
     "Myiozetetes cayanensis",#nombre cientifico
     """Mide cerca de 16.5 cms. Tiene pico negro y corto, sus partes superiores son de tonalidad café en contraste con su 
@@ -568,11 +608,12 @@ fauna(
     dbpedia['Myiozetetes_cayanensis'],
     eol['1053224'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Suelda+Crestinegra',
-    uniprot['478635']
+    uniprot['478635'],
+    gbif['2482921']
 )
 
 fauna(
-    gbif['5229693'],#uri
+    rutaAnillo['Fauna.rdf#tyrannusSavana'],#uri
     "SIRIRÍ TIJERETA, SIRIRÍ TIJERETÓN",#nombre comun
     "Tyrannus savana",#nombre cientifico
     """El tamaño de los machos es de 38 cms y el de las hembras de solo 28 cms. Tiene la cola muy larga y profundamente 
@@ -582,11 +623,12 @@ fauna(
     dbpedia['Tyrannus_savana'],
     eol['917500'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Sirir%C3%AD+Tijereta',
-    uniprot['137541']
+    uniprot['137541'],
+    gbif['5229693']
 )
 
 fauna(
-    gbif['2489212'],#uri
+    rutaAnillo['Fauna.rdf#neochelidonTibialis'],#uri
     "GOLONDRINA SELVÁTICA",#nombre comun
     "Neochelidon tibialis",#nombre cientifico
     """Mide 12 cms de longitud y pesa entre 9.1 y 10.5 grs. Su plumaje es gris opaco, gris parduzco a negro parduzco, con 
@@ -596,11 +638,12 @@ fauna(
     dbpedia['Neochelidon_tibialis'],
     eol['1050800'],
     'https://es.wikipedia.org/wiki/Neochelidon_tibialis',
-    uniprot['1740326']
+    uniprot['1740326'],
+    gbif['2489212']
 )
 
 fauna(
-    gbif['2489203'],#uri
+    rutaAnillo['Fauna.rdf#stelgidopteryxRuficollis'],#uri
     "GOLONDRINA BARRANQUERA",#nombre comun
     "Stelgidopteryx ruficollis",#nombre cientifico
     """Mide 13 cms y pesa entre 14-18 grs. Es principalmente café grisáceo, sus alas y cola son café negruzcas y las barbas 
@@ -610,11 +653,12 @@ fauna(
     dbpedia['Stelgidopteryx_ruficollis'],
     eol['1050747'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Golondrina+Barranquera+-+Stelgidopteryx+ruficollis',
-    uniprot['72878']
+    uniprot['72878'],
+    gbif['2489203']
 )
 
 fauna(
-    gbif['5230791'],#uri
+    rutaAnillo['Fauna.rdf#hirundoRustica'],#uri
     "GOLONDRINA TIJERETA",#nombre comun
     "Hirundo rustica",#nombre cientifico
     """Mide alrededor de 18 cms y pesa de 16-24 grs. El macho presenta frente y garganta rufa, coronilla y partes altas 
@@ -624,11 +668,12 @@ fauna(
     dbpedia['Hirundo_rustica'],
     eol['917688'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Golondrina+Tijereta+-+Hirundo+rustica',
-    uniprot['43150']
+    uniprot['43150'],
+    gbif['5230791']
 )
 
 fauna(
-    gbif['2490722'],#uri
+    rutaAnillo['Fauna.rdf#turdusIgnobilis'],#uri
     "MIRLA OLLERA",#nombre comun
     "Turdus ignobilis",#nombre cientifico
     """Mide alrededor de 24 cms. Es de color café sucio con pico negro. Por encima es de color café oscuro opaco uniforme 
@@ -638,11 +683,12 @@ fauna(
     dbpedia['Turdus_ignobilis'],
     eol['922675'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Mirla+Ollera',
-    uniprot['411541']
+    uniprot['411541'],
+    gbif['2490722']
 )
 
 fauna(
-    gbif['2491862'],#uri
+    rutaAnillo['Fauna.rdf#sicalisFlaveola'],#uri
     "CANARIO CORONADO, SICALIS CORONADO",#nombre comun
     "Sicalis flaveola",#nombre cientifico
     """Mide aproximadamente 14 cms su color es amarillo brillante. El Macho por encima tiene color amarillo oliva débilmente 
@@ -652,11 +698,12 @@ fauna(
     dbpedia['Sicalis_flaveola'],
     eol['922690'],
     'http://www.avesyturismo.com/canario-criollo-sicalis-coronado.html',
-    uniprot['163868']
+    uniprot['163868'],
+    gbif['2491862']
 )
 
 fauna(
-    gbif['2491741'],#uri
+    rutaAnillo['Fauna.rdf#volatiniaJacarina'],#uri
     "ESPIGUERO SALTARÍN, CANARIO CORONADO, VOLATINERO NEGRO",#nombre comun
     "Volatinia jacarina",#nombre cientifico
     """Mide de 8.7-10.9 cms y pesa de 8-12 grs. Presenta pico cónico con culmen levemente decurvado. El macho tiene la 
@@ -666,11 +713,12 @@ fauna(
     dbpedia['Volatinia_jacarina'],
     eol['1050405'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Volatinero+Negro+-+Volatinia+jacarina',
-    uniprot['135452']
+    uniprot['135452'],
+    gbif['2491741']
 )
 
 fauna(
-    gbif['2491335'],#uri
+    rutaAnillo['Fauna.rdf#sporophilaNigricollis'],#uri
     "ESPIGUERO CAPUCHINO",#nombre comun
     "Sporophila nigricollis",#nombre cientifico
     """Mide de 8.5-10.3 cms y pesa de 8.5-11.2 grs. El macho presenta iris café, pico azul grisáceo y patas negruzcas. Su 
@@ -680,11 +728,12 @@ fauna(
     dbpedia['Sporophila_nigricollis'],
     eol['917113'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Espiguero+Capuchino+-+Sporophila+nigricollis',
-    uniprot['138930']
+    uniprot['138930'],
+    gbif['2491335']
 )
 
 fauna(
-    gbif['7341834'],#uri
+    rutaAnillo['Fauna.rdf#setophagaPetechia'],#uri
     "REINITA DORADA, REINITA AMARILLA",#nombre comun
     "Setophaga petechia",#nombre cientifico
     """Mide 11.4 cms. El macho es amarillo encendido con oliva-amarillento en partes superiores. Las alas y cola son 
@@ -694,11 +743,12 @@ fauna(
     dbpedia['Setophaga_petechia'],
     eol['918547'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Reinita+amarilla',
-    uniprot['123634']
+    uniprot['123634'],
+    gbif['7341834']
 )
 
 fauna(
-    gbif['5229939'],#uri
+    rutaAnillo['Fauna.rdf#icterusNigrogularis'],#uri
     "TURPIAL AMARILLO",#nombre comun
     "Icterus nigrogularis",#nombre cientifico
     """Mide entre 20-21 cms. Los machos tienen un peso promedio de 39.5 grs y las hembras 37.4 grs. Su plumaje principalmente 
@@ -708,11 +758,12 @@ fauna(
     dbpedia['Icterus_nigrogularis'],
     eol['1050858'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Turpial+Amarillo',
-    uniprot['84827']
+    uniprot['84827'],
+    gbif['5229939']
 )
 
 fauna(
-    gbif['2484103'],#uri
+    rutaAnillo['Fauna.rdf#chrysomusIcterocephalus'],#uri
     "MONJITA CABECIAMARILLA, MONJITA",#nombre comun
     "Chrysomus icterocephalus",#nombre cientifico
     """El macho mide alrededor de 18 cms y la hembra 16.5 cms. El peso promedio para los machos es de 35.9 grs y el peso de 
@@ -722,11 +773,12 @@ fauna(
     dbpedia['Chrysomus_icterocephalus'],
     eol['284088'],
     'http://www.icesi.edu.co/wiki_aves_colombia/tiki-index.php?page=Turpial+Cabeciamarillo',
-    uniprot['993346']
+    uniprot['993346'],
+    gbif['2484103']
 )
 
 fauna(
-    gbif['2434584'],#uri
+    rutaAnillo['Fauna.rdf#cerdocyonThous'],#uri
     "ZORRO CAÑERO",#nombre comun
     "Cerdocyon thous",#nombre cientifico
     """Es un canino de tamaño mediano (5-7 Kgs.), la cola es moderadamente peluda, con la punta negra y oscura en la base. 
@@ -736,11 +788,12 @@ fauna(
     dbpedia['Cerdocyon_thous'],
     eol['328685'],
     'http://www.biodiversidad.co/fichas/421',
-    uniprot['9620']
+    uniprot['9620'],
+    gbif['2434584']
 )
 
 fauna(
-    gbif['2435146'],#uri
+    rutaAnillo['Fauna.rdf#pumaYagouaroundi'],#uri
     "PUMA, LEÓN, YAGUARUNDI",#nombre comun
     "Puma yagouaroundi",#nombre cientifico
     """Presenta dos formas en la coloración de su pelaje: una de color castaño rojizo, y otra parda casi negra o 
@@ -750,11 +803,12 @@ fauna(
     dbpedia['Puma_yagouaroundi'],
     eol['1053885'],
     'http://www.naturalista.mx/taxa/74989-Puma-yagouaroundi',
-    uniprot['1608482']
+    uniprot['1608482'],
+    gbif['2435146']
 )
 
 fauna(
-    gbif['4285694'],#uri
+    rutaAnillo['Fauna.rdf#oreochromisNiloticus'],#uri
     "TILAPIA NILÓTICA, MOJARRA",#nombre comun
     "Oreochromis niloticus",#nombre cientifico
     """Puede medir hasta 60 cms y pesar 4 Kgs. Fácilmente reconocible debido a su cuerpo comprimido, a las líneas verticales 
@@ -764,11 +818,12 @@ fauna(
     dbpedia['Oreochromis_niloticus'],
     eol['356343'],
     'http://www.biodiversidad.co/fichas/585',
-    uniprot['8128']
+    uniprot['8128'],
+    gbif['4285694']
 )
 
 fauna(
-    gbif['2370605'],#uri
+    rutaAnillo['Fauna.rdf#tilapiaRendalli'],#uri
     "MOJARRA HERBÍVORA, TILAPIA HERBÍVORA",#nombre comun
     "Tilapia rendalli",#nombre cientifico
     """Alcanza los 45 cms y los 2 kgs. De color verde oliva a marrón, a menudo con escamas azules dispersas; bases de escamas 
@@ -778,11 +833,12 @@ fauna(
     dbpedia['Tilapia_rendalli'],
     eol['212062'],
     'http://biogeodb.stri.si.edu/caribbean/es/thefishes/species/4505',
-    uniprot['8129']
+    uniprot['8129'],
+    gbif['2370605']
 )
 
 fauna(
-    gbif['8400492'],#uri
+    rutaAnillo['Fauna.rdf#poeciliaMexicana'],#uri
     "PIPONA",#nombre comun
     "Poecilia mexicana",#nombre cientifico
     """Mide entre los 6-9 cms los machos y entre 10-12 cms las hembras. En estado salvaje va del pardo al grisáceo, pasando 
@@ -792,11 +848,12 @@ fauna(
     dbpedia['Poecilia_mexicana'],
     eol['211878'],
     'http://www.pezadicto.com/poecilia-mexicana-molly-mexicano/',
-    uniprot['48701']  
+    uniprot['48701'],
+    gbif['8400492'] 
 )
 
 fauna(
-    gbif['5204264'],#uri
+    rutaAnillo['Fauna.rdf#astyanaxMicrolepis'],#uri
     "SARDINA, SARDINITA",#nombre comun
     "Astyanax microlepis",#nombre cientifico
     """Es una especie de colores muy variados dependiendo del sitio de captura. Presenta una mancha caudal negra  
@@ -806,11 +863,12 @@ fauna(
     wikidata['Q6398228'],
     eol['211218'],
     'https://www.cortolima.gov.co/sites/default/files/images/stories/centro_documentos/pom_coello/diagnostico/apendices/ap_peces.pdf',
-    uniprot['642543']
+    uniprot['642543'],
+    gbif['5204264']
 )
 
 fauna(
-    gbif['2402060'],#uri
+    rutaAnillo['Fauna.rdf#sternopygusMacrurus'],#uri
     "VERINGO, PEZ CUCHILLO",#nombre comun
     "Sternopygus macrurus",#nombre cientifico
     """Puede medir más de 38 cms de longitud total. El ojo característicamente presenta el borde orbital libre. Es de color 
@@ -820,39 +878,40 @@ fauna(
     wikidata['Q5611023'],
     eol['205876'],
     'http://izt.ciens.ucv.ve/mbucv/peces/Proyecto%20Atlas/PaginaWeb/GYMNOTIFORMES_STERNOPYGIDAE_Familia_Sternopygus%20macrurus.htm',
-    uniprot['77841']
+    uniprot['77841'],
+    gbif['2402060']
 )
 
 # Modelado en otras rutas
-g.add( (gbif['5216933'], RDF.type, WILDLIFE.TaxonName) ) #ruta maiz
-g.add( (gbif['2428968'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5217587'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5217567'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2459658'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5226883'], RDF.type, WILDLIFE.TaxonName) ) #vuelta oriente
-g.add( (gbif['2498402'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2498139'], RDF.type, WILDLIFE.TaxonName) ) #ruta maiz
-g.add( (gbif['2480830'], RDF.type, WILDLIFE.TaxonName) ) #vuelta oriente
-g.add( (gbif['7913436'], RDF.type, WILDLIFE.TaxonName) ) # maiz
-g.add( (gbif['2481942'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2495358'], RDF.type, WILDLIFE.TaxonName) ) #vuelta oriente
-g.add( (gbif['2495858'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2479071'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2496209'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5231932'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5959202'], RDF.type, WILDLIFE.TaxonName) ) #maiz
-g.add( (gbif['2482755'], RDF.type, WILDLIFE.TaxonName) ) #vuelta oriente
-g.add( (gbif['5229662'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5229564'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2489208'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5231459'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2488602'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2439920'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2440779'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2433270'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['2433194'], RDF.type, WILDLIFE.TaxonName) )
-g.add( (gbif['5219666'], RDF.type, WILDLIFE.TaxonName) ) #maiz
-g.add( (gbif['5786666'], RDF.type, WILDLIFE.TaxonName) ) #riofrio
-g.add( (gbif['2436860'], RDF.type, WILDLIFE.TaxonName) ) #vuelta oriente
+g.add( (rutaMaiz['Fauna.rdf#rhinellaMarina'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #ruta maiz
+g.add( (rutaMaiz['Fauna.rdf#colostethusFraterdanieli'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#leptodactylusFragilis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#leptodactylusColombiensis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#iguanaIguana'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#micrurusMipartitus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Fauna.rdf#dendrocygnaBicolor'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#anasCyanoptera'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #ruta maiz
+g.add( (rutaVueltaOriente['Fauna.rdf#bubulcusIbis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaMaiz['Fauna.rdf#ardeaAlba'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) # maiz
+g.add( (rutaMaiz['Fauna.rdf#coragypsAtratus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#zenaidaAuriculata'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Fauna.rdf#columbinaTalpacoti'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#forpusConspicillatus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#crotophagaAni'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#taperaNaevia'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#thamnophilusMultistriatus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #maiz
+g.add( (rutaVueltaOriente['Fauna.rdf#pitangusSulphuratus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Fauna.rdf#tyrannusMelancholicus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#fluvicolaPica'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#notiochelidonCyanoleuca'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#troglodytesAedon'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#thraupisEpiscopus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#didelphisMarsupialis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#dasypusNovemcinctus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#artibeusLituratus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#glossophagaSoricina'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#sciurusGranatensis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #maiz
+g.add( (rioFrio['Fauna.rdf#hydrochoerusHydrochaeris'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #riofrio
+g.add( (rutaVueltaOriente['Fauna.rdf#sylvilagusBrasiliensis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
 
 #print (g.serialize(format='pretty-xml'))

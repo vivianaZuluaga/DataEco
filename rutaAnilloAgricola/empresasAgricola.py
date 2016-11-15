@@ -12,7 +12,7 @@ from utils.namespaces import rutaAnillo, facebook, twitter, imgur, maps, youtube
 from alojamientosAgricola import g
 
 
-def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra):
+def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra, linkURI):
     if webpage != 'No disponible':
         g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)) )
     
@@ -39,10 +39,11 @@ def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Thursday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Friday) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo.Empresas)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Empresas.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 empresas(
-    facebook['pages/Avicola-La-Chica/375601145975612'],#uri
+    rutaAnillo['Empresas.rdf#avicolaChica'],#uri
     'AVICOLA LA CHICA',#nombre
     '2303387',#tel
     imgur['iwFz4zG.jpg'],#imagen
@@ -53,11 +54,12 @@ empresas(
     maps['dp6m5j9xDo62'],#mapa
     "http://directoriotelefonico.info/directorio/de/tulua/a/150",#uriatencion
     "08:00:00",#abre
-    "18:00:00"#cierra
+    "18:00:00",#cierra
+    facebook['pages/Avicola-La-Chica/375601145975612']
 )
 
 empresas(
-    facebook['supermercadosydrogueriascomfandi'],#uri
+    rutaAnillo['Empresas.rdf#comfandi'],#uri
     'SUPERMERCADO COMFANDI',#nombre
     '2310819',#tel
     imgur['ImKLnVA.png'],#imagen
@@ -68,11 +70,12 @@ empresas(
     maps['pkTqvXMsgrj'],#mapa
     "http://www.bigpass.com.co/buscador/details.php?ide=125896",#uriatencion
     "08:00:00",#abre
-    "18:00:00"#cierra
+    "18:00:00",#cierra
+    facebook['supermercadosydrogueriascomfandi']
 )
 
 empresas(
-    facebook['Institucion-Educativa-Tecnica-Occidente-134974479939448/'],#uri 
+    rutaAnillo['Empresas.rdf#ieOccidente'],#uri 
     'INSTITUCIÓN EDUCATIVA TÉCNICA OCCIDENTE',#nombre
     '0',#tel
     imgur['eC5RRwe.jpg'],#imagen
@@ -84,11 +87,12 @@ empresas(
     maps['BUTrUuSDjCK2'],#mapa
     "www.occiportal.jimdo.com",#uriatencion
     "06:00:00",#abre
-    "18:00:00"#cierra
+    "18:00:00",#cierra
+    facebook['Institucion-Educativa-Tecnica-Occidente-134974479939448/']
 )
 
 empresas(
-    youtube['_kQesussw3k'],#uri 
+    rutaAnillo['Empresas.rdf#zoocriaderoSirena'],#uri 
     'ZOOCRIADERO DE AVESTRUCES LA SIRENA',#nombre
     '2257083',#tel
     imgur['SGXyLbc.png'],#imagen
@@ -99,11 +103,12 @@ empresas(
     maps['A3tVoWjpmMQ2'],#mapa
     rutaAnillo['Empresas/licenciaAvestruces.pdf'],#uriatencion
     "07:00:00",#abre
-    "18:00:00"#cierra
+    "18:00:00",#cierra
+    youtube['_kQesussw3k']
 )
 
 empresas(
-    facebook['Mama-Cubatas-1684533791806093/'],#uri 
+    rutaAnillo['Empresas.rdf#cubatas'],#uri 
     'MAMÁ CUBATAS',#nombre
     '3165131438',#tel
     imgur['RBt0z5d.jpg'],#imagen
@@ -114,7 +119,8 @@ empresas(
     maps['eEKb1nRc4Fz'],#mapa
     "http://eventerbee.com/event/el-caribefunk-en-tulua-18-de-junio,961838740604403",#uriatencion
     "18:00:00",#abre
-    "01:00:00"#cierra
+    "01:00:00",#cierra
+    facebook['Mama-Cubatas-1684533791806093/']
 )
 
 #print (g.serialize(format='pretty-xml'))

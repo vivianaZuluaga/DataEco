@@ -1,5 +1,7 @@
 from rdflib import Namespace
 
+
+##Enlaces relacionados con documentos web que describen a los recursos
 facebook = Namespace('https://www.facebook.com/')
 twitter = Namespace('https://www.twitter.com/Ecodataset/status/')
 dbpedia = Namespace('http://dbpedia.org/resource/')
@@ -12,8 +14,6 @@ maps = Namespace('https://goo.gl/maps/')
 youtube = Namespace('https://www.youtube.com/embed/')
 camaraTulua = Namespace('http://camaratulua.org/afiliados/')
 valleCompras = Namespace('http://www.mivalledecompras.com/servicios/stulua/alquileres/fincas/')
-
-
 eol = Namespace('http://eol.org/pages/') # sitio con datos abiertos
 gbif = Namespace('http://www.gbif.org/species/') # Global Biodiversity Information sitio con datos abiertos
 

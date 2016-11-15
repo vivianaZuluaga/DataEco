@@ -8,29 +8,30 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 from rdflib import Namespace, URIRef, Literal, Graph, BNode
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.ontologias import WILDLIFE, UMBEL, OWL
-from utils.namespaces import rioFrio, dbpedia, wikidata, imgur, eol, gbif, uniprot
+from utils.namespaces import rioFrio, rutaVueltaOriente, dbpedia, wikidata, imgur, eol, gbif, uniprot
 from eventosRiofrio import g
 
 #g = Graph()
 
-def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3):
+def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
 	g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
 	g.add( (URIRef(uri), WILDLIFE.commonName, Literal(nombre_comun, lang='es') ) )
 	g.add( (URIRef(uri), WILDLIFE.scientificName, Literal(nombre_cientifico, lang='la')) )
 	g.add( (URIRef(uri), WILDLIFE.shortDescription, Literal(descripcion, lang='es')) )
 	g.add( (URIRef(uri), FOAF.depiction, URIRef(imagen)))
 	g.add( (URIRef(uri), WILDLIFE.kingdomName, Literal('Animal', lang='es')) )
+	g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web
 	
-	g.add( (URIRef(uri), FOAF.isPrimaryTopicOf, URIRef(ref)) ) #Sitio web del que se tomo la desc
-	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF a DBpedia
-	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink2)) ) #Link RDF a EOL
-
-	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF a UniProt
-    
-	g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio.Fauna)) )
+	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink1)) ) #Link RDF
+	g.add( (URIRef(uri), OWL.sameAs, URIRef(uriLink3)) ) #Link RDF
+	
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
+	
+	g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Fauna.rdf'])) )
 
 fauna(
- 	gbif['5229447'],
+ 	rioFrio['Fauna.rdf#ortalisRuficauda'],
  	'GUACHARACA',
  	'Ortalis ruficauda',
  	"""Mide aproximadamente 53 cms; carece de plumas en la garganta cuya piel es roja y las plumas de la cola forman un 
@@ -40,11 +41,12 @@ fauna(
  	dbpedia['Rufous-vented_chachalaca'],
  	eol['1050075'],
 	'http://www.biodiversidad.co/fichas/4256',
-	uniprot['301604']
+	uniprot['301604'],
+	gbif['5229447']
  )
 
 fauna(
- 	gbif['2423530'],
+ 	rioFrio['Fauna.rdf#edalorhinaPerezi'],
  	'RANA VAQUITA',
  	'Edalorhina perezi',
  	"""Se la puede encontrar en los bosques húmedos y zonas inundables. La piel sobre el vientre es lisa, el pecho y vientre 
@@ -53,11 +55,12 @@ fauna(
  	dbpedia['Edalorhina_perezi'],
  	eol['1036652'],
 	'http://www.biodiversidad.co/fichas/2735',
-	uniprot['318278']
+	uniprot['318278'],
+	gbif['2423530']
  )
 
 fauna(
- 	gbif['2431776'],
+ 	rioFrio['Fauna.rdf#salamandraSalamandra'],
  	'SALAMANDRA',
  	'Salamandra salamandra',
  	"""Esta especie se puede encontrar en zonas húmedas, se oculta durante el día bajo las piedras, troncos caídos y hojas. 
@@ -66,11 +69,12 @@ fauna(
  	dbpedia['Fire_salamander'],
  	eol['333311'],
 	'https://en.wikidatapedia.org/wikidata/Salamandra',
-	uniprot['57571']
+	uniprot['57571'],
+	gbif['2431776']
  )	
 
 fauna(
- 	gbif['2435099'],
+ 	rioFrio['Fauna.rdf#pumaConcolor'],
  	'PUMA',
  	'Puma concolor',
  	"""Esta especie ha sido reportada en los departamentos de Vaupés, Vichada, Amazonas, Antioquia, Bolivar y Casanare. 
@@ -79,11 +83,12 @@ fauna(
  	dbpedia['Cougar'],
  	eol['311910'],
 	'http://www.biodiversidad.co/fichas/348',
-	uniprot['9696']
+	uniprot['9696'],
+	gbif['2435099']
  )
 
 fauna(
- 	gbif['2433750'],
+ 	rioFrio['Fauna.rdf#lutrinae'],
  	'NUTRIA',
  	'Lutrinae',
  	"""Animal de costumbres acuáticas, con abundante pelaje impermeable, esto le permite manter su calor corporal. Se alimenta 
@@ -92,11 +97,12 @@ fauna(
  	dbpedia['Otter'],
  	eol['2849553'],
 	'https://en.wikidatapedia.org/wikidata/Otter',
-	uniprot['169417']
+	uniprot['169417'],
+	gbif['2433750']
  )
 
 fauna(
- 	gbif['2433536'],
+ 	rioFrio['Fauna.rdf#nasuaNasua'],
  	'CUSUMBO',
  	'Nasua nasua',
  	"""Partes superiores rojizo encendido; cola con anillos blanquecinos y negros. Se encuentra en Colombia, Ecuador, Perú, 
@@ -106,11 +112,12 @@ fauna(
  	dbpedia['South_American_coati'],
  	eol['328601'],
 	'http://www.biodiversidad.co/fichas/3490',
-	uniprot['9651']
+	uniprot['9651'],
+	gbif['2433536']
  )
 
 fauna(
- 	gbif['2433401'],
+ 	rioFrio['Fauna.rdf#tremarctosOrnatus'],
  	'OSO DE ANTEOJOS',
  	'Tremarctos ornatus',
  	"""En comparación con otros osos del mundo, es de tamaño mediano. La coloración del pelaje es uniforme, negra o café 
@@ -119,11 +126,12 @@ fauna(
  	dbpedia['Spectacled_bear'],
  	eol['328076'],
 	'http://www.biodiversidad.co/fichas/281',
-	uniprot['9638']
+	uniprot['9638'],
+	gbif['2433401']
  )
 
 fauna(
- 	gbif['5534'],
+ 	rioFrio['Fauna.rdf#soricidae'],
  	'MUSARAÑAS',
  	'Soricidae',
  	"""Son insectívoros y de cuerpo pequeño, el hocico es alargado y en forma de punta y sus orejas se esconden tras su 
@@ -132,11 +140,12 @@ fauna(
  	dbpedia['Shrew'],
  	eol['8714'],
 	'https://es.wikidatapedia.org/wikidata/Soricidae',
-	uniprot['9376']
+	uniprot['9376'],
+	gbif['5534']
  )
 
 fauna(
- 	gbif['2433359'],
+ 	rioFrio['Fauna.rdf#caenolestes'],
  	'RUNCHOS',
  	'Caenolestes',
  	"""Estos animales son insectívoros y nocturnos, son buenos trepadores de árboles y se pueden encontrar en Colombia, 
@@ -145,11 +154,12 @@ fauna(
  	dbpedia['Caenolestes'],
  	eol['15588'],
 	'https://en.wikidatapedia.org/wikidata/Caenolestes',
-	uniprot['37886']
+	uniprot['37886'],
+	gbif['2433359']
  )
 
 fauna(
- 	gbif['5786666'],
+ 	rioFrio['Fauna.rdf#hydrochoerusHydrochaeris'],
  	'CHIGÜIRO',
  	'Hydrochoerus hydrochaeris',
  	"""Se encuentra en los valles de los principales ríos de Suramérica: Magdalena, Orinoco, Amazonas, Rio de la plata y 
@@ -159,11 +169,12 @@ fauna(
  	dbpedia['Capybara'],
  	eol['326517'],
 	'http://www.biodiversidad.co/fichas/294',
-	uniprot['10149']
+	uniprot['10149'],
+	gbif['5786666']
  )
 
 fauna(
- 	gbif['2498056'],
+ 	rioFrio['Fauna.rdf#anasPlatyrhynchosDomesticus'],
  	'PATO',
  	'Anas platyrhynchos domesticus',
  	"""La cabeza verde del macho contrasta con su pico amarillo, collar blanco, pecho castaño, flancos grises y flecos 
@@ -173,11 +184,12 @@ fauna(
  	dbpedia['Domestic_duck'],
  	eol['45886553'],
 	'http://www.biodiversidad.co/fichas/4502',
-	uniprot['8839']
+	uniprot['8839'],
+	gbif['2498056']
  )
 
 fauna(
- 	gbif['5289'],
+ 	rioFrio['Fauna.rdf#trochilidae'],
  	'COLIBRÍ',
  	'Trochilidae',
  	"""También se le conoce como picaflor; el más pequeño de los colibrís mide aproximadamente 6 cms y el más grande 
@@ -187,11 +199,12 @@ fauna(
  	dbpedia['Hummingbird'],
  	eol['8021'],
 	'https://en.wikidatapedia.org/wikidata/Category:Trochilidae',
-	uniprot['9244']
+	uniprot['9244'],
+	gbif['5289']
  )
 
 fauna(
- 	gbif['5225'],
+ 	rioFrio['Fauna.rdf#caprimulgidae'],
  	'CHOTACABRAS',
  	'Caprimulgidae',
  	"""Presenta patas débiles, pico pequeño, cerdas rictales conspicuas, ojos grandes ubicados en los lados de la 
@@ -201,11 +214,12 @@ fauna(
  	dbpedia['Nightjar'],
  	eol['7971'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=CAPRIMULGIDAE+-+Chotacabras+y+Guardacaminos',
-	uniprot['48286']
+	uniprot['48286'],
+	gbif['5225']
  )
 
 fauna(
- 	gbif['3685'],
+ 	rioFrio['Fauna.rdf#ardeidae'],
  	'GARZA',
  	'Ardeidae',
  	"""Aves de tamaño medio a grande y la mayoría de sus miembros presentan cuellos y patas largas. Sus patas largas y fuertes 
@@ -215,11 +229,12 @@ fauna(
  	dbpedia['Heron'],
  	eol['8013'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=ARDEIDAE+-+Garzas',
-	uniprot['8901']
+	uniprot['8901'],
+	gbif['3685']
  )
 
 fauna(
- 	gbif['2480804'],
+ 	rioFrio['Fauna.rdf#ajaiaAjaja'],
  	'GARZA PALETA',
  	'Ajaia ajaja',
  	"""Se alimenta principalmente de peces pequeños y en menor medida de insectos acuáticos y camarones. Mide entre 65.8-81.0 
@@ -229,11 +244,12 @@ fauna(
  	dbpedia['Roseate_spoonbill'],
  	eol['46390584'],
 	'http://www.biodiversidad.co/fichas/4221',
-	uniprot['371920']
+	uniprot['371920'],
+	gbif['2480804']
  )
 
 fauna(
- 	gbif['5233'],
+ 	rioFrio['Fauna.rdf#columbidae'],
  	'PALOMAS',
  	'Columbidae',
  	"""Se alimentan de legumbres, granos, semillas, desechos de comida que busca en la basura en zonas urbanas, mide 
@@ -243,11 +259,12 @@ fauna(
  	dbpedia['Columbidae'],
  	eol['7978'],
 	'http://www.biodiversidad.co/fichas/4464',
-	uniprot['8930']
+	uniprot['8930'],
+	gbif['5233']
  )
 
 fauna(
- 	gbif['2475290'],
+ 	rioFrio['Fauna.rdf#momotusMomota'],
  	'BARRANQUEROS',
  	'Momotus momota',
  	"""Se alimenta de pequeños insectos, también captura pequeños lagartos y serpientes. Se conoce por su cabeza voluminosa, 
@@ -257,11 +274,12 @@ fauna(
  	dbpedia['Blue-crowned_motmot'],
  	eol['1050064'],
 	'http://www.biodiversidad.co/fichas/3452',
-	uniprot['57426']
+	uniprot['57426'],
+	gbif['2475290']
  )
 
 fauna(
- 	gbif['5788512'],
+ 	rioFrio['Fauna.rdf#spizaetusIsidori'],
  	'ÁGUILA',
  	'Spizaetus isidori',
  	"""Mide entre 64-74 cms de largo. Es grande y robusta con cabeza, cuello y dorso negros. Con una cresta aguda. Tiene 
@@ -271,11 +289,12 @@ fauna(
  	dbpedia['Black-and-chestnut_eagle'],
  	eol['1048938'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=%C3%81guila+crestada',
-	uniprot['214437']
+	uniprot['214437'],
+	gbif['5788512']
  )
 
 fauna(
- 	gbif['2480637'],
+ 	rioFrio['Fauna.rdf#accipiterNisus'],
  	'GAVILÁN',
  	'Accipiter nisus',
  	"""Cuerpo pequeño, con alas redondeadas, patas largas y un pico fuerte y poderoso. La cola siempre es más larga que las 
@@ -285,11 +304,12 @@ fauna(
  	dbpedia['Eurasian_sparrowhawk'],
  	eol['1048393'],
 	'https://es.wikidatapedia.org/wikidata/Accipiter_nisus',
-	uniprot['993372']
+	uniprot['993372'],
+	gbif['2480637']
  )
 
 fauna(
- 	gbif['2481047'],
+ 	rioFrio['Fauna.rdf#falcoPeregrinus'],
  	'HALCÓN',
  	'Falco peregrinus',
  	"""Está presente en todos los continentes, menos en la Antártida. En Colombia se puede observar a lo largo de todo 
@@ -299,11 +319,12 @@ fauna(
  	dbpedia['Peregrine_falcon'],
  	eol['1049164'],
 	'http://www.biodiversidad.co/fichas/4543',
-	uniprot['8954']
+	uniprot['8954'],
+	gbif['2481047']
  )
 
 fauna(
- 	gbif['5228199'],
+ 	rioFrio['Fauna.rdf#gallinulaChloropus'],
  	'GALLINETA',
  	'Gallinula chloropus',
  	"""En Colombia se distribuye en Bogotá, La Guajira y Valle del Cauca. Suele medir entre 33-36 cms; su plumaje es de color 
@@ -313,11 +334,12 @@ fauna(
  	dbpedia['Common_moorhen'],
  	eol['1049299'],
 	'http://www.biodiversidad.co/fichas/4238',
-	uniprot['9123']
+	uniprot['9123'],
+	gbif['5228199']
  )
 
 fauna(
- 	gbif['2490719'],
+ 	rioFrio['Fauna.rdf#turdusMerula'],
  	'MIRLA',
  	'Turdus merula',
  	"""El macho es de color negro, con el pico de color amarillo y un anillo del mismo color alrededor del ojo, tiene un 
@@ -327,11 +349,12 @@ fauna(
  	wikidata['Q21348750'],
  	eol['1177498'],
 	'https://es.wikidatapedia.org/wikidata/Turdus_merula',
-	uniprot['9187']
+	uniprot['9187'],
+	gbif['2490719']
  )
 
 fauna(
- 	gbif['2487672'],
+ 	rioFrio['Fauna.rdf#manacusManacus'],
  	'SALTARÍN',
  	'Manacus manacus',
  	"""Se distribuye en la región Amazónica, Orinoquía y en toda la región del Caribe. Se alimenta principalmente de bayas y 
@@ -341,11 +364,12 @@ fauna(
  	dbpedia['White-bearded_manakin'],
  	eol['919301'],
 	'http://www.biodiversidad.co/fichas/2609',
-	uniprot['196037']
+	uniprot['196037'],
+	gbif['2487672']
  )
 
 fauna(
- 	gbif['2483680'],
+ 	rioFrio['Fauna.rdf#onychorhynchusCoronatus'],
  	'ATRAPAMOSCAS',
  	'Onychorhynchus coronatus',
  	"""Su longitud es de 16.5 cms. El patrón de coloración es poco notable excepto en las raras ocasiones cuando despliega 
@@ -355,11 +379,12 @@ fauna(
  	dbpedia['Royal_flycatcher'],
  	eol['1053240'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Atrapamoscas+Real',
-	uniprot['360224']
+	uniprot['360224'],
+	gbif['2483680']
  )
 
 fauna(
- 	gbif['2482062'],
+ 	rioFrio['Fauna.rdf#podicepsMajor'],
  	'ZAMBULLIDOR',
  	'Podiceps major',
  	"""Mide 44 cms de largo. Se lo encuentra en cuerpos de agua como lagunas, lagos, arroyos, también en costas de mar. Se 
@@ -369,11 +394,12 @@ fauna(
  	dbpedia['Great_grebe'],
  	eol['1049444'],
 	'http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Podicipediformes',
-	uniprot['555330']
+	uniprot['555330'],
+	gbif['2482062']
  )
 
 fauna(
- 	gbif['2479612'],
+ 	rioFrio['Fauna.rdf#amazonaOchrocephala'],
  	'LORO',
  	'Amazona ochrocephala',
  	"""Esta especie se distribuye en La Guajira, Magdalena, Cesar, Chocó, Amazonas, Bolívar, Caldas, Caquetá, Guaviare, 
@@ -383,11 +409,12 @@ fauna(
  	dbpedia['Yellow-crowned_amazon'],
  	eol['1178062'],
 	'http://www.biodiversidad.co/fichas/4151',
-	uniprot['151761']
+	uniprot['151761'],
+	gbif['2479612']
  )
 
 fauna(
- 	gbif['2479798'],
+ 	rioFrio['Fauna.rdf#melopsittacusUndulatus'],
  	'PERICO',
  	'Melopsittacus undulatus',
  	"""Se alimenta preferiblemente de semillas de gramíneas y cultivos. Esta ave puede vivir hasta los 21 años de edad 
@@ -396,11 +423,12 @@ fauna(
  	dbpedia['Budgerigar'],
  	eol['914969'],
 	'http://www.biodiversidad.co/fichas/5340',
-	uniprot['13146']
+	uniprot['13146'],
+	gbif['2479798']
  )
 
 fauna(
-	gbif['1450'],
+	rioFrio['Fauna.rdf#strigiformes'],
 	'BÚHO',
 	'Strigiformes',
 	"""Tienen grandes ojos mirando hacia adelante lo que les da la visión amplia y poderosa, algunas especies tienen los 
@@ -409,10 +437,11 @@ fauna(
 	dbpedia['Owl'],
 	eol['696'],
 	'https://es.wikidatapedia.org/wikidata/Strigiformes',
-	uniprot['772159']
+	uniprot['772159'],
+	gbif['1450']
 )
 
-g.add( (gbif['2480830'], RDF.type, WILDLIFE.TaxonName) ) # Garza del ganado
-g.add( (gbif['7429082'], RDF.type, WILDLIFE.TaxonName) ) # Ratón
+g.add( (rutaVueltaOriente['Fauna.rdf#bubulcusIbis'], UMBEL.isRelatedTo, URIRef(rioFrio['Fauna.rdf'])) ) # Garza del ganado
+g.add( (rutaVueltaOriente['Fauna.rdf#musMusculus'], UMBEL.isRelatedTo, URIRef(rioFrio['Fauna.rdf'])) ) # Ratón casero
 
 #print(g.serialize(format='pretty-xml'))	

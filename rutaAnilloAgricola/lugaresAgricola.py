@@ -12,7 +12,7 @@ from utils.namespaces import rutaAnillo, facebook, twitter, imgur, maps, youtube
 from empresasAgricola import g
 
 
-def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa): 
+def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa, linkURI): 
     if video != "No disponible":
         g.add( (URIRef(uri), FOAF.depiction, URIRef(video)) )#puede ser usado para indicar contenido multimedia 
                   
@@ -30,10 +30,11 @@ def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video,
     g.add( (URIRef(mapa), VCARD.locality, Literal('Tuluá', lang="es")) )
     g.add( (URIRef(mapa), VCARD['street-address'], Literal(direccion)) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo.Lugares)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Lugares.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
     
 lugares(
-    facebook['pages/Capilla-Santo-Aparecido/161137537424017'],#uri
+    rutaAnillo['Lugares.rdf#santoAparecido'],#uri
     'CAPILLA DEL SANTO APARECIDO',#nombre
     """En la capilla se conserva una escultura de porcelana que refleja el Cristo descendido de la Cruz. Dicha escultura 
     fue encontrada hace más de 100 años por una campesina tulueña y es venerada por los milagros que ha concedido a sus 
@@ -43,11 +44,12 @@ lugares(
     'No disponible',#email
     imgur['iG762nC.png'],#imagen
     youtube['WeQNXoFSjL0'],#video
-    maps['2qhg5w2iAjk']#mapa
+    maps['2qhg5w2iAjk'],#mapa
+    facebook['pages/Capilla-Santo-Aparecido/161137537424017']
 )
 
 lugares(
-    "https://issuu.com/natucreativa/docs/humedales_del_valle_geogr__fico_del/177",#uri
+    rutaAnillo['Lugares.rdf#humedalSapera'],#uri
     'HUMEDAL BOCAS DE TULUÁ - LA SAPERA',#nombre
     """Se trata de un humedal cubierto en gran porcentaje por macrófitas; la zona amortiguadora en su mayoría son pastos 
     utilizados para el ganado; se encuentra aledaño al río Tuluá, el cual lo surte constantemente. Ubicado en las Haciendas 
@@ -57,7 +59,8 @@ lugares(
     'cuentosverdes@cvc.gov.co',#email
     imgur['vNIj2k4.png'],#imagen
     youtube['cncHUYEsr2k'],#video
-    maps['8jXReqSHzkA2']#mapa
+    maps['8jXReqSHzkA2'],#mapa
+    "https://issuu.com/natucreativa/docs/humedales_del_valle_geogr__fico_del/177"
 )
 
 #print (g.serialize(format='pretty-xml'))

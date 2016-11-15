@@ -12,7 +12,7 @@ from utils.namespaces import rutaVueltaOriente, facebook, youtube, maps, twitter
 from floraVueltaOriente import g
 
 
-def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa): 
+def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa, linkURI): 
     if video != "No disponible":
         g.add( (URIRef(uri), FOAF.depiction, URIRef(video)) )#puede ser usado para indicar contenido multimedia 
                   
@@ -30,10 +30,11 @@ def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video,
     g.add( (URIRef(mapa), VCARD.locality, Literal('Tuluá', lang='es')) )
     g.add( (URIRef(mapa), VCARD['street-address'], Literal(direccion)) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente.Lugares)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Lugares.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
     
 lugares(
-    facebook['reserva.chagualos'],#uri
+    rutaVueltaOriente['Lugares.rdf#chagualos'],#uri
     'LA RESERVA NATURAL DE LA SOCIEDAD CIVIL LOS CHAGUALOS',#nombre
     """Es un área natural protegida dedicada a la conservación, investigación, educación ambiental, ecoturismo, y agroecología, 
     su ecosistema principal hace parte del bosque subandino. Ubicada a 15.5 kilómetros de la ciudad de Tuluá y a 3 Kilómetros 
@@ -43,11 +44,12 @@ lugares(
     'reservachagualos@gmail.com',#email
     imgur['Auduk3K.jpg'],#imagen
     youtube['8hUawerN5Ek'],#video
-    maps['DXSZCo17J432']#mapa
+    maps['DXSZCo17J432'],#mapa
+    facebook['reserva.chagualos']
 )
 
 lugares(
-    facebook['La-Rochela-612135438799528'],#uri
+    rutaVueltaOriente['Lugares.rdf#laRochela'],#uri
     'LA ROCHELA',#nombre
     """Ofrece servicio de camping, piscina de aguas naturales alimentadas por una de las quebradas de la zona, es ideal para 
     familias y grupos, cuenta con sala de juegos de mesa, cancha de vóley playa, alquiler de caballos y zonas verdes. Ubicada en el 
@@ -57,11 +59,12 @@ lugares(
     'balneariolarochela@gmail.com',#email
     imgur['unia8WG.jpg'],#imagen
     'No disponible',#video
-    maps['mRy7QrqNvqx']#mapa
+    maps['mRy7QrqNvqx'],#mapa
+    facebook['La-Rochela-612135438799528']
 )
 
 lugares(
-    facebook['pages/Tres-Piedras-La-Marina/1401175110175669'],#uri
+    rutaVueltaOriente['Lugares.rdf#tresPiedras'],#uri
     'BALNEARIO TRES PIEDRAS',#nombre
     """Ofrece servicios de alimentos y bebidas, recreación, espacios de práctica de motocross, canchas de voley playa, alquiler 
     de caballos, todo esto se disfruta con el río que pasa por este establecimiento deleitando con sus naturales y puras aguas a 
@@ -71,11 +74,12 @@ lugares(
     'No disponible',#email
     imgur['nyr3AXR.jpg'],#imagen
     'No disponible',#video
-    maps['4VpMavgHgTx']#mapa
+    maps['4VpMavgHgTx'],#mapa
+    facebook['pages/Tres-Piedras-La-Marina/1401175110175669']
 )
 
 lugares(
-    facebook['pages/La-Marina-Moralito/596105267145768'],#uri
+    rutaVueltaOriente['Lugares.rdf#moralito'],#uri
     'MORALITO',#nombre
     """Cuenta con espacios para la integración familiar y de grupos, ofrece recreación, piscinas naturales, servicio de alimentos 
     y bebidas, juegos infantiles, kioscos, parqueadero.""",#descripcion
@@ -84,11 +88,12 @@ lugares(
     'No disponible',#email
     imgur['nyC1cgz.jpg'],#imagen
     'No disponible',#video
-    maps['e3qMhtrL66o']#mapa
+    maps['e3qMhtrL66o'],#mapa
+    facebook['pages/La-Marina-Moralito/596105267145768']
 )
 
 lugares(
-    facebook['La-Marina-Tulua-Valle-Ecoturismo-y-Diversion-102570483183016/'],#uri
+    rutaVueltaOriente['Lugares.rdf#parquePrincipal'],#uri
     'PARQUE PRINCIPAL',#nombre
     """Cuenta con polideportivo cubierto, juegos infantiles, establecimiento de alimentos y bebidas, plaza de mercado, donde 
     los domingos los agricultores y campesinos ponen en venta la producción de carnes, provenientes de las fincas cercanas, 
@@ -99,11 +104,12 @@ lugares(
     'No disponible',#email
     imgur['GErJR9N.jpg'],#imagen
     'No disponible',#video
-    maps['5S6Po9VY1tC2']#mapa
+    maps['5S6Po9VY1tC2'],#mapa
+    facebook['La-Marina-Tulua-Valle-Ecoturismo-y-Diversion-102570483183016/']
 )
 
 lugares(
-    "http://www.eltabloide.com.co/un-picacho-lleno-de-mitos-y-leyendas/",#uri
+    rutaVueltaOriente['Lugares.rdf#elPicacho'],#uri
     'CERRO EL PICACHO',#nombre
     """Sitio de peregrinación, cada año por la misma fecha de mayo, cientos de Tulueños suben. Se puede observar un lindo amanecer 
     o un hermoso atardecer. Se practican parapente, paracaidismo, ciclismo.""",#descripcion
@@ -112,11 +118,12 @@ lugares(
     'No disponible',#email
     imgur['RNN9f6T.jpg'],#imagen
     youtube['BYkSVIzh5CY'],#video
-    maps['Y7rJbfcAxcy']#mapa
+    maps['Y7rJbfcAxcy'],#mapa
+    "http://www.eltabloide.com.co/un-picacho-lleno-de-mitos-y-leyendas/"
 )
 
 lugares(
-    twitter['764645876329512961'],#uri
+    rutaVueltaOriente['Lugares.rdf#parqueLaMoralia'],#uri
     'PARQUE PRINCIPAL LA MORALIA',#nombre
     """Cuenta con polideportivo cubierto, juegos infantiles, monumento a las víctimas.""",#descripcion
     'La Moralia, Valle del Cauca',#direccion
@@ -124,11 +131,12 @@ lugares(
     'No disponible',#email
     imgur['kkgKuhQ.jpg'],#imagen
     youtube['KCifoTh--d0'],#video
-    maps['k9zJoVNP4L82']#mapa
+    maps['k9zJoVNP4L82'],#mapa
+    twitter['764645876329512961']
 )
 
 lugares(
-    facebook['pages/Coodeco-La-Marina-Tulua-Valle/330765627124567'],#uri
+    rutaVueltaOriente['Lugares.rdf#coodeco'],#uri
     'COODECO O BRISAS DEL RÍO MORALES',#nombre
     """Balneario con aguas naturales.""",#descripcion
     'La Marina, Valle del Cauca',#direccion
@@ -136,11 +144,12 @@ lugares(
     'No disponible',#email
     imgur['hp4KyVh.jpg'],#imagen
     'No disponible',#video
-    maps['MFTuskB4DXN2']#mapa
+    maps['MFTuskB4DXN2'],#mapa
+    facebook['pages/Coodeco-La-Marina-Tulua-Valle/330765627124567']
 )
 
 lugares(
-    facebook['pages/Rancho-Las-Palmas/246671912037940'],#uri
+    rutaVueltaOriente['Lugares.rdf#ranchoLasPalmas'],#uri
     'RANCHO LAS PALMAS',#nombre
     """Lugar de encuentro en donde se llevan a cabo diversos eventos, cuenta con pista de ciclomontañismo. Ubicado 
     en el Km 1 detrás del Centro Comercial Tuluá La 14.""",#descripcion
@@ -149,20 +158,23 @@ lugares(
     'No disponible',#email
     imgur['DKmsfRt.jpg'],#imagen
     youtube['sVlkViwdHHA'],#video
-    maps['eMjWbhVFiPw']#mapa
+    maps['eMjWbhVFiPw'],#mapa
+    facebook['pages/Rancho-Las-Palmas/246671912037940']
 )
 
 lugares(
-    facebook['LasMariasValle/'],#uri
+    rutaVueltaOriente['Lugares.rdf#lasMarias'],#uri
     'CENTRO RECREACIONAL LAS MARÍAS',#nombre
-    """Recreación, sano esparcimiento y descanso, un sitio para alejarte del ruido de la ciudad y compenetrarte con la 
-    naturaleza. Zona WiFi, alojamiento, restaurante, piscina, sauna, parqueadero gratis y mucho más. Ubicado a 15 minutos de Tuluá.""",#descripcion
+    """Ofrece servicios de alojamiento en cabañas, zona de camping, restaurante, piscina, sauna, parqueadero gratis, 
+    zona WIFI. Excelente lugar para compartir en familia por su tranquilidad y espectacular relación con la naturaleza. 
+    Espacios aptos para eventos empresariales. Ubicado a 15 minutos de Tuluá.""",#descripcion
     'La Moralia, Valle del Cauca',#direccion
     '3167796220, 3188001754',#telefono
     'visitalasmarias@gmail.com',#email www.visitalasmarias.com
     imgur['wttl4ey.jpg'],#imagen
     'No disponible',#video
-    maps['vyuRs9SLc4G2']#mapa
+    maps['vyuRs9SLc4G2'],#mapa
+    facebook['LasMariasValle/']
 )
 
 #print(g.serialize(format='pretty-xml'))

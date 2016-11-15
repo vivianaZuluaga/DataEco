@@ -12,7 +12,7 @@ from utils.namespaces import rutaVueltaOriente, facebook, twitter, imgur, maps, 
 from alojamientosVueltaOriente import g
 
 
-def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra):
+def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra, linkURI):
     if webpage != "No disponible":
         g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)) )
     
@@ -39,10 +39,11 @@ def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Thursday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Friday) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente.Empresas)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Empresas.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 empresas(
-    facebook['pages/Escuela-de-Policia-Simon-Bolivar/334490836608164'],#uri
+    rutaVueltaOriente['Empresas.rdf#escuelaPolicia'],#uri
     'ESCUELA DE POLICÍA SIMÓN BOLÍVAR',#nombre
     '2257192 ext. 130',#tel
     imgur['PCNkCT0.jpg'],#imagen
@@ -55,11 +56,12 @@ empresas(
     maps['GgVE6MRkP5z'],#mapa
     youtube['iSA4bUzyzFs'],#uriatencion
     "07:00:00",#abre
-    "18:00:00"#cierra
+    "18:00:00",#cierra
+    facebook['pages/Escuela-de-Policia-Simon-Bolivar/334490836608164']
 )
 
 empresas(
-    facebook['UnivalleSedeTulua06/'],#uri
+    rutaVueltaOriente['Empresas.rdf#univalle'],#uri
     'UNIVERSIDAD DEL VALLE SEDE TULUÁ',#nombre
     '2241816',#tel
     imgur['my7qVD9.jpg'],#imagen
@@ -70,11 +72,12 @@ empresas(
     maps['V8JRNVrhLus'],#mapa
     youtube['3o_g3l1iC_4'],#uriatencion
     "08:00:00",#abre
-    "17:00:00"#cierra
+    "17:00:00",#cierra
+    facebook['UnivalleSedeTulua06/']
 )
 
 empresas(
-    facebook['centrodebienestardelanciano.casadelosabuelos'],#uri
+    rutaVueltaOriente['Empresas.rdf#casaAbuelos'],#uri
     'CASA DE LOS ABUELOS ALONSO LOZANO GUERRERO',#nombre
     '2242194, 2255093, 3155560047',#tel
     imgur['tT2IN04.jpg'],#imagen
@@ -87,11 +90,12 @@ empresas(
     maps['x6F3d8PftmR2'],#mapa
     youtube['6tMqqSnkDxQ'],#uriatencion
     "08:00:00",#abre
-    "16:00:00"#cierra
+    "16:00:00",#cierra
+    facebook['centrodebienestardelanciano.casadelosabuelos']
 )
 
 empresas(
-    "https://www.youtube.com/watch?v=OhTiILsaCrw",#uri
+    rutaVueltaOriente['Empresas.rdf#viveroElJardin'],#uri
     'VIVERO EL JARDÍN DE MI CASA',#nombre
     '3154924598, 3177365775',#tel
     imgur['XYu6NOk.jpg'],#imagen
@@ -103,7 +107,8 @@ empresas(
     maps['V6bajHY3FTs'],#mapa
     facebook['Vivero-el-jardin-de-mi-casa-644309525690362/'],#uriatencion
     "08:00:00",#abre
-    "16:00:00"#cierra
+    "16:00:00",#cierra
+    "https://www.youtube.com/watch?v=OhTiILsaCrw"
 )
 
 #print (g.serialize(format="pretty-xml"))

@@ -14,7 +14,7 @@ from RutaMaiz import g
 #g = Graph()
 
 def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcion, uriRoom, uriValue, 
-	uriBed, numHabitaciones, numCamas, imagen):
+	uriBed, numHabitaciones, numCamas, imagen, linkURI):
 	if webpage != "No disponible":
 		g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)))	
 			
@@ -54,10 +54,12 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
 	g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
 
 	#g.add( (URIRef(uri), VCARD.cateogry, Literal("Alojamientos de la Ruta del Maíz")))
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz.Alojamientos)))
+	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Alojamientos.rdf'])))
+	
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 alojamientos(
-	facebook["hotel.trivino"],
+	rutaMaiz['Alojamientos.rdf#trivino'],
 	"APARTAHOTEL TRIVIÑO",
 	"No disponible",
 	"2289631, 3164331055",
@@ -71,11 +73,12 @@ alojamientos(
 	turismoTulua['44554/apartahotel-trivino'],
 	"12",
 	"30",
-	imgur['Eszaxc0.jpg']
+	imgur['Eszaxc0.jpg'],
+	facebook["hotel.trivino"]
 )
 
 alojamientos(
-	facebook['Apartahotel-Marques-de-la-Villa-M-337867679645873/'],
+	rutaMaiz['Alojamientos.rdf#marques'],
 	"EL MARQUÉS DE LA VILLA",
 	"No disponible",
 	"2245667, 3165244701",
@@ -88,11 +91,12 @@ alojamientos(
 	turismoTulua['8629/hotel-el-marques-de-la-villa'],
 	"38",
 	"55",
-	imgur['eQfIoGk.jpg']
+	imgur['eQfIoGk.jpg'],
+	facebook['Apartahotel-Marques-de-la-Villa-M-337867679645873/']
 )
 
 alojamientos(
-	facebook['hotelcafeplaza'],
+	rutaMaiz['Alojamientos.rdf#cafePlaza'],
 	"HOTEL CAFÉ PLAZA - C.C. DEL PARQUE",
 	"http://hotelcafeplaza.com/",
 	"2246486, 2246488, 3113546020",
@@ -106,11 +110,12 @@ alojamientos(
 	turismoTulua['44562/hotel-cafe-plaza-centro-comercial-del-parque'],
 	"49",
 	"59",
-	imgur['PZaVeSm.jpg']
+	imgur['PZaVeSm.jpg'],
+	facebook['hotelcafeplaza']
 )
 
 alojamientos(
-	facebook['Hotel-Central-Jhoanna-334144413428928'],
+	rutaMaiz['Alojamientos.rdf#central'],
 	"HOTEL CENTRAL JOHANNA",
 	"No disponible",
 	"2243246, 2248383, 3156304788",
@@ -123,11 +128,12 @@ alojamientos(
 	turismoTulua['34765/hotel-central-johanna'],
 	"30",
 	"35",
-	imgur['tB9dRjC.jpg']
+	imgur['tB9dRjC.jpg'],
+	facebook['Hotel-Central-Jhoanna-334144413428928']
 )
 
 alojamientos(
-	twitter['702167641562214402'],
+	rutaMaiz['Alojamientos.rdf#cielo'],
 	"HOTEL CIELO",
 	"No disponible",
 	"3006200436",
@@ -140,11 +146,12 @@ alojamientos(
 	turismoTulua['14236/hotel-cielo'],
 	"15",
 	"25",
-	imgur['VFiQgfb.jpg']
+	imgur['VFiQgfb.jpg'],
+	twitter['702167641562214402']
 )
 
 alojamientos(
-	facebook['hotelcorazondelvalle'],
+	rutaMaiz['Alojamientos.rdf#corazon'],
 	"HOTEL CORAZÓN DEL VALLE",
 	"http://www.hotelcorazondelvalle.com/",
 	"2323208, 2256604, 3164484351, 3117998237",
@@ -157,11 +164,12 @@ alojamientos(
 	hoteles['hotel-corazon-del-valle/'],
 	"27",
 	"29",
-	imgur['Iy5GQUh.jpg']
+	imgur['Iy5GQUh.jpg'],
+	facebook['hotelcorazondelvalle']
 )
 
 alojamientos(
-	facebook['profile.php?id=100009492184574&ref=br_rs'],
+	rutaMaiz['Alojamientos.rdf#felipe'],
 	"HOTEL DON FELIPE",
 	"No disponible",
 	"2339685, 3174074195",
@@ -174,11 +182,12 @@ alojamientos(
 	turismoTulua['3156/hotel-don-felipe'],
 	"19",
 	"23",
-	imgur['n1p0d2T.jpg']
+	imgur['n1p0d2T.jpg'],
+	facebook['profile.php?id=100009492184574&ref=br_rs']
 )
 
 alojamientos(
-	twitter['702168136506855427'],
+	rutaMaiz['Alojamientos.rdf#jorge'],
 	"HOTEL DON JORGE LA 23",
 	"No disponible",
 	"2259022, 3104949597",
@@ -191,11 +200,12 @@ alojamientos(
 	turismoTulua['44567/hotel-don-jorge-de-la-23'],
 	"10",
 	"10",
-	imgur['9WMuH2S.jpg']
+	imgur['9WMuH2S.jpg'],
+	twitter['702168136506855427']
 )
 
 alojamientos(
-	facebook['people/Hotel-Don-Sebastian/100007234909156'],
+	rutaMaiz['Alojamientos.rdf#sebastian'],
 	"HOTEL DON SEBASTIÁN",
 	"No disponible",
 	"2250273, 3207255497",
@@ -208,11 +218,12 @@ alojamientos(
 	turismoTulua['3384/hotel-don-sebastian'],
 	"14",
 	"19",
-	imgur['aWsk2eI.jpg']
+	imgur['aWsk2eI.jpg'],
+	facebook['people/Hotel-Don-Sebastian/100007234909156']
 )
 
 alojamientos(
-	facebook['pages/HOTEL-EL-DESCANSO-DEL-VISITANTE/229134903821536'],
+	rutaMaiz['Alojamientos.rdf#'],
 	"HOTEL EL DESCANSO DEL VISITANTE",
 	"No disponible",
 	"2244518, 3184395202, 2249604",
@@ -225,11 +236,12 @@ alojamientos(
 	hoteles['hotel-el-descanso-del-visitante/'],
 	"10",
 	"12",
-	imgur['rTTz3Md.jpg']
+	imgur['rTTz3Md.jpg'],
+	facebook['pages/HOTEL-EL-DESCANSO-DEL-VISITANTE/229134903821536']
 )
 
 alojamientos(
-	facebook['pages/Jardin-del-Ed%C3%A9n/515577135188478'],
+	rutaMaiz['Alojamientos.rdf#jardinEden'],
 	"HOTEL EL JARDÍN DEL EDÉN DE LA 26",
 	"No disponible",
 	"2254777, 3154889594",
@@ -242,11 +254,12 @@ alojamientos(
 	turismoTulua['994/hotel-el-jardin-del-eden-de-la-26'],
 	"13",
 	"15",
-	imgur['QrR3tUM.jpg']
+	imgur['QrR3tUM.jpg'],
+	facebook['pages/Jardin-del-Ed%C3%A9n/515577135188478']
 )
 
 alojamientos(
-	facebook['pages/Hotel-El-Para%C3%ADso-Ideal/155040651352392'],
+	rutaMaiz['Alojamientos.rdf#paraiso'],
 	"HOTEL EL PARAÍSO IDEAL",
 	"No disponible",
 	"2248111, 3177424939",
@@ -259,11 +272,12 @@ alojamientos(
 	turismoTulua['8251/hotel-el-paraiso-ideal'],
 	"20",
 	"27",
-	imgur['6Kmeqdr.jpg']
+	imgur['6Kmeqdr.jpg'],
+	facebook['pages/Hotel-El-Para%C3%ADso-Ideal/155040651352392']
 )
 
 alojamientos(
-	facebook['maricel.pupiales/about'],
+	rutaMaiz['Alojamientos.rdf#escalinata'],
 	"HOTEL ESCALINATA PUPI",
 	"No disponible",
 	"2241782, 3207561454",
@@ -276,11 +290,12 @@ alojamientos(
 	hoteles['hotel-escalinata-pupi/'],
 	"15",
 	"26",
-	imgur['1hwWHVS.jpg']
+	imgur['1hwWHVS.jpg'],
+	facebook['maricel.pupiales/about']
 )
 
 alojamientos(
-	facebook['Hotel-Juan-Maria-1458858754370044/?fref=ts'],
+	rutaMaiz['Alojamientos.rdf#juanMaria'],
 	"HOTEL JUAN MARÍA",
 	"http://hoteljuanmaria.com/",
 	"2244562, 3154902380",
@@ -294,11 +309,12 @@ alojamientos(
 	turismoTulua['2193/hotel-juan-maria-ltda'],
 	"50",
 	"113",
-	imgur['ye8THTJ.jpg']
+	imgur['ye8THTJ.jpg'],
+	facebook['Hotel-Juan-Maria-1458858754370044/?fref=ts']
 )
 
 alojamientos(
-	twitter['702168954102530048'],
+	rutaMaiz['Alojamientos.rdf#estrella'],
 	"HOTEL LA ESTRELLA DE LA MAÑANA",
 	"No disponible",
 	"2244639, 2240452, 3103725051",
@@ -311,11 +327,12 @@ alojamientos(
 	turismoTulua['4404/hotel-la-estrella'],
 	"18",
 	"25",
-	imgur['VkkRXp6.jpg']
+	imgur['VkkRXp6.jpg'],
+	twitter['702168954102530048']
 )
 
 alojamientos(
-	facebook['pages/Hotel-La-Mancion-del-Sol/248019025357779?rf=820075471383988'],
+	rutaMaiz['Alojamientos.rdf#mansion'],
 	"HOTEL LA MANSIÓN DEL SOL",
 	"http://www.lamansiondelsol.amawebs.com/",
 	"22320809, 3113378579",
@@ -329,11 +346,12 @@ alojamientos(
 	hoteles['hotel-la-mansion-del-sol/'],
 	"15",
 	"20",
-	imgur['FmgTwhG.jpg']
+	imgur['FmgTwhG.jpg'],
+	facebook['pages/Hotel-La-Mancion-del-Sol/248019025357779?rf=820075471383988']
 )
 
 alojamientos(
-	twitter['702169670200201216'],
+	rutaMaiz['Alojamientos.rdf#siesta'],
 	"HOTEL LA SIESTA",
 	"No disponible",
 	"2256828, 3207090919",
@@ -346,28 +364,31 @@ alojamientos(
 	hoteles['hotel-la-siesta-de-la-20/'],
 	"12",
 	"12",
-	imgur['PJea6bV.jpg']
+	imgur['PJea6bV.jpg'],
+	twitter['702169670200201216']
 )
 
 alojamientos(
-	twitter['702170175773270019'],
+	rutaMaiz['Alojamientos.rdf#corales'],
 	"HOTEL LOS CORALES DEL CORAZÓN DEL VALLE",
-	"No disponible",
+	"http://www.hotelcorales.com/",
 	"2261771, 3155753404",
 	"gerencia@hotelcorales.com",
 	"Carrera 21 # 25 - 59, Tuluá, Valle del Cauca",
 	maps['DxD4mvd25x12'],
 	"""Número de empleados 4, WIFI, aire acondicionado.""",
-	alcaldiaTulua['1475489'],
+	#alcaldiaTulua['1475489'],
+	youtube['3VVvDfyr-Mo'],
 	ciudadGuru['hotel-los-corales-del-corazon-del-valle/tulua/30246268'],
 	turismoTulua['4564/hotel-los-corales-del-corazon-del-valle'],
 	"31",
 	"42",
-	imgur['fO2SUBp.jpg']
+	imgur['fO2SUBp.jpg'],
+	twitter['702170175773270019']
 )
 
 alojamientos(
-	facebook['hotelloscristales.detulua?ref=br_rs'],
+	rutaMaiz['Alojamientos.rdf#cristales'],
 	"HOTEL LOS CRISTALES",
 	"http://www.loscristales-hotel.com/",
 	"2258463, 2246499, 3153520902",
@@ -381,11 +402,12 @@ alojamientos(
 	turismoTulua['3063/hotel-los-cristales-12'],
 	"19",
 	"27",
-	imgur['PYLf1tO.jpg']
+	imgur['PYLf1tO.jpg'],
+	facebook['hotelloscristales.detulua?ref=br_rs']
 )
 
 alojamientos(
-	twitter['702170493336612864'],
+	rutaMaiz['Alojamientos.rdf#mariscal'],
 	"HOTEL MARISCAL SUCRE D.F.G",
 	"No disponible",
 	"2244065, 3174296588",
@@ -398,11 +420,12 @@ alojamientos(
 	turismoTulua['3448/hotel-mariscal-sucre-dfg'],
 	"18",
 	"23",
-	imgur['6MWtp6z.jpg']
+	imgur['6MWtp6z.jpg'],
+	twitter['702170493336612864']
 )
 
 alojamientos(
-	facebook['hotelmorfeo/timeline?ref=page_internal'],
+	rutaMaiz['Alojamientos.rdf#morfeo'],
 	"HOTEL MORFEO",
 	"No disponible",
 	"2242520, 2248383, 3156304788",
@@ -415,11 +438,12 @@ alojamientos(
 	turismoTulua['34260/hotel-morfeo'],
 	"40",
 	"50",
-	imgur['B5lTdmW.jpg']
+	imgur['B5lTdmW.jpg'],
+	facebook['hotelmorfeo/timeline?ref=page_internal']
 )
 
 alojamientos(
-	twitter['702170787411787782'],
+	rutaMaiz['Alojamientos.rdf#plaza'],
 	"HOTEL PLAZA AM",
 	"No disponible",
 	"2248895, 3138748347",
@@ -432,11 +456,12 @@ alojamientos(
 	turismoTulua['39900/hotel-plaza-a-m'],
 	"10",
 	"10",
-	imgur['7xIv97M.jpg']
+	imgur['7xIv97M.jpg'],
+	twitter['702170787411787782']
 )
 
 alojamientos(
-	facebook['principehotel'],
+	rutaMaiz['Alojamientos.rdf#principe'],
 	"HOTEL PRINCIPE",
 	"http://principeh.com/",
 	"2258111, 2258766, 3155635275",
@@ -445,16 +470,17 @@ alojamientos(
 	maps['X7PuzjEPnHo'],
 	"""Ubicado en la zona comercial de la ciudad de Tuluá, donde tulueños y visitantes se encuentran en un ambiente amable 
 	y seguro. Número de empleados 13, restaurante, WIFI, parqueadero, lavandería, aire acondicionado, minibar.""",
-	alcaldiaTulua['1475478'],
+	youtube['G-Ga8AgCEho'],
 	ciudadGuru['hotel-principe/tulua/2735840'],
 	turismoTulua['2524/hotel-principe'],
 	"35",
 	"56",
-	imgur['jt2Z7EX.jpg']
+	imgur['jt2Z7EX.jpg'],
+	facebook['principehotel']
 )
 
 alojamientos(
-	facebook['pages/Hotel-Real-Calima/182751915110513'],
+	rutaMaiz['Alojamientos.rdf#calima'],
 	"HOTEL REAL CALIMA DEL CENTRO",
 	"No disponible",
 	"2242543, 2249142, 3117469296",
@@ -467,11 +493,12 @@ alojamientos(
 	turismoTulua['25514/calima-hotel'],
 	"18",
 	"18",
-	imgur['gKuEL4h.jpg']
+	imgur['gKuEL4h.jpg'],
+	facebook['pages/Hotel-Real-Calima/182751915110513']
 )
 
 alojamientos(
-	twitter['702171106770345985'],
+	rutaMaiz['Alojamientos.rdf#linaMaria'],
 	"HOTEL REAL LINA MARÍA DEL CENTRO",
 	"No disponible",
 	"2256406, 3113631094",
@@ -484,11 +511,12 @@ alojamientos(
 	turismoTulua['5481/hotel-lina-maria'],
 	"18",
 	"18",
-	imgur['xjjGAl7.jpg']
+	imgur['xjjGAl7.jpg'],
+	twitter['702171106770345985']
 )
 
 alojamientos(
-	twitter['702171354318184449'],
+	rutaMaiz['Alojamientos.rdf#sanDiego'],
 	"HOTEL REAL SAN DIEGO",
 	"No disponible",
 	"2242220, 3122138349",
@@ -501,11 +529,12 @@ alojamientos(
 	turismoTulua['8526/hotel-real-san-diego'] ,
 	"11",
 	"10",
-	imgur['BaUDawE.jpg']
+	imgur['BaUDawE.jpg'],
+	twitter['702171354318184449']
 )
 
 alojamientos(
-	facebook['pages/Hotel-San-Gil/136459539876626?fref=ts'],
+	rutaMaiz['Alojamientos.rdf#sanGil'],
 	"HOTEL SAN GIL A.S.G",
 	"http://www.hotelsangiltulua.com/",
 	"2246542, 3164732789",
@@ -518,11 +547,12 @@ alojamientos(
 	turismoTulua['1053/hotel-san-gil-a-s-g'],
 	"31",
 	"42",
-	imgur['7gBx9xW.jpg']
+	imgur['7gBx9xW.jpg'],
+	facebook['pages/Hotel-San-Gil/136459539876626?fref=ts']
 )
 
 alojamientos(
-	twitter['749977352231329792'],
+	rutaMaiz['Alojamientos.rdf#suenioReal'],
 	"HOTEL SUEÑO REAL H.S.R",
 	"No disponible",
 	"3127694711",
@@ -535,11 +565,12 @@ alojamientos(
 	turismoTulua['40121/hotel-sueno-real-h-s-r'],
 	"10",
 	"10",
-	imgur['QNRay3M.jpg']
+	imgur['QNRay3M.jpg'],
+	twitter['749977352231329792']
 )
 
 alojamientos(
-	facebook['hotelwespedes/'],
+	rutaMaiz['Alojamientos.rdf#wespedes'],
 	"WESPEDES HOTEL",
 	"http://wespedes.wix.com/hotelwespedes",
 	"2252828, 2248465, 2259817, 3503044956",
@@ -548,19 +579,20 @@ alojamientos(
 	maps['5kzFwhAvxv92'],
 	"""Ubicado a pocos metros de la alcadía municipal y la terminal de transporte. Número de 
 	empleados 6, WIFI, parqueadero, aire acondicionado, cafetería.""",
-	alcaldiaTulua['1475494'],
+	youtube['3PSKzXENVgU'],
 	ciudadGuru['hotel-wespedes/tulua/15729012'],
 	turismoTulua['7597/hotel-wespedes'],
 	"21",
 	"33",
-	imgur['4lUYrVD.jpg']
+	imgur['4lUYrVD.jpg'],
+	facebook['hotelwespedes/']
 )
 
 alojamientos(
-	facebook['pages/Hotel-Santa-Maria/591387947617132'],
+	rutaMaiz['Alojamientos.rdf#santaMaria'],
 	"SANTA MARÍA HOTEL",
 	"No disponible",
-	"2248470 ,  2254887,  3104744456",
+	"2248470, 2254887, 3104744456",
 	"gustavo.lopez19@yahoo.com",
 	"Calle 25 No. 23 - 11, Tuluá, Valle del Cauca",
 	maps['2cmCsxtyYgK2'],
@@ -570,11 +602,31 @@ alojamientos(
 	turismoTulua['4329/santa-maria-hotel'],
 	"8",
 	"17",
-	imgur['tLM7DUx.jpg']
+	imgur['tLM7DUx.jpg'],
+	facebook['pages/Hotel-Santa-Maria/591387947617132']
 )
 
 alojamientos(
-	twitter['703082931703697408'],
+	rutaMaiz['Alojamientos.rdf#laBastilla'],
+	"HOTEL LA BASTILLA OLIMPICA",
+	"http://www.hotellabastilla.co/",
+	"2255605, 3137315442",
+	"hotel_labastilla@hotmail.com",
+	"Carrera 27A 42 - 33, Tuluá, Valle del Cauca",
+	maps['uEdL6nJhAZx'],
+	""""Habitaciones individuales y para grupos, WIFI, desayuno tipo americano y servicio de 
+	parqueadero.""",
+	youtube['2cVE6yokqbs'],
+	hoteles['hotel-la-bastilla-olimpica/'],
+	turismoTulua['44557/hotel-la-bastilla-olimpica-4'],
+	"17",
+	"30",
+	imgur['WsAxKmc.png'],
+	'http://www.trivago.es/tulua-85359/hotel/la-bastilla-olimpica-2846536'
+)
+
+alojamientos(
+	rutaMaiz['Alojamientos.rdf#villaGenia'],
 	"FINCA VILLA GENIA",
 	"No disponible",
 	"2240659, 3136399699, 3187276652",
@@ -588,11 +640,12 @@ alojamientos(
 	"http://www.paginasamarillasdecolombia.com//imagenes/20eae3_290620121948.jpg",
 	"4",
 	"16",
-	imgur['Ujg1s5g.jpg']
+	imgur['Ujg1s5g.jpg'],
+	twitter['703082931703697408']
 )
 
 alojamientos(
-	twitter['703084961021235200'],
+	rutaMaiz['Alojamientos.rdf#villaAndrea'],
 	"FINCA VILLA ANDREA",
 	"No disponible",
 	"3157400134",
@@ -607,11 +660,12 @@ alojamientos(
 	"http://www.tulua.gov.co/apc-aa-files/63373337616336646361623532613064/fotos_casa_campestre_villa_andrea1.jpg",
 	"8",
 	"36",
-	imgur['6BZmK46.jpg']
+	imgur['6BZmK46.jpg'],
+	twitter['703084961021235200']
 )
 
 alojamientos(
-	twitter['703087399254020096'],
+	rutaMaiz['Alojamientos.rdf#haciendaCampoalegre'],
 	"HACIENDA CAMPOALEGRE",
 	"No disponible",
 	"2242449, 2315857",
@@ -626,7 +680,8 @@ alojamientos(
 	"http://www.tulua-valle.gov.co/sitio.shtml?apc=m-u-1481397-1481397&x=1475501",
 	"7",
 	"19",
-	imgur['aAbWWFf.jpg']
+	imgur['aAbWWFf.jpg'],
+	twitter['703087399254020096']
 )
 
 #print(g.serialize(format='pretty-xml'))

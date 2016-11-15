@@ -13,9 +13,9 @@ from empresas import g
 
 #g = Graph()
 
-rutaMaizEventos = Namespace('http://190.14.254.237/dataseteco/RutaDelMaiz/Eventos/')
+#rutaMaizEventos = Namespace('http://190.14.254.237/dataseteco/RutaDelMaiz/Eventos/')
 
-def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa, duracion):
+def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa, duracion, linkURI):
 	if media != "No disponible":
 		g.add(( URIRef(uri), EVENT.illustrate, URIRef(media)) )
 
@@ -34,10 +34,11 @@ def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa,
 	g.add( ( URIRef(uri), EVENT.place, URIRef(mapa)) )#http://www.geonames.org/3666646	
 	g.add( ( URIRef(mapa), RDFS.label, Literal(lugar, lang='es')) ) # datatype=XSD.string
 	
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz.Eventos)) )
+	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Eventos.rdf'])) )
+	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 eventos(
-	'https://www.facebook.com/events/179078442487780/',
+	rutaMaiz['Eventos.rdf#aniosDorados'],
 	'FIESTA DE LOS AÑOS DORADOS',
 	'2016-05-27T14:00:00Z',#fecha CCYY-MM-DDThh:mm:ss Mes de Junio de todos los años
 	"""Evento celebrado como antesala de la feria, un espacio para el adulto mayor con
@@ -49,11 +50,12 @@ eventos(
 	imgur['OPWm9Vc.jpg'],
 	twitter['775688832356327424'],
 	maps['J5v7a2a8A842'], ## Geo no deja ubicar direcciones asi que se usa la uri de maps
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	facebook['events/179078442487780/']
 )
 
 eventos(
-	'https://www.facebook.com/feriadetuluaoficial/posts/1716500381962189',
+	rutaMaiz['Eventos.rdf#musicoMarciales'],
 	'DESFILE DE BANDAS MÚSICO-MARCIALES',
 	'2016-05-29T18:00:00Z',#Mes de Junio de todos los años
 	'Con la participación de bandas provenientes del municipio de Tuluá y de otros municipios.',
@@ -63,11 +65,12 @@ eventos(
 	imgur['yus7d2D.jpg'],
 	twitter['775696473652592640'],
 	maps['PHgJvbo2VrL2'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	facebook['feriadetuluaoficial/posts/1716500381962189']
 )
 
 eventos(
-	'https://www.facebook.com/feriadetuluaoficial/posts/1723882454557315',
+	rutaMaiz['Eventos.rdf#caballitosDePalo'],
 	'DESFILE DE CABALLITOS DE PALO Y COMPARSAS INFANTILES',
 	'2016-05-29T14:30:00Z',#Mes de Junio de todos los años
 	'Evento celebrado como antesala de la feria de Tuluá.',
@@ -77,11 +80,12 @@ eventos(
 	imgur['mF90nnF.jpg'],
 	twitter['775699774334988288'],
 	maps['gFUQC5kTjuC2'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	facebook['feriadetuluaoficial/posts/1723882454557315']
 )
 
 eventos(
-	'https://www.facebook.com/feriadetuluaoficial/posts/1725394204406140',
+	rutaMaiz['Eventos.rdf#veladaBoxistica'],
 	'VELADA BOXÍSTICA',
 	'2016-06-01T00:00:00Z',#Mes de Junio, todos los años
 	'Evento celebrado como antesala de la feria de Tuluá.',
@@ -91,11 +95,12 @@ eventos(
 	imgur['duRIvGC.jpg'],
 	twitter['775704156095057920'],
 	maps['QoiP3PhsN6S2'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	facebook['feriadetuluaoficial/posts/1725394204406140']
 )
 
 eventos(
-	'http://www.eltabloide.com.co/carnaval-de-orejones/',
+	rutaMaiz['Eventos.rdf#comparsas'],
 	'DESFILE DE COMPARSAS',
 	'2016-05-30T18:00:00Z',
 	'Evento celebrado como antesala de la feria de Tuluá.',
@@ -105,11 +110,12 @@ eventos(
 	imgur['f7hcZMr.jpg'],
 	twitter['775734225316241408'],
 	maps['eqKGUWzZJjw'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	'http://www.eltabloide.com.co/carnaval-de-orejones/'
 )
 
 eventos(
-	'https://www.facebook.com/feriadetuluaoficial/posts/1725381304407430',
+	rutaMaiz['Eventos.rdf#pirotecnicos'],
 	'JUEGOS PIROTÉCNICOS',
 	'2016-06-01T20:00:00Z',
 	'Evento celebrado como antesala de la feria de Tuluá.',
@@ -120,11 +126,12 @@ eventos(
 	imgur['uZW2eJj.jpg'],
 	twitter['775754957131747328'],
 	GEONAMES['3666646'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	facebook['feriadetuluaoficial/posts/1725381304407430']
 )
 
 eventos(
-	'https://www.facebook.com/feriadetuluaoficial/posts/1725601521052075',
+	rutaMaiz['Eventos.rdf#cabalgataFeria'],
 	'CABALGATA FERIA DE TULUÁ',
 	'2016-05-28T14:30:00Z',
 	'Evento de apertura de la feria de Tuluá.',
@@ -135,11 +142,12 @@ eventos(
 	imgur['I0aaPIy.jpg'],
 	twitter['775771646573572096'],
 	GEONAMES['3666646'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	facebook['feriadetuluaoficial/posts/1725601521052075']
 )
 
 eventos(
-	'https://www.facebook.com/feriadetuluaoficial/',
+	rutaMaiz['Eventos.rdf#feria'],
 	'FERIA DE TULUÁ',
 	'2016-06-02T00:00:00Z',
 	"""La programación es variada, desde lo agropecuario, ganadero, artesanal hasta las presentaciones de 
@@ -150,42 +158,46 @@ eventos(
 	imgur['Q9EgLz2.jpg'],
 	'http://www.eltabloide.com.co/huele-a-feria/',
 	GEONAMES['3666646'],
-	"P4D"#PnYn MnDTnH nMnS
+	"P4D",#PnYn MnDTnH nMnS
+	facebook['feriadetuluaoficial/']
 )
 
 eventos(
-	'https://www.facebook.com/encuentro.deestudiantinas.94/',
+	rutaMaiz['Eventos.rdf#estudiantinas'],
 	"ENCUENTRO NACIONAL DE ESTUDIANTINAS 'HECTOR CEDEÑO'",
 	'2016-11-13T00:00:00Z',
-	"""Tiene como objetivo preservar la memoria del Maestro Hector Cedeño y difundir la música andina
+	"""Tiene como objetivo preservar la memoria del maestro Hector Cedeño y difundir la música andina
 	colombiana interpretada por estudiantinas. La programación del evento incluye la presentación de
 	las Estudiantinas participantes en diferentes espacios públicos con acceso gratuito.""",
 	'Parque Céspedes, Tuluá, Valle del Cauca',
 	#rutaMaizEventos['estudiantinas.mp4'],
 	youtube['bBNXc5diBQc'],
-	imgur['ziCJBhU.jpg'],
-	twitter['775782302861389824'],
+	imgur['iyhZwV5.jpg'],
+	#twitter['775782302861389824'],
+	'http://www.eltabloide.com.co/xiii-encuentro-nacional-de-estudiantinas/',
 	maps['V99seUN68Bm'],
-	"P2D"#PnYn MnDTnH nMnS
+	"P3D",#PnYn MnDTnH nMnS
+	facebook['encuentro.deestudiantinas.94/']
 )
 
 eventos(
-	'https://www.facebook.com/events/1850449368500266/',
+	rutaMaiz['Eventos.rdf#mate'],
 	'FESTIVAL DEL MATE, EL GUARAPO Y LA MÚSICA AUTÓCTONA',
 	'2016-10-14T00:00:00Z',#Segunda semana del mes de Agosto de cada año
 	"""Tradicional evento tulueño que rescata y preserva las raíces culturales cultivando el amor por nuestra música, 
 	además reúne a buena parte de los grupos de música andina y latinoamericana de la región en un solo concierto.""",
 	'Calle 42 Cra 32, Tuluá, Valle del Cauca',
 	#rutaMaizEventos['mate.mp4'],
-	youtube['Wpr0u16-tlE'],
+	youtube['_F3sJjQGjRg'],
 	imgur['w7uDnPD.jpg'],
 	twitter['775783573018316800'],
 	maps['TaAGeYoxZFo'],
-	"P2D"#PnYn MnDTnH nMnS
+	"P2D",#PnYn MnDTnH nMnS
+	facebook['events/1850449368500266/']
 )
 
 eventos(
-	'http://www.tulua.gov.co/sitio.shtml?apc=B1--1481401-1481401&x=1480722',
+	rutaMaiz['Eventos.rdf#festivalRio'],
 	'FESTIVAL DEL RÍO TULUÁ',
 	'2016-03-16T00:00:00Z',#Segunda semana del mes de octubre de cada año
 	"""Venta de platos típicos de la región, bebidas y dulces típicos. Campeonatos de voley playa, ciclomontañismo, 
@@ -198,11 +210,12 @@ eventos(
 	imgur['jSRvxep.jpg'],
 	twitter['775784947407810560'],
 	maps['7CgYpqsvSvM2'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	'http://www.tulua.gov.co/sitio.shtml?apc=B1--1481401-1481401&x=1480722'
 )
 
 eventos(
-	'http://www.tulua.gov.co/sitio.shtml?apc=B1-1--&x=1480719',
+	rutaMaiz['Eventos.rdf#festivalCometas'],
 	'FESTIVAL REGIONAL DE COMETAS CLUB ROTARIO TULUÁ',
 	'2016-08-07T00:00:00Z',#Segundo Domingo del mes de Agosto
 	"""Cada año acuden cerca de 1.000 expositores de cometas y aproximadamente 12.000 visitantes y 
@@ -214,11 +227,12 @@ eventos(
 	imgur['8fIkCUN.jpg'],
 	twitter['775806976097816576'],
 	maps['E1aZrAQbDkT2'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	'http://www.tulua.gov.co/sitio.shtml?apc=B1-1--&x=1480719'
 )
 
 eventos(
-	'http://www.sancochofest.co/',
+	rutaMaiz['Eventos.rdf#sancochoFest'],
 	'SANCOCHO FEST',
 	'2016-02-05T00:00:00Z',#Primer fin de semana del mes de febrero de cada año
 	"""Evento gratuito que intenta mostrar lo mejor de propuestas emergentes en el área de la música, cine, fotografía, 
@@ -229,11 +243,12 @@ eventos(
 	imgur['CcGKhZF.jpg'],
 	twitter['775813581631725568'],
 	maps['CxALtR6eg3o'],
-	"P3D"#PnYn MnDTnH nMnS
+	"P3D",#PnYn MnDTnH nMnS
+	'http://www.sancochofest.co/'
 )
 
 eventos(
-	'http://www.tulua.gov.co/sitio.shtml?apc=C1v16--&x=1517450',
+	rutaMaiz['Eventos.rdf#fiestasMaiz'],
 	'FIESTAS DE LA RUTA DEL MAÍZ',
 	'2016-05-18T10:30:00Z',
 	"""Comprenden la gastronomía en torno a productos hechos a base de maíz.""",
@@ -243,11 +258,12 @@ eventos(
 	imgur['KikTRxw.png'],
 	twitter['775822493596647424'],
 	maps['DGoj5ahqmem'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	'http://www.tulua.gov.co/sitio.shtml?apc=C1v16--&x=1517450'
 )
 
 eventos(
-	'https://www.facebook.com/XVIII-Carrera-Atl%C3%A9tica-y-Recreativa-Fenalco-R%C3%ACo-Tulu%C3%A0-962006747253233/',
+	rutaMaiz['Eventos.rdf#carreraFenalco'],
 	'CARRERA ATLÉTICA Y RECREATIVA FENALCO RÍO TULUÁ',
 	'2016-07-24T07:00:00Z',#hasta las 2:30
 	"""Este evento se ha realizado desde hace 18 años, siendo el segundo evento más importante de la ciudad, 
@@ -259,11 +275,12 @@ eventos(
 	imgur['OyVpEFV.jpg'],
 	twitter['775828352833847296'],
 	maps['ZQLF915NyA82'],
-	"P1D"#PnYn MnDTnH nMnS
+	"P1D",#PnYn MnDTnH nMnS
+	facebook['XVIII-Carrera-Atletica-y-Recreativa-Fenalco-Rio-Tulua-962006747253233']
 )
 
 eventos(
-	'https://www.facebook.com/events/454437778093456',
+	rutaMaiz['Eventos.rdf#rotaryRun'],
 	'ROTARY RUN',
 	'2016-10-09T08:00:00Z',#hasta las 2:30
 	"""Carrera atlética incluyente organizada por el Club Rotario Tuluá El Lago, los competidores recorren 
@@ -275,7 +292,8 @@ eventos(
 	imgur['MQ2962y.png'],
 	twitter['786720513901092864'],
 	maps['DkW2w3rnnh82'],
-	"PT5H"#PnYn MnDTnH nMnS
+	"PT5H",#PnYn MnDTnH nMnS
+	facebook['events/454437778093456']
 )
 
 #print (g.serialize(format="pretty-xml")) 	

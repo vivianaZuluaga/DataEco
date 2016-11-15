@@ -9,11 +9,11 @@ from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, FOAF, RDFS
 from utils.ontologias import CRUZAR, VCARD, UMBEL
 from utils.namespaces import rutaJardin, facebook, maps, youtube, imgur
-from floraJardinBotanico import g
+from faunaJardinBotanico import g
 
 #g = Graph()
 
-def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa): 
+def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa, linkURI): 
     if video == "No disponible":
         g.add( (URIRef(uri), FOAF.depiction, Literal('No disponible')) )
     else:
@@ -35,11 +35,12 @@ def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video,
     g.add( (URIRef(mapa), VCARD.locality, Literal('Tuluá', lang='es')) )
     g.add( (URIRef(mapa), VCARD['street-address'], Literal(direccion)) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaJardin.Lugares)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaJardin['Lugares.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 
 lugares(
-    'http://inciva.gov.co/cespedesia/itemlist/category/17-jardin-botanico',
+    rutaJardin['Lugares.rdf#jardinBotanicoJuanMaria'],
     'JARDÍN BOTÁNICO JUAN MARÍA CÉSPEDES',
     """Guarda un tesoro destinado para investigadores, científicos, amantes de la
     flora y la fauna y del paisaje que ofrecen los bosques secos tropicales.""",
@@ -48,11 +49,12 @@ lugares(
     'jardinbotanico@inciva.gov.co',
     imgur['QIthGO2.jpg'],#imagen
     youtube['QuhYS8KmnEs'],#video
-    maps['hRdkwZBgae22']
+    maps['hRdkwZBgae22'],
+    'http://inciva.gov.co/cespedesia/itemlist/category/17-jardin-botanico'
 )
 
 lugares(
-    'http://www.ciudadguru.com.co/empresas/cascada-de-la-arenosa-en-mateguadua/tulua/15951514',
+    rutaJardin['Lugares.rdf#cascadaLaArenosa'],
     'CASCADA LA ARENOSA',
     """Hermoso sitio natural, agua muy fria, con arenas blancas y grandes piedras que la circundan.
     Los lugareños ofrecen la práctica del Rapell sobre la cascada y Rafting por el Río Tuluá hasta
@@ -62,11 +64,12 @@ lugares(
     'turismo@tulua.gov.co',
     imgur['mJd34Ks.jpg'],
     youtube['gChA97Gc1xs'],#video
-    maps['wefveCHtHxG2']
+    maps['wefveCHtHxG2'],
+    'http://www.ciudadguru.com.co/empresas/cascada-de-la-arenosa-en-mateguadua/tulua/15951514'
 )
 
 lugares(
-    'http://www.ciudadguru.com.co/empresas/semillero-de-guadua-y-bambu/tulua/15952774',
+    rutaJardin['Lugares.rdf#semilleroGuadua'],
     'SEMILLERO DE GUADUA Y BAMBÚ',
     """Vivencie los túneles que forman las guaduas y bambúes en el semillero más grande de Latinoamérica
     en el número de especies. Cierre los ojos y disfrute de los olores de las guaduas y los sonidos
@@ -76,7 +79,8 @@ lugares(
     'No disponible',
     imgur['lOZmXmJ.jpg'],#imagen
     'No disponible', #VIDEO
-    maps['DiGWwzkH2kx']
+    maps['DiGWwzkH2kx'],
+    'http://www.ciudadguru.com.co/empresas/semillero-de-guadua-y-bambu/tulua/15952774'
 )
 
 #print(g.serialize(format='pretty-xml'))    

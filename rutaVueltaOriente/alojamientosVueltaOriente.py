@@ -13,7 +13,7 @@ from rutaVueltaOriente import g
 
 
 def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcion, uriRoom, uriValue, 
-    uriBed, numHabitaciones, numCamas, imagen):
+    uriBed, numHabitaciones, numCamas, imagen, linkURI):
     if webpage != "No disponible":
         g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)))   
             
@@ -52,11 +52,12 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
     g.add( (URIRef(uriRoom), ACCO.bed, URIRef(uriBed)))
     g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente.Alojamientos)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Alojamientos.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
     
 
 alojamientos(
-    youtube['ZXgZCMzGCog'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#laLinda'],#uri
     "FINCA LA LINDA",#nombre
     "http://www.turismoboga.com/fincalin.html",#webpage
     "3176369765, 2242759, 2257332",#telefono
@@ -71,11 +72,12 @@ alojamientos(
     imgur['ajLSDOw.jpg'],#uriBed
     "6",#numHab
     "16",#numCamas
-    imgur['0MEtcXS.jpg']#imagen
+    imgur['0MEtcXS.jpg'],#imagen
+    youtube['ZXgZCMzGCog']
 )
 
 alojamientos(
-    facebook['fincahotellacantera/'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#laCantera'],#uri
     "LA CANTERA",#nombre
     "No disponible",#webpage
     "3113242282, 3174892540",#telefono
@@ -90,11 +92,12 @@ alojamientos(
     imgur['JZIBlhm.jpg'],#uriBed
     "",#numHab
     "",#numCamas
-    imgur['FwIvEpW.jpg']#imagen
+    imgur['FwIvEpW.jpg'],#imagen
+    facebook['fincahotellacantera/']
 )
 
 alojamientos(
-    twitter['763489482062561282'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#villaLina'],#uri
     "VILLA LINA",#nombre
     "No disponible",#webpage
     "3152630133, 2242946",#telefono
@@ -109,11 +112,12 @@ alojamientos(
     imgur['NwTwTCv.jpg'],#uriBed
     "3",#numHab
     "6",#numCamas
-    imgur['KwJhf9j.jpg']#imagen
+    imgur['KwJhf9j.jpg'],#imagen
+    twitter['763489482062561282']
 )
 
 alojamientos(
-    twitter['763493126220775424'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#bellaVista'],#uri
     "FINCA BELLA VISTA",#nombre
     "No disponible",#webpage
     "3163211199, 3182262773, 2242590",#telefono
@@ -128,11 +132,12 @@ alojamientos(
     "http://n4.sdlcdn.com/imgs/b/u/r/bed-de330.jpg",#uriBed
     "5",#numHab
     "10",#numCamas
-    imgur['vPufIKq.jpg']#imagen
+    imgur['vPufIKq.jpg'],#imagen
+    twitter['763493126220775424']
 )
 
 alojamientos(
-    twitter['763526953987080192'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#laIsabela'],#uri
     "LA ISABELA",#nombre
     "No disponible",#webpage
     "3185935231",#telefono
@@ -146,11 +151,12 @@ alojamientos(
     "https://famsa_imagenes2.storage.googleapis.com/155711024TITANIO_perfil.jpg",#uriBed
     "",#numHab
     "30",#numCamas
-    imgur['tx2q1oE.jpg']#imagen
+    imgur['tx2q1oE.jpg'],#imagen
+    twitter['763526953987080192']
 )
 
 alojamientos(
-    facebook['villaagaton/'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#villaAgaton'],#uri
     "FINCA CAMPESTRE VILLA AGATÓN",#nombre
     "No disponible",#webpage
     "3188218334, 3166245893, 2243191",#telefono
@@ -164,11 +170,12 @@ alojamientos(
     "http://corona.vteximg.com.br/arquivos/ids/161827-1000-1000/637207502000_F1.jpg",#uriBed
     "1",#numHab
     "20",#numCamas
-    imgur['5d3r7ge.jpg']#imagen
+    imgur['5d3r7ge.jpg'],#imagen
+    facebook['villaagaton/']
 )
 
 alojamientos(
-    facebook['pages/Casa-De-Retiro-La-Umbria-Tulua/854376261242075'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#laUmbria'],#uri
     "LA UMBRIA CASA DE RETIROS Y CONVIVENCIAS",#nombre
     "No disponible",#webpage
     "2243075, 2255606",#telefono
@@ -183,11 +190,12 @@ alojamientos(
     imgur['mDUSPGF.jpg'],#uriBed
     "",#numHab
     "",#numCamas
-    imgur['Mcr7R3w.jpg']#imagen
+    imgur['Mcr7R3w.jpg'],#imagen
+    facebook['pages/Casa-De-Retiro-La-Umbria-Tulua/854376261242075']
 )
 
 alojamientos(
-    twitter['763574753894498304'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#codecot'],#uri
     "ANTIGUO CODECOT",#nombre
     "No disponible",#webpage
     "2260752",#telefono
@@ -201,11 +209,12 @@ alojamientos(
     "http://www.flatdogscamp.com/wp-content/uploads/2011/08/Chalet-room.jpg",#uriBed
     "6",#numHab
     "8",#numCamas
-    imgur['KpLCwSW.jpg']#imagen
+    imgur['KpLCwSW.jpg'],#imagen
+    twitter['763574753894498304']
 )
 
 alojamientos(
-    facebook['Hostal-Santsebastian-995216180540544'],#uri
+    rutaVueltaOriente['Alojamientos.rdf#santSebastian'],#uri
     "CHALET SANT SEBASTIAN",#nombre
     "No disponible",#webpage
     "3154924598",#telefono
@@ -219,7 +228,8 @@ alojamientos(
     imgur['qn7NgA2.jpg'],#uriBed
     "4",#numHab
     "4",#numCamas
-    imgur['QUd4xJd.jpg']#imagen
+    imgur['QUd4xJd.jpg'],#imagen
+    facebook['Hostal-Santsebastian-995216180540544']
 )
 
 #print (g.serialize(format="pretty-xml")) 

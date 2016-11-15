@@ -12,7 +12,7 @@ from utils.namespaces import maps, imgur, rioFrio, alcaldiaRiofrio
 from lugaresRiofrio import g
 
 # Esquema del grafo para empresas de la ruta del maíz.
-def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra):
+def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra, linkURI):
     if webpage != "No disponible":
         g.add( (URIRef(uri), FOAF.homepage, URIRef(webpage)) )
     
@@ -39,10 +39,11 @@ def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Thursday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Friday) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio.Empresas)))
+    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Empresas.rdf'])))
+    g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
 
 empresas(
-    'http://www.paginasamarillas.com.co/empresas/empresa-de-transporte-salonica-sa/riofrio-15722768',#uri
+    rioFrio['Empresas.rdf#transporteSalonica'],#uri
     'EMPRESA DE TRANSPORTE SALÓNICA S.A',#nombre
     '2008028',#tel
     imgur['JzqdDqD.jpg'],#img
@@ -53,11 +54,12 @@ empresas(
     maps['shQcqeb18Kq'],#mapa
     'http://www.planetacolombia.com/empresa-de-transporte-salonica-sa-F150AC1041BD5',#uriatencion
     '05:00:00',#abre
-    '20:00:00' #cierra
+    '20:00:00', #cierra
+    'http://www.paginasamarillas.com.co/empresas/empresa-de-transporte-salonica-sa/riofrio-15722768'
 )
 
 empresas(
-    'http://www.indizze.co/hospital-kennedy-ese',
+    rioFrio['Empresas.rdf#hospitalKenedy'],
     'HOSPITAL KENEDY',
     '2268100, 2268101',
     imgur['wFLVGaW.png'],
@@ -69,11 +71,12 @@ empresas(
     maps['AWe5VBCpMzB2'],
     alcaldiaRiofrio['tramites.shtml?apc=t-l1--&x=2719612'],
     '07:00:00',
-    '17:00:00'
+    '17:00:00',
+    'http://www.indizze.co/hospital-kennedy-ese'
 )
 
 empresas(
-    'http://www.informacion-empresas.co/Empresa_HACIENDA-NORMANDIA-SAS.html',
+    rioFrio['Empresas.rdf#normandia'],
     'HACIENDA NORMANDIA SAS',
     '3162421352',
     imgur['zOeUtAu.png'],
@@ -84,7 +87,8 @@ empresas(
     maps['ES2j7t5JST32'],
     'http://empresite.eleconomistaamerica.co/HACIENDA-NORMANDIA-SAS.html',
     '06:00:00',
-    '19:00:00'
+    '19:00:00',
+    'http://www.informacion-empresas.co/Empresa_HACIENDA-NORMANDIA-SAS.html'
 )
 
 #print (g.serialize(format="pretty-xml"))
