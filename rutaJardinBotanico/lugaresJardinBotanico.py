@@ -35,8 +35,11 @@ def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video,
     g.add( (URIRef(mapa), VCARD.locality, Literal('Tuluá', lang='es')) )
     g.add( (URIRef(mapa), VCARD['street-address'], Literal(direccion)) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaJardin['Lugares.rdf'])))
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaJardin['Lugares.rdf'])))
+    g.add( (URIRef(uri), VCARD.category, Literal("LUGARES", lang='es')))
+    
 
 
 lugares(

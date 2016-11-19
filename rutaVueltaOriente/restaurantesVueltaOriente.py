@@ -11,6 +11,7 @@ from utils.ontologias import GR, VCARD, UMBEL
 from utils.namespaces import rutaVueltaOriente, facebook, maps, twitter, imgur
 from lugaresVueltaOriente import g
 
+#g = Graph()
 
 def restaurantes(uri, nombre, menu, telefono, direccion, webpage, imagen, mapa, uriatencion, abre, cierra, linkURI):
     if webpage != "No disponible":
@@ -42,8 +43,9 @@ def restaurantes(uri, nombre, menu, telefono, direccion, webpage, imagen, mapa, 
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Saturday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Sunday) )
 
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Restaurantes.rdf'])))
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaVueltaOriente['Restaurantes.rdf'])))
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("RESTAURANTES", lang='es')))
 
 
 restaurantes(

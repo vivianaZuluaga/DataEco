@@ -7,7 +7,7 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 from rdflib import Namespace
 from rdflib import URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL
+from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL, VCARD
 from utils.namespaces import eol, gbif, uniprot, wikidata, dbpedia, rutaMaiz
 from fauna import g
 
@@ -28,7 +28,8 @@ def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
     
-    g.add( (URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Flora.rdf'])) )
+    g.add( (URIRef(uri), UMBEL.isAbout, URIRef(rutaMaiz['Flora.rdf'])) )
+    g.add( (URIRef(uri), VCARD.category, Literal("FLORA", lang='es')))
     
 
 flora(

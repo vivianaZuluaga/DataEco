@@ -6,19 +6,23 @@ from os import path
 sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
-from utils.ontologias import UMBEL, CRUZAR, GEOES, OWL
+from utils.ontologias import UMBEL, CRUZAR, GEOES, OWL, skos
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.namespaces import rioFrio, geonames, dbpedia
 from rutaMaiz.restaurantes import g
 
-g.add( (URIRef(rioFrio['descripcion.rdf']), GEOES.formaParteDe, dbpedia['Riofrio,_Valle_del_Cauca']))
-g.add( (URIRef(rioFrio['descripcion.rdf']), UMBEL.hasCharacteristic, rioFrio['Alojamientos.rdf']) )
-g.add( (URIRef(rioFrio['descripcion.rdf']), UMBEL.hasCharacteristic, rioFrio['Eventos.rdf']) )
-g.add( (URIRef(rioFrio['descripcion.rdf']), UMBEL.hasCharacteristic, rioFrio['Fauna.rdf']) )
-g.add( (URIRef(rioFrio['descripcion.rdf']), UMBEL.hasCharacteristic, rioFrio['Flora.rdf']) )
-g.add( (URIRef(rioFrio['descripcion.rdf']), UMBEL.hasCharacteristic, rioFrio['Lugares.rdf']) )
-g.add( (URIRef(rioFrio['descripcion.rdf']), UMBEL.hasCharacteristic, rioFrio['Restaurantes.rdf']) )
+#g = Graph()
+
 g.add( (URIRef(rioFrio['descripcion.rdf']), RDF.type, CRUZAR['Recurso-turistico']))
+
+g.add( (URIRef(rioFrio['descripcion.rdf']), GEOES.formaParteDe, dbpedia['Riofrio,_Valle_del_Cauca']))
+g.add( (URIRef(rioFrio['descripcion.rdf']), skos.related, rioFrio['Alojamientos.rdf']) )
+g.add( (URIRef(rioFrio['descripcion.rdf']), skos.related, rioFrio['Eventos.rdf']) )
+g.add( (URIRef(rioFrio['descripcion.rdf']), skos.related, rioFrio['Fauna.rdf']) )
+g.add( (URIRef(rioFrio['descripcion.rdf']), skos.related, rioFrio['Flora.rdf']) )
+g.add( (URIRef(rioFrio['descripcion.rdf']), skos.related, rioFrio['Lugares.rdf']) )
+g.add( (URIRef(rioFrio['descripcion.rdf']), skos.related, rioFrio['Restaurantes.rdf']) )
+
 
 g.add( (URIRef(rioFrio['descripcion.rdf']), RDFS.label, Literal("RIOFRÍO", lang="es")) )
 g.add( (URIRef(rioFrio['descripcion.rdf']), RDFS.comment, Literal("""Por la carretera panorama se encuentra el municipio de Riofrío, 

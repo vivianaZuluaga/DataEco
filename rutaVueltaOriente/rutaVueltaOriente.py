@@ -7,19 +7,20 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import UMBEL, CRUZAR, GEOES, OWL
+from utils.ontologias import UMBEL, CRUZAR, GEOES, OWL, skos
 from utils.namespaces import rutaVueltaOriente, geonames, dbpedia
 from rutaJardinBotanico.lugaresJardinBotanico import g
 
+#g = Graph()
 
 g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), GEOES.formaParteDe, dbpedia.Tulua))
-g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), UMBEL.hasCharacteristic, rutaVueltaOriente['Alojamientos.rdf'] ) )
-g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), UMBEL.hasCharacteristic, rutaVueltaOriente['Empresas.rdf']) )
-g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), UMBEL.hasCharacteristic, rutaVueltaOriente['Eventos.rdf']) )
-g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), UMBEL.hasCharacteristic, rutaVueltaOriente['Fauna.rdf']) )
-g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), UMBEL.hasCharacteristic, rutaVueltaOriente['Flora.rdf']) )
-g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), UMBEL.hasCharacteristic, rutaVueltaOriente['Lugares.rdf']) )
-g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), UMBEL.hasCharacteristic, rutaVueltaOriente['Restaurantes.rdf']) )
+g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), skos.related, rutaVueltaOriente['Alojamientos.rdf'] ) )
+g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), skos.related, rutaVueltaOriente['Empresas.rdf']) )
+g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), skos.related, rutaVueltaOriente['Eventos.rdf']) )
+g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), skos.related, rutaVueltaOriente['Fauna.rdf']) )
+g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), skos.related, rutaVueltaOriente['Flora.rdf']) )
+g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), skos.related, rutaVueltaOriente['Lugares.rdf']) )
+g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), skos.related, rutaVueltaOriente['Restaurantes.rdf']) )
 g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), RDF.type, CRUZAR['Recurso-turistico']))
 
 g.add( (URIRef(rutaVueltaOriente['descripcion.rdf']), RDFS.label, Literal("RUTA VUELTA A ORIENTE", lang='es')) )

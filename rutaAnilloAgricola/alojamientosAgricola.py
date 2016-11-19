@@ -11,6 +11,7 @@ from utils.ontologias import GR, VCARD, ACCO, UMBEL
 from utils.namespaces import rutaAnillo, facebook, twitter, imgur, maps, youtube, alcaldiaTulua
 from rutaAnilloAgricola import g
 
+#g = Graph()
 
 def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcion, uriRoom, uriValue, 
     uriBed, numHabitaciones, numCamas, imagen, linkURI):
@@ -52,8 +53,11 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
     g.add( (URIRef(uriRoom), ACCO.bed, URIRef(uriBed)))
     g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Alojamientos.rdf'])))
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("ALOJAMIENTOS", lang='es')))
+    
+    g.add((URIRef(uri), UMBEL.isAbout, URIRef(rutaAnillo['Alojamientos.rdf'])))
+    
 
 
 alojamientos(

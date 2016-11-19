@@ -7,10 +7,11 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, UMBEL, OWL
+from utils.ontologias import WILDLIFE, UMBEL, OWL, VCARD
 from utils.namespaces import rutaAnillo, rutaMaiz, rutaVueltaOriente, rioFrio, dbpedia, wikidata, eol, imgur, gbif, uniprot
 from lugaresAgricola import g
 
+#g = Graph()
 
 def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
     g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
@@ -27,7 +28,8 @@ def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
     
-    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
+    g.add( ( URIRef(uri), UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+    g.add( (URIRef(uri), VCARD.category, Literal("FAUNA", lang='es')))
  
 fauna(
     rutaAnillo['Fauna.rdf#lepidodactylusLugubris'],#uri
@@ -883,35 +885,35 @@ fauna(
 )
 
 # Modelado en otras rutas
-g.add( (rutaMaiz['Fauna.rdf#rhinellaMarina'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #ruta maiz
-g.add( (rutaMaiz['Fauna.rdf#colostethusFraterdanieli'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaMaiz['Fauna.rdf#leptodactylusFragilis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaMaiz['Fauna.rdf#leptodactylusColombiensis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaMaiz['Fauna.rdf#iguanaIguana'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#micrurusMipartitus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Fauna.rdf#dendrocygnaBicolor'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaMaiz['Fauna.rdf#anasCyanoptera'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #ruta maiz
-g.add( (rutaVueltaOriente['Fauna.rdf#bubulcusIbis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
-g.add( (rutaMaiz['Fauna.rdf#ardeaAlba'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) # maiz
-g.add( (rutaMaiz['Fauna.rdf#coragypsAtratus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#zenaidaAuriculata'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Fauna.rdf#columbinaTalpacoti'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#forpusConspicillatus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#crotophagaAni'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#taperaNaevia'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaMaiz['Fauna.rdf#thamnophilusMultistriatus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #maiz
-g.add( (rutaVueltaOriente['Fauna.rdf#pitangusSulphuratus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Fauna.rdf#tyrannusMelancholicus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#fluvicolaPica'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#notiochelidonCyanoleuca'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#troglodytesAedon'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#thraupisEpiscopus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#didelphisMarsupialis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#dasypusNovemcinctus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#artibeusLituratus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#glossophagaSoricina'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) )
-g.add( (rutaMaiz['Fauna.rdf#sciurusGranatensis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #maiz
-g.add( (rioFrio['Fauna.rdf#hydrochoerusHydrochaeris'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #riofrio
-g.add( (rutaVueltaOriente['Fauna.rdf#sylvilagusBrasiliensis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaMaiz['Fauna.rdf#rhinellaMarina'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #ruta maiz
+g.add( (rutaMaiz['Fauna.rdf#colostethusFraterdanieli'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#leptodactylusFragilis'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#leptodactylusColombiensis'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#iguanaIguana'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#micrurusMipartitus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Fauna.rdf#dendrocygnaBicolor'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#anasCyanoptera'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #ruta maiz
+g.add( (rutaVueltaOriente['Fauna.rdf#bubulcusIbis'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaMaiz['Fauna.rdf#ardeaAlba'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) # maiz
+g.add( (rutaMaiz['Fauna.rdf#coragypsAtratus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#zenaidaAuriculata'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Fauna.rdf#columbinaTalpacoti'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#forpusConspicillatus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#crotophagaAni'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#taperaNaevia'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#thamnophilusMultistriatus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #maiz
+g.add( (rutaVueltaOriente['Fauna.rdf#pitangusSulphuratus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Fauna.rdf#tyrannusMelancholicus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#fluvicolaPica'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#notiochelidonCyanoleuca'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#troglodytesAedon'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#thraupisEpiscopus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#didelphisMarsupialis'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#dasypusNovemcinctus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#artibeusLituratus'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#glossophagaSoricina'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#sciurusGranatensis'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #maiz
+g.add( (rioFrio['Fauna.rdf#hydrochoerusHydrochaeris'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #riofrio
+g.add( (rutaVueltaOriente['Fauna.rdf#sylvilagusBrasiliensis'], UMBEL.isAbout, URIRef(rutaAnillo['Fauna.rdf'])) ) #vuelta oriente
 
 #print (g.serialize(format='pretty-xml'))

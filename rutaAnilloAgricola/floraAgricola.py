@@ -7,7 +7,7 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, UMBEL, OWL
+from utils.ontologias import WILDLIFE, UMBEL, OWL, VCARD
 from utils.namespaces import rutaAnillo, rutaMaiz, rutaVueltaOriente, dbpedia, wikidata, eol, imgur, gbif, uniprot
 from faunaAgricola import g
 
@@ -28,7 +28,8 @@ def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
     
-    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf'])) )
+    g.add( ( URIRef(uri), UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf'])) )
+    g.add( (URIRef(uri), VCARD.category, Literal("FLORA", lang='es')))
 
     
 flora(
@@ -61,20 +62,20 @@ flora(
 	gbif['2930137']
 )
             
-g.add( (rutaMaiz['Flora.rdf#citrusSinensis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #naranjo
-g.add( (rutaMaiz['Flora.rdf#capsicumAnnuum'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #aji
-g.add( (rutaMaiz['Flora.rdf#cynodonPlectostachyus'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #pasto estrella
-g.add( (rutaMaiz['Flora.rdf#caricaPapaya'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #papaya
-g.add( (rutaMaiz['Flora.rdf#citrusNobilis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #mandarina
-g.add( (rutaMaiz['Flora.rdf#perseaAmericana'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #aguacate
-g.add( (rutaMaiz['Flora.rdf#saccharumOfficinarum'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #caña
-g.add( (rutaMaiz['Flora.rdf#passifloraEdulis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #maracuya
-g.add( (rutaMaiz['Flora.rdf#zeaMays'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #maiz
-g.add( (rutaMaiz['Flora.rdf#mangiferaIndica'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #mango
-g.add( (rutaMaiz['Flora.rdf#musaParadisiaca'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #platano
-g.add( (rutaMaiz['Flora.rdf#citrusLimon'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #limon
-g.add( (rutaMaiz['Flora.rdf#theobromaCacao'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #cacao
-g.add( (rutaVueltaOriente['Flora.rdf#ingaEdulis'], UMBEL.isRelatedTo, URIRef(rutaAnillo['Flora.rdf']) )) #guama
+g.add( (rutaMaiz['Flora.rdf#citrusSinensis'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #naranjo
+g.add( (rutaMaiz['Flora.rdf#capsicumAnnuum'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #aji
+g.add( (rutaMaiz['Flora.rdf#cynodonPlectostachyus'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #pasto estrella
+g.add( (rutaMaiz['Flora.rdf#caricaPapaya'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #papaya
+g.add( (rutaMaiz['Flora.rdf#citrusNobilis'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #mandarina
+g.add( (rutaMaiz['Flora.rdf#perseaAmericana'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #aguacate
+g.add( (rutaMaiz['Flora.rdf#saccharumOfficinarum'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #caña
+g.add( (rutaMaiz['Flora.rdf#passifloraEdulis'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #maracuya
+g.add( (rutaMaiz['Flora.rdf#zeaMays'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #maiz
+g.add( (rutaMaiz['Flora.rdf#mangiferaIndica'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #mango
+g.add( (rutaMaiz['Flora.rdf#musaParadisiaca'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #platano
+g.add( (rutaMaiz['Flora.rdf#citrusLimon'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #limon
+g.add( (rutaMaiz['Flora.rdf#theobromaCacao'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #cacao
+g.add( (rutaVueltaOriente['Flora.rdf#ingaEdulis'], UMBEL.isAbout, URIRef(rutaAnillo['Flora.rdf']) )) #guama
     
     
 #print(g.serialize(format='pretty-xml'))

@@ -11,7 +11,6 @@ from utils.ontologias import CRUZAR, VCARD, UMBEL
 from utils.namespaces import facebook, youtube, maps, imgur, rutaMaiz
 from flora import g
 
-
 #g = Graph()
 
 def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa, linkURI): 
@@ -32,9 +31,11 @@ def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video,
     g.add( (URIRef(mapa), VCARD.locality, Literal('Tuluá', lang='es'))) 
     g.add( (URIRef(mapa), VCARD['street-address'], Literal(direccion))) 
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Lugares.rdf']))) 
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaMaiz['Lugares.rdf']))) 
     
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("LUGARES", lang='es')))
+
 
 lugares(
     rutaMaiz['Lugares.rdf#parqueGuadua'],

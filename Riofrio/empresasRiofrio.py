@@ -11,6 +11,8 @@ from utils.ontologias import GR, VCARD, UMBEL
 from utils.namespaces import maps, imgur, rioFrio, alcaldiaRiofrio
 from lugaresRiofrio import g
 
+#g = Graph()
+
 # Esquema del grafo para empresas de la ruta del maíz.
 def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra, linkURI):
     if webpage != "No disponible":
@@ -39,8 +41,10 @@ def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Thursday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Friday) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Empresas.rdf'])))
+    g.add( (URIRef(uri), VCARD.category, Literal("EMPRESAS", lang='es')))
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rioFrio['Empresas.rdf'])))
 
 empresas(
     rioFrio['Empresas.rdf#transporteSalonica'],#uri

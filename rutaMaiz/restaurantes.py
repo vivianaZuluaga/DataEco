@@ -43,9 +43,11 @@ def restaurantes(uri, nombre, menu, telefono, direccion, webpage, imagen, mapa, 
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Saturday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Sunday) )
 
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Restaurantes.rdf'])))
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaMaiz['Restaurantes.rdf'])))
     
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("RESTAURANTES", lang='es')))
+
 
 restaurantes(
     rutaMaiz['Restaurantes.rdf#laLeonora'],

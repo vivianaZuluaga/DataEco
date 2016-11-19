@@ -32,8 +32,9 @@ def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa,
 	g.add( ( URIRef(uri), EVENT.place, URIRef(mapa)) )	
 	g.add( ( URIRef(mapa), RDFS.label, Literal(lugar, lang='es')) ) 
 	
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Eventos.rdf'])) )
+	g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaAnillo['Eventos.rdf'])) )
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) )
+	g.add( (URIRef(uri), VCARD.category, Literal("EVENTOS", lang='es')))
 
 	
 eventos(

@@ -7,9 +7,11 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, UMBEL, OWL
+from utils.ontologias import WILDLIFE, UMBEL, OWL, VCARD
 from utils.namespaces import rioFrio, rutaVueltaOriente, rutaMaiz, dbpedia, wikidata, imgur, eol, gbif, uniprot
 from faunaRiofrio import g
+
+#g = Graph()
 
 def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
     g.add( (URIRef(uri), RDF.type, WILDLIFE.TaxonName) )
@@ -26,7 +28,8 @@ def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
     
-    g.add( (URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Flora.rdf'])) )
+    g.add( (URIRef(uri), VCARD.category, Literal("FLORA", lang='es')))
+    g.add( (URIRef(uri), UMBEL.isAbout, URIRef(rioFrio['Flora.rdf'])) )
 
 
 flora(
@@ -506,7 +509,7 @@ flora(
  )
   
 #Modelada en otra ruta 
-g.add( (rutaVueltaOriente['Flora.rdf#ochromaPyramidale'], UMBEL.isRelatedTo, URIRef(rioFrio['Flora.rdf'])) ) # Balso
-g.add( (rutaMaiz['Flora.rdf#rosmarinusOfficinalis'], UMBEL.isRelatedTo, URIRef(rioFrio['Flora.rdf'])) ) # Romero
+g.add( (rutaVueltaOriente['Flora.rdf#ochromaPyramidale'], UMBEL.isAbout, URIRef(rioFrio['Flora.rdf'])) ) # Balso
+g.add( (rutaMaiz['Flora.rdf#rosmarinusOfficinalis'], UMBEL.isAbout, URIRef(rioFrio['Flora.rdf'])) ) # Romero
 
 #print (g.serialize(format="pretty-xml"))

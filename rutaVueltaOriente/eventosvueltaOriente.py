@@ -10,6 +10,7 @@ from rdflib.namespace import RDF, RDFS, DC, FOAF
 from utils.ontologias import VCARD, EVENT, UMBEL, TIME
 from utils.namespaces import rutaVueltaOriente, facebook, twitter, imgur, maps, youtube
 from empresasVueltaOriente import g
+
 #g = Graph()
 
 def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa, duracion, linkURI):
@@ -31,8 +32,9 @@ def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa,
 	g.add( ( URIRef(uri), EVENT.place, URIRef(mapa)) )#http://www.maps.org/3666646	
 	g.add( ( URIRef(mapa), RDFS.label, Literal(lugar, lang='es')) ) # datatype=XSD.string
 	
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Eventos.rdf'])) )
+	g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaVueltaOriente['Eventos.rdf'])) )
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+	g.add( (URIRef(uri), VCARD.category, Literal("EVENTOS", lang='es')))
 
 eventos(
 	rutaVueltaOriente['Eventos.rdf#fiestasReyes'],#uri

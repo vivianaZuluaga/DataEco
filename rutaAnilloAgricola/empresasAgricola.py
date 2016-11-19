@@ -11,6 +11,7 @@ from utils.ontologias import GR, VCARD, UMBEL
 from utils.namespaces import rutaAnillo, facebook, twitter, imgur, maps, youtube
 from alojamientosAgricola import g
 
+#g = Graph()
 
 def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa, uriatencion, abre, cierra, linkURI):
     if webpage != 'No disponible':
@@ -39,8 +40,9 @@ def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Thursday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Friday) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaAnillo['Empresas.rdf'])))
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaAnillo['Empresas.rdf'])))
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("EMPRESAS", lang='es')))
 
 empresas(
     rutaAnillo['Empresas.rdf#avicolaChica'],#uri

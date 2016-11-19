@@ -7,20 +7,21 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import UMBEL, CRUZAR, GEOES, OWL
+from utils.ontologias import UMBEL, CRUZAR, GEOES, OWL, skos
 from utils.namespaces import rutaAnillo, geonames, dbpedia 
 from Riofrio.restaurantesRiofrio import g
 
+#g = Graph()
 
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), GEOES.formaParteDe, dbpedia.Tulua))
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), UMBEL.hasCharacteristic, rutaAnillo['Alojamientos.rdf']) )
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), UMBEL.hasCharacteristic, rutaAnillo['Empresas.rdf']) )
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), UMBEL.hasCharacteristic, rutaAnillo['Eventos.rdf']) )
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), UMBEL.hasCharacteristic, rutaAnillo['Fauna.rdf']) )
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), UMBEL.hasCharacteristic, rutaAnillo['Flora.rdf']) )
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), UMBEL.hasCharacteristic, rutaAnillo['Lugares.rdf']) )
-g.add( (URIRef(rutaAnillo['descripcion.rdf']), UMBEL.hasCharacteristic, rutaAnillo['Restaurantes.rdf']) )
 g.add( (URIRef(rutaAnillo['descripcion.rdf']), RDF.type, CRUZAR['Recurso-turistico']))
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), GEOES.formaParteDe, dbpedia.Tulua))
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), skos.related, rutaAnillo['Alojamientos.rdf']) )
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), skos.related, rutaAnillo['Empresas.rdf']) )
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), skos.related, rutaAnillo['Eventos.rdf']) )
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), skos.related, rutaAnillo['Fauna.rdf']) )
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), skos.related, rutaAnillo['Flora.rdf']) )
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), skos.related, rutaAnillo['Lugares.rdf']) )
+g.add( (URIRef(rutaAnillo['descripcion.rdf']), skos.related, rutaAnillo['Restaurantes.rdf']) )
 
 g.add( (URIRef(rutaAnillo['descripcion.rdf']), RDFS.label, Literal("RUTA ANILLO AGRÍCOLA", lang="es")) )
 g.add( (URIRef(rutaAnillo['descripcion.rdf']), RDFS.comment, Literal("""Se inicia en la capilla del Santo Aparecido, a tan solo 80 metros del 

@@ -13,8 +13,6 @@ from empresas import g
 
 #g = Graph()
 
-#rutaMaizEventos = Namespace('http://190.14.254.237/dataseteco/RutaDelMaiz/Eventos/')
-
 def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa, duracion, linkURI):
 	if media != "No disponible":
 		g.add(( URIRef(uri), EVENT.illustrate, URIRef(media)) )
@@ -34,8 +32,9 @@ def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa,
 	g.add( ( URIRef(uri), EVENT.place, URIRef(mapa)) )#http://www.geonames.org/3666646	
 	g.add( ( URIRef(mapa), RDFS.label, Literal(lugar, lang='es')) ) # datatype=XSD.string
 	
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Eventos.rdf'])) )
+	g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaMaiz['Eventos.rdf'])) )
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+	g.add( (URIRef(uri), VCARD.category, Literal("EVENTOS", lang='es')))
 
 eventos(
 	rutaMaiz['Eventos.rdf#aniosDorados'],

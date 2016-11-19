@@ -10,6 +10,7 @@ from rdflib.namespace import RDF, RDFS, FOAF, OWL
 from utils.ontologias import GR, VCARD, WILDLIFE, UMBEL
 from utils.namespaces import eol, gbif, uniprot, wikidata, dbpedia, rutaMaiz
 from eventos import g
+
 #g = Graph()
 
 def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, uriLink2, ref, uriLink3, linkURI):
@@ -27,7 +28,8 @@ def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
 	
-	g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Fauna.rdf'])) )
+	g.add( ( URIRef(uri), UMBEL.isAbout, URIRef(rutaMaiz['Fauna.rdf'])) )
+	g.add( (URIRef(uri), VCARD.category, Literal("FAUNA", lang='es')))
 
 fauna(
 	rutaMaiz['Fauna.rdf#leptotilaPlumbeiceps'],

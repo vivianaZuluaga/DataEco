@@ -11,6 +11,7 @@ from utils.ontologias import VCARD, EVENT, UMBEL, TIME
 from utils.namespaces import rioFrio, maps, imgur, geonames, youtube, twitter, facebook, alcaldiaRiofrio
 from alojamientosRiofrio import g, rioFrio
 
+#g = Graph()
 
 def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa, duracion, linkURI):
 	if media != "No disponible":
@@ -31,8 +32,10 @@ def eventos(uri, nombre, fecha, descripcion, lugar, media, image, uriTime, mapa,
 	g.add( ( URIRef(uri), EVENT.place, URIRef(mapa)) )#http://www.geonames.org/3666646	
 	g.add( ( URIRef(mapa), RDFS.label, Literal(lugar, lang='es')) ) # datatype=XSD.string
 	
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Eventos.rdf'])) )
+	g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rioFrio['Eventos.rdf'])) )
+	
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+	g.add( (URIRef(uri), VCARD.category, Literal("EVENTOS", lang='es')))
 
 eventos(
 	rioFrio['Eventos.rdf#fiestasEcoturisticas'],

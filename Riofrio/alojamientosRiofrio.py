@@ -11,6 +11,7 @@ from utils.ontologias import GR, VCARD, ACCO, UMBEL
 from utils.namespaces import rioFrio, maps, imgur, alcaldiaRiofrio, turismoTulua, facebook, youtube, twitter
 from RutaRiofrio import g
 
+#g = Graph()
 
 def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcion, uriRoom, uriValue, 
 	uriBed, numHabitaciones, numCamas, imagen, linkURI):
@@ -48,14 +49,16 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
 	g.add( (URIRef(uriValue), GR.hasValue, Literal(numHabitaciones, datatype=XSD.int)))
 
 	#Camas
-
 	g.add( (URIRef(uriBed), RDF.type, ACCO.BedDetails))
 	g.add( (URIRef(uriRoom), ACCO.bed, URIRef(uriBed)))
 	g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
-
-	#g.add( (URIRef(uri), VCARD.cateogry, Literal("Alojamientos Riofrío")))
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Alojamientos.rdf'])))
+	
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+	g.add( (URIRef(uri), VCARD.category, Literal("ALOJAMIENTOS", lang='es')))
+	
+	g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rioFrio['Alojamientos.rdf'])))
+	
+	
 
 alojamientos(
 	rioFrio['Alojamientos.rdf#santaTeresita'],

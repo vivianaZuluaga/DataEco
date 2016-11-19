@@ -7,7 +7,7 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph, BNode
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, UMBEL, OWL
+from utils.ontologias import WILDLIFE, UMBEL, OWL, VCARD
 from utils.namespaces import rioFrio, rutaVueltaOriente, dbpedia, wikidata, imgur, eol, gbif, uniprot
 from eventosRiofrio import g
 
@@ -28,7 +28,8 @@ def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
 	
-	g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Fauna.rdf'])) )
+	g.add( (URIRef(uri), VCARD.category, Literal("FAUNA", lang='es')))
+	g.add( ( URIRef(uri), UMBEL.isAbout, URIRef(rioFrio['Fauna.rdf'])) )
 
 fauna(
  	rioFrio['Fauna.rdf#ortalisRuficauda'],
@@ -441,7 +442,7 @@ fauna(
 	gbif['1450']
 )
 
-g.add( (rutaVueltaOriente['Fauna.rdf#bubulcusIbis'], UMBEL.isRelatedTo, URIRef(rioFrio['Fauna.rdf'])) ) # Garza del ganado
-g.add( (rutaVueltaOriente['Fauna.rdf#musMusculus'], UMBEL.isRelatedTo, URIRef(rioFrio['Fauna.rdf'])) ) # Ratón casero
+g.add( (rutaVueltaOriente['Fauna.rdf#bubulcusIbis'], UMBEL.isAbout, URIRef(rioFrio['Fauna.rdf'])) ) # Garza del ganado
+g.add( (rutaVueltaOriente['Fauna.rdf#musMusculus'], UMBEL.isAbout, URIRef(rioFrio['Fauna.rdf'])) ) # Ratón casero
 
 #print(g.serialize(format='pretty-xml'))	

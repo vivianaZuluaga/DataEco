@@ -11,11 +11,12 @@ from utils.ontologias import CRUZAR, VCARD, UMBEL
 from utils.namespaces import rioFrio, facebook, youtube, maps, imgur, alcaldiaRiofrio
 from floraRiofrio import g
 
+#g = Graph()
+
 def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa, linkURI): 
     if video != "No disponible":
         g.add( (URIRef(uri), FOAF.depiction, URIRef(video)) )#puede ser usado para indicar contenido multimedia         
           
-    #g.add( (URIRef(uri), RDF.type, CRUZAR['Recurso-turistico']) )
     g.add( (URIRef(uri), RDF.type, VCARD.Location) )
     g.add( (URIRef(uri), FOAF.name, Literal(nombre, lang="es")) )
     g.add( (URIRef(uri), RDFS.comment, Literal(descripcion, lang="es")) )
@@ -30,8 +31,9 @@ def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video,
     g.add( (URIRef(mapa), VCARD.locality, Literal('Tuluá', lang="es")) )
     g.add( (URIRef(mapa), VCARD['street-address'], Literal(direccion)) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rioFrio['Lugares.rdf']))) 
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rioFrio['Lugares.rdf']))) 
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("LUGARES", lang='es')))
 
 lugares(
      rioFrio['Lugares.rdf#liverpool'],

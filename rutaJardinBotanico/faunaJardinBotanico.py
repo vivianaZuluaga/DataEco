@@ -7,7 +7,7 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL
+from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL, VCARD
 from utils.namespaces import rutaJardin, rutaMaiz, rutaVueltaOriente, dbpedia, wikidata, imgur, eol, gbif, uniprot
 from floraJardinBotanico import g
 
@@ -28,7 +28,8 @@ def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
     
-    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaJardin['Fauna.rdf'])) )
+    g.add( ( URIRef(uri), UMBEL.isAbout, URIRef(rutaJardin['Fauna.rdf'])) )
+    g.add( (URIRef(uri), VCARD.category, Literal("FAUNA", lang='es')))
  
  
 fauna(
@@ -130,6 +131,8 @@ fauna(
 	gbif['1324354']
 )
    
-g.add( (rutaVueltaOriente['Fauna.rdf#carolliaPerspicillata'], UMBEL.isRelatedTo, URIRef(rutaJardin['Fauna.rdf'])) )
-g.add( (rutaVueltaOriente['Fauna.rdf#glossophagaSoricina'], UMBEL.isRelatedTo, URIRef(rutaJardin['Fauna.rdf'])) )
-g.add( (rutaMaiz['Fauna.rdf#bosTaurus'], UMBEL.isRelatedTo, URIRef(rutaJardin['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#carolliaPerspicillata'], UMBEL.isAbout, URIRef(rutaJardin['Fauna.rdf'])) )
+g.add( (rutaVueltaOriente['Fauna.rdf#glossophagaSoricina'], UMBEL.isAbout, URIRef(rutaJardin['Fauna.rdf'])) )
+g.add( (rutaMaiz['Fauna.rdf#bosTaurus'], UMBEL.isAbout, URIRef(rutaJardin['Fauna.rdf'])) )
+
+#print(g.serialize(format='pretty-xml'))

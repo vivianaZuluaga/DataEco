@@ -7,7 +7,7 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL
+from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL, VCARD
 from utils.namespaces import rutaJardin, rutaMaiz, rutaVueltaOriente, dbpedia, wikidata, imgur, eol, gbif, uniprot
 from alojamientosJardinBotanico import g
 
@@ -28,7 +28,8 @@ def flora(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
     
-    g.add( (URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) )
+    g.add( (URIRef(uri), UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) )
+    g.add( (URIRef(uri), VCARD.category, Literal("FLORA", lang='es')))
     
 
 flora(
@@ -1072,38 +1073,38 @@ flora(
 )
 
 #Modeladas en otras rutas
-g.add( (rutaMaiz['Flora.rdf#theobromaCacao'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #maiz cacao
-g.add( (rutaVueltaOriente['Flora.rdf#pithecellobiumLanceolatum'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente Espino de mono
-g.add( (rutaVueltaOriente['Flora.rdf#chamaedoreaPinnatifrons'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#sennaSpectabilis'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#amyrisPinnata'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#tremaMicrantha'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#rhipidocladumRacemiflorum'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#trichiliaPallida'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#citharexylumKunthianum'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#zanthoxylumRhoifolium'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#euphorbiaCotinifolia'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#piperAduncum'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#erythrinaPoeppigiana'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#agaveAmericana'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#tabebuiaRosea'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#pithecellobiumDulce'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#malpighiaGlabra'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#psidiumGuineense'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#crotonGossypiifolius'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#sapindusSaponaria'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#zanthoxylumMonophyllum'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente 
-g.add( (rutaVueltaOriente['Flora.rdf#cupaniaCinerea'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#guazumaUlmifolia'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#gliricidiaSepium'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#eugeniaBiflora'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#vernoniaBrasiliana'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelte oriente
-g.add( (rutaVueltaOriente['Flora.rdf#trichantheraGigantea'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#myrsineGuianensis'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#cordiaAlliodora'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#erythroxylumUlei'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#ureraBaccifera'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#acaciaFarnesiana'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
-g.add( (rutaVueltaOriente['Flora.rdf#ficusInvoluta'], UMBEL.isRelatedTo, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaMaiz['Flora.rdf#theobromaCacao'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #maiz cacao
+g.add( (rutaVueltaOriente['Flora.rdf#pithecellobiumLanceolatum'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente Espino de mono
+g.add( (rutaVueltaOriente['Flora.rdf#chamaedoreaPinnatifrons'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#sennaSpectabilis'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#amyrisPinnata'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#tremaMicrantha'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#rhipidocladumRacemiflorum'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#trichiliaPallida'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#citharexylumKunthianum'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#zanthoxylumRhoifolium'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#euphorbiaCotinifolia'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#piperAduncum'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#erythrinaPoeppigiana'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#agaveAmericana'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#tabebuiaRosea'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#pithecellobiumDulce'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#malpighiaGlabra'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#psidiumGuineense'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#crotonGossypiifolius'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#sapindusSaponaria'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#zanthoxylumMonophyllum'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente 
+g.add( (rutaVueltaOriente['Flora.rdf#cupaniaCinerea'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#guazumaUlmifolia'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#gliricidiaSepium'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#eugeniaBiflora'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#vernoniaBrasiliana'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelte oriente
+g.add( (rutaVueltaOriente['Flora.rdf#trichantheraGigantea'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#myrsineGuianensis'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#cordiaAlliodora'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#erythroxylumUlei'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) # vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#ureraBaccifera'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#acaciaFarnesiana'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
+g.add( (rutaVueltaOriente['Flora.rdf#ficusInvoluta'], UMBEL.isAbout, URIRef(rutaJardin['Flora.rdf'])) ) #vuelta oriente
 
 #print(g.serialize(format='pretty-xml'))

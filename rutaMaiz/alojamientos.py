@@ -53,10 +53,11 @@ def alojamientos(uri, nombre, webpage, telefono, email, direcc, mapa, descripcio
 	g.add( (URIRef(uriRoom), ACCO.bed, URIRef(uriBed)))
 	g.add( (URIRef(uriBed), ACCO.quantity, Literal(numCamas, datatype=XSD.int)))
 
-	#g.add( (URIRef(uri), VCARD.cateogry, Literal("Alojamientos de la Ruta del Maíz")))
-	g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Alojamientos.rdf'])))
+	g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaMaiz['Alojamientos.rdf'])))
 	
 	g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+	g.add( (URIRef(uri), VCARD.category, Literal("ALOJAMIENTOS", lang='es')))
+
 
 alojamientos(
 	rutaMaiz['Alojamientos.rdf#trivino'],

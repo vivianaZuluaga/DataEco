@@ -11,6 +11,7 @@ from utils.ontologias import CRUZAR, VCARD, UMBEL
 from utils.namespaces import rutaVueltaOriente, facebook, youtube, maps, twitter, imgur
 from floraVueltaOriente import g
 
+#g = Graph()
 
 def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video, mapa, linkURI): 
     if video != "No disponible":
@@ -30,8 +31,9 @@ def lugares(uri, nombre, descripcion, direccion, telefono, email, imagen, video,
     g.add( (URIRef(mapa), VCARD.locality, Literal('Tuluá', lang='es')) )
     g.add( (URIRef(mapa), VCARD['street-address'], Literal(direccion)) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Lugares.rdf'])))
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaVueltaOriente['Lugares.rdf'])))
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("LUGARES", lang='es')))
     
 lugares(
     rutaVueltaOriente['Lugares.rdf#chagualos'],#uri

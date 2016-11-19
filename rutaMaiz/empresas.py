@@ -41,9 +41,11 @@ def empresas(uri, nombre, tel, imagen, descripcion, direcc, email, webpage, mapa
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Thursday) )
     g.add( (URIRef(uriatencion), GR.hasOpeningHoursDayOfWeek, GR.Friday) )
     
-    g.add(( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaMaiz['Empresas.rdf'])))
+    g.add(( URIRef(uri), UMBEL.isAbout, URIRef(rutaMaiz['Empresas.rdf'])))
     
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Link externo
+    g.add( (URIRef(uri), VCARD.category, Literal("EMPRESAS", lang='es')))
+
 
 empresas(
     rutaMaiz['Empresas.rdf#agrocorvalle'],

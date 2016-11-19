@@ -7,7 +7,7 @@ sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
 from rdflib.namespace import RDF, RDFS, FOAF
-from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL
+from utils.ontologias import WILDLIFE, CRUZAR, UMBEL, OWL, VCARD
 from utils.namespaces import rutaVueltaOriente, rutaMaiz, rioFrio, uniprot, dbpedia, wikidata, imgur, eol, gbif
 from eventosvueltaOriente import g
 
@@ -28,7 +28,8 @@ def fauna(uri, nombre_comun, nombre_cientifico, descripcion, imagen, uriLink1, u
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(linkURI)) ) #Links externos
     g.add( (URIRef(uri), RDFS.seeAlso, URIRef(uriLink2)) )
     
-    g.add( ( URIRef(uri), UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) )
+    g.add( ( URIRef(uri), UMBEL.isAbout, URIRef(rutaVueltaOriente['Fauna.rdf'])) )
+    g.add( (URIRef(uri), VCARD.category, Literal("FAUNA", lang='es')))
 
 fauna(
     rutaVueltaOriente['Fauna.rdf#dusicyonThous'],
@@ -692,11 +693,11 @@ fauna(
 )
 
 # Fauna presente en la Ruta del Maíz
-g.add( (rioFrio['Fauna.rdf#nasuaNasua'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Cusumbo
-g.add( (rutaMaiz['Fauna.rdf#sciurusGranatensis'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Ardilla
-g.add( (rutaMaiz['Fauna.rdf#coragypsAtratus'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Gallinazo
-g.add( (rutaMaiz['Fauna.rdf#iguanaIguana'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Iguana Comun
-g.add( (rutaMaiz['Fauna.rdf#anolisAuratus'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Lagarto
-g.add( (rutaMaiz['Fauna.rdf#rhinellaMarina'], UMBEL.isRelatedTo, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Sapo Comun
+g.add( (rioFrio['Fauna.rdf#nasuaNasua'], UMBEL.isAbout, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Cusumbo
+g.add( (rutaMaiz['Fauna.rdf#sciurusGranatensis'], UMBEL.isAbout, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Ardilla
+g.add( (rutaMaiz['Fauna.rdf#coragypsAtratus'], UMBEL.isAbout, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Gallinazo
+g.add( (rutaMaiz['Fauna.rdf#iguanaIguana'], UMBEL.isAbout, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Iguana Comun
+g.add( (rutaMaiz['Fauna.rdf#anolisAuratus'], UMBEL.isAbout, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Lagarto
+g.add( (rutaMaiz['Fauna.rdf#rhinellaMarina'], UMBEL.isAbout, URIRef(rutaVueltaOriente['Fauna.rdf'])) ) # Sapo Comun
 
 #print (g.serialize(format="pretty-xml")) 

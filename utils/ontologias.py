@@ -17,6 +17,7 @@ GR = Namespace('http://purl.org/goodrelations/v1#')#ontologia del e-comerce
 VCARD = Namespace('http://www.w3.org/2006/vcard/ns#')
 EVENT = Namespace('http://purl.org/NET/c4dm/event.owl#')#eventos
 UMBEL = Namespace('http://umbel.org/umbel#')
+skos = Namespace('http://www.w3.org/2004/02/skos/core#')
 TIME = Namespace('http://purl.org/NET/c4dm/timeline.owl#')#indicar lapsos de tiempo
 
 #Proyecto

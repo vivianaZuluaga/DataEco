@@ -6,7 +6,7 @@ from os import path
 sys.path.append( path.dirname( path.dirname( path.abspath(__file__) ) ) )
 
 from rdflib import Namespace, URIRef, Literal, Graph
-from ontologias import UMBEL, CRUZAR, GEOES, OWL
+from utils.ontologias import UMBEL, CRUZAR, GEOES, OWL, skos
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.namespaces import dbpedia, rutaMaiz, geonames
 from utils.inicio import g
@@ -14,13 +14,13 @@ from utils.inicio import g
 #g = Graph()
 
 g.add( (URIRef(rutaMaiz['descripcion.rdf']), GEOES.formaParteDe, dbpedia.Tulua))
-g.add( (URIRef(rutaMaiz['descripcion.rdf']), UMBEL.hasCharacteristic, rutaMaiz['Alojamientos.rdf']) )
-g.add( (URIRef(rutaMaiz['descripcion.rdf']), UMBEL.hasCharacteristic, rutaMaiz['Empresas.rdf']) )
-g.add( (URIRef(rutaMaiz['descripcion.rdf']), UMBEL.hasCharacteristic, rutaMaiz['Eventos.rdf']) )
-g.add( (URIRef(rutaMaiz['descripcion.rdf']), UMBEL.hasCharacteristic, rutaMaiz['Fauna.rdf']) )
-g.add( (URIRef(rutaMaiz['descripcion.rdf']), UMBEL.hasCharacteristic, rutaMaiz['Flora.rdf']) )
-g.add( (URIRef(rutaMaiz['descripcion.rdf']), UMBEL.hasCharacteristic, rutaMaiz['Lugares.rdf']) )
-g.add( (URIRef(rutaMaiz['descripcion.rdf']), UMBEL.hasCharacteristic, rutaMaiz['Restaurantes.rdf']) )
+g.add( (URIRef(rutaMaiz['descripcion.rdf']), skos.related, rutaMaiz['Alojamientos.rdf']) )
+g.add( (URIRef(rutaMaiz['descripcion.rdf']), skos.related, rutaMaiz['Empresas.rdf']) )
+g.add( (URIRef(rutaMaiz['descripcion.rdf']), skos.related, rutaMaiz['Eventos.rdf']) )
+g.add( (URIRef(rutaMaiz['descripcion.rdf']), skos.related, rutaMaiz['Fauna.rdf']) )
+g.add( (URIRef(rutaMaiz['descripcion.rdf']), skos.related, rutaMaiz['Flora.rdf']) )
+g.add( (URIRef(rutaMaiz['descripcion.rdf']), skos.related, rutaMaiz['Lugares.rdf']) )
+g.add( (URIRef(rutaMaiz['descripcion.rdf']), skos.related, rutaMaiz['Restaurantes.rdf']) )
 g.add( (URIRef(rutaMaiz['descripcion.rdf']), RDF.type, CRUZAR['Recurso-turistico']))
 
 g.add( (URIRef(rutaMaiz['descripcion.rdf']), RDFS.label, Literal("RUTA DEL MAÍZ", lang='es')) )
