@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns2="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns3="http://www.w3.org/2002/07/owl#"
+  xmlns:ns4="http://geo.linkeddata.es/ontology/"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Recurso-turistico rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/descripcion.rdf">
+    <rdfs:comment xml:lang="es">Es una ruta de alto valor paisajístico, donde 
+    el turista podrá deleitarse con la variedad de cultivos de cítricos, cultivos de maíz, cultivos de flores 
+    exóticas. Comprende las gastronomía en torno de los productos a base de maíz, tales como trasnochados, 
+    cuaresmeros, pandebonos, tortas, envueltos, masato, champús, chancarina y otros. El recorrido comienza desde 
+    el Parque Carlos Sarmiento Lora, atravesando toda la ciudad de Tuluá hasta llegar al corregimiento de Campoalegre.</rdfs:comment>
+    <ns4:formaParteDe rdf:resource="http://dbpedia.org/resource/Tulua"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <rdfs:label xml:lang="es">RUTA DEL MAÍZ</rdfs:label>
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3666646"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3666644"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+  </ns2:Recurso-turistico>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/">
+    <ns5:depiction rdf:resource="http://i.imgur.com/RQpb9ok.jpg"/>
+  </rdf:Description>
+</rdf:RDF>

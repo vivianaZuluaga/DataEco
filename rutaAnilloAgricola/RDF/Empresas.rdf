@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf#zoocriaderoSirena">
+    <rdfs:seeAlso rdf:resource="https://www.youtube.com/embed/_kQesussw3k"/>
+    <ns3:tel>2257083</ns3:tel>
+    <ns4:depiction rdf:resource="http://i.imgur.com/SGXyLbc.png"/>
+    <ns4:homepage rdf:resource="http://www.cvc.gov.co"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/A3tVoWjpmMQ2">
+        <ns3:street-address>La Palmera, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas/licenciaAvestruces.pdf">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:name xml:lang="es">ZOOCRIADERO DE AVESTRUCES LA SIRENA</ns2:name>
+    <ns2:description xml:lang="es">Criadero de avestruces, comercialización de huevos y plumas. Ubicado en la Hacienda La Sirena.</ns2:description>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns3:email>No disponible</ns3:email>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf#comfandi">
+    <ns4:depiction rdf:resource="http://i.imgur.com/ImKLnVA.png"/>
+    <ns3:tel>2310819</ns3:tel>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/pkTqvXMsgrj">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Calle 23 No. 7 - 11, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.bigpass.com.co/buscador/details.php?ide=125896">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns2:name xml:lang="es">SUPERMERCADO COMFANDI</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf"/>
+    <ns3:email>No disponible</ns3:email>
+    <ns2:description xml:lang="es">Variedad de productos, calidad, promociones permanentes, atención amable y oportuna.</ns2:description>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/supermercadosydrogueriascomfandi"/>
+    <ns4:homepage rdf:resource="http://www.comfandi.com.co"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf#cubatas">
+    <ns3:email>No disponible</ns3:email>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/eEKb1nRc4Fz">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Bocas de Tuluá, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name xml:lang="es">MAMÁ CUBATAS</ns2:name>
+    <ns4:depiction rdf:resource="http://i.imgur.com/RBt0z5d.jpg"/>
+    <ns3:tel>3165131438</ns3:tel>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/Mama-Cubatas-1684533791806093/"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf"/>
+    <ns2:description xml:lang="es">Un lugar diferente con espacios sofisticados.</ns2:description>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://eventerbee.com/event/el-caribefunk-en-tulua-18-de-junio,961838740604403">
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">01:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:opens>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf#ieOccidente">
+    <ns2:name xml:lang="es">INSTITUCIÓN EDUCATIVA TÉCNICA OCCIDENTE</ns2:name>
+    <ns3:email>No disponible</ns3:email>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/BUTrUuSDjCK2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Vía a Tres Esquinas, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:description xml:lang="es">Espacio de socialización, en donde se amplían, ratifican o construyen nuevos conocimientos, comportamientos, 
+    modos de relación y aceptación del otro. Ubicada frente a la capilla del Santo Aparecido.</ns2:description>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/Institucion-Educativa-Tecnica-Occidente-134974479939448/"/>
+    <ns3:tel>0</ns3:tel>
+    <ns4:depiction rdf:resource="http://i.imgur.com/eC5RRwe.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf"/>
+    <ns4:homepage rdf:resource="http://ietecnicaoccidente.tripod.com/"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="www.occiportal.jimdo.com">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">06:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf#avicolaChica">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/dp6m5j9xDo62">
+        <ns3:street-address>Avícola - La Chica Vía a Tres Esquinas, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:email>No disponible</ns3:email>
+    <ns2:description xml:lang="es">Comercialización de huevos</ns2:description>
+    <ns2:name xml:lang="es">AVICOLA LA CHICA</ns2:name>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://directoriotelefonico.info/directorio/de/tulua/a/150">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:depiction rdf:resource="http://i.imgur.com/iwFz4zG.jpg"/>
+    <ns3:tel>2303387</ns3:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Avicola-La-Chica/375601145975612"/>
+  </ns2:Location>
+</rdf:RDF>

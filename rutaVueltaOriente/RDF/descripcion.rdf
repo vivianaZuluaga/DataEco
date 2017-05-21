@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns2="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns3="http://geo.linkeddata.es/ontology/"
+  xmlns:ns4="http://www.w3.org/2002/07/owl#"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Recurso-turistico rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/descripcion.rdf">
+    <ns4:sameAs rdf:resource="http://www.geonames.org/3768950"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <ns4:sameAs rdf:resource="http://www.geonames.org/3678726"/>
+    <ns4:sameAs rdf:resource="http://www.geonames.org/3782975"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Fauna.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+    <rdfs:comment xml:lang="es">Al llegar al hipermercado La 14 y enrutarse hacia la Escuela de Policía 
+Simón Bolívar de Tuluá (Esbol) inicia la Vuelta a Oriente.  Senderos entre plantaciones de especies nativas en 150 hectáreas, a 
+1.100 metros sobre el nivel del mar y 24 grados de temperatura, en promedio, esperan al visitante.</rdfs:comment>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/xbaeiIt.jpg"/>
+    <ns3:formaParteDe rdf:resource="http://dbpedia.org/resource/Tulua"/>
+    <rdfs:label xml:lang="es">RUTA VUELTA A ORIENTE</rdfs:label>
+    <ns4:sameAs rdf:resource="http://www.geonames.org/3678442"/>
+    <ns4:sameAs rdf:resource="http://www.geonames.org/3683480"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+  </ns2:Recurso-turistico>
+</rdf:RDF>

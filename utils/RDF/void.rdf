@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns1="http://rdfs.org/ns/void#"
+  xmlns:ns2="http://purl.org/dc/terms/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <ns1:Linkset rdf:about="http://www.dataeco.org/dataseteco/void.rdf#dataEcodbpedia">
+    <ns1:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#int">393</ns1:triples>
+    <ns1:subset>
+      <ns1:Dataset rdf:about="http://www.dataeco.org/dataseteco/void.rdf">
+        <ns2:creator rdf:resource="http://www.dataeco.org/dataseteco/autores.rdf#vzuluagab"/>
+        <ns1:vocabulary rdf:resource="http://www.w3.org/2003/01/geo/wgs84_pos"/>
+        <ns1:vocabulary rdf:resource="http://purl.org/dc/terms/"/>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Valle_del_Cauca_Department"/>
+        <ns1:exampleResource rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/descripcion.rdf"/>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Ecotourism"/>
+        <ns1:vocabulary rdf:resource="http://geo.linkeddata.es/ontology/"/>
+        <ns2:contributor rdf:resource="http://www.dataeco.org/dataseteco/autores.rdf#alaponte"/>
+        <ns1:feature rdf:resource="http://www.w3.org/ns/formats/RDF_XML"/>
+        <ns1:exampleResource rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/descripcion.rdf"/>
+        <ns2:publisher rdf:resource="http://dbpedia.org/resource/Universidad_del_Valle_(Colombia)"/>
+        <ns1:vocabulary rdf:resource="http://purl.org/NET/c4dm/event.owl"/>
+        <ns2:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <ns2:contributor rdf:resource="http://www.dataeco.org/dataseteco/autores.rdf#oceballos"/>
+        <ns3:homepage rdf:resource="http://www.dataeco.org/dataseteco/EcolodApp/"/>
+        <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8934</ns1:triples>
+        <ns2:title>DataEco</ns2:title>
+        <ns2:creator rdf:resource="http://www.dataeco.org/dataseteco/autores.rdf#camorenov"/>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Riofrio,_Valle_del_Cauca"/>
+        <ns2:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2016-09-17</ns2:created>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Tulua"/>
+        <ns1:vocabulary rdf:resource="http://purl.org/goodrelations/v1"/>
+        <ns2:description>Dataset con información ecoturística de los
+municipios de Riofrío y Tuluá pertenecientes a la subregión Centro del Valle del Cauca</ns2:description>
+        <ns1:vocabulary rdf:resource="http://idi.fundacionctic.org/cruzar/turismo"/>
+        <ns1:vocabulary rdf:resource="http://purl.org/ontology/wo/"/>
+        <ns1:vocabulary rdf:resource="http://purl.org/acco/ns"/>
+        <ns1:sparqlEndpoint rdf:resource="http://190.14.254.238:3030/"/>
+        <ns1:vocabulary rdf:resource="http://www.w3.org/2006/vcard/ns"/>
+        <ns2:subject rdf:resource="http://dbpedia.org/resource/Location"/>
+        <ns1:vocabulary rdf:resource="http://umbel.org/umbel"/>
+        <ns2:contributor rdf:resource="http://www.dataeco.org/dataseteco/autores.rdf#ybermudez"/>
+      </ns1:Dataset>
+    </ns1:subset>
+    <ns1:target>
+      <ns1:Dataset rdf:about="http://dbpedia.org/resource/">
+        <ns2:title>dbpedia</ns2:title>
+        <ns3:homepage rdf:resource="http://dbpedia.org/fct/"/>
+        <ns2:description>Hacia una Infraestructura de Datos Pública para un Gráfico de 
+conocimiento semántico</ns2:description>
+      </ns1:Dataset>
+    </ns1:target>
+    <ns1:target rdf:resource="http://www.dataeco.org/dataseteco/void.rdf"/>
+  </ns1:Linkset>
+  <ns1:Linkset rdf:about="http://www.dataeco.org/dataseteco/void.rdf#dataEcoGeonames">
+    <ns1:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</ns1:triples>
+    <ns1:target>
+      <ns1:Dataset rdf:about="http://www.geonames.org/">
+        <ns2:description>La base de datos geográfica 'GeoNames' cubre todos los países 
+y contiene más de once millones de nombres de lugares que están disponibles para descargar de forma gratuita.</ns2:description>
+        <ns3:homepage rdf:resource="http://www.geonames.org/ontology/documentation.html"/>
+        <ns2:title>GeoNames</ns2:title>
+      </ns1:Dataset>
+    </ns1:target>
+    <ns1:subset rdf:resource="http://www.dataeco.org/dataseteco/void.rdf"/>
+    <ns1:target rdf:resource="http://www.dataeco.org/dataseteco/void.rdf"/>
+  </ns1:Linkset>
+  <ns1:Linkset rdf:about="http://www.dataeco.org/dataseteco/void.rdf#dataEcouniprot">
+    <ns1:linkPredicate rdf:resource="http://www.w3.org/2002/07/owl#sameAs"/>
+    <ns1:triples rdf:datatype="http://www.w3.org/2001/XMLSchema#int">396</ns1:triples>
+    <ns1:target>
+      <ns1:Dataset rdf:about="http://www.uniprot.org/taxonomy/">
+        <ns3:homepage rdf:resource="http://www.uniprot.org/"/>
+        <ns2:title>uniprot</ns2:title>
+        <ns2:description>Los organismos se clasifican en una estructura de 
+árbol jerárquica. La base de datos 'taxonomy' contiene todos los nodos (taxones) del árbol.</ns2:description>
+      </ns1:Dataset>
+    </ns1:target>
+    <ns1:target rdf:resource="http://www.dataeco.org/dataseteco/void.rdf"/>
+    <ns1:subset rdf:resource="http://www.dataeco.org/dataseteco/void.rdf"/>
+  </ns1:Linkset>
+</rdf:RDF>

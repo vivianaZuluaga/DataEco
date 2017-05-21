@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://purl.org/acco/ns#"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+>
+  <ns4:HotelRoom rdf:about="https://www.twitter.com/Ecodataset/status/798000743403884544">
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns4:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/17059/villa-auriflor">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="https://www.facebook.com/people/Finca-Villa-Auriflor/100006751064793">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <ns4:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Alojamientos.rdf#villaAuriflor">
+        <ns3:tel>3185160149</ns3:tel>
+        <ns3:adr rdf:resource="https://goo.gl/maps/4aHawXoxoyF2"/>
+        <ns3:email>martufloca@hotmail.es</ns3:email>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/embed/NfgrPhUA9So"/>
+        <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Alojamientos.rdf"/>
+        <ns5:depiction rdf:resource="http://i.imgur.com/73PrkgD.png"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:description xml:lang="es">Alojamiento rural que ofrece habitaciones con baño y TV, billares y juegos de mesa, servicio de restaurante (opcional).</ns2:description>
+        <ns2:name xml:lang="es">FINCA CAMPESTRE VILLA AURIFLOR</ns2:name>
+      </ns2:Individual>
+    </ns4:partOf>
+  </ns4:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.riofrio-valle.gov.co/index.shtml?apc=bjxx-1-&amp;x=2720854">
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="http://www.fincasantateresita.8m.com/tarifas.html">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+    <ns4:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.fincasantateresita.8m.com/servicios.html">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns4:partOf>
+      <ns4:Hotel rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Alojamientos.rdf#santaTeresita">
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:name xml:lang="es">FINCA-HOTEL SANTA TERESITA</ns2:name>
+        <ns5:depiction rdf:resource="http://i.imgur.com/lUSf4vV.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/2uMdPYJkN1n"/>
+        <rdfs:seeAlso rdf:resource="http://www.fincasantateresita.8m.com/ubica.html"/>
+        <ns5:homepage rdf:resource="http://www.fincasantateresita.8m.com/"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:description xml:lang="es">Alojamiento en habitaciones multiples con baño privado, servicio de restaurante criollo, 
+  piscina de agua natural, kiosco para eventos con capacidad para 50 personas, caminatas y cabalgatas ecológicas, 
+  zona de camping. Ubicada en la Vereda el Crucero.</ns2:description>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns3:email>fincasantateresita@hotmail.com</ns3:email>
+        <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Alojamientos.rdf"/>
+        <ns3:tel>2244447, 2259381, 3104580461, 3004738684</ns3:tel>
+      </ns4:Hotel>
+    </ns4:partOf>
+  </ns2:SomeItems>
+  <ns3:Address rdf:about="https://goo.gl/maps/2uMdPYJkN1n">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>Vía Riofrío - Salónica, Riofrío, Valle del Cauca</ns3:street-address>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/4aHawXoxoyF2">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>Madrigal, Riofrío, Valle del Cauca</ns3:street-address>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+  </ns3:Address>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns4:availabilityTimes>24 Horas</ns4:availabilityTimes>
+  </rdf:Description>
+</rdf:RDF>

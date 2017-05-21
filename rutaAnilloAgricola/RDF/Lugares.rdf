@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Lugares.rdf#santoAparecido">
+    <ns3:depiction rdf:resource="https://www.youtube.com/embed/WeQNXoFSjL0"/>
+    <ns2:category xml:lang="es">LUGARES</ns2:category>
+    <ns3:name xml:lang="es">CAPILLA DEL SANTO APARECIDO</ns3:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Lugares.rdf"/>
+    <ns2:email>No disponible</ns2:email>
+    <ns2:tel>0</ns2:tel>
+    <rdfs:comment xml:lang="es">En la capilla se conserva una escultura de porcelana que refleja el Cristo descendido de la Cruz. Dicha escultura 
+    fue encontrada hace más de 100 años por una campesina tulueña y es venerada por los milagros que ha concedido a sus 
+    creyentes. Ubicada antes de la vereda El Cairo, sobre la vía principal.</rdfs:comment>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/2qhg5w2iAjk">
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:street-address>Vía Tres Esquinas, Tuluá, Valle del Cauca</ns2:street-address>
+      </ns2:Address>
+    </ns2:adr>
+    <ns3:depiction rdf:resource="http://i.imgur.com/iG762nC.png"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Capilla-Santo-Aparecido/161137537424017"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Lugares.rdf#humedalSapera">
+    <rdfs:seeAlso rdf:resource="https://issuu.com/natucreativa/docs/humedales_del_valle_geogr__fico_del/177"/>
+    <ns2:tel>0</ns2:tel>
+    <rdfs:comment xml:lang="es">Se trata de un humedal cubierto en gran porcentaje por macrófitas; la zona amortiguadora en su mayoría son pastos 
+    utilizados para el ganado; se encuentra aledaño al río Tuluá, el cual lo surte constantemente. Ubicado en las Haciendas 
+    Bilbao y Normandía.</rdfs:comment>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Lugares.rdf"/>
+    <ns3:name xml:lang="es">HUMEDAL BOCAS DE TULUÁ - LA SAPERA</ns3:name>
+    <ns2:email>cuentosverdes@cvc.gov.co</ns2:email>
+    <ns3:depiction rdf:resource="https://www.youtube.com/embed/cncHUYEsr2k"/>
+    <ns2:category xml:lang="es">LUGARES</ns2:category>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/8jXReqSHzkA2">
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:street-address>Bocas de Tuluá, Tuluá, Valle del Cauca</ns2:street-address>
+      </ns2:Address>
+    </ns2:adr>
+    <ns3:depiction rdf:resource="http://i.imgur.com/vNIj2k4.png"/>
+  </ns2:Location>
+</rdf:RDF>

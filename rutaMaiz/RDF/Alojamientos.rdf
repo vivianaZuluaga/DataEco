@@ -1,0 +1,1190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://purl.org/acco/ns#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns5="http://umbel.org/umbel#"
+>
+  <ns1:HotelRoom rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/13984/hotel-corazon-del-valle">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#corazon">
+        <ns4:homepage rdf:resource="http://www.hotelcorazondelvalle.com/"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:name>HOTEL CORAZÓN DEL VALLE</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/Iy5GQUh.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/ubUAXQ61Fm22"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:email>info@hotelcorazondelvalle.com</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/hotelcorazondelvalle"/>
+        <ns3:tel>2323208, 2256604, 3164484351, 3117998237</ns3:tel>
+        <ns2:description>Número de empleados 3, piscina, cafetería, aire acondicionado, WIFI, parqueadero.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://hotel-az.com/viajes-turismo/tulua/hotel-corazon-del-valle/">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-corazon-del-valle/tulua/15728364">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519553">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#jorge">
+        <ns3:email>james.camelo@hotmail.com</ns3:email>
+        <ns3:tel>2259022, 3104949597</ns3:tel>
+        <ns4:depiction rdf:resource="http://i.imgur.com/9WMuH2S.jpg"/>
+        <ns2:name>HOTEL DON JORGE LA 23</ns2:name>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702168136506855427"/>
+        <ns2:description>Número de empleados 2, WIFI.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:adr rdf:resource="https://goo.gl/maps/4abPEwStUGo"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/44567/hotel-don-jorge-de-la-23">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-real-don-jorge/tulua/15722685">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519563">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-el-descanso-del-visitante/tulua/16252288">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#">
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:tel>2244518, 3184395202, 2249604</ns3:tel>
+        <ns3:adr rdf:resource="https://goo.gl/maps/UDBYyZndMkG2"/>
+        <ns3:email>fabeca_23@hotmail.com</ns3:email>
+        <ns2:description>Número de empleados 2, WIFI.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:name>HOTEL EL DESCANSO DEL VISITANTE</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/rTTz3Md.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/HOTEL-EL-DESCANSO-DEL-VISITANTE/229134903821536"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://hotel-az.com/viajes-turismo/tulua/hotel-el-descanso-del-visitante/">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519545">
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-marques-de-la-villa/tulua/15720776">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">38</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#marques">
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/Apartahotel-Marques-de-la-Villa-M-337867679645873/"/>
+        <ns3:tel>2245667, 3165244701</ns3:tel>
+        <ns2:description>Cuenta con 4 empleados, WIFI.</ns2:description>
+        <ns3:email>No disponible</ns3:email>
+        <ns4:depiction rdf:resource="http://i.imgur.com/eQfIoGk.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/TrexnwjpRJ12"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns2:name>EL MARQUÉS DE LA VILLA</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/8629/hotel-el-marques-de-la-villa">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">55</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475479">
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-juan-maria/tulua/6784774">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#juanMaria">
+        <ns2:name>HOTEL JUAN MARÍA</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:email>administracion@hoteljuanmaria.com</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/3jAuXwvcpk52"/>
+        <ns2:description>Mejor ubicación, tradición y experiencia; 37 años al servicio del sector hotelero y turístico. 
+  Número de empleados 20, aire acondicionado, restaurante, piscina (club privado), WIFI, parqueadero.</ns2:description>
+        <ns4:depiction rdf:resource="http://i.imgur.com/ye8THTJ.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/Hotel-Juan-Maria-1458858754370044/?fref=ts"/>
+        <ns4:homepage rdf:resource="http://hoteljuanmaria.com/"/>
+        <ns3:tel>2244562, 3154902380</ns3:tel>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/2193/hotel-juan-maria-ltda">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">113</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519548">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/apartahotel-trivino/tulua/16788014">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#trivino">
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/hotel.trivino"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/1t6aDroU82p"/>
+        <ns3:email>gerardotrivinooviedo@hotmail.com</ns3:email>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns2:name>APARTAHOTEL TRIVIÑO</ns2:name>
+        <ns2:description>Hotel con calidad humana y que se preocupa por el planeta, hoy está aportando un granito de arena 
+  con su calentador de agua SOLAR. Número de empleados 2.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/Eszaxc0.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:tel>2289631, 3164331055</ns3:tel>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/44554/apartahotel-trivino">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519549">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-mariscal-sucre-dfg/tulua/30236628">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/3448/hotel-mariscal-sucre-dfg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#mariscal">
+        <ns2:name>HOTEL MARISCAL SUCRE D.F.G</ns2:name>
+        <ns3:tel>2244065, 3174296588</ns3:tel>
+        <ns3:email>g.amta78@hotmail.com</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702170493336612864"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/C6nSDynZr2E2"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/6MWtp6z.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:description>Número de empleados 2, WIFI.</ns2:description>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns1:Hotel>
+    </ns1:partOf>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475496">
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#paraiso">
+        <ns3:email>hotelparaiso13@gmail.com</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Hotel-El-Para%C3%ADso-Ideal/155040651352392"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:description>Número de empleados 2.</ns2:description>
+        <ns3:tel>2248111, 3177424939</ns3:tel>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:name>HOTEL EL PARAÍSO IDEAL</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/6Kmeqdr.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/GPnRmH5o2QA2"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://hotel-az.com/viajes-turismo/tulua/hotel-el-paraiso-ideal/">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/8251/hotel-el-paraiso-ideal">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="https://www.youtube.com/embed/jio4GjdYjjU">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#villaGenia">
+        <ns2:description>Alquiler por días para que disfrute de sus eventos familiares y empresariales.</ns2:description>
+        <ns4:depiction rdf:resource="http://i.imgur.com/Ujg1s5g.jpg"/>
+        <ns2:name>FINCA VILLA GENIA</ns2:name>
+        <ns3:tel>2240659, 3136399699, 3187276652</ns3:tel>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:adr rdf:resource="https://goo.gl/maps/WL3vdXHMcp52"/>
+        <ns3:email>mivalledecompras.com@gmail.com</ns3:email>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/703082931703697408"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.amarillascolombia.co/colombia/tulua-valle/alquiler-de-fincas/chalet-villa-genia-398164">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://www.paginasamarillasdecolombia.com//imagenes/20eae3_290620121948.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519552">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/3156/hotel-don-felipe">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">23</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-don-felipe/tulua/15714864">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#felipe">
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/profile.php?id=100009492184574&amp;ref=br_rs"/>
+        <ns3:tel>2339685, 3174074195</ns3:tel>
+        <ns2:description>Número de empleados 1, WIFI, parqueadero de motos.</ns2:description>
+        <ns3:adr rdf:resource="https://goo.gl/maps/stex8Ctdpqn"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:name>HOTEL DON FELIPE</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/n1p0d2T.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:email>hoteldonfelipe@hotmail.com</ns3:email>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519554">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="https://marketingimpulsatunegocio.files.wordpress.com/2014/10/hotel-cafe-plaza.png">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">49</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/44562/hotel-cafe-plaza-centro-comercial-del-parque">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">59</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#cafePlaza">
+        <ns2:description>Tienen la capacidad de organizar eventos y congresos. Cuenta con 13 empleados, WIFI, baño turco, 
+  piscina, restaurante, jacuzzi, minibar, GYM, parqueadero, lavandería.</ns2:description>
+        <ns4:homepage rdf:resource="http://hotelcafeplaza.com/"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/cEpDv4PSfuq"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:email>centrocomercialdelparque@hotmail.com</ns3:email>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns2:name>HOTEL CAFÉ PLAZA - C.C. DEL PARQUE</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/PZaVeSm.jpg"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/hotelcafeplaza"/>
+        <ns3:tel>2246486, 2246488, 3113546020</ns3:tel>
+      </ns1:Hotel>
+    </ns1:partOf>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/12913/hotel-escalinata-pupi">
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-escalinata/tulua/15718640">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://hotel-az.com/viajes-turismo/tulua/hotel-escalinata-pupi/">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">26</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#escalinata">
+        <ns3:adr rdf:resource="https://goo.gl/maps/Mww8hkjwZ1m"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:description>"Número de empleados 2, WIFI.</ns2:description>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/maricel.pupiales/about"/>
+        <ns3:tel>2241782, 3207561454</ns3:tel>
+        <ns3:email>hotelescalinata@hotmail.com</ns3:email>
+        <ns4:depiction rdf:resource="http://i.imgur.com/1hwWHVS.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:name>HOTEL ESCALINATA PUPI</ns2:name>
+      </ns1:Hotel>
+    </ns1:partOf>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="https://www.youtube.com/embed/2cVE6yokqbs">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/44557/hotel-la-bastilla-olimpica-4">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#laBastilla">
+        <ns3:tel>2255605, 3137315442</ns3:tel>
+        <ns2:name>HOTEL LA BASTILLA OLIMPICA</ns2:name>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/uEdL6nJhAZx"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/WsAxKmc.png"/>
+        <ns4:homepage rdf:resource="http://www.hotellabastilla.co/"/>
+        <ns2:description>"Habitaciones individuales y para grupos, WIFI, desayuno tipo americano y servicio de 
+  parqueadero.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:email>hotel_labastilla@hotmail.com</ns3:email>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <rdfs:seeAlso rdf:resource="http://www.trivago.es/tulua-85359/hotel/la-bastilla-olimpica-2846536"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://hotel-az.com/viajes-turismo/tulua/hotel-la-bastilla-olimpica/">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475491">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-santa-maria/tulua/25204643">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#santaMaria">
+        <ns3:adr rdf:resource="https://goo.gl/maps/2cmCsxtyYgK2"/>
+        <ns2:name>SANTA MARÍA HOTEL</ns2:name>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Hotel-Santa-Maria/591387947617132"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:email>gustavo.lopez19@yahoo.com</ns3:email>
+        <ns2:description>"Número de empleados  4, WIFI.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:tel>2248470, 2254887, 3104744456</ns3:tel>
+        <ns4:depiction rdf:resource="http://i.imgur.com/tLM7DUx.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/4329/santa-maria-hotel">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">17</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519558">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/34765/hotel-central-johanna">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#central">
+        <ns4:depiction rdf:resource="http://i.imgur.com/tB9dRjC.jpg"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:name>HOTEL CENTRAL JOHANNA</ns2:name>
+        <ns2:description>Número de empleados 5, WIFI.</ns2:description>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/Js6tmUGKTM72"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/Hotel-Central-Jhoanna-334144413428928"/>
+        <ns3:tel>2243246, 2248383, 3156304788</ns3:tel>
+        <ns3:email>centrocomerciallascolmenas@hotmail.com</ns3:email>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-central-johanna/tulua/15728378">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475482">
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#calima">
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Hotel-Real-Calima/182751915110513"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/HReA4aNXqBy"/>
+        <ns2:name>HOTEL REAL CALIMA DEL CENTRO</ns2:name>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:description>Número de empleados 3, WIFI.</ns2:description>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns4:depiction rdf:resource="http://i.imgur.com/gKuEL4h.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns3:tel>2242543, 2249142, 3117469296</ns3:tel>
+        <ns3:email>linita-agudelo@hotmail.com</ns3:email>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-real-calima-del-centro/tulua/30254701">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/25514/calima-hotel">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519559">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#morfeo">
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:tel>2242520, 2248383, 3156304788</ns3:tel>
+        <ns2:description>Número de empleados 5.</ns2:description>
+        <ns3:email>centrocomerciallascolmenas@hotmail.com</ns3:email>
+        <ns2:name>HOTEL MORFEO</ns2:name>
+        <ns3:adr rdf:resource="https://goo.gl/maps/5Dmqh5co6gS2"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/hotelmorfeo/timeline?ref=page_internal"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/B5lTdmW.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/34260/hotel-morfeo">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">50</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-morfeo/tulua/15724942">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">40</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519561">
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#estrella">
+        <ns3:adr rdf:resource="https://goo.gl/maps/u9S9qu62uTE2"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702168954102530048"/>
+        <ns3:tel>2244639, 2240452, 3103725051</ns3:tel>
+        <ns3:email>leonelly.7@hotmail.com</ns3:email>
+        <ns2:name>HOTEL LA ESTRELLA DE LA MAÑANA</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:description>Número de empleados 3.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/VkkRXp6.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/4404/hotel-la-estrella">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-la-estrella-de-la-manana/tulua/30246128">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519562">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/14236/hotel-cielo">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#cielo">
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:tel>3006200436</ns3:tel>
+        <ns2:description>Número de empleados 1.</ns2:description>
+        <ns3:email>aruru85@hotmail.com</ns3:email>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702167641562214402"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/DQD9V7bKVHv"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/VFiQgfb.jpg"/>
+        <ns2:name>HOTEL CIELO</ns2:name>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-cielo/tulua/30257121">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/44588/hotel-la-mansion-del-sol-4">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-la-mansion-del-sol/tulua/15726567">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#mansion">
+        <ns4:depiction rdf:resource="http://i.imgur.com/FmgTwhG.jpg"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns4:homepage rdf:resource="http://www.lamansiondelsol.amawebs.com/"/>
+        <ns2:description>Ambiente familiar, WIFI, aire acondicionado, ventilador, número de empleados 1. 
+  Descuentos especiales para grupos.</ns2:description>
+        <ns3:email>hotel_lamansiondelsol@hotmail.com</ns3:email>
+        <ns3:tel>22320809, 3113378579</ns3:tel>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Hotel-La-Mancion-del-Sol/248019025357779?rf=820075471383988"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns2:name>HOTEL LA MANSIÓN DEL SOL</ns2:name>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/3RQ7a3xogmG2"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://hotel-az.com/viajes-turismo/tulua/hotel-la-mansion-del-sol/">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475486">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#jardinEden">
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:tel>2254777, 3154889594</ns3:tel>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/M7J3dFxZA6x"/>
+        <ns2:name>HOTEL EL JARDÍN DEL EDÉN DE LA 26</ns2:name>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Jardin-del-Ed%C3%A9n/515577135188478"/>
+        <ns2:description>Número de empleados 2.</ns2:description>
+        <ns4:depiction rdf:resource="http://i.imgur.com/QrR3tUM.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:email>eledenhosteria@hotmail.com</ns3:email>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-el-jardin-del-eden-de-la-26/tulua/30248090">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">13</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/994/hotel-el-jardin-del-eden-de-la-26">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">15</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519564">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#sanDiego">
+        <ns3:email>valensan_15@hotmail.com</ns3:email>
+        <ns4:depiction rdf:resource="http://i.imgur.com/BaUDawE.jpg"/>
+        <ns2:name>HOTEL REAL SAN DIEGO</ns2:name>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702171354318184449"/>
+        <ns2:description>Número de empleados 2, WIFI.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:tel>2242220, 3122138349</ns3:tel>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/zKvaE1yyFiF2"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/8526/hotel-real-san-diego">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-real-san-diego/tulua/25090476">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">11</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475497">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#linaMaria">
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:name>HOTEL REAL LINA MARÍA DEL CENTRO</ns2:name>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702171106770345985"/>
+        <ns3:tel>2256406, 3113631094</ns3:tel>
+        <ns3:email>linita-agudelo@hotmail.com</ns3:email>
+        <ns2:description>Número de empleados 3, WIFI.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/r922xissVJm"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/xjjGAl7.jpg"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-real-lina-maria-del-centro/tulua/30246576">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/5481/hotel-lina-maria">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">18</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475495">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#siesta">
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:description>Número de empleados 3, WIFI.</ns2:description>
+        <ns3:adr rdf:resource="https://goo.gl/maps/GUhkY9BWrct"/>
+        <ns3:tel>2256828, 3207090919</ns3:tel>
+        <ns2:name>HOTEL LA SIESTA</ns2:name>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:email>valensan_15@hotmail.com</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702169670200201216"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/PJea6bV.jpg"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://hotel-az.com/viajes-turismo/tulua/hotel-la-siesta-de-la-20/">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-la-siesta/tulua/15724653">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">12</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475490">
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#cristales">
+        <ns4:homepage rdf:resource="http://www.loscristales-hotel.com/"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:name>HOTEL LOS CRISTALES</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/PYLf1tO.jpg"/>
+        <ns3:tel>2258463, 2246499, 3153520902</ns3:tel>
+        <ns2:description>Disfrute de un ambiente acogedor con comodidad, seguridad y de un servicio con calidad. Número de 
+  empleados 3, WIFI, aire acondicionado, minibar, TV por cable.</ns2:description>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/hotelloscristales.detulua?ref=br_rs"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/o15uZkFJj6y"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:email>administracion@loscristales-hotel.com</ns3:email>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/3063/hotel-los-cristales-12">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">27</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-los-cristales/tulua/15384126">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519551">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/3384/hotel-don-sebastian">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#sebastian">
+        <ns3:email>hoteldonsebastian@outlook.es</ns3:email>
+        <ns4:depiction rdf:resource="http://i.imgur.com/aWsk2eI.jpg"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:tel>2250273, 3207255497</ns3:tel>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns2:description>"Número de empleados 2, WIFI. </ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:name>HOTEL DON SEBASTIÁN</ns2:name>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/people/Hotel-Don-Sebastian/100007234909156"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/umsKS6jfegF2"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-don-sebastian/tulua/15714858">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">14</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="https://www.youtube.com/embed/3PSKzXENVgU">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#wespedes">
+        <ns3:email>hotelwespedes@hotmail.com</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/5kzFwhAvxv92"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/4lUYrVD.jpg"/>
+        <ns2:name>WESPEDES HOTEL</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/hotelwespedes/"/>
+        <ns3:tel>2252828, 2248465, 2259817, 3503044956</ns3:tel>
+        <ns2:description>Ubicado a pocos metros de la alcadía municipal y la terminal de transporte. Número de 
+  empleados 6, WIFI, parqueadero, aire acondicionado, cafetería.</ns2:description>
+        <ns4:homepage rdf:resource="http://wespedes.wix.com/hotelwespedes"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-wespedes/tulua/15729012">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">21</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/7597/hotel-wespedes">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">33</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519557">
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#suenioReal">
+        <ns3:tel>3127694711</ns3:tel>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns2:name>HOTEL SUEÑO REAL H.S.R</ns2:name>
+        <ns3:email>alejosantatoro@yahoo.es</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/749977352231329792"/>
+        <ns2:description>Número de empleados 2.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns4:depiction rdf:resource="http://i.imgur.com/QNRay3M.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/tkxxU1hWMoB2"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/40121/hotel-sueno-real-h-s-r">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-sueno-real-hsr/tulua/30230751">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="https://www.youtube.com/embed/G-Ga8AgCEho">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-principe/tulua/2735840">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">35</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#principe">
+        <ns4:homepage rdf:resource="http://principeh.com/"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:tel>2258111, 2258766, 3155635275</ns3:tel>
+        <ns2:name>HOTEL PRINCIPE</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/jt2Z7EX.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/X7PuzjEPnHo"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:email>info@principeh.com</ns3:email>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:description>Ubicado en la zona comercial de la ciudad de Tuluá, donde tulueños y visitantes se encuentran en un ambiente amable 
+  y seguro. Número de empleados 13, restaurante, WIFI, parqueadero, lavandería, aire acondicionado, minibar.</ns2:description>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/principehotel"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/2524/hotel-principe">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">56</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519560">
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-san-gil/tulua/16501236">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/1053/hotel-san-gil-a-s-g">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#sanGil">
+        <ns3:email>astridserna@hotmail.com</ns3:email>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:tel>2246542, 3164732789</ns3:tel>
+        <ns4:depiction rdf:resource="http://i.imgur.com/7gBx9xW.jpg"/>
+        <ns4:homepage rdf:resource="http://www.hotelsangiltulua.com/"/>
+        <ns2:description>Número de empleados 4, parqueadero, WIFI, aire acondicionado, restaurante, bar.</ns2:description>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Hotel-San-Gil/136459539876626?fref=ts"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns2:name>HOTEL SAN GIL A.S.G</ns2:name>
+        <ns3:adr rdf:resource="https://goo.gl/maps/mnvccgyH36k"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+      </ns2:Individual>
+    </ns1:partOf>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1515768">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#villaAndrea">
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/703084961021235200"/>
+        <ns3:tel>3157400134</ns3:tel>
+        <ns4:depiction rdf:resource="http://i.imgur.com/6BZmK46.jpg"/>
+        <ns3:email>No disponible</ns3:email>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:name>FINCA VILLA ANDREA</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:description>Con capacidad de ocupación para 36 personas, salón para 30 pax, piscina recreativa y amplia zona verde. 
+  En la cual se puede disfrutar de la naturaleza y es un espectacular contraste entre lo moderno y natural.</ns2:description>
+        <ns3:adr rdf:resource="https://goo.gl/maps/4oyzXJAM7xk"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="https://www.facebook.com/pages/Finca-Villa-Andrea/1613195678819015">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://www.tulua.gov.co/apc-aa-files/63373337616336646361623532613064/fotos_casa_campestre_villa_andrea1.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">36</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="https://www.youtube.com/embed/3VVvDfyr-Mo">
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-los-corales-del-corazon-del-valle/tulua/30246268">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">31</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#corales">
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:email>gerencia@hotelcorales.com</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/DxD4mvd25x12"/>
+        <ns4:homepage rdf:resource="http://www.hotelcorales.com/"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702170175773270019"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/fO2SUBp.jpg"/>
+        <ns2:name>HOTEL LOS CORALES DEL CORAZÓN DEL VALLE</ns2:name>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns2:description>Número de empleados 4, WIFI, aire acondicionado.</ns2:description>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:tel>2261771, 3155753404</ns3:tel>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/4564/hotel-los-corales-del-corazon-del-valle">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">42</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://tulua.gov.co/sitio.shtml?apc=B1-1--&amp;x=1475501">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.tulua.gov.co/apc-aa-files/63373337616336646361623532613064/Hacienda_Campoalegre.jpg">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://www.tulua-valle.gov.co/sitio.shtml?apc=m-u-1481397-1481397&amp;x=1475501">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">19</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#haciendaCampoalegre">
+        <ns4:depiction rdf:resource="http://i.imgur.com/aAbWWFf.jpg"/>
+        <ns2:name>HACIENDA CAMPOALEGRE</ns2:name>
+        <ns3:email>No disponible</ns3:email>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/e3kSoVt9nvr"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/703087399254020096"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:tel>2242449, 2315857</ns3:tel>
+        <ns2:description>Ofrece pasadías y hospedaje.  Zona para camping, piscina, kiosco, senderos ecológicos, cultivos de caña, 
+  casa hermosamente amueblada y decorada con elementos típicos vallecaucanos.</ns2:description>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1519556">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/hotel-plaza-am/tulua/30231147">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf#plaza">
+        <ns4:depiction rdf:resource="http://i.imgur.com/7xIv97M.jpg"/>
+        <ns2:description>Número de empleados 2.</ns2:description>
+        <ns3:email>sandy-monik@hotmail.com</ns3:email>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/702170787411787782"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Alojamientos.rdf"/>
+        <ns3:tel>2248895, 3138748347</ns3:tel>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:adr rdf:resource="https://goo.gl/maps/9iibiYeufQC2"/>
+        <ns2:name>HOTEL PLAZA AM</ns2:name>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://rnttulua.confecamaras.co/detalle-establecimiento/39900/hotel-plaza-a-m">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns1:HotelRoom>
+  <ns3:Address rdf:about="https://goo.gl/maps/HReA4aNXqBy">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 20 # 27 - 13, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/3RQ7a3xogmG2">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Calle 26 # 22 - 17, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/ubUAXQ61Fm22">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Calle 24 # 23 - 10, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/Js6tmUGKTM72">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 22 # 24 - 10, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/2cmCsxtyYgK2">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Calle 25 No. 23 - 11, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/9iibiYeufQC2">
+    <ns3:street-address>Carrera 26 # 25 - 47, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/C6nSDynZr2E2">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 24 # 27 - 76, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/GUhkY9BWrct">
+    <ns3:street-address>Carrera 20 # 25 - 95, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/1t6aDroU82p">
+    <ns3:street-address>Calle 26 # 40 - 120, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/DxD4mvd25x12">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 21 # 25 - 59, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/X7PuzjEPnHo">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:street-address>Carrera 24 # 26 - 46, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/e3kSoVt9nvr">
+    <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/Mww8hkjwZ1m">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 27A # 34 - 30, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/cEpDv4PSfuq">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:street-address>Calle 27 # 26 - 60, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/4oyzXJAM7xk">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:street-address>Tv. 12, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/umsKS6jfegF2">
+    <ns3:street-address>Carrera 20 # 25 - 83, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/GPnRmH5o2QA2">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 22 # 25 - 90, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/u9S9qu62uTE2">
+    <ns3:street-address>Calle 25 # 20 - 49, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/o15uZkFJj6y">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Calle 27 # 26 - 50, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/mnvccgyH36k">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Calle 26 # 23 - 78, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/UDBYyZndMkG2">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:street-address>Carrera 20 # 25 - 71, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns1:availabilityTimes>24 Horas</ns1:availabilityTimes>
+  </rdf:Description>
+  <ns3:Address rdf:about="https://goo.gl/maps/M7J3dFxZA6x">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Calle 26 # 26 - 39, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/5kzFwhAvxv92">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:street-address>Calle 25 No. 23 - 35, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/zKvaE1yyFiF2">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:street-address>Calle 26 # 21 - 59, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/r922xissVJm">
+    <ns3:street-address>Calle 27 # 20 - 39, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/DQD9V7bKVHv">
+    <ns3:street-address>Carrera 20 # 25 - 31, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/5Dmqh5co6gS2">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Calle 25 # 22 - 33, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/3jAuXwvcpk52">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 28 # 27 - 10, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/tkxxU1hWMoB2">
+    <ns3:street-address>Carrera 40 # 28 - 151, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/uEdL6nJhAZx">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 27A 42 - 33, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/TrexnwjpRJ12">
+    <ns3:street-address>Carrera 22 # 24 - 51, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:country-name>Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/stex8Ctdpqn">
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:street-address>Carrera 24 # 28 - 51, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/4abPEwStUGo">
+    <ns3:street-address>Carrera 23 # 26 - 41, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+    <ns3:locality>Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/WL3vdXHMcp52">
+    <ns3:locality>Tuluá</ns3:locality>
+    <ns3:street-address>Andalucía-Tuluá, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name>Colombia</ns3:country-name>
+  </ns3:Address>
+</rdf:RDF>

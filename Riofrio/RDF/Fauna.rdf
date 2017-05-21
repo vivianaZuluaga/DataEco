@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/ontology/wo/"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://www.w3.org/2002/07/owl#"
+>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#pumaConcolor">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2435099"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">PUMA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9696"/>
+    <ns2:shortDescription xml:lang="es">Esta especie ha sido reportada en los departamentos de Vaupés, Vichada, Amazonas, Antioquia, Bolivar y Casanare. 
+    El puma concolor caza principalmente de noche y puede adapatarse a varios tipos de hábitat.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/348"/>
+    <ns2:scientificName xml:lang="la">Puma concolor</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/311910"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/31kUvXJ.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cougar"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#falcoPeregrinus">
+    <ns2:scientificName xml:lang="la">Falco peregrinus</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns2:shortDescription xml:lang="es">Está presente en todos los continentes, menos en la Antártida. En Colombia se puede observar a lo largo de todo 
+    el país. Se alimenta de una gran variedad de aves de diferentes tamaños, sus presas más comunes son patos o palomas. Es uno 
+    de los halcones de mayor tamaño de casi todo el continente americano.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4543"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2481047"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:commonName xml:lang="es">HALCÓN</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049164"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/0lD8LSP.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8954"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Peregrine_falcon"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#hydrochoerusHydrochaeris">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5786666"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/326517"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Capybara"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/10149"/>
+    <ns2:commonName xml:lang="es">CHIGÜIRO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Se encuentra en los valles de los principales ríos de Suramérica: Magdalena, Orinoco, Amazonas, Rio de la plata y 
+    Panamá. Se alimenta de hierbas, considerada una especie social. Es el roedor más grande del mundo, su coloración varía entre 
+    gris oliváceo, pardo rojizo y marrón.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/294"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/"/>
+    <ns2:scientificName xml:lang="la">Hydrochoerus hydrochaeris</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#salamandraSalamandra">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/333311"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Fire_salamander"/>
+    <ns2:commonName xml:lang="es">SALAMANDRA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/cJ86d4t.jpg"/>
+    <ns2:scientificName xml:lang="la">Salamandra salamandra</ns2:scientificName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikidatapedia.org/wikidata/Salamandra"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Esta especie se puede encontrar en zonas húmedas, se oculta durante el día bajo las piedras, troncos caídos y hojas. 
+    Puede llegar a medir entre 12-23 cms de longitud y vivir hasta los 20 años.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57571"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2431776"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#amazonaOchrocephala">
+    <ns2:shortDescription xml:lang="es">Esta especie se distribuye en La Guajira, Magdalena, Cesar, Chocó, Amazonas, Bolívar, Caldas, Caquetá, Guaviare, 
+    Antioquia, Atlántico, Córdoba, Meta, Huila y Norte de Santander. Mide 36 cms, pico es pálido, cuerpo es de color 
+    verde principalmente.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Yellow-crowned_amazon"/>
+    <ns2:commonName xml:lang="es">LORO</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Amazona ochrocephala</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/MDcEBUq.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4151"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1178062"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/151761"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2479612"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#spizaetusIsidori">
+    <ns3:depiction rdf:resource="http://i.imgur.com/Bapm5Vn.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5788512"/>
+    <ns2:commonName xml:lang="es">ÁGUILA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/214437"/>
+    <ns2:scientificName xml:lang="la">Spizaetus isidori</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Mide entre 64-74 cms de largo. Es grande y robusta con cabeza, cuello y dorso negros. Con una cresta aguda. Tiene 
+    las alas anchas pero proporcionalmente largas y por debajo son color crema con puntas negras y coberteras rufas. Prefiere 
+    los bosques húmedos montanos. Se alimenta de aves de gran tamaño y también de mamíferos.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=%C3%81guila+crestada"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Black-and-chestnut_eagle"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1048938"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#ajaiaAjaja">
+    <ns2:shortDescription xml:lang="es">Se alimenta principalmente de peces pequeños y en menor medida de insectos acuáticos y camarones. Mide entre 65.8-81.0 
+    cms. El pico tiene forma de cuchara y presenta manchas pequeñas de color verdoso. La cabeza y la parte superior de 
+    la garganta son descubiertas y de color verdoso.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2480804"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Roseate_spoonbill"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/371920"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46390584"/>
+    <ns2:scientificName xml:lang="la">Ajaia ajaja</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns2:commonName xml:lang="es">GARZA PALETA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4221"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/hU5VYB8.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#caprimulgidae">
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/mLHt0HH.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/7971"/>
+    <ns2:commonName xml:lang="es">CHOTACABRAS</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5225"/>
+    <ns2:scientificName xml:lang="la">Caprimulgidae</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/48286"/>
+    <ns2:shortDescription xml:lang="es">Presenta patas débiles, pico pequeño, cerdas rictales conspicuas, ojos grandes ubicados en los lados de la 
+    cabeza y boca grande con paladar muy sensible, la cual puede abrir horizontal y verticalmente utilizando un mecanismo 
+    de extensión de su mandíbula inferior.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Nightjar"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=CAPRIMULGIDAE+-+Chotacabras+y+Guardacaminos"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#anasPlatyrhynchosDomesticus">
+    <ns3:depiction rdf:resource="http://i.imgur.com/loEy21I.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2498056"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8839"/>
+    <ns2:commonName xml:lang="es">PATO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Domestic_duck"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/45886553"/>
+    <ns2:shortDescription xml:lang="es">La cabeza verde del macho contrasta con su pico amarillo, collar blanco, pecho castaño, flancos grises y flecos 
+    rizados negros en la punta de la cola. La hembra es moteada con manchas negras en el pico anaranjado. Consume una gran 
+    variedad de alimentos entre ellos artrópodos, gusanos, insectos, caracoles y algunos productos dados por las personas.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4502"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns2:scientificName xml:lang="la">Anas platyrhynchos domesticus</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#podicepsMajor">
+    <ns3:depiction rdf:resource="http://i.imgur.com/hoEnP7x.jpg"/>
+    <ns2:shortDescription xml:lang="es">Mide 44 cms de largo. Se lo encuentra en cuerpos de agua como lagunas, lagos, arroyos, también en costas de mar. Se 
+    alimenta de peces que pesca sumergiéndose en el agua. Su cuello es largo, de color café rojizo; el pico es largo, 
+    puntiagudo y ligeramente encorvado hacia arriba.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2482062"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Podicipediformes"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">ZAMBULLIDOR</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns2:scientificName xml:lang="la">Podiceps major</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049444"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Great_grebe"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/555330"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#gallinulaChloropus">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5228199"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/Odiee1N.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9123"/>
+    <ns2:shortDescription xml:lang="es">En Colombia se distribuye en Bogotá, La Guajira y Valle del Cauca. Suele medir entre 33-36 cms; su plumaje es de color 
+    gris, más oscuro en la cabeza y el cuello. Las patas se tornan de un color verdoso. Se la puede encontrar en climas 
+    húmedos y tropicales.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Common_moorhen"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049299"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns2:commonName xml:lang="es">GALLINETA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Gallinula chloropus</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4238"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#onychorhynchusCoronatus">
+    <ns2:commonName xml:lang="es">ATRAPAMOSCAS</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Onychorhynchus coronatus</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2483680"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Su longitud es de 16.5 cms. El patrón de coloración es poco notable excepto en las raras ocasiones cuando despliega 
+    la cresta de una forma espectacular. En condiciones naturales se le ha visto abrirla durante el acicalamiento. La 
+    cola es naranja y el cuerpo café claro.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1053240"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/zUmhKr3.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Atrapamoscas+Real"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Royal_flycatcher"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/360224"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#accipiterNisus">
+    <ns2:commonName xml:lang="es">GAVILÁN</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Cuerpo pequeño, con alas redondeadas, patas largas y un pico fuerte y poderoso. La cola siempre es más larga que las 
+    alas, y en el macho adulto presenta unas cuatro a cinco franjas onduladas. Las hembras pueden ser hasta un 25% más 
+    grandes que los machos.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1048393"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Accipiter_nisus"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/XyvXEUa.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2480637"/>
+    <ns2:scientificName xml:lang="la">Accipiter nisus</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/993372"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Eurasian_sparrowhawk"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#turdusMerula">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1177498"/>
+    <ns2:commonName xml:lang="es">MIRLA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Turdus_merula"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9187"/>
+    <ns2:shortDescription xml:lang="es">El macho es de color negro, con el pico de color amarillo y un anillo del mismo color alrededor del ojo, tiene un 
+    vasto repertorio de cantos. La hembra es parda en la parte de arriba, con tintes rojizos en el pecho y mentón gris. 
+    Se alimenta de una gran variedad de insectos, gusanos también consume frutas y, a veces, semillas.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/zEgRzcm.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q21348750"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2490719"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:scientificName xml:lang="la">Turdus merula</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#tremarctosOrnatus">
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">OSO DE ANTEOJOS</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">En comparación con otros osos del mundo, es de tamaño mediano. La coloración del pelaje es uniforme, negra o café 
+    negruzca, con pelo áspero de 55-120 mms de largo. Consume hierbas y brotes.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Tremarctos ornatus</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2433401"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/6Ugecli.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/281"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328076"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9638"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Spectacled_bear"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#ardeidae">
+    <ns2:shortDescription xml:lang="es">Aves de tamaño medio a grande y la mayoría de sus miembros presentan cuellos y patas largas. Sus patas largas y fuertes 
+    les permiten cruzar ríos poco profundos. Se encuentran en regiones tropicales principalmente, se pueden reproducir en 
+    colonias bastante grandes o bien en algunas mas modestas.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Heron"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3685"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/iPehz0A.jpg"/>
+    <ns2:scientificName xml:lang="la">Ardeidae</ns2:scientificName>
+    <ns2:commonName xml:lang="es">GARZA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=ARDEIDAE+-+Garzas"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8901"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/8013"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#manacusManacus">
+    <ns2:scientificName xml:lang="la">Manacus manacus</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2609"/>
+    <ns2:commonName xml:lang="es">SALTARÍN</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/196037"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/White-bearded_manakin"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/919301"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/AGz0NXW.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2487672"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Se distribuye en la región Amazónica, Orinoquía y en toda la región del Caribe. Se alimenta principalmente de bayas y 
+    en menor proporción de insectos. Es una de las especies más ruidosos, es diurna y arbórea. Además de Colombia, también se 
+    la puede encontrar en Argentina, Paraguay, Brasil, Ecuador, Guayanas, Trinidad y Tobago y Venezuela.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#strigiformes">
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/696"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/772159"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/1450"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Strigiformes"/>
+    <ns2:commonName xml:lang="es">BÚHO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Tienen grandes ojos mirando hacia adelante lo que les da la visión amplia y poderosa, algunas especies tienen los 
+    oídos dispuestos asimétricamente en la cabeza, es un ave nocturna que se alimenta de insectos y pequeños roedores.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/bsN0NdG.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Owl"/>
+    <ns2:scientificName xml:lang="la">Strigiformes</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#trochilidae">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5289"/>
+    <ns2:scientificName xml:lang="la">Trochilidae</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Hummingbird"/>
+    <ns2:shortDescription xml:lang="es">También se le conoce como picaflor; el más pequeño de los colibrís mide aproximadamente 6 cms y el más grande 
+    conocido mide 25 cms. Se alimenta del néctar de las flores principalmente rojas o naranjas brillantes, también come 
+    algunos insectos como arañas, avispas, hormigas y escarabajos.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikidatapedia.org/wikidata/Category:Trochilidae"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9244"/>
+    <ns2:commonName xml:lang="es">COLIBRÍ</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/sCgxVN4.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/8021"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#columbidae">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8930"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4464"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Columbidae"/>
+    <ns2:scientificName xml:lang="la">Columbidae</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Se alimentan de legumbres, granos, semillas, desechos de comida que busca en la basura en zonas urbanas, mide 
+    de 29 a 35 cm de largo, son descendientes de las palomas bravías salvajes del sur de Europa. Tienen patas rojizas, 
+    ojos rojos anaranjados, y picos grises.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns2:commonName xml:lang="es">PALOMAS</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/7978"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5233"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/PPPKQQv.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#soricidae">
+    <ns2:commonName xml:lang="es">MUSARAÑAS</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Shrew"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5534"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/GAFfFru.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/8714"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Soricidae"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:scientificName xml:lang="la">Soricidae</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9376"/>
+    <ns2:shortDescription xml:lang="es">Son insectívoros y de cuerpo pequeño, el hocico es alargado y en forma de punta y sus orejas se esconden tras su 
+    pelaje, los ojos son minúsculos. La fecundidad de estos animales es asombrosa.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#caenolestes">
+    <ns2:commonName xml:lang="es">RUNCHOS</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/37886"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikidatapedia.org/wikidata/Caenolestes"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Caenolestes"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/G9BPwh7.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2433359"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/15588"/>
+    <ns2:shortDescription xml:lang="es">Estos animales son insectívoros y nocturnos, son buenos trepadores de árboles y se pueden encontrar en Colombia, 
+    Ecuador y al noroeste de Venezuela, es considerada una especie solitaria.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Caenolestes</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#momotusMomota">
+    <ns2:scientificName xml:lang="la">Momotus momota</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3452"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57426"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2475290"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">BARRANQUEROS</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Blue-crowned_motmot"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1050064"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns2:shortDescription xml:lang="es">Se alimenta de pequeños insectos, también captura pequeños lagartos y serpientes. Se conoce por su cabeza voluminosa, 
+    con una banda azul clara que rodea su coronilla negra y se vuelve morada en la nuca; se encuentra en bosques húmedos y 
+    secos.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/dc5K3Nd.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#lutrinae">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2433750"/>
+    <ns2:shortDescription xml:lang="es">Animal de costumbres acuáticas, con abundante pelaje impermeable, esto le permite manter su calor corporal. Se alimenta 
+    principalmente de peces, aunque también de anfibios e invertebrados acuáticos.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">NUTRIA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2849553"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:scientificName xml:lang="la">Lutrinae</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/169417"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikidatapedia.org/wikidata/Otter"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/rqc4d42.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Otter"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#melopsittacusUndulatus">
+    <ns2:scientificName xml:lang="la">Melopsittacus undulatus</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2479798"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/9Iv5waw.jpg"/>
+    <ns2:commonName xml:lang="es">PERICO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Budgerigar"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13146"/>
+    <ns2:shortDescription xml:lang="es">Se alimenta preferiblemente de semillas de gramíneas y cultivos. Esta ave puede vivir hasta los 21 años de edad 
+    aproximadamente, es muy común en Autralia pero se ha introducido en otras regiones porque es usada como mascota.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/914969"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5340"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#edalorhinaPerezi">
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2735"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/318278"/>
+    <ns2:commonName xml:lang="es">RANA VAQUITA</ns2:commonName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Se la puede encontrar en los bosques húmedos y zonas inundables. La piel sobre el vientre es lisa, el pecho y vientre 
+    son negros, es una especie pequeña y está presente en Ecuador, Colombia, Brasil y Perú.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Edalorhina_perezi"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/YTwHFDS.jpg"/>
+    <ns2:scientificName xml:lang="la">Edalorhina perezi</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2423530"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1036652"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#nasuaNasua">
+    <ns2:shortDescription xml:lang="es">Partes superiores rojizo encendido; cola con anillos blanquecinos y negros. Se encuentra en Colombia, Ecuador, Perú, 
+    Argentina y las Guayanas. Su alimentación consiste principalmente de frutas y raíces, pero también consume pequeños 
+    invertebrados. Habita bósques de zona tropical y sub-tropical.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9651"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2433536"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/South_American_coati"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/CD9AIqw.jpg"/>
+    <ns2:scientificName xml:lang="la">Nasua nasua</ns2:scientificName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">CUSUMBO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328601"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3490"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf#ortalisRuficauda">
+    <ns2:commonName xml:lang="es">GUACHARACA</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Mide aproximadamente 53 cms; carece de plumas en la garganta cuya piel es roja y las plumas de la cola forman un 
+    penacho largo y delgado. Es principalmente herbívora y furgívora, se alimenta de frutos, brotes y hojas. Las hembras 
+    de esta especie ponen entre dos y cuatro huevos.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/301604"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Rufous-vented_chachalaca"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5229447"/>
+    <ns2:scientificName xml:lang="la">Ortalis ruficauda</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4256"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/bmlBCxg.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1050075"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Fauna.rdf#bubulcusIbis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Fauna.rdf#musMusculus">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+  </rdf:Description>
+</rdf:RDF>

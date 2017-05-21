@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/ontology/wo/"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://www.w3.org/2002/07/owl#"
+>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#passifloraEdulis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf#solanumLycopersicum">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2930137"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/pv31wH0.jpg"/>
+    <ns2:scientificName xml:lang="la">Solanum lycopersicum</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">TOMATERA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4081"/>
+    <ns2:shortDescription xml:lang="es">Planta anual de tamaño muy variable tiene tallos ramificados con pelos cortos; el fruto (el tomate),  es una 
+    baya de forma globosa y de unos 8 cms de diámetro, verde cuando es inmadura y que toma un color rojo intenso 
+    con la maduración.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Solanum_lycopersicum"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Solanum_lycopersicum"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/392557"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#cynodonPlectostachyus">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#saccharumOfficinarum">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf#passifloraTarminiana">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/483749"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5741930"/>
+    <ns2:scientificName xml:lang="la">Passiflora tarminiana</ns2:scientificName>
+    <ns2:commonName xml:lang="es">CURUBO</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/KvyxSz2.jpg"/>
+    <ns2:shortDescription xml:lang="es">Planta enredadera de tallo cilíndrico pubescente, presenta flores color rosado pálido con blanco, corona de 
+    filamentos vinotinto con blanco y estambres amarillos. El fruto, denominado curuba, es una baya oblonga de color 
+    amarillo al madurar, rico en vitamina C.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Passiflora_tarminiana"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Curuba"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3587792"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#perseaAmericana">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#zeaMays">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#mangiferaIndica">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#theobromaCacao">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#citrusSinensis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#capsicumAnnuum">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#caricaPapaya">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#citrusNobilis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#musaParadisiaca">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#citrusLimon">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ingaEdulis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+  </rdf:Description>
+</rdf:RDF>

@@ -1,0 +1,594 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/ontology/wo/"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://www.w3.org/2002/07/owl#"
+>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#ramphocelusFlammigerus">
+    <ns2:scientificName>Ramphocelus flammigerus</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Ramphocelus_flammigerus"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:shortDescription>Mide en promedio 19 cms de longitud. El macho es negro con una mancha en la espalda de color
+    rojo escarlata; el pecho anaranjado a rojo y el vientre amarillo intenso. El pico es azul 
+    cobalto o blancuzco con punta negra. La hembra tiene el dorso marrón oliváceo con pintas oscuras; 
+    pecho y vientre amarillo claro.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1052874"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Flame-rumped_tanager"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/udtsGTS.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1742462"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2488439"/>
+    <ns2:commonName>SANGRETORO LOMO DE FUEGO</ns2:commonName>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#hypsiboasPugnax">
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q4672609"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1494916"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/Zc9L5br.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1019101"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:commonName>RANA PLATANERA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://periodicolalenguadominicana.blogspot.com.co/2015/08/la-rana-platanera.html"/>
+    <ns2:scientificName>Hypsiboas pugnax</ns2:scientificName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:shortDescription>Es una especie de anfibio de la familia Hylidae. Habita en gran parte de nuestro territorio, encontrándose 
+    en los bosques, fincas, a la orilla de riachuelos, cultivos y hasta en los jardines de nuestras casas, 
+    sin olvidar por supuesto los platanales.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2428832"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#leptotilaPlumbeiceps">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/135630"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/0ViaN29.jpg"/>
+    <ns2:commonName>PALOMA MONTARAZ CABECIGRÍS</ns2:commonName>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2496075"/>
+    <ns2:scientificName>Leptotila plumbeiceps</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Grey-headed_dove"/>
+    <ns2:shortDescription>La paloma montaraz cabecigrís tiene un tamaño de 25 cms de largo y pesa 155 grs. El dorso y las alas son de color 
+    marrón oliva, y las partes inferiores son de color sombreado en blanco. La cola es amplia con punta de color blanco.
+    Las aves jóvenes carecen de color gris en la cabeza.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Leptotila_plumbeiceps"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049748"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#hemidactylusFrenatus">
+    <ns2:scientificName>Hemidactylus frenatus</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/qJ5aRSn.jpg"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://bios.conabio.gob.mx/especies/8000523.pdf"/>
+    <ns2:commonName>GECKO CASERO COMÚN</ns2:commonName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/793350"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5959976"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Hemidactylus_frenatus"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/47729"/>
+    <ns2:shortDescription>La cola es ligeramente más larga que la longitud hocico cloaca. La cabeza, garganta y cuerpo se encuentran 
+    cubiertos por pequeñas escamas granulares. La coloración dorsal y ventral es blanco amarillento. No crece más de 6-15 cms, 
+    y vive cinco años.</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#kinosternonLeucostomum">
+    <ns2:shortDescription>Tiene el caparazón de color marrón oscuro. El plastrón es amarillo o amarillo con manchas oscuras.
+    La cabeza es oscura, con la mandíbula de color amarillo claro y una mancha amarilla en ambos
+    lados de la cabeza.</ns2:shortDescription>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/White-lipped_mud_turtle"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://www.ecured.cu/Tortuga_de_Ci%C3%A9naga_Peque%C3%B1a"/>
+    <ns2:commonName>TORTUGA DEL FANGO DE BOCA BLANCA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/792998"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2442350"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/dTOXhTA.jpg"/>
+    <ns2:scientificName>Kinosternon leucostomum</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/641010"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#leptodactylusInsularum">
+    <ns2:scientificName>Leptodactylus insularum</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/CnxC1e0.jpg"/>
+    <ns2:commonName>RANA SAPO BOLIVIANO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/326190"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://panamasilvestre.blogspot.com.co/2013/05/leptodactylus-insularum-leptodactylidae.html"/>
+    <ns2:shortDescription>El macho es un poco más pequeño que la hembra y es de al menos 10 cms del hocico a la cloaca y la hembra hasta 12. 
+    El dorso es de color marrón oscuro con manchas marrones grandes. Una franja blanca está presente a lo 
+    largo del labio superior. La superficie ventral es de color blanco a crema.</ns2:shortDescription>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Leptodactylus_insularum"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/8819757"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5217608"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#leptodactylusColombiensis">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5217567"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Leptodactylus_colombiensis"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/334546"/>
+    <ns2:scientificName>Leptodactylus colombiensis</ns2:scientificName>
+    <ns2:commonName>RANA CRIOLLA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://anfibiosdelvalledelcauca.com/index.php?option=com_k2&amp;view=item&amp;id=93:leptodactylus-colombiensis&amp;Itemid=434"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/AHG1ELR.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1615739"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:shortDescription>Amplia distribución en la región Andina y cuenca del Orinoco en los departamentos de Amazonas,
+    Casanare, Antioquia, Boyacá, Valle del Cauca, entre otros. Los machos presentan dos espinas medianas 
+    en cada pulgar y hendiduras bucales bien desarrolladas. La superficie dorsal es lisa y de color marrón a oliva.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#chrysolampisMosquitus">
+    <ns2:scientificName>Chrysolampis mosquitus</ns2:scientificName>
+    <ns2:commonName>TUCUSITO RUBÍ</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/472795"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Cabeza+de+Rub%C3%AD"/>
+    <ns2:shortDescription>Es un colibrí pequeño, de pico corto. Sus colores van desde el negro en su mayor parte, 
+    con un distintivo color rojo en la parte de la coronilla. También posee tonalidades naranja
+    y café oliva oscuro. Se lo halla en la Cordillera Occidental y otros lugares con tierras áridas.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/ZefaXVe.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/http://dbpedia.org/page/Ruby-topaz_hummingbird"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1048778"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2476346"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#anasCyanoptera">
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:shortDescription>Pato pequeño de 38-43 cms de longitud. El macho tiene ojos rojos, espalda 
+    negruzca moteada, rabadilla y cola negras; la hembra tiene el color del cuerpo más oscuro, el pico más grande y 
+    espatulado y la frente más pronunciada, sus ojos son de color avellana.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Pato+Colorado"/>
+    <ns2:scientificName>Anas cyanoptera</ns2:scientificName>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:commonName>PATO COLORADO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cinnamon_teal"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/w8vAGpk.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1048954"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/75840"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2498139"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#gonatodesAlbogularis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/puGypO1.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/460622"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Yellow-headed_gecko"/>
+    <ns2:scientificName>Gonatodes albogularis</ns2:scientificName>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:shortDescription>Los adultos tienen una longitud total de sólo 6 cms. Es activo durante el día. Los machos son muy visibles,
+    con la cabeza amarilla y el cuerpo de color azul oscuro a negro. A temperaturas más frías durante la noche,
+    sus colores se desvanecen. Las hembras son lagartos moteados grises, a menudo con una línea clara en el cuello.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2447609"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/794091"/>
+    <ns2:commonName>GECO CABEZA AMARILLA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.waza.org/es/zoo/elegir-una-especie/reptiles/lagartos-y-tuatara/gonatodes-albogularis"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#drymarchonMelanurus">
+    <ns2:shortDescription>Especie de serpiente colubridae no venenosa. Puede tener una longitud de 180-240 cms. Tiene escamas suaves 
+    predominantemente de color marrón claro, volviéndose negro hacia la cola. La parte inferior es a menudo de color 
+    más claro.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1396887"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:scientificName>Drymarchon melanurus</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Drymarchon_melanurus"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2452321"/>
+    <ns2:commonName>CAZADORA RABO NEGRO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/790030"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Drymarchon_melanurus"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/kzLgBeT.jpg"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#typhlonectesNatans">
+    <ns2:scientificName>Typhlonectes natans</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8456"/>
+    <ns2:shortDescription>Es un reptil escamoso adaptado a la vida en el subsuelo, a la vista son parecidos a las lombrices de
+    tierra. El cuerpo es de forma cilíndrica, es anillado y no tiene patas. La cabeza tiene forma 
+    trapezoidal y está separada del cuerpo por un surco. Pasan por una sola muda de piel.</ns2:shortDescription>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://animales-salvajes.buscamix.com/web/content/view/189/262/"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/kquFtEi.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2430957"/>
+    <ns2:commonName>CULEBRA CIEGA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/333734"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Typhlonectes_natans"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#coragypsAtratus">
+    <ns2:scientificName>Coragyps atratus</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/zU1wL0J.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Black_vulture"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/33614"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2481942"/>
+    <ns2:shortDescription>Mide aproximadamente entre 56 y 66 cms, tiene un peso en la hembra de 1940 grs y en el macho un peso de 1180 grs.
+    Es un ave compacta de cola corta cuadrada y de alas anchas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049011"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:commonName>GALLINAZO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Gallinazo+Com%C3%BAn"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#liophisLineatus">
+    <ns2:scientificName>Liophis lineatus</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/681"/>
+    <ns2:commonName>GUARDACAMINOS O ESTERILLA</ns2:commonName>
+    <ns2:shortDescription>Especie de serpiente no venenosa e inofensiva. Se caracteriza por tener el dorso amarillo brillante con 
+    tres líneas longitudinales negras dorsales: una vertebral ancha y una lateral a cada lado. La cabeza es gris olivácea con 
+    línea pre-postocular negra.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8370884"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/aaLMr6S.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/457860"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/380619"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5074452"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#bosTaurus">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9913"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://animalesexoticosdezumba.blogspot.com.co/2016/05/vacas-de-zumbahua.html"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328699"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/jisqkqN.jpg"/>
+    <ns2:scientificName>Bos taurus</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Taurine_cattle"/>
+    <ns2:commonName>VACAS</ns2:commonName>
+    <ns2:shortDescription>Las vacas pesan más de media tonelada y pueden medir hasta 1.5 ms de altura.
+    Se cree que su domesticación comenzó en Medio Oriente hace cerca de 10.000 años.
+    La cría y el uso de la vaca forman parte de la ganadería bovina.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2441022"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#thamnophilusMultistriatus">
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Bar-crested_antshrike"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1053773"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5959202"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/ZTiTTvy.jpg"/>
+    <ns2:scientificName>Thamnophilus multistriatus</ns2:scientificName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:commonName>BATARÁ CRESTIBARRADO</ns2:commonName>
+    <ns2:shortDescription>Mide 15,7 cms. Tiene los ojos amarillos. El macho tiene la coronilla blanca y negra. La hembra es castaña 
+    por encima, lados de la cabeza y collar nucal estriado blanco y negro, partes inferiores en negro y blanco.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/419668"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Barat%C3%A1+carcajada"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#rhinellaMarina">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cane_toad"/>
+    <ns2:commonName>SAPO NEOTROPICAL</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/p9v212l.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Rhinella_marina"/>
+    <ns2:shortDescription>Es muy grande alcanzando una longitud promedio de 10-15 cms, y en algunos casos mucho más grande. La piel del sapo 
+    es seca y verrugosa. Tiene distintas protuberancias que comienzan encima de los ojos y terminan en el hocico. Pueden ser 
+    grises, marrones, rojo-marrones u olivas en color, con patrones que varían.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:scientificName>Rhinella marina</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5216933"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8386"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/333309"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#sciurusGranatensis">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/313735"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5219666"/>
+    <ns2:shortDescription>Las hembras adultas pesan aproximadamente 465grs, durante la temporada lluviosa 
+    el color del pelaje es rojizo mientras que en tiempo seco cambia a un color más anaranjado, presentan el dorso 
+    color ocre y el vientre varía de blanco a anaranjado. La cola es ocre con salpicaduras de negro.</ns2:shortDescription>
+    <ns2:commonName>ARDILLA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/226870"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/oJFUM1y.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:scientificName>Sciurus granatensis</ns2:scientificName>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://ortizcamachoandrea.blogspot.com.co/2011/11/ardilla-sciurus-granatensis.html"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Sciurus_granatensis"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#colostethusFraterdanieli">
+    <ns3:depiction rdf:resource="http://i.imgur.com/f9GcVuo.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikidatapedia.org/wikidata/Colostethus_fraterdanieli"/>
+    <ns2:commonName>RANA SILBADORA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2428968"/>
+    <ns2:scientificName>Colostethus fraterdanieli</ns2:scientificName>
+    <ns2:shortDescription>Especie de rana de la famila Dendrobatidae, es endémica en los Andes de Colombia (Coordillera central
+    y Occidental). Vive en el suelo cerca de los arroyos en los bosques de niebla y en los bosques tropicales secos.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/384860"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Colostethus_fraterdanieli"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/313650"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#leptodactylusFragilis">
+    <ns2:scientificName>Leptodactylus fragilis</ns2:scientificName>
+    <ns2:commonName>RANA DE BIGOTES</ns2:commonName>
+    <ns2:shortDescription>Especie de anfibio anuro de la familia Leptodactylidae.
+    Es nativo del sur de Norteamérica, América Central y el norte de América del Sur.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/MlgLngs.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/349990"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1038865"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Leptodactylus_fragilis"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Leptodactylus_fragilis"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5217587"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#capraAegagrusHircus">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:commonName>CABRA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9925"/>
+    <ns2:shortDescription>La cabra doméstica proviene de la forma salvaje Capra aegragus cretica, originaria de la cuenca mediterránea.
+    Las cabras son poco exigentes en su alimentación, pueden comer cualquier materia vegetal: hierba, hojas, brotes. 
+    Se pueden levantar sobre las patas traseras para llegar a las hojas o frutos de los árboles.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/r3z36ib.jpg"/>
+    <ns2:scientificName>Capra aegagrus hircus</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.zoobarcelona.cat/es/conoce-el-zoo/animales-por-categorias/detalle-ficha/animal/cabra-domestica/"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Goat"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2870013"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4409366"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#ardeaAlba">
+    <ns2:shortDescription>Mide entre 88-104 cms, pesa 900 grs alcanzando algunas el kilogramo. En promedio, los machos son 
+    ligeramente más grandes que las hembras.</ns2:shortDescription>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/XcvcXho.jpg"/>
+    <ns2:scientificName>Ardea alba</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:commonName>GARZA BLANCA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Great_egret"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/110620"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7913436"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://garzablancareal.blogspot.com.co/"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1178488"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#mabuyaUnimarginata">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5960492"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5128682"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/155309"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:shortDescription>Es un scíncido grande, hasta 75 mms. Esta lagartija tiene cuerpo elongado, cilíndrico y con notoria 
+    reducción en el tamaño de los miembros. El cuerpo está cubierto por escamas cicloides brillantes. 
+    La coloración dorsal es café bronceado, tiene una franja lateral gris blancuzca que se origina en el hocico.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/458326"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/1tSW3yy.jpg"/>
+    <ns2:commonName>ESQUINCO ESPALDA DORADA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.sinia.net.ni/multisites/NodoBiodiversidad/images/NodosTematicos/NodoBiodiversidad/Docuementos/Listado%20de%20Reptiles%20de%20Nicaragua.pdf"/>
+    <ns2:scientificName>Mabuya unimarginata</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#iguanaIguana">
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2459658"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Iguana_iguana"/>
+    <ns2:shortDescription>Puede medir de 1.5-2 ms. El color verde de su piel le permite confundirse perfectamente con la vegetación.
+    Su piel está recubierta de pequeñas escamas; tiene una cresta dorsal que recorre desde la cabeza 
+    hasta la cola. Patas muy cortas y cinco dedos en cada pata, acabados en garras muy afiladas. Cola larga.</ns2:shortDescription>
+    <ns2:commonName>IGUANA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/793235"/>
+    <ns2:scientificName>Iguana iguana</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/0hpaKMx.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8517"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Iguana_iguana"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#gallusGallus">
+    <ns2:shortDescription>Tiene una cresta en el píleo y unos lóbulos que cuelgan a ambos lados del pico. Los machos son más grandes, 
+    miden aproximadamente 50 cms de altura y llegan a pesar hasta 4 kgs. Las gallinas no suelen medir más de 40 cms de altura 
+    y apenas llegan a 2 kg de peso. Poseen una coloración notablemente menos llamativa.</ns2:shortDescription>
+    <ns2:scientificName>Gallus gallus</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/4GG3jmG.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/208526"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Red_junglefowl"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:commonName>POLLO DE ENGORDE</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Gallus_gallus_domesticus"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1049263"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5227769"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#cnemidophorusLemniscatus">
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:commonName>COTEJOS O LAGARTIJAS AZULES</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/SwAA6fV.jpg"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Rainbow_whiptail"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/68354"/>
+    <ns2:shortDescription>Se encuentra en los paises de Colombia, Venezuela, Ecuador, Panamá, Guyana y Brasil. 
+    Es un lagarto de garganta azul y cuerpo de puntos blancos.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5227564"/>
+    <ns2:scientificName>Cnemidophorus lemniscatus</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.tayrona.org/taganga_fauna_marina/cordados/cnemidophorus_lemniscatus/cnemidophorus_lemniscatus.htm"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1056806"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#ichthyoelephasLongirostris">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2352119"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://kate-caicedo-r.blogspot.com.co/2013/03/descripcion-especie-ichthyoelephas.html"/>
+    <ns2:scientificName>Ichthyoelephas longirostris</ns2:scientificName>
+    <ns2:shortDescription>Pez similar al bocachico, pero que se distingue por su boca más prominente, con el labio superior mucho más grueso, 
+    los ojos relativamente pequeños y por la ausencia de la espina predorsal, característica de los bocachicos.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/lagzgEh.jpg"/>
+    <ns2:commonName>BESUDO</ns2:commonName>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1577991"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/220548"/>
+    <ns5:sameAs rdf:resource="https://www.wikidatadata.org/wikidata/Q5546624"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#lithobatesCatesbeianus">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/American_bullfrog"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/inUup4b.jpg"/>
+    <ns2:scientificName>Lithobates catesbeianus</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/330963"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8400"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://wikidatafaunia.com/anfibios/rana-toro/"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:commonName>RANA TORO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2427091"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:shortDescription>Es un anfibio de gran tamaño de entre 10-20 cms de longitud hocico-cloaca y un peso entre 60-900 grs. 
+    Sus larvas son excepcionalmente grandes, pudiendo medir entre 15 y 18 cms. Su cabeza es ancha y plana y
+    presenta un pliegue de piel a cada lado que corre desde detrás del ojo hasta el tímpano, bordeándolo.</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#chelydraAcutirostris">
+    <ns3:depiction rdf:resource="http://i.imgur.com/JCOlQxj.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/South_American_snapping_turtle"/>
+    <ns2:scientificName>Chelydra acutirostris</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8330787"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1243673"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:commonName>TORTUGA MORDEDORA</ns2:commonName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/8474"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://animalesanimdo.blogspot.com.co/2015/12/reptiles-reptiles-ecuador-se-ubica-en.html"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:shortDescription>Pesa de 4.5-16 kgs Su caparazón  mide de 20-47 cms y una cola tan larga como el caparazón. La cola tiene escamas 
+    en forma de sierra. La piel es gris bronce con algunas manchas amarillas o blancas.</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#gallusDomesticus">
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.granjasantaisabel.com/gallinas-ponedoras.php"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8500968"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:shortDescription>Las gallinas denominadas ponedoras provienen de cruces a tres vías de razas puras (Leghor, Rhode Island, 
+    New Hampshire, Ply Mouth rock, Wyandontte y Sussex Armiñada) y más recientemente con razas sintéticas recesivas 
+    para obtener pollitos autoxesados.</ns2:shortDescription>
+    <ns2:scientificName>Gallus domesticus</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46340183"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/XYrd1QJ.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:commonName>GALLINAS PONEDORAS</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Chicken"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9031"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#picumnusGranadensis">
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5228793"/>
+    <ns2:scientificName>Picumnus granadensis</ns2:scientificName>
+    <ns2:commonName>CARPINTERO PUNTEADO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/56080"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/WiMJbSs.jpg"/>
+    <ns2:shortDescription>Mide de 8-10 cms y pesa de 12-13 grs. Presenta pico negro y corto. Tiene cuello café grisáceo y partes 
+    superiores teñidas de oliva. La superficie superior de su cola es café oscura con estrías en los márgenes 
+    internos del par central de plumas. Mejillas, barbilla y garganta blanquecinos con puntos negros.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1177576"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Greyish_piculet"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.icesi.edu.co/wikidata_aves_colombia/tiki-index.php?page=Carpinterito+Punteado+-+Picumnus+granadensis"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#oryzoborusCrassirostris">
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikidatapedia.org/wikidata/Oryzoborus_crassirostris"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2492244"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/200159"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/maOVQKf.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:shortDescription>Mide 13,5 cms de largo. Se caracteriza por su pico robusto y ancho en la base aunque relativamente corto 
+    de color gris. Los machos tienen el plumaje totalmente negro, a excepción de una pequeña 
+    mancha blanca en las alas, mientras que las hembras son de color pardo grisáceo.</ns2:shortDescription>
+    <ns2:commonName>SEMILLERO PIQUIGRANDE</ns2:commonName>
+    <ns2:scientificName>Oryzoborus crassirostris</ns2:scientificName>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Large-billed_seed_finch"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1050364"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#anolisAuratus">
+    <ns2:scientificName>Anolis auratus</ns2:scientificName>
+    <ns2:shortDescription>Alcanza una longitud de entre 52 y 58 mms, es un lagarto pequeño con el cuerpo corto y comprimido; 
+    las extremidades son largas; la cabeza es alargada y ligeramente deprimida en la parte frontal.
+    La coloración es café-gris o café-chocolate con una raya amarilla brillante en ambos lados.</ns2:shortDescription>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:commonName>CAMALEÓN SABANERO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2467661"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/795890"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/323568"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2821"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Anolis_fuscoauratus"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/GmRbMrK.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#susScrofa">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Banded_pig"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/9823"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/tAAqVR5.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:shortDescription>Mamífero que puede encontrarse en estado salvaje o doméstico. Se trata de un cuadrúpedo con patas cortas 
+    y pezuñas, un cuerpo pesado, hocico flexible y cola corta.</ns2:shortDescription>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/328663"/>
+    <ns2:scientificName>Sus scrofa</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7705930"/>
+    <ns2:commonName>CERDO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.dane.gov.co/files/investigaciones/boletines/sacrificio/CP_sacrif_Itrim16.pdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#dendropsophusColumbianus">
+    <ns2:scientificName>Dendropsophus columbianus</ns2:scientificName>
+    <ns2:commonName>RANA COMÚN</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://anfibiosdelvalledelcauca.com/index.php?option=com_k2&amp;view=item&amp;id=94:dendropsophus-columbianus&amp;Itemid=450"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Dendropsophus_columbianus"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/0vrePDz.jpg"/>
+    <ns2:shortDescription>La longitud rostro-cloacal del macho varía entre los 25.8–29.3 mm y en las hembras varía entre
+    los 30.6–35.4 mms; hocico corto y redondeado; tímpano visible; piel del dorso de textura granular
+    fina y vientre granular; ojos grandes con pupila negra e iris de color bronce a cobre rojizo.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2428577"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/331568"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1033692"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#prochilodusMagdalenae">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2352186"/>
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/994607"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://elbochachico.blogspot.com.co/2011/03/caracteristicas.html"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/148989"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Prochilodus_magdalenae"/>
+    <ns2:shortDescription>Pez migratorio de agua dulce, su tamaño es mediano, los ejemplares más grandes pueden alcanzar 
+    los 60 cms de longitud, su boca es pequeña, carnosa y prominente lo cual da origen a su nombre común.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/HnMP0Yw.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns2:commonName>BOCACHICO</ns2:commonName>
+    <ns2:scientificName>Prochilodus magdalenae</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#chelonoidisCarbonaria">
+    <ns2:kingdomName>Animal</ns2:kingdomName>
+    <ns2:commonName>MORROCOY</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/50047"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/794307"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.opepa.org/index.php?option=com_content&amp;task=view&amp;id=101&amp;Itemid=29"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/u9TOI9Z.jpg"/>
+    <ns2:scientificName>Chelonoidis carbonaria</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5220282"/>
+    <ns2:shortDescription>La tortuga Morrocoy es terrestre y vive durante muchos años, puede alcanzar una longitud de hasta 51 cms 
+    y su caparazón es alto con forma de cúpula, éste tiene el fondo de color negro y centros de las escamas 
+    amarillo-naranjas o naranja-rojizos.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Chelonoidis_carbonaria"/>
+  </ns2:TaxonName>
+</rdf:RDF>

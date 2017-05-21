@@ -165,5 +165,3 @@ lugares(
 )'''
 
 #print (g.serialize(format="pretty-xml")) 
-
-

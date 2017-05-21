@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://purl.org/NET/c4dm/timeline.owl#"
+  xmlns:ns2="http://umbel.org/umbel#"
+  xmlns:ns3="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns5="http://www.w3.org/2006/vcard/ns#"
+>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#baileDiciembre">
+    <rdfs:seeAlso rdf:resource="http://turismotulua.blogspot.com.co/2014/07/caracterizacion-del-inventario.html"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/WHPFE1ukYHK2">
+        <rdfs:label xml:lang="es">La Iberia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:label xml:lang="es">BAILE DEL 31 DE DICIEMBRE</rdfs:label>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/7heSlcY.jpg"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:comment xml:lang="es">Se reúnen las familias de la vereda y hacen un baile con cena, concursos y una actividad muy llamativa, que consiste en 
+  leer un pergamino con refranes de los personajes típicos de la región, también bebidas típicas, buñuelos, natilla y dulce manjar 
+  blanco. Cada una de las familias lleva un muñeco “Año viejo”, y los queman simultáneamente a media noche.</rdfs:comment>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767900391610650625">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-12-31T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#ganeX5">
+    <ns3:time>
+      <ns1:Interval rdf:about="http://ganecentro.com/noticias/revive-la-emocion-de-desafio-guerreros-ganex5/">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-07-03T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/UwspEG-Bu6A"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/yRKmOVw.jpg"/>
+    <rdfs:comment xml:lang="es">Evento en el que se busca fomentar la practica del deporte para tener una vida saludable. Es un recorrido en el que se 
+  pondrá a prueba la fortaleza mental, resistencia física, agilidad y trabajo en equipo. Realizado en el Rancho Las Palmas.</rdfs:comment>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+    <rdfs:label xml:lang="es">DESAFÍO GUERREROS GANE X5</rdfs:label>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/nPXddjXKX2n">
+        <rdfs:label xml:lang="es">La Rivera, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:seeAlso rdf:resource="http://ganecentro.com/noticias/desafio-guerreros-gane-x5/"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#fiestasCampesino">
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+    <rdfs:comment xml:lang="es">Es la fiesta anual donde se reúnen todos los habitantes de la vereda, familias y amigos; se realizan actividades típicas 
+  como cabalgatas, presentación de espectáculos, marrano engrasado, competencias infantiles y muestras de los campesinos.</rdfs:comment>
+    <ns4:depiction rdf:resource="http://i.imgur.com/52ldlxo.jpg"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767898777864794113">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-09-18T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/qqkBHrAmJa12">
+        <rdfs:label xml:lang="es">La Iberia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:label xml:lang="es">FIESTAS DEL CAMPESINO</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://elperiodicowebregion.blogspot.com.co/2010/09/fiestas-del-campesino-y-la-alegria.html"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#parapente">
+    <rdfs:label xml:lang="es">VUELOS EN PARAPENTE</rdfs:label>
+    <rdfs:comment xml:lang="es">Vuelos en parapente desde $100.000 hasta $120.000, incluyen fotos, video, subida al lugar de encuentro. Disfruta 
+  una gran sensación al volar de 20-30 minutos. Punto de encuentro Parador la Iberia. Para más informacion llamar al 3165440241</rdfs:comment>
+    <ns4:depiction rdf:resource="http://i.imgur.com/1Z0meja.jpg"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767913157444657152">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P365D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-01-01T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/zVAgYrfPCY0"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/iSLVDv8eTWC2">
+        <rdfs:label xml:lang="es">La Iberia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/Club-de-parapente-tulua-528121404021970"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#fiestasPicacho">
+    <ns4:depiction rdf:resource="http://i.imgur.com/tt8Nwkr.jpg"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/5y7xQPvYVNL2">
+        <rdfs:label xml:lang="es">El Picacho, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns3:time>
+      <ns1:Interval rdf:about="http://www.eltabloide.com.co/category/picacho/">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-14T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:comment xml:lang="es">Cabalgata, reinado de la vaca, ciclopaseo, exhibición de parapentes, festival gastronómico, artistas y competencias 
+  de ciclomontañismo.</rdfs:comment>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:seeAlso rdf:resource="http://www.eltabloide.com.co/vibra-el-morro-de-el-picacho/"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+    <rdfs:label xml:lang="es">FIESTAS DEL RETORNO AL MORRO DEL PICACHO</rdfs:label>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#nacionalCiclomontanismo">
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/a3-x_tlZYNE"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="http://www.coc.org.co/all-news/tulua-sera-sede-de-la-ii-valida-nacional-de-mtb/">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-06T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:label xml:lang="es">VÁLIDA NACIONAL DE CICLOMONTAÑISMO</rdfs:label>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/wYtUHVgpVTP2">
+        <rdfs:label xml:lang="es">La Rivera, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:comment xml:lang="es">Evento en donde los ciclomontañistas (categorias infantil, prejuvenil, master) compiten por los puntos que entrega la 
+  válida. Una pista seca de mucha habilidad, manejo, técnica y fuerza. Realizada en el Rancho Las Palmas.</rdfs:comment>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/Umldzk8.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.mtbcolombia.com/noticias/item/el-valle-se-prepara-para-la-valida-nacional"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#fiestasReyes">
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/qFaNLL7zQ2C2">
+        <rdfs:label xml:lang="es">La Marina, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns4:depiction rdf:resource="http://i.imgur.com/438LfFg.jpg"/>
+    <rdfs:comment xml:lang="es">La programación de las festividades incluye Cabalgata, feria ganadera y equina, venta de gastronomía típica, juegos 
+  tradicionales de la cultura campesina como "subir un tronco engrasado", carrera de encostalados, entre otros. Se dispone 
+  todo el tiempo de una tarima para presentación de grupos artísticos.</rdfs:comment>
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/TswybiVKASo"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:seeAlso rdf:resource="http://www.tulua.gov.co/sitio.shtml?apc=m1v1--&amp;x=1480713"/>
+    <rdfs:label xml:lang="es">FIESTAS DE REYES Y FERIA GANADERA</rdfs:label>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767897508722991104">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-07T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#nacionalVaqueria">
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/bPDpDWeVzEs"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/lzsE2Ig.jpg"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/rchRKxTBmF62">
+        <rdfs:label xml:lang="es">La Rivera, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:comment xml:lang="es">Evento del carnaval de apertura de la Feria de Tuluá. Participan vaqueros de varias regiones del país. Realizado en el 
+  Rancho Las Palmas.</rdfs:comment>
+    <ns3:time>
+      <ns1:Interval rdf:about="http://elperiodicowebtulua.blogspot.com.co/2015/06/nacional-de-vaqueria-en-tulua.html">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-30T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:label xml:lang="es">NACIONAL DE VAQUERÍA</rdfs:label>
+    <rdfs:seeAlso rdf:resource="http://elperiodicowebregion.blogspot.com.co/2015/06/desde-el-llano-llegaron-familias.html"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf#diaVictimas">
+    <rdfs:comment xml:lang="es">Homenaje a las víctimas del paramilitarismo.</rdfs:comment>
+    <ns4:depiction rdf:resource="http://i.imgur.com/4VEPRb1.jpg"/>
+    <rdfs:label xml:lang="es">DÍA DE LAS VÍCTIMAS</rdfs:label>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/3KL8SgdMwyM"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/Xsj8ugEpHXv">
+        <rdfs:label xml:lang="es">La Moralia, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/767903221813772288">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-08-04T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:seeAlso rdf:resource="http://www.eltabloide.com.co/memoria-y-dignidad-campesina-en-la-moralia/"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Eventos.rdf"/>
+  </ns3:Event>
+</rdf:RDF>

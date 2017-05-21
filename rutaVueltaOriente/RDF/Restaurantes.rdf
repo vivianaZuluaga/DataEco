@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes.rdf#elMirador">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Restaurante-El-Mirador-Via-La-Marina/600740703382784"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="https://www.twitter.com/Ecodataset/status/797811224356519936">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">19:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:depiction rdf:resource="http://i.imgur.com/oJ8gmA9.jpg"/>
+    <ns2:description xml:lang="es">Restaurante campestre</ns2:description>
+    <ns3:tel>0</ns3:tel>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/WZFtPETEM122">
+        <ns3:street-address>Vía La Marina, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name xml:lang="es">EL MIRADOR</ns2:name>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes.rdf#ranchoJ">
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns2:description xml:lang="es">Piscina para niños y adultos, kiosco pequeño para eventos, senderos ecológicos, cancha de fútbol, alquiler de caballos, 
+    interacción con animales de granja: patos, gallinas, ganzos, cabras y otros. Delicioso sancocho de gallina. Ubicado 
+    sobre el Km 2 de la vía.</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes/ranchoJ.mp4">
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">10:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/rancho.jlarivera"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/go382c2uXfL2">
+        <ns3:street-address>El Picacho, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:depiction rdf:resource="http://i.imgur.com/mvSK4Zm.jpg"/>
+    <ns2:name xml:lang="es">RANCHO J</ns2:name>
+    <ns3:tel>3155793565, 3187122567</ns3:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes.rdf"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes.rdf#paradorLaIberia">
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns2:name xml:lang="es">PARADOR LA IBERIA</ns2:name>
+    <ns2:description xml:lang="es">Eventos, recreación, platos a la carta, postres, café, bar. Ubicado en el km 7  de la vía.</ns2:description>
+    <ns4:depiction rdf:resource="http://i.imgur.com/TyZ7QSv.jpg"/>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/765348363785175040"/>
+    <ns3:tel>0</ns3:tel>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes/paradorIberia.mp4">
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">20:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/UwPdvJvFAin">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>La Marina, Valle del cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Restaurantes.rdf"/>
+  </ns2:Location>
+</rdf:RDF>

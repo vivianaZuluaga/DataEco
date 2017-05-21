@@ -1,0 +1,763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/ontology/wo/"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://www.w3.org/2002/07/owl#"
+>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#begoniaSemperflorens">
+    <ns3:depiction rdf:resource="http://i.imgur.com/9Pn2uWH.jpg"/>
+    <ns2:shortDescription xml:lang="es">Herbácea perenne o anual, altura aproximada entre 20-40 cms. Tallo carnoso y ramificado, hojas ovales y 
+    redondeadas con coloraciones rojizas en múltiples tonalidades. Las flores reunidas en cimas exilares de colores 
+    rosa, rojo o blanco.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.laguiadeplantas.com/?s=p&amp;id=354"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/589341"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2874718"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46341032"/>
+    <ns2:scientificName xml:lang="la">Begonia Semperflorens</ns2:scientificName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q843363"/>
+    <ns2:commonName xml:lang="es">BEGONIA</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#pelargoniumZonale">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/RssuVMe.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2891606"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://floresandra.galeon.com/algunas.htm"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4032"/>
+    <ns2:shortDescription xml:lang="es">Hojas en forma generalmente acorazonada y de diferentes tonalidades de verde, de floración prolongada, 
+    las flores se encuentran agrupadas de formas diversas y el colorido es muy variado, desde el blanco al rojo 
+    pasando por el rosado.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Pelargonium Zonale</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/595134"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Pelargonium_zonale"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">GERANIO</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#narcissusPseudonarcissus">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2858244"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/GcRveZA.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Narcissus_primigenius"/>
+    <ns2:shortDescription xml:lang="es">Es una planta de hojas estrechas y alargadas. Sus flores son de color blanco, amarillo o rosa y de forma simple. 
+    La floración se produce en primavera. El fruto es una cápsula.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1004073"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/39639"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Narcissus_pseudonarcissus"/>
+    <ns2:commonName xml:lang="es">NARCISO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Narcissus Pseudonarcissus</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#heliconiaBihai">
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.hogarmania.com/jardineria/fichas/plantas/201410/heliconia-bihai-26384.html"/>
+    <ns2:shortDescription xml:lang="es">Es una planta muy llamativa por la inflorescencia que tiene en forma de espiga caracterizada por una serie de 
+    espatas de color rojo-verde y amarillo. Puede llegar a alcanzar entre los 4 y 6 m de altura y las hojas 
+    tienen forma de abanico.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Heliconia_bihai"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">HELICONIA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1118068"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/wZ0GLbc.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2760874"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/446146"/>
+    <ns2:scientificName xml:lang="la">Heliconia Bihai</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#citrusNobilis">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Citrus_nobilis"/>
+    <ns2:scientificName xml:lang="la">Citrus Nobilis</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7413206"/>
+    <ns2:commonName xml:lang="es">MANDARINA</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">El árbol es un frutal espinoso, con ramas delgadas, con las hojas tanto amplias como delgadas. 
+    Las flores nacen simples o en grupos en las axilas de las hojas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/27915528"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/P0rzCMB.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/481549"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.sabelotodo.org/agricultura/frutales/mandarina.html"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#gyneriumSagittatum">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/R9UjZNK.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Gynerium_sagittatum"/>
+    <ns2:scientificName xml:lang="la">Gynerium Sagittatum</ns2:scientificName>
+    <ns2:commonName xml:lang="es">CAÑA BRAVA</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Es una planta silvestre de hasta 4 ms de alto. Posee tallos gruesos, sólidos y muy resistentes que le han 
+    permitido sobrevivir al tiempo. Las hojas son lineales y aserradas, dispuestas en dos filas.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/42053"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5289743"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1115272"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://animalesyplantasdeperu.blogspot.com.co/2008/05/la-caa-brava-gynerium-sagittatum.html"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#passifloraEdulis">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Passiflora_edulis"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/QoGoZpf.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584518"/>
+    <ns2:shortDescription xml:lang="es">Enredadera trepadora; puede alcanzar los 9 ms de longitud en condiciones climáticas favorables, 
+    aunque su período de vida no supera por lo general la década. Su tallo es rígido y leñoso; presenta 
+    hojas alternas de gran tamaño, perennes, lisas y de color verde oscuro Tallos trepadores, leñosos.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/78168"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Passiflora Edulis</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">MARACUYÁ</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2874190"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Passiflora_edulis"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#coffeaArabica">
+    <ns2:commonName xml:lang="es">CAFÉ</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Coffea Arabica</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2895345"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46321583"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13443"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Coffea_arabica"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Coffea"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">El cafeto es un arbusto o árbol pequeño, perennifolio, de fuste recto que puede alcanzar los 10 ms en 
+    estado silvestre.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/H2ZM3sf.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#dahlia">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Planta herbácea o arbustiva anual, raíz tuberosa, hojas opuestas o verticiladas. Flores dispuestas en 
+    inflorescencias compuestas o capítulo (rodeada por brácteas), de diferentes colores. Hay 30 especies y 
+    20000 variedades.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3093023"/>
+    <ns2:commonName xml:lang="es">DALIA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Dahlia spp.</ns2:scientificName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q130918"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Dahlia"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46321784"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/41562"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/Th4Plgi.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#citrusSinensis">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582206"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Citrus Sinensis</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/aKWeHJj.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://climafrutal.wordpress.com/naranjo/"/>
+    <ns2:shortDescription xml:lang="es">El naranjo es un frutal de hasta 10 ms de altura con la copa muy redondeada. Tallos ligeramente espinosos, 
+    hojas coriaceas, flores de color blanco muy perfumadas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8206387"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/2711"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Citrus_sinensis"/>
+    <ns2:commonName xml:lang="es">NARANJO</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#violaWittrockiana">
+    <ns2:shortDescription xml:lang="es">Son plantas híbridas, cuyo ciclo de vida es de un año, y que son cultivadas por sus vistosas flores. 
+    Tienen hojas simples con forma de corazón y margen dentado de cinco pétalos aterciopelados, y con diversas 
+    gamas de colores. Su floración abarca los meses otoñales, pero continua hasta la entrada de la primavera.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46324497"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://www.ecured.cu/Pensamiento_(planta)"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/456371"/>
+    <ns2:scientificName xml:lang="la">Viola x wittrockiana</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8176318"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/u8YKOy7.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">PENSAMIENTOS</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Viola_x_wittrockiana"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#capsicumAnnuum">
+    <ns3:depiction rdf:resource="http://i.imgur.com/EBqG6Ox.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Planta anual, que puede alcanzar hasta 1 m de altura, de tallos empinados y ramosos, con las hojas aovadas 
+    y lanceoladas de bordes enteros o apenas sinuados en la base. Es especialmente productiva en zonas cálidas 
+    y climas secos. Es una planta de huerta y de diversas variedades.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">AJÍ</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4072"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://ornamentalis.com/capsicum-annuum/"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581098"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Capsicum_annuum_var._minimum"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2932944"/>
+    <ns2:scientificName xml:lang="la">Capsicum Annuum</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#violaOdorata">
+    <ns2:commonName xml:lang="es">VIOLETA</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Planta perenne rizomatosa que se expande mediante estalones y puede formar una buena cubierta de suelo, 
+    sus hojas son radicales ligeramente festoneadas y acorazonadas en la base. Las flores son muy perfumadas; el 
+    fruto es una cápsula que se abre en la madurez, su es color violeta y blanco.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://menospetroleo.blogspot.com.co/2013/03/plantas-vistas-en-el-curso-de-bosque.html"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5331181"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/97441"/>
+    <ns2:scientificName xml:lang="la">Viola Odorata</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Viola_odorata"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584573"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/rKrLqRo.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#manihotEsculenta">
+    <ns3:depiction rdf:resource="http://i.imgur.com/VYm4XpF.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3983"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Manihot_esculenta"/>
+    <ns2:commonName xml:lang="es">YUCA</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Manihot Esculenta</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Es un arbusto perenne, que alcanza los dos metros de altura. Su raíz es cilíndrica y oblonga, y alcanza 
+    el metro de largo y los 10 cms de diámetro. La cáscara es dura e incomestible. La pulpa es muy rica en hidratos 
+    de carbono y azúcares.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3060998"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1154718"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cassava"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#chrysanthemumLeucanthemum">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Leucanthemum_vulgare"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://aplicaciones2.colombiaaprende.edu.co/concursos/expediciones_botanicas/ver_herbarios_p.php?id=628&amp;id_p=6041"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46241383"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Es una planta herbácea con hojas hendidas. Las flores están siempre reunidas en una inflorescencia llamada 
+    cabezuela o capítulo, que parece una única flor y funciona como tal.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/A1j5930.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/99072"/>
+    <ns2:scientificName xml:lang="la">Chrysanthemum Leucanthemum</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8008378"/>
+    <ns2:commonName xml:lang="es">MARGARITA COMÚN</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#rosmarinusOfficinalis">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Rosmarinus Officinalis</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46323937"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2926634"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1003"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/umcF7Ne.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/39367"/>
+    <ns2:commonName xml:lang="es">ROMERO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Rosmarinus_officinalis"/>
+    <ns2:shortDescription xml:lang="es">Arbusto perenne, verde, leñoso y muy aromático de hasta 2 ms de altura que crece espontáneamente o en cultivo. 
+    Sus tallos ramificados con hojas rígidas, lineales, lanceoladas, en forma de aguja y de aspecto coriáceas las 
+    recubre una capa de diminutos pelos.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#irisGermanica">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/34205"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8458847"/>
+    <ns2:commonName xml:lang="es">LIRIO COMÚN</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Tallo terminal con hojas en la base, 35 a 45 cms de largo; herbácea perenne de rizoma vistoso y grueso. 
+    Hojas acintadas, erguidas, de borde liso, color verde oscuro a grisáceo. Flores de poca duración.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Iris germanica</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/NDTPe0l.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/490948"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Iris_germanica"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Iris_germanica"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#hydrangeaMacrophylla">
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Hydrangea_macrophylla"/>
+    <ns2:shortDescription xml:lang="es">Planta semiarbustiva, caducifolia, puede llegar a medir 1,5 ms. Tallos ramosos, gruesos, derechos, 
+    terminados por las flores agrupadas. Hojas grandes, verdes, opuestas, ovaladas con borde dentado.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Hydrangea Macrophylla</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Hydrangea_macrophylla"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/23110"/>
+    <ns2:commonName xml:lang="es">HORTENSIA</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/VLAuVL6.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/392374"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2985994"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#citrusLimon">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582200"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">LIMÓN</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Citrus_limon"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.consumer.es/web/es/bricolaje/jardin/2002/04/04/40671.php"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/JsCNYfk.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/2708"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3190171"/>
+    <ns2:scientificName xml:lang="la">Citrus Limon</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">El limonero es un frutal de porte mediano que puede llegar a vivir 70 años. De tronco leñoso, amarillento 
+    y muy ramificado, sus grandes y ovaladas hojas de color verde brillante son muy aromáticas al igual que 
+    sus flores.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#coriandrumSativum">
+    <ns2:scientificName xml:lang="la">Coriandrum Sativum</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/Wzf5egG.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://viverovirtualrd.blogspot.com.co/2009/01/coriandrum-sativum-cilantro.html"/>
+    <ns2:commonName xml:lang="es">CILANTRO</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3034871"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581687"/>
+    <ns2:shortDescription xml:lang="es">Es una hierba anual de hasta 60 cms, sin pelos y brillante. Los tallos del cilantro son erectos y delgados. 
+    Las hojas de un verde vivo tienen forma de abanico.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Coriandrum_sativum"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4047"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#papaverRhoeas">
+    <ns2:shortDescription xml:lang="es">Hierba anual, cubierta de pelos perpendiculares. Hojas simples en la base, alargadas y lobuladas. flores 
+    solitarias con pétalos arrugados en botones florales, mostrando al abrirse un bello color rojo intenso, 
+    por lo general presentan una mancha negruzca en la porción basal. El fruto de la amapola es una cápsula, 
+    llena de semillas.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Papaver rhoeas</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">AMAPOLA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biotremol.com/una-gran-desconocida-la-amapola/"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/596241"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Papaver_rhoeas"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/33128"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2888443"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/9RgVwBE.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#murrayaPaniculata">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/6PuZR2z.jpg"/>
+    <ns2:commonName xml:lang="es">JAZMÍN NARANJA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Murraya Paniculata</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5421335"/>
+    <ns2:shortDescription xml:lang="es">Planta con hojas compuestas, alternas, imparipinnadas; los foliolos de 1 a 4 cms de largo, verdes muy oscuros 
+    y brillantes. Las flores blancas, pequeñas y fragantes.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Murraya_paniculata"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/489435"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Murraya_paniculata"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43711"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#ceibaPentandra">
+    <ns3:depiction rdf:resource="http://i.imgur.com/V9Rfjpq.jpg"/>
+    <ns2:commonName xml:lang="es">CEIBA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Ceiba Pentandra (L.) Gaertn</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584794"/>
+    <ns2:shortDescription xml:lang="es">Árbol de 50 ms de altura, tallo de 2 ms de diámetro, abombado, corteza gris clara y anillada, copa 
+    semihemisférica, follaje denso verde oscuro. Hojas compuestas y alternas, flores blancas.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://recursosbiologicos.eia.edu.co/ecologia/estudiantes/ceiba.htm"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/193163"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Ceiba_pentandra"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5406697"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#musaParadisiaca">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Planta con el tallo bien desarrollado. Hojas grandes, oblongas, lámina con la vena media bien desarrollada 
+    y numerosas venas paralelas, perpendiculares a la vena media.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Musa_paradisiaca"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2762752"/>
+    <ns2:commonName xml:lang="es">PLÁTANO</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/3bfoEk5.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/89151"/>
+    <ns2:scientificName xml:lang="la">Musa × Paradisiaca L.</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://aprendeenlinea.udea.edu.co/ova/?q=node/730"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1116069"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#ananasComosus">
+    <ns2:scientificName xml:lang="la">Ananas Comosus</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5288819"/>
+    <ns2:shortDescription xml:lang="es">Planta perenne terrestre, con forma de roseta abierta que produce uno de los frutos tropicales más consumidos. 
+    Hojas en forma de espadas con diminutas y afiladas espinas en sus bordes.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Ananas_comosus"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1126520"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://plantasyjardin.com/2013/03/ananas-cosmosus-una-de-las-frutas-tropicales-mas-consumidas/"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4615"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">PIÑA</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/yvXykAn.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#cynodonPlectostachyus">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1114873"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5289798"/>
+    <ns2:shortDescription xml:lang="es">Es una gramínea perenne, de vida larga, frondosa y rastrera, produce estolones de rápido crecimiento, con 
+    largos entrenudos y sus tallos pueden alcanzar hasta 3 ms de longitud. Posee hojas exuberantes con vellos en 
+    forma de lanza. La inflorescencia presenta de 2 a 5 espiguillas solitarias de 2 a 3 mms.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/751635"/>
+    <ns2:scientificName xml:lang="la">Cynodon Plectostachyus</ns2:scientificName>
+    <ns2:commonName xml:lang="es">PASTO ESTRELLA</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/biYwa69.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://www.scribd.com/doc/229139076/Plantas-forrajeras-Ecuador"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q959222"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#chrysanthemumMorifolium">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/41568"/>
+    <ns2:scientificName xml:lang="la">Chrysanthemum Morifolium</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Chrysanthemum_morifolium"/>
+    <ns2:shortDescription xml:lang="es">Planta de tallo herbáceo y delgado, con hojas alternas suaves al tacto, palmeado, divididas, con bordes 
+    dentados, nervaduras principal y secundarias, a la cabeza floral se le denomina capítulo.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">CRISANTEMO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7598400"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Chrysanthemum_morifolium"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/w4aGjbg.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/483963"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#tulipa">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://fichas.infojardin.com/bulbosas/tulipa-tulipan-tulipanes-botanicos-tulipanes-darwin.htm"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">TULIPÁN</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13305"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Tulipa spp</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2750913"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q93201"/>
+    <ns2:shortDescription xml:lang="es">Hierba perenne con bulbos o rizomas. Las hojas son alternas y espiraladas, se disponen a lo largo del tallo 
+    o en una roseta basal. Flores erguidas muy llamativas, de numerosos colores, tardan hasta tres semanas en 
+    marchitarse. El fruto es una cápsula, ocasionalmente una baya. Las semillas son planas y con forma de disco 
+    o globosas.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/JmDuDLg.gif"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/17820"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#saccharumOfficinarum">
+    <ns2:shortDescription xml:lang="es">Es una planta perenne con un tallo macizo, de hasta 6 ms de altura y 2-8 cms de diametro; aparece por lo 
+    general deshojado en la parte inferior, está lleno de un tejido esponjoso y dulce del que se extrae el azúcar. 
+    Sus hojas son largas y puntiagudas.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/7K7gpog.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2703912"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1115140"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Saccharum_officinarum_L"/>
+    <ns2:commonName xml:lang="es">CAÑA DE AZÚCAR</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Saccharum Officinarum L.</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4547"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://dicci-eponimos.blogspot.com.co/2010/06/cana-de-castilla.html"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#perseaAmericana">
+    <ns2:shortDescription xml:lang="es">Árbol de unos 10 m de altura. Tallo leñoso. Perennifolio, hojas alternas, pedunculadas, de color verde 
+    brillante. Flores perfectas en racimos. Su fruto es una drupa de color verde y piel o cáscara delgada, rico 
+    en proteínas y aceite vegetal.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">AGUACATE</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/596888"/>
+    <ns2:scientificName xml:lang="la">Persea Americana</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Persea_americana"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.farmaconsejos.com/plantas-medicinales/aguacate/"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3034046"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3435"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/R3mtPr3.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#caricaPapaya">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Carica_papaya"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/585682"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3649"/>
+    <ns2:commonName xml:lang="es">PAPAYA</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/oAa8tSA.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Planta herbácea, de hasta 8 ms de altura; con látex lechoso. Tallos cilindrico, simple, sin ramificar, termina 
+    en un penacho de hojas, de hasta 30 cms de diámetro. Flor de color amarillo, pétalos y sépalos del mismo color, 
+    blanco amarilloso, nacen en el extremo del tallo, debajo de las hojas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2874484"/>
+    <ns2:scientificName xml:lang="la">Carica Papaya</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://aprendeenlinea.udea.edu.co/ova/?q=node/691"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#theobromaCacao">
+    <ns3:depiction rdf:resource="http://i.imgur.com/CDEeJVu.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://issuu.com/lorenarojastorres/docs/visita_granja_mama_lulu.docx"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Arbusto pequeño de hasta 10 m. Tallo leñoso, recto, con brotes, corteza delgada de color café. Hojas perennes 
+    grandes, alternas, colgantes. Flores casi permanentes pequeñas blancas a rosadas, nacen sobre el tallo. El 
+    fruto nace en el tronco es una baya grande de hasta 30 x 12 cm.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">CACAO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/484592"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3152205"/>
+    <ns2:scientificName xml:lang="la">Theobroma Cacao L.</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Theobroma_cacao"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3641"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#alliumSativum">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Allium_sativum"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4682"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.labin.net/es/cultivos/ajos/20"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2856681"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1084926"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/bziWfgl.jpg"/>
+    <ns2:commonName xml:lang="es">AJO</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Allium Sativum</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Alcanza entre 30 y 40 cms de altura, sus hojas son macizas, radicales y largas. Sus flores son blancas y 
+    rosadas y cada una puede presentar 6 pétalos, 6 estambres y un pistilo. Su raíz es bulbosa, compuesta de 6 a 12 
+    bulbillos ("dientes de ajo").</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#tabebuiaGuayacan">
+    <ns3:depiction rdf:resource="http://i.imgur.com/9CmiV7U.jpg"/>
+    <ns2:commonName xml:lang="es">GUAYACÁN</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.discoverlife.org/20/q?search=Tabebuia+guayacan"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Handroanthus_guayacan"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4093687"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/429699"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Es un árbol grande de hasta 40 ms de alto y 100 cms de diámetro con tronco recto, cilíndrico y raramente irregular 
+    cuya base es ligeramente alargada. Produce una madera muy pesada y resistente a la pudrición.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5637530"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Tabebuia guayacan (Seem.) Hemsl.</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#lycopersicumPimpinellifolium">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Planta anual de porte arbustivo o rastrero. Las hojas son sencillas, pecioladas y de limbo hendido. Toda 
+    la parte verde de la planta está compuesta por pelos glandulares que al rozarse emiten un líquido con olor 
+    característico. Las flores aparecen en racimos siendo el número de estas variable.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Lycopersicum Pimpinellifolium</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Solanum_pimpinellifolium"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/286530"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/viCbqpn.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8482252"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/590239"/>
+    <ns2:commonName xml:lang="es">TOMATE CHERRI</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.frutasiru.com/catalogo-ficha.php?fml=12&amp;prod=56"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#alliumCepa">
+    <ns2:shortDescription xml:lang="es">Planta bienal cultivada como anual. Hojas semicilíndricas que nacen de un bulbo subterráneo provisto de 
+    raíces poco profundas. Tallo erecto que lleva en su extremo una inflorescencia en forma de umbela de flores 
+    blancas o rosadas.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://agroespoch2.blogspot.com.co/2015/01/cristian-inga.html"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">CEBOLLA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2857697"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Allium_cepa"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1084354"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4679"/>
+    <ns2:scientificName xml:lang="la">Allium Cepa</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/avBZpBw.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#cattleyaTrianae">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cattleya_trianae"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4935172"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1090706"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/142280"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://orquideascolombiana.blogspot.com.co/"/>
+    <ns2:commonName xml:lang="es">FLOR DE MAYO</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Planta epífita, con pseudobulbos de largo variable que llevan a su extremidad una o a dos hojas sin pecíolo. 
+    Flores vistosas que se desarrollan en el tallo.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/A4H9iz7.jpg"/>
+    <ns2:scientificName xml:lang="la">Cattleya Trianae</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#urticaDioica">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3501"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46373617"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">ORTIGA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Urtica_dioica"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Es una planta arbustiva perenne que puede alcanzar hasta 1,5 ms de altura. Tallos erectos cuadrangulares, 
+    hojas verdes aserradas, puntiagudas, provistas al igual que el tallo de pelos urticantes. Flores en forma de 
+    raíces, con flores unisexuales. Posee unos pelos urticantes que tienen la forma de pequeñisimas ampollas.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/oVjUyH1.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Urtica_dioica"/>
+    <ns2:scientificName xml:lang="la">Urtica Dioica</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8659902"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#alliumFistulosum">
+    <ns2:commonName xml:lang="es">CEBOLLA LARGA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Allium_fistulosum"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Allium_fistulosum"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2856504"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/u1nPyiR.jpg"/>
+    <ns2:scientificName xml:lang="la">Allium Fistulosum</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Las raíces se producen en la base del tallo, son fasciculadas y poco abundantes. Cada hoja tiene una base 
+    larga y carnosa, que se une estrechamente con la base de las demás hojas. Las hojas son tubulares de 25-35 cms 
+    de largo y 5-7 mms de diámetro. El tallo es un disco comprimido, de donde parten las raíces y la base de 
+    las hojas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1084499"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/35875"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#cassiaFistula">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cassia_fistula"/>
+    <ns2:commonName xml:lang="es">ÉBANO FALSO</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/aUZVMJ4.jpg"/>
+    <ns2:shortDescription xml:lang="es">Árbol de 10-15 ms de alto; ramas de tendencia ascendente. Hojas grandes, caducas, ovadas, acuminadas y péndulas. 
+    Flores dispuestas en grandes racimos pendulares, muy vistosas de color amarillo.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Cassia Fistula</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/704102"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/53852"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://docplayer.es/12485087-Ixora-ixora-coccinea-l-jazmin-del-diablo-buque-de-novia.html"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5357108"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#plukenetiaVolubilis">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Plukenetia_volubilis"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1152376"/>
+    <ns2:commonName xml:lang="es">SACHA INCHI</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Plukenetia Volubilis</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/1pvbezV.jpg"/>
+    <ns2:shortDescription xml:lang="es">Es una planta voluble, trepadora y semileñosa, de abundantes hojas y ramas; de una altura aproximada de 2 ms; 
+    hojas alternas, acorazonadas; flores pequeñas blanquecinas en racimo; fruto de color marrón al madurar; 
+    semillas marrón oscuro con un alto contenido de ácidos grasos insaturados Omega 3, 6 y 9.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3070717"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/316893"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://www.scribd.com/doc/20773504/SACHA-INCHI"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#zeaMays">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Zea_Mays"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5290052"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/6Ywbfgs.jpg"/>
+    <ns2:commonName xml:lang="es">MAÍZ</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Zea Mays</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Planta herbáceae que puede alcanzar hasta los 2,5 m de altura. El tallo internamente tiene una médula 
+    de tejido esponjoso y blanco donde almacena reservas alimenticias, en especial azúcares. Las hojas son alargadas 
+    arrolladas al tallo, del cual nacen las espigas o mazorcas.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://aprendeenlinea.udea.edu.co/ova/?q=node/521"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4577"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1115259"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#psidiumGuajava">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/e55G5DZ.jpg"/>
+    <ns2:scientificName xml:lang="la">Psidium Guajava</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Psidium_guajava"/>
+    <ns2:shortDescription xml:lang="es">Arbolito de follaje persistente que puede alcanzar 4-6 ms de altura, con el tronco corto y algo tortuoso. Hojas 
+    opuestas de 5-10 cms de longitud. Flores blancas, solitarias o en pequeños grupos, que aparecen en las axilas de las 
+    hojas. Fruto en baya redondeada con el cáliz de la flor persistiendo.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5420380"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2508593"/>
+    <ns2:commonName xml:lang="es">GUAYABA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.jardinbotanico.uma.es/bbdd/index.php/jb-11-01/"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/120290"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#camelliaJaponica">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Camellia_japonica"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/VUACRGI.jpg"/>
+    <ns2:commonName xml:lang="es">CAMELIA</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Arbusto ramificado de 2 ms de altura, hojas anchas elípticas con filo aserrado, haz de color verde oscuro 
+    reluciente y el envés más pálido y coriáceo. Se adapta perfectamente a su cultivo en jardinera. Flores solitarias 
+    de color variado rojo sangre, cereza, con rayas blancas o rosadas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3189636"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.slideshare.net/CamiloAlejandroMarin/herbario-escolar-2012"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/484988"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4443"/>
+    <ns2:scientificName xml:lang="la">Camellia Japonica</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#aloeVera">
+    <ns2:shortDescription xml:lang="es">Es una planta perenne, con hojas gruesas organizadas en rosetas, alcanza 50 cms de largo y 7 cms de grosor. 
+    Las hojas son alargadas y las flores son pequeñas.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/34199"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/cTlCh8V.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2777724"/>
+    <ns2:commonName xml:lang="es">SÁBILA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Aloe Vera</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1085598"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Aloe_vera"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Aloe_Vera"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#magnoliaGrandiflora">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://vida-flores.blogspot.com.co/"/>
+    <ns2:commonName xml:lang="es">MAGNOLIA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1154991"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3153283"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3406"/>
+    <ns2:scientificName xml:lang="la">Magnolia Grandiflora L.</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Magnolia_grandiflora"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/p3tLqzX.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Es un árbol de tamaño medio a grande de 20-30 ms de altura. Las hojas son perennes, simples o ampliamente 
+    ovadas de 12-20 cms de longitud y 6-12 cms de ancho con los márgenes dentados, son de color verde oscuro y 
+    se vuelven color marrón cuando llega el invierno.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#guaduaAngustifolia">
+    <ns2:commonName xml:lang="es">GUADUA</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Guadua_angustifolia"/>
+    <ns2:scientificName xml:lang="la">Guadua Angustifolia</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">La raíz es un rizoma que almacena los nutrimentos, estos rizomas producen raicillas adventicias, el tallo de 
+    forma cilíndrica y con nudos, ramas solitarias y muy espinosas en los nudos basales y con presencia o no de hojas; 
+    hojas lanceoladas verdes lustrosas.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Guadua"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/323898"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/WLLO9uD.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5800278"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4155017"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#mangiferaIndica">
+    <ns2:scientificName xml:lang="la">Mangifera Indica</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/29780"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3190638"/>
+    <ns2:shortDescription xml:lang="es">El mango típico constituye un árbol de tamaño mediano, de 10-30 ms de altura. El tronco es más o menos recto, 
+    cilíndrico y de 75-100 cms de diámetro, cuya corteza de color gris - café tiene grietas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582270"/>
+    <ns2:commonName xml:lang="es">MANGO</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.empresario.com.co/recursos/page_flip/MEGA/mega_mango/files/ficha%20mango.pdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/GtxlZkC.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Mangifera_indica"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+</rdf:RDF>

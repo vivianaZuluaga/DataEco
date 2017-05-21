@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://purl.org/NET/c4dm/timeline.owl#"
+  xmlns:ns2="http://umbel.org/umbel#"
+  xmlns:ns3="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns5="http://www.w3.org/2006/vcard/ns#"
+>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Eventos.rdf#fiestasRetorno">
+    <ns4:depiction rdf:resource="http://i.imgur.com/lmbAVVW.jpg"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/Y6TB7N9hxHw">
+        <rdfs:label xml:lang="es">Tres Esquinas, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/events/355103938162580"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Eventos.rdf"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/797991285592379392">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-04T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:comment xml:lang="es">Cabalgata, presentaciones artísticas, actividades deportivas, espacio para compartir en familia.</rdfs:comment>
+    <rdfs:label xml:lang="es">FIESTAS DEL RETORNO</rdfs:label>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Eventos.rdf#fiestasPatronales">
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/MBaH4hDPBT82">
+        <rdfs:label xml:lang="es">Vía a Tres Esquinas, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns4:depiction rdf:resource="http://i.imgur.com/XyS55bz.png"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:comment xml:lang="es">Actividad celebrada cada año en la capilla del Santo Aparecido, ubicada en la vereda El Cairo de 
+  Tuluá, como parte del cordón de turismo religioso de la región.</rdfs:comment>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/-40bgzzZoC4"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/797966359980285958">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-04T17:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Eventos.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/photo.php?fbid=10208577568495272&amp;set=a.1035541447382.2007789.1190834860&amp;type=3"/>
+    <rdfs:label xml:lang="es">FIESTAS PATRONALES DEL SEÑOR SANTO APARECIDO</rdfs:label>
+  </ns3:Event>
+</rdf:RDF>

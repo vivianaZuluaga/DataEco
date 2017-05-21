@@ -10,7 +10,6 @@ from rdflib import URIRef, Literal, Graph, XSD
 from rdflib.namespace import RDF, RDFS, FOAF
 from utils.ontologias import OWL, VoID, dcterms, OWL
 from utils.namespaces import dbpedia, geonames, uniprot, rutaMaiz, rioFrio
-#from rutaVueltaOriente.restaurantesVueltaOriente import g
 
 g = Graph()
 
@@ -18,20 +17,20 @@ DBpedia = URIRef('http://dbpedia.org/resource/')
 UniProt = URIRef('http://www.uniprot.org/taxonomy/')
 GeoNames = URIRef('http://www.geonames.org/')
 
-DataEco = URIRef('http://190.14.254.237/dataseteco/void.rdf')
-DataEcouniprot = URIRef('http://190.14.254.237/dataseteco/void.rdf#dataEcouniprot')
-DataEcodbpedia = URIRef('http://190.14.254.237/dataseteco/void.rdf#dataEcodbpedia')
-DataEcoGeonames = URIRef('http://190.14.254.237/dataseteco/void.rdf#dataEcoGeonames')
+DataEco = URIRef('http://www.dataeco.org/dataseteco/void.rdf')
+DataEcouniprot = URIRef('http://www.dataeco.org/dataseteco/void.rdf#dataEcouniprot')
+DataEcodbpedia = URIRef('http://www.dataeco.org/dataseteco/void.rdf#dataEcodbpedia')
+DataEcoGeonames = URIRef('http://www.dataeco.org/dataseteco/void.rdf#dataEcoGeonames')
 
-creatorCarlos = URIRef('http://190.14.254.237/dataseteco/autores.rdf#camorenov')
-creatorViviana = URIRef('http://190.14.254.237/dataseteco/autores.rdf#vzuluagab')
-contribuitorAlbeiro = URIRef('http://190.14.254.237/dataseteco/autores.rdf#alaponte')
-contribuitorOscar = URIRef('http://190.14.254.237/dataseteco/autores.rdf#oceballos')
-contribuitorYuri = URIRef('http://190.14.254.237/dataseteco/autores.rdf#ybermudez')
+creatorCarlos = URIRef('http://www.dataeco.org/dataseteco/autores.rdf#camorenov')
+creatorViviana = URIRef('http://www.dataeco.org/dataseteco/autores.rdf#vzuluagab')
+contribuitorAlbeiro = URIRef('http://www.dataeco.org/dataseteco/autores.rdf#alaponte')
+contribuitorOscar = URIRef('http://www.dataeco.org/dataseteco/autores.rdf#oceballos')
+contribuitorYuri = URIRef('http://www.dataeco.org/dataseteco/autores.rdf#ybermudez')
 
 ##Información Básica
 g.add( (DataEco, RDF.type, VoID.Dataset) )
-g.add( (DataEco, FOAF.homepage, URIRef('190.14.254.237/dataseteco/EcolodApp/')) )
+g.add( (DataEco, FOAF.homepage, URIRef('http://www.dataeco.org/dataseteco/EcolodApp/')) )
 g.add( (DataEco, dcterms.title, Literal('DataEco')) )
 g.add( (DataEco, dcterms.description, Literal("""Dataset con información ecoturística de los
 municipios de Riofrío y Tuluá pertenecientes a la subregión Centro del Valle del Cauca""")))

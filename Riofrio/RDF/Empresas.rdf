@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Empresas.rdf#normandia">
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://empresite.eleconomistaamerica.co/HACIENDA-NORMANDIA-SAS.html">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">06:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">19:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:depiction rdf:resource="http://i.imgur.com/zOeUtAu.png"/>
+    <ns2:name>HACIENDA NORMANDIA SAS</ns2:name>
+    <ns2:description>Empresa privada fundada en el 1999 que cuenta actualmente con 60 empleados.</ns2:description>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Empresas.rdf"/>
+    <ns3:tel>3162421352</ns3:tel>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns3:email>No disponible</ns3:email>
+    <rdfs:seeAlso rdf:resource="http://www.informacion-empresas.co/Empresa_HACIENDA-NORMANDIA-SAS.html"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/ES2j7t5JST32">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Km 14 Vía Tulua-Riofrío, Riofrío, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Riofrio</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:homepage rdf:resource="http://fichas.findthecompany.com.mx/l/130857814/Hacienda-Normandia-SAS-en-Riofrio"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Empresas.rdf#transporteSalonica">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/shQcqeb18Kq">
+        <ns3:street-address>Cll 10 # 2 - 02, Salónica, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Riofrio</ns3:locality>
+        <ns3:country-name>Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:description>Dedicada al transporte de pasajeros por vía terrestre, con sede en la ciudad de Tuluá.</ns2:description>
+    <ns4:depiction rdf:resource="http://i.imgur.com/JzqdDqD.jpg"/>
+    <ns2:name>EMPRESA DE TRANSPORTE SALÓNICA S.A</ns2:name>
+    <ns4:homepage rdf:resource="http://empresite.eleconomistaamerica.co/TRANSPORTES-SALONICA-SA.html"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.planetacolombia.com/empresa-de-transporte-salonica-sa-F150AC1041BD5">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">20:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">05:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns3:tel>2008028</ns3:tel>
+    <rdfs:seeAlso rdf:resource="http://www.paginasamarillas.com.co/empresas/empresa-de-transporte-salonica-sa/riofrio-15722768"/>
+    <ns3:email>No disponible</ns3:email>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Empresas.rdf"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Empresas.rdf#hospitalKenedy">
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns4:homepage rdf:resource="http://www.hkriofrio.gov.co/"/>
+    <rdfs:seeAlso rdf:resource="http://www.indizze.co/hospital-kennedy-ese"/>
+    <ns2:name>HOSPITAL KENEDY</ns2:name>
+    <ns3:email>kennedyese@hkriofrio.com</ns3:email>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/AWe5VBCpMzB2">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Calle 7 # 10 - 65, Riofrío, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Riofrio</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.riofrio-valle.gov.co/tramites.shtml?apc=t-l1--&amp;x=2719612">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">17:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:tel>2268100, 2268101</ns3:tel>
+    <ns4:depiction rdf:resource="http://i.imgur.com/wFLVGaW.png"/>
+    <ns2:description>Empresa social del estado que brinda servicios de baja complejidad, enfatizados en la promoción de la salud, la 
+    prevención de la enfermedad y la calidad en la atención. Urgencias 24 horas.</ns2:description>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Empresas.rdf"/>
+  </ns2:Location>
+</rdf:RDF>

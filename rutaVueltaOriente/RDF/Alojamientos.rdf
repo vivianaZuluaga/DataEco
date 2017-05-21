@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://purl.org/acco/ns#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns5="http://umbel.org/umbel#"
+>
+  <ns1:HotelRoom rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1515736">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://n4.sdlcdn.com/imgs/b/u/r/bed-de330.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">10</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://i.imgur.com/6ZNSZmA.jpg">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#bellaVista">
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns3:email>No disponible</ns3:email>
+        <ns3:tel>3163211199, 3182262773, 2242590</ns3:tel>
+        <ns2:description xml:lang="es">Cuenta con capacidad para ubicar en la vivienda a 10 personas, una amplia zona de camping que cobija a 
+    más de 30 campistas, salón para 50 personas. En este espacio puedes disfrutar de la interacción directa con la naturaleza 
+    mediante un recorrido por un agradable sendero ecológico acompañado por una encantadora quebrada.</ns2:description>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/763493126220775424"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/vPufIKq.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/rzFdYDP41v72"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:name xml:lang="es">FINCA BELLA VISTA</ns2:name>
+      </ns1:Hotel>
+    </ns1:partOf>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://i.imgur.com/ZRdVYRs.jpg">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#laCantera">
+        <ns3:email>No disponible</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/Ck73WX3L5Tu"/>
+        <ns3:tel>3113242282, 3174892540</ns3:tel>
+        <ns2:description xml:lang="es">Cómodas habitaciones, cabañas, zona de camping, lago, kiosko para conferencias, seminarios y eventos, pista de baile, 
+    zona de BBQ, fogon de leña. Ofrece al turista senderos ecológicos para caminatas al aire libre, también rutas de 
+    ciclomontañismo para el viajero intrépido, visita al alto de La Cruz y el Jardín Botánico. Ubicada en el Km 1 Doble Calzada</ns2:description>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/fincahotellacantera/"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns2:name xml:lang="es">LA CANTERA</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/FwIvEpW.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/JZIBlhm.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="https://www.facebook.com/pages/Finca-La-Cantera-Tulua/212484658901980">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tc.columbia.edu/housing/guest-and-conference-housing/guest-housing/rooms/ghRoom.jpg">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://www.flatdogscamp.com/wp-content/uploads/2011/08/Chalet-room.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475499">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#codecot">
+        <ns2:name xml:lang="es">ANTIGUO CODECOT</ns2:name>
+        <ns3:tel>2260752</ns3:tel>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns4:depiction rdf:resource="http://i.imgur.com/KpLCwSW.jpg"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/763574753894498304"/>
+        <ns3:email>No disponible</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/Y6B3L5Msdzv"/>
+        <ns2:description xml:lang="es">Ofrece pasadías y hospedaje. Capacidad para 14 personas, zona de camping, río y charcos, kiosco, senderos ecológicos, 
+    huerta casera, juegos infantiles, zona para asados, interacción con animales de granja.</ns2:description>
+      </ns1:Hotel>
+    </ns1:partOf>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="https://www.facebook.com/finca.lalinda.1">
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#laLinda">
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns2:name xml:lang="es">FINCA LA LINDA</ns2:name>
+        <ns3:adr rdf:resource="https://goo.gl/maps/HnkCTRqcw482"/>
+        <ns3:email>mivalledecompras.com@gmail.com</ns3:email>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/embed/ZXgZCMzGCog"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:description xml:lang="es">Piscina para adultos e infantil, sauna, cancha de fútbol, tejo, ping pong, sapo, salón de villar, zonas verdes, 
+    juegos infantiles, juegos de mesa, horno, fogón de leña, estufa a gas, parqueadero con 
+    capacidad para 20 vehículos.</ns2:description>
+        <ns3:tel>3176369765, 2242759, 2257332</ns3:tel>
+        <ns4:homepage rdf:resource="http://www.turismoboga.com/fincalin.html"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/0MEtcXS.jpg"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.mivalledecompras.com/servicios/stulua/alquileres/fincas/villalinda tulua valle/index.html">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/ajLSDOw.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">16</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1515737">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#laIsabela">
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:tel>3185935231</ns3:tel>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns2:name xml:lang="es">LA ISABELA</ns2:name>
+        <ns3:adr rdf:resource="https://goo.gl/maps/7zjBQ9xerZ82"/>
+        <ns2:description xml:lang="es">Capacidad de alojamiento para 30 personas, cuenta con un sendero que va acompañado del río Morales, amplias zonas verdes, 
+    tiene a disposición de sus visitantes diversos juegos para compartir en familia. Ubicada a 5 minutos del balneario las Marías.</ns2:description>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:email>No disponible</ns3:email>
+        <ns4:depiction rdf:resource="http://i.imgur.com/tx2q1oE.jpg"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/763526953987080192"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="https://www.datos.gov.co/Cultura/Fincas-y-casas-campestres-Municipio-de-Tulu-/x5f2-nrzc/data">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="https://famsa_imagenes2.storage.googleapis.com/155711024TITANIO_perfil.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">30</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="https://www.facebook.com/pages/La-Umbria/207406979406042">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#laUmbria">
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Casa-De-Retiro-La-Umbria-Tulua/854376261242075"/>
+        <ns2:name xml:lang="es">LA UMBRIA CASA DE RETIROS Y CONVIVENCIAS</ns2:name>
+        <ns3:adr rdf:resource="https://goo.gl/maps/pQ1K5DD1U642"/>
+        <ns2:description xml:lang="es">En ambiente campestre y natural que permite el silencio y el recogimiento. La Diócesis de Buga ofrece a sus visitantes 
+    este lugar con sencillas, pero confortables habitaciones, áreas de zonas verdes, amplios corredores, salón de conferencias 
+    o reuniones, baños sociales, servicio de comedor, entre otros.</ns2:description>
+        <ns4:depiction rdf:resource="http://i.imgur.com/Mcr7R3w.jpg"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns3:tel>2243075, 2255606</ns3:tel>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:email>diocebuga@hotmail.com</ns3:email>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.diocesisdebuga.org/index.shtml?apc=f---;1;-;-;&amp;x=8968">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/mDUSPGF.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://i.imgur.com/d690JRu.jpg">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#villaLina">
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/t7DczPasTxK2"/>
+        <ns3:email>mivalledecompras.com@gmail.com</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/763489482062561282"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:tel>3152630133, 2242946</ns3:tel>
+        <ns2:description xml:lang="es">Sitio campestre para recrearse y descansar, tiene una amplia zona verde, pasesos ecológicos a caballo, fogón de leña, 
+    sitio de juegos y más. Ideal para sus eventos empresariales o familiares, los fines de semana o retiros espirituales. Ubicada
+    a 15 minutos de Tuluá.</ns2:description>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns2:name xml:lang="es">VILLA LINA</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/KwJhf9j.jpg"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/NwTwTCv.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">6</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.mivalledecompras.com/servicios/stulua/alquileres/fincas/finca villa lina en la iveria/index.html">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="http://i.imgur.com/DjzCERq.jpg">
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#santSebastian">
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns3:email>No disponible</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/iz6Ti1YCmQx"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:description xml:lang="es">Ofrece la oportunidad de disfrutar con su familia, amigos de un ambiente sano, pleno contacto con la naturaleza. Lago 
+    para pesca, a 10 minutos encuentras balnearios con piscinas de agua natural, paseo ecológico. Ubicado vía El Diamante.</ns2:description>
+        <ns2:name xml:lang="es">CHALET SANT SEBASTIAN</ns2:name>
+        <ns3:tel>3154924598</ns3:tel>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/Hostal-Santsebastian-995216180540544"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/QUd4xJd.jpg"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/qn7NgA2.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="https://www.facebook.com/SebastianHernandezCastrillon/">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="https://www.facebook.com/pages/En-Villa-Agaton-La-Iberia/483913585039109">
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf#villaAgaton">
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/villaagaton/"/>
+        <ns2:name xml:lang="es">FINCA CAMPESTRE VILLA AGATÓN</ns2:name>
+        <ns3:email>No disponible</ns3:email>
+        <ns2:description xml:lang="es">Cuenta con una cabaña para 20 personas, jacuzzi, turco, voley playa, asador, kiosco tipo discoteca, fogón de leña, mini 
+    fútbol, TV satelital, está totalmente amoblada. Ubicada a 10 minutos de Tuluá.</ns2:description>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:tel>3188218334, 3166245893, 2243191</ns3:tel>
+        <ns4:depiction rdf:resource="http://i.imgur.com/5d3r7ge.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Alojamientos.rdf"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/y6hmmAMyizD2"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://corona.vteximg.com.br/arquivos/ids/161827-1000-1000/637207502000_F1.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.livevalledelcauca.com/tulua/finca-campestre-villa-agaton.html">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">1</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns1:availabilityTimes>24 Horas</ns1:availabilityTimes>
+  </rdf:Description>
+  <ns3:Address rdf:about="https://goo.gl/maps/HnkCTRqcw482">
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/Y6B3L5Msdzv">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:street-address>Vía La Marina, La Moralia, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/Ck73WX3L5Tu">
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>Vía al Picacho, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/rzFdYDP41v72">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/7zjBQ9xerZ82">
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>Vía La Marina, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/pQ1K5DD1U642">
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>La Rivera, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/y6hmmAMyizD2">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:street-address>Vía La Marina, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/t7DczPasTxK2">
+    <ns3:street-address>La Iberia, Valle del Cauca</ns3:street-address>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/iz6Ti1YCmQx">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+</rdf:RDF>

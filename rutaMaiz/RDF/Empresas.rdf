@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#bancoOccidente">
+    <ns3:tel>2243086</ns3:tel>
+    <ns2:description>Sede del Banco de Occidente de la ciudad de Tuluá.</ns2:description>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns4:homepage rdf:resource="http://www.bancodeoccidente.com.co"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/banco-de-occidente-agencia-tulua/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:depiction rdf:resource="http://i.imgur.com/bBw3z7f.png"/>
+    <ns3:email>of.tulua@bancodeoccidente.com.co</ns3:email>
+    <ns2:name>BANCO DE OCCIDENTE AGENCIA TULUÁ</ns2:name>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/do7YXobsy6w">
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Calle 27 No. 25 - 37, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name>Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Banco_de_Occidente_Credencial"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#harinasTulua">
+    <ns4:homepage rdf:resource="http://harinastulua.com/"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/industria-de-harinas-de-tulua-ltda/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:description>Industria dedicada a la elaboración de harina de trigo fortificada
+    y sus derivados como la sémola, semolatto, salvado, mogolla, harina de
+    tercera y harina integral.</ns2:description>
+    <ns2:name>INDUSTRIA DE HARINAS TULUÁ LIMITADA</ns2:name>
+    <ns4:depiction rdf:resource="http://i.imgur.com/0k8bTdA.jpg"/>
+    <ns3:tel>2245815, 2251477</ns3:tel>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/3yvUxvApjC32">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 28 No 32 - 54, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/Industria-de-Harinas-Tulua-limitada-133301366750011/"/>
+    <ns3:email>contabilidad@harinastulua.com</ns3:email>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#levapan">
+    <ns3:tel>2241688</ns3:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns4:depiction rdf:resource="http://i.imgur.com/x9N7Moc.jpg"/>
+    <ns3:email>impuesto@levapan.com</ns3:email>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/compania-nacional-de-levaduras-levapan-s-a/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:30:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Levapan-Tulua/481467405286461"/>
+    <ns2:name>LEVAPAN S.A</ns2:name>
+    <ns2:description>Moderna y tecnificada planta de producción de levadura.</ns2:description>
+    <ns4:homepage rdf:resource="http://www.levapan.com/"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/f3S8nRTWMdC2">
+        <ns3:street-address>Carrera 27 A No. 40 - 470, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#cetsa">
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns2:name>COMPAÑÍA DE ELECTRICIDAD DE TULUÁ S.A. E.S.P.</ns2:name>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/CwfJVDVaH1m">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Calle 29 No. 23 - 45, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:depiction rdf:resource="http://i.imgur.com/4KSaIUz.jpg"/>
+    <ns2:description>Comercialización de energía eléctrica.</ns2:description>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Compa%C3%B1ia-de-Electricidad-de-Tulua-CETSA/109217362434941"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/compania-de-electricidad-de-tulua-s-a-e-s-p/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:homepage rdf:resource="http://www.cetsa.com.co"/>
+    <ns3:email>mlasso@cetsa.com.co</ns3:email>
+    <ns3:tel>2339000</ns3:tel>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#laHerradura">
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.ciudadguru.com.co/empresas/centro-comercial-la-herradura/tulua/15722833">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">23:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:tel>2249507</ns3:tel>
+    <ns2:description>Centro comercial del Corazón de Valle del Cauca donde encuentras plazoleta de comidas,
+    bares, tiendas, cine, eventos y más.</ns2:description>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/eWUvQ3seeqs">
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Carrera 19 No. 28 - 76, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name>CENTRO COMERCIAL LA HERRADURA</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns3:email>No disponible</ns3:email>
+    <ns4:homepage rdf:resource="http://www.laherradura.com.co/"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/La-Herradura/10401777341"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/yXlawlm.png"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#transtobar">
+    <ns3:email>transtobartulua@gmail.com</ns3:email>
+    <ns2:description>Transporte metropolitano colectivo regular de pasajeros.</ns2:description>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns3:tel>2242199</ns3:tel>
+    <ns4:depiction rdf:resource="http://i.imgur.com/HbJ0Oh2.jpg"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/empresa-de-transportes-tobar-limitada-transtobar/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">19:00:00</ns2:closes>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">05:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/trans-tobar-tulua/127752540643366"/>
+    <ns2:name>EMPRESA DE TRANSPORTES TOBAR LIMITADA "TRANSTOBAR"</ns2:name>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/zkRFEQ2E2W72">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Carrera 18 No. 26 B - 01, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#centralTransportes">
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/central-de-transportes-de-tulua-s-a/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">04:30:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">20:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/SBfKsSqoAx52">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 20 No. 26 - 32, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:depiction rdf:resource="http://i.imgur.com/aKdj3Oq.jpg"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Terminal-de-transportes-Tulu%C3%A1/413459778666424"/>
+    <ns4:homepage rdf:resource="http://www.terminaltulua.com/"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns2:name>CENTRAL DE TRANSPORTES DE TULUÁ S.A.</ns2:name>
+    <ns3:tel>2245779, 2251477</ns3:tel>
+    <ns2:description>Transporte intermunicipal.</ns2:description>
+    <ns3:email>contabilidad@terminaltulua.com</ns3:email>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#bancoPopular">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/eRwDwfodkFM2">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Carrera 25 No. 27 - 92, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:description>Sede del Banco Popular de la ciudad de Tuluá.</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/banco-popular/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:name>BANCO POPULAR AGENCIA TULUÁ</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Banco_Popular_(Colombia)"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/lmJk2Wx.jpg"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns4:homepage rdf:resource="http://www.bancopopular.com.co/"/>
+    <ns3:email>tulua@bancopopular.com.co</ns3:email>
+    <ns3:tel>2243997</ns3:tel>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#viveroJazmin">
+    <ns2:description>Comercialización de plantas y artesanías.</ns2:description>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns4:homepage rdf:resource="http://www.viveroeljazmin.com/"/>
+    <ns3:tel>2321193</ns3:tel>
+    <ns4:depiction rdf:resource="http://i.imgur.com/9OiB5aZ.png"/>
+    <ns3:email>viverojazmin@gmail.com</ns3:email>
+    <ns2:name>ARTESANÍAS Y VIVERO EL JAZMÍN</ns2:name>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/707056997326311424"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/iSaQ88pygck">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Calle 31 Nro. 38 - 45, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.ciudadguru.com.co/empresas/artesanias-y-vivero-el-jazmin/tulua/15724710">
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#viveroElRosal">
+    <ns3:tel>2257151, 2313440, 2319719, 3165542035</ns3:tel>
+    <ns2:name>VIVERO EL ROSAL</ns2:name>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/OicbmG7.jpg"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.ciudadguru.com.co/empresas/vivero-el-rosal/tulua/15406229">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:description>Empresa dedicada a la producción, comercialización y distribución de plantas ornamentales.</ns2:description>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/ZWqu9cCVnqy">
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Calle 27 No. 3 Oeste 52, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name>Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:homepage rdf:resource="http://www.viveroelrosal.com/"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/ViveroElRosaltulua"/>
+    <ns3:email>No disponible</ns3:email>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#bancolombia">
+    <ns3:tel>2319905</ns3:tel>
+    <ns2:name>BANCOLOMBIA TULUÁ</ns2:name>
+    <ns3:email>No disponible</ns3:email>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Bancolombia"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns2:description>Sede de Bancolombia de la ciudad de Tuluá.</ns2:description>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/maB4rWdiNLU2">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 26 No. 26 - 20, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:homepage rdf:resource="http://www.grupobancolombia.com/"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/TOTbhR5.jpg"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/bancolombia-tulua/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:30:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#bancoBogota">
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns2:name>BANCO DE BOGOTÁ AGENCIA TULUÁ</ns2:name>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/banco-de-bogota-agencia-tulua/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns3:tel>2244222</ns3:tel>
+    <ns3:email>jds612@bancodebogota.com</ns3:email>
+    <ns4:depiction rdf:resource="http://i.imgur.com/byJtPab.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://dbpedia.org/resource/Banco_de_Bogota"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/C3uT9unrXJG2">
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 26  No. 27 - 32, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name>Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:homepage rdf:resource="http://www.bancodebogota.com/"/>
+    <ns2:description>Sede del Banco de Bogotá de la ciudad de Tuluá.</ns2:description>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#la14">
+    <ns3:tel>2308640</ns3:tel>
+    <ns3:email>No disponible</ns3:email>
+    <ns4:depiction rdf:resource="http://i.imgur.com/d6zxnQe.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns4:homepage rdf:resource="http://centrocomercialtulua.com/"/>
+    <ns2:name>CENTRO COMERCIAL TULUÁ LA 14</ns2:name>
+    <ns2:description>Centro empresarial, comercial y de negocios, epicentro de una permanente actividad social
+    y el lugar de encuentro favorito de las familias centro vallecaucanas.</ns2:description>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/khz8XnXuAHQ2">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Carrera. 40 No. 37 - 51, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.ciudadguru.com.co/empresas/centro-comercial-tulua-la-14/tulua/16750145">
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:30:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">23:30:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/centrocomercialtuluala14"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#projugos">
+    <ns2:name>PRODUCTORA DE JUGOS S.A.S</ns2:name>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Projugos-Tulua/403454439767813"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns2:description>Empresa especializada en el procesamiento de pulpas, jugos de frutas naturales
+    y concentrados.</ns2:description>
+    <ns3:email>info@projugos.com</ns3:email>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/Lb5DsP437dP2">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Calle 48 No. 21 - 100, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:homepage rdf:resource="http://www.projugos.com/"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/68cCsff.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/productora-de-jugos-s-a-s/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:tel>2356100, 2253153</ns3:tel>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#agrocorvalle">
+    <ns3:email>sicorazondelvalle@gmail.com</ns3:email>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/AGROCORVALLE"/>
+    <ns2:name>AGROINDUSTRIA OLEAGINOSA CORAZÓN DEL VALLE</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns2:description>Dedicada al cultivo y transformación de 
+    frutos de plantas oleaginosas principalmente la SACHA INCHI.</ns2:description>
+    <ns3:tel>3148541375, 3162742948, 3176247417</ns3:tel>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.eltabloide.com.co/el-aceite-de-los-incas/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns4:depiction rdf:resource="http://i.imgur.com/iVHRK2g.jpg"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/5bcFmGU8gpx">
+        <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:homepage rdf:resource="https://www.agrocorvalle.com"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#centroaguas">
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/Agregar-centro-aguas-tulua/446894565390492"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/Dqh8Z8Y.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns3:tel>2317070</ns3:tel>
+    <ns2:name>CENTROAGUAS S.A. E.S.P</ns2:name>
+    <ns4:homepage rdf:resource="http://www.centroaguas.com/"/>
+    <ns2:description>Purificación y distribución de agua, para uso doméstico y comercial.</ns2:description>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns3:email>info@centroaguas.com</ns3:email>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/maps/xhhhcTiNAK12">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Calle 25 No. 32A - 31, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/centroaguas-s-a-e-s-p/">
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#bioverti">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns2:description>Cultivo de hortalizas, raíces y tubérculos.</ns2:description>
+    <ns2:name>BIOVERTI</ns2:name>
+    <ns3:tel>3133000914</ns3:tel>
+    <ns4:homepage rdf:resource="http://www.bioverti.com"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns4:depiction rdf:resource="http://i.imgur.com/IMbLvj6.jpg"/>
+    <ns3:email>anyel176@hotmail.com</ns3:email>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/707060058031595520"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/bioverti/">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/aE9d6FjHjUD2">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:street-address>Calle 26 No. 36 - 32, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality>Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf#ingenioSanCarlos">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Empresas.rdf"/>
+    <ns4:homepage rdf:resource="http://www.ingeniosancarlos.com.co/"/>
+    <ns3:email>https://mail1.ingeniosancarlos.com.co/owa/</ns3:email>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Ingenio-Sancarlos-SA/624707384217059"/>
+    <ns2:name>INGENIO SAN CARLOS</ns2:name>
+    <ns4:depiction rdf:resource="http://i.imgur.com/IwXka7i.png"/>
+    <ns3:tel>2311515</ns3:tel>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://camaratulua.org/afiliados/ingenio-sancarlos-s-a/">
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">05:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns2:description>Empresa agroindustrial dedicada al cultivo de caña
+    y su transformación en azúcares, mieles, energía limpia y otros derivados.</ns2:description>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/z12DarMykcr">
+        <ns3:country-name>Colombia</ns3:country-name>
+        <ns3:locality>Tuluá</ns3:locality>
+        <ns3:street-address>Ingenio Sancarlos, Al Ingenio San Carlos #Vía Río Frío Km 3, Palomestizo, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+  </ns2:Location>
+</rdf:RDF>

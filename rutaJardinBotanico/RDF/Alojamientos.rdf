@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://purl.org/acco/ns#"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+>
+  <ns4:HotelRoom rdf:about="http://www.livevalledelcauca.com/tulua/jardin-botanico-juan-maria-cespedes.html">
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns4:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Alojamientos.rdf#jardinBotanico">
+        <ns3:cateogry>ALOJAMIENTOS</ns3:cateogry>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/jbjuanmariacespedes"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/7SWSXJa77pQ2"/>
+        <ns3:tel>3206888271, 3156361319</ns3:tel>
+        <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Alojamientos.rdf"/>
+        <ns2:name xml:lang="es">JARDÍN BOTÁNICO JUAN MARÍA CÉSPEDES</ns2:name>
+        <ns5:depiction rdf:resource="http://i.imgur.com/QCAEQ1y.jpg"/>
+        <ns5:homepage rdf:resource="http://inciva.gov.co/patrimonios-turisticos/jardin-botanico-juan-maria-cespedes-tulua/"/>
+        <ns2:description xml:lang="es">El Jardín Botánico Juan María Céspedes es un centro de investigaciones del Instituto para
+  la Investigación y la Preservación del Patrimonio Cultural y Natural del Valle del Cauca - INCIVA. Ubicado en el 
+  corregimiento de Mateguadua.</ns2:description>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:email>jardinbotanico@inciva.gov.co</ns3:email>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns2:Individual>
+    </ns4:partOf>
+    <ns4:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.ciudadguru.com.co/empresas/jardin-botanico-juan-maria-cespedes-tulua/tulua/15952821">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">2</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="https://www.facebook.com/pages/Jardin-Botanico-Juan-Maria-Cespedes/193724564145315">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">8</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+  </ns4:HotelRoom>
+  <ns4:HotelRoom rdf:about="https://www.facebook.com/QueHayPaHacerTulua/photos/a.1051206711587508.1073741826.315617475146439/1051206934920819/?type=3">
+    <ns4:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Alojamientos.rdf#casaCampestre">
+        <ns3:adr rdf:resource="https://goo.gl/maps/HwUEQxtVVWu"/>
+        <ns2:name xml:lang="es">CASA CAMPESTRE MATEGUADUA</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Alojamientos.rdf"/>
+        <ns2:description xml:lang="es">Cuenta con cocina, estufa de gas, nevera, asador, fogón de leña. Ubicada en el corregimiento de Mateguadua a 
+  700 ms del Jardín Botánico Juan María Céspedes, a orillas de la carretera y cerca del río Tuluá.</ns2:description>
+        <ns3:email>No disponible</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/media/set/?set=a.1051206711587508.1073741826.315617475146439&amp;type=3"/>
+        <ns5:depiction rdf:resource="http://i.imgur.com/EVYhBtm.jpg"/>
+        <ns4:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:tel>3016070060</ns3:tel>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns3:cateogry>ALOJAMIENTOS</ns3:cateogry>
+      </ns2:Individual>
+    </ns4:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns4:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="https://www.facebook.com/QueHayPaHacerTulua">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns4:numberOfRooms>
+    <ns4:bed>
+      <ns4:BedDetails rdf:about="https://www.facebook.com/QueHayPaHacerTulua/photos/a.1051206711587508.1073741826.315617475146439/1051206901587489/?type=3">
+        <ns4:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns4:quantity>
+      </ns4:BedDetails>
+    </ns4:bed>
+  </ns4:HotelRoom>
+  <ns3:Address rdf:about="https://goo.gl/maps/7SWSXJa77pQ2">
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>Mateguada, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns4:availabilityTimes>24 Horas</ns4:availabilityTimes>
+  </rdf:Description>
+  <ns3:Address rdf:about="https://goo.gl/maps/HwUEQxtVVWu">
+    <ns3:street-address>Mateguada, Valle del Cauca</ns3:street-address>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+  </ns3:Address>
+</rdf:RDF>

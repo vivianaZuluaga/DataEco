@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns1="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns1:Person rdf:about="http://www.dataeco.org/dataseteco/autores.rdf#camorenov">
+    <ns1:title>Estudiante</ns1:title>
+    <ns1:family_name>Moreno</ns1:family_name>
+    <ns1:mbox>carlos.a.moreno.v@correounivalle.edu.co</ns1:mbox>
+    <ns1:givenname>Carlos Andrés</ns1:givenname>
+    <ns1:name>Carlos Andrés Moreno</ns1:name>
+    <ns1:homepage rdf:resource="http://carmoreno.github.io/"/>
+    <ns1:nick>camorenov</ns1:nick>
+    <ns1:based_near rdf:resource="http://linkeddata.org/"/>
+    <rdfs:seeAlso rdf:resource="https://co.linkedin.com/in/carmoreno1"/>
+    <ns1:interest rdf:resource="http://www.geonames.org/3666646"/>
+  </ns1:Person>
+  <ns1:Person rdf:about="http://www.dataeco.org/dataseteco/autores.rdf#oceballos">
+    <ns1:nick>oceballos</ns1:nick>
+    <rdfs:seeAlso rdf:resource="https://plus.google.com/107843414783163417790"/>
+    <ns1:title>Profesor</ns1:title>
+    <ns1:homepage rdf:resource="http://scienti.colciencias.gov.co:8081/cvlac/visualizador/generarCurriculoCv.do?cod_rh=0001378665"/>
+    <ns1:mbox>oscar.ceballos@correounivalle.edu.co</ns1:mbox>
+    <ns1:givenname>Oscar Orlando</ns1:givenname>
+    <ns1:based_near rdf:resource="http://linkeddata.org/"/>
+    <ns1:family_name>Ceballos Argote</ns1:family_name>
+    <ns1:name>Oscar Orlando Ceballos Argote</ns1:name>
+    <ns1:interest rdf:resource="http://www.geonames.org/3687925"/>
+  </ns1:Person>
+  <ns1:Person rdf:about="http://www.dataeco.org/dataseteco/autores.rdf#alaponte">
+    <ns1:title>Profesor</ns1:title>
+    <ns1:interest rdf:resource="http://www.geonames.org/3673164"/>
+    <ns1:givenname>Albeiro</ns1:givenname>
+    <ns1:family_name>Aponte Vargas</ns1:family_name>
+    <ns1:based_near rdf:resource="http://linkeddata.org/"/>
+    <ns1:mbox>albeiro.aponte@correounivalle.edu.co</ns1:mbox>
+    <ns1:nick>alaponte</ns1:nick>
+    <ns1:name>Albeiro Aponte Vargas</ns1:name>
+  </ns1:Person>
+  <ns1:Person rdf:about="http://www.dataeco.org/dataseteco/autores.rdf#ybermudez">
+    <ns1:mbox>yuri.bermudez@correounivalle.edu.co</ns1:mbox>
+    <ns1:homepage rdf:resource="http://independent.academia.edu/YuriMercedesBermudezMazuera"/>
+    <ns1:family_name>Bermúdez Mazuera</ns1:family_name>
+    <ns1:givenname>Yuri Mercedes</ns1:givenname>
+    <ns1:nick>ybermudez</ns1:nick>
+    <ns1:title>Profesora</ns1:title>
+    <rdfs:seeAlso rdf:resource="https://plus.google.com/112830835883823056733"/>
+    <ns1:name>Yuri Mercedes Bermúdez Mazuera</ns1:name>
+    <ns1:interest rdf:resource="http://www.geonames.org/3666646"/>
+    <ns1:based_near rdf:resource="http://linkeddata.org/"/>
+  </ns1:Person>
+  <ns1:Person rdf:about="http://www.dataeco.org/dataseteco/autores.rdf#vzuluagab">
+    <ns1:title>Estudiante</ns1:title>
+    <ns1:homepage rdf:resource="https://github.com/vivianaZuluaga"/>
+    <ns1:mbox>viviana.zuluaga@correounivalle.edu.co</ns1:mbox>
+    <ns1:nick>vzuluagab</ns1:nick>
+    <ns1:givenname>Viviana Andrea</ns1:givenname>
+    <ns1:name>Viviana Andrea Zuluaga</ns1:name>
+    <ns1:family_name>Zuluaga</ns1:family_name>
+    <ns1:based_near rdf:resource="http://linkeddata.org/"/>
+    <ns1:interest rdf:resource="http://www.geonames.org/3666646"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/vzuluagabolanos"/>
+  </ns1:Person>
+</rdf:RDF>

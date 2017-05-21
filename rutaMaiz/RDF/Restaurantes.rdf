@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#elPaisa">
+    <rdfs:seeAlso rdf:resource="http://www.aquieselpaisatulua.com/file/menu-aqui-es-el-paisa.pdf"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/F1yFg3a.jpg"/>
+    <ns2:description xml:lang="es">Lleva más de diecisiete años deleitando el paladar de los tulueños con comida típica, buena mesa y sazón paisa.
+    Ofrece los mejores platos antioqueños, asados al carbón, comida gourmet, comidas rápidas, deliciosas y variadas picadas.</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475518">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">01:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">17:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:tel>2256373, 3207113313, 3164788008</ns3:tel>
+    <ns4:homepage rdf:resource="http://www.aquieselpaisatulua.com/"/>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/LzCHbGg7FVt">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Carrera 26 No. 38 - 144, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name xml:lang="es">AQUÍ ES EL PAISA</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#elOcaso">
+    <ns2:name xml:lang="es">EL OCASO</ns2:name>
+    <ns2:description xml:lang="es">Torta de maíz, chorizo campesino, chancarina, fiambre valluno.</ns2:description>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/negZQ2kbGjm">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="https://www.youtube.com/embed/q0UgTCZa1bE">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:depiction rdf:resource="http://i.imgur.com/GH1dzyy.png"/>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/741127397727162368"/>
+    <ns3:tel>3122502184</ns3:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#santaLucia">
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/groups/57057973652"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/awE45sO.jpg"/>
+    <ns2:description xml:lang="es">Ofrece la mejor cocina típica del Centro del Valle e internacional dentro de un ambiente campestre y familiar.</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475527">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">21:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:tel>2244405, 3012295291</ns3:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/nNKSLnqPFVQ2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 40 calle 17 B, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name xml:lang="es">SANTA LUCÍA GOURMET RESTAURANTE BAR</ns2:name>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#americanPizza">
+    <ns2:name xml:lang="es">AMERICAN PIZZA</ns2:name>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/American-Pizza-1608357502820958/"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/aD6R6DSjix62">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 28 Calle 30 Esquina, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:description xml:lang="es">Jugos naturales, Lasañas, Churrasco, Ensaladas de Frutas, Sandwich, Malteadas, Pancerotes, 
+    Ensaladas, Comidas Rápidas.</ns2:description>
+    <ns3:tel>2240055, 2246515</ns3:tel>
+    <ns4:depiction rdf:resource="http://i.imgur.com/c8eKdtZ.jpg"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475546">
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">23:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">14:00:00</ns2:opens>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:homepage rdf:resource="http://www.americanpizza.com.co/"/>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#todoChuletas">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/5yQt2Tz5eeG2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Carrera 27A No. 42 - 184, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475523">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">15:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">10:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:depiction rdf:resource="http://i.imgur.com/vCd5h8K.jpg"/>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns3:tel>2242979, 2255494</ns3:tel>
+    <ns2:name xml:lang="es">TODO CHULETAS EXPRESS TULUÁ</ns2:name>
+    <ns2:description xml:lang="es">Restaurante a manteles. Ofrecemos sopas, carne, pollo, arroz, ensaladas.</ns2:description>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/Restaurante-Todo-Chuletas-Tulua-1636237983291640/"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#rinconCosteno">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/f9yB84FSLT22">
+        <ns3:street-address>Calle 25 No. 22 - 51, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:depiction rdf:resource="http://i.imgur.com/AXpED2P.jpg"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475514">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">21:30:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">09:30:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:name xml:lang="es">RINCÓN COSTEÑO</ns2:name>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns2:description xml:lang="es">Ofrece deliciosa comida de mar, comida costeña, cazuela de mariscos.</ns2:description>
+    <ns3:tel>2241054</ns3:tel>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/760293709074366464"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#wagner">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/YPjRMLgFdS92">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 32 No. 24 - 41, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:description xml:lang="es">Delicioso café en la presentación que más te gusta, 
+    acompañado de crepes, sandwich, hamburguesas, cheasecake, ... y otras delicias.</ns2:description>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1512189">
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">10:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">21:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:tel>3164222259</ns3:tel>
+    <ns2:name xml:lang="es">WAGNER`S COFFEE</ns2:name>
+    <ns4:depiction rdf:resource="http://i.imgur.com/MbOMDNi.jpg"/>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/uban.wagner"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#laBenilda">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/1RTtsR2.png"/>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns3:tel>3104540005, 3182190336</ns3:tel>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/sgYUQMTqwwq">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name xml:lang="es">FINCA LA BENILDA</ns2:name>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/741135052847874049"/>
+    <ns2:hasOpeningHoursSpecification rdf:resource="https://www.youtube.com/embed/q0UgTCZa1bE"/>
+    <ns2:description xml:lang="es">Trasnochado de maíz, mazorcas de choclo asado, bandeja paisa, masato de maíz, arepas de choclo.</ns2:description>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#laLeonora">
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns2:description xml:lang="es">Tamal Valluno, subidos de maíz, cordero asado, chicha de maíz, ajiaco bogotano, manjar  blanco, 
+    envueltos de choclo, natilla de maíz.</ns2:description>
+    <ns2:hasOpeningHoursSpecification rdf:resource="https://www.youtube.com/embed/q0UgTCZa1bE"/>
+    <ns2:name xml:lang="es">HACIENDA LA LEONORA</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/xduJAL6Guy52">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:tel>3116404505, 3152689558</ns3:tel>
+    <ns4:depiction rdf:resource="http://i.imgur.com/Y1JJa6b.png"/>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/715737460697931776"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#la26">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/BSZnHjrLkW22">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 26 No. 26 - 55, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns2:description xml:lang="es">Asadero y panadería. Expertos en la elaboración de gran variedad de productos alimenticios</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.amarillascolombia.co/colombia/tulua/restaurantes/pollos-asados-mario-195432">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">20:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns2:name xml:lang="es">RESTAURANTE Y PANADERÍA LA 26</ns2:name>
+    <rdfs:seeAlso rdf:resource="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475516"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/LzYGArL.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns3:tel>2252791</ns3:tel>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#losAlmendros">
+    <ns4:depiction rdf:resource="http://i.imgur.com/wOtGdsn.png"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns3:tel>3152768355</ns3:tel>
+    <ns2:description xml:lang="es">Ancas de rana, macho rucio, champús de maíz con frutas tropicales.</ns2:description>
+    <ns2:hasOpeningHoursSpecification rdf:resource="https://www.youtube.com/embed/q0UgTCZa1bE"/>
+    <ns2:name xml:lang="es">LOS ALMENDROS</ns2:name>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/741129909305761794"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/iPprdddk6AR2">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#yerbabuena">
+    <ns4:homepage rdf:resource="http://restauranteyerbabuena.co/"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/RestauranteYerbabuenaCo"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/qwKiXDM.png"/>
+    <ns2:name xml:lang="es">YERBABUENA RESTAURANTE VIVERO</ns2:name>
+    <ns2:description xml:lang="es">Combina la calidad gastronómica y un servicio de restaurante adecuado en medio de un ambiente 
+    campestre con espacios amplios y cómodos. Exquisitos platos inspirados en la gastronomía nacional e internacional.</ns2:description>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475521">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">21:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/1GTzW5tqFYD2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 40 # 17B - 28, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:tel>2262323, 2248999, 3146616634</ns3:tel>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#laCabanuela">
+    <ns2:hasOpeningHoursSpecification rdf:resource="https://www.youtube.com/embed/q0UgTCZa1bE"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/GoRsVqBHHKU2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns3:tel>3175935835</ns3:tel>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/741132208879079424"/>
+    <ns2:name xml:lang="es">LA CABAÑUELA</ns2:name>
+    <ns2:description xml:lang="es">cerdo de raza Zungo, plato con media gallina sudada, refrescante aperitivo sirope acompañado 
+    con ricos platos mexicanos.</ns2:description>
+    <ns4:depiction rdf:resource="http://i.imgur.com/zl1BfDe.png"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#elJardin">
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/Ecodataset/status/741133124176912384"/>
+    <ns2:hasOpeningHoursSpecification rdf:resource="https://www.youtube.com/embed/q0UgTCZa1bE"/>
+    <ns2:name xml:lang="es">EL JARDÍN</ns2:name>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/iBs1aDqjjZt">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Campoalegre, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns4:depiction rdf:resource="http://i.imgur.com/ndNjAOf.png"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+    <ns2:description xml:lang="es">Tradicional sancocho de gallina hecho en fogón de leña,  mazamorra de maíz.</ns2:description>
+    <ns3:tel>3178767249</ns3:tel>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf#sebastianParrilla">
+    <ns2:description xml:lang="es">Asadero, deliciosos Chorizos de San Rafael los mejores de Tuluá.</ns2:description>
+    <ns2:name xml:lang="es">SEBASTIÁN PARRILLA</ns2:name>
+    <ns3:tel>2262697</ns3:tel>
+    <ns3:category xml:lang="es">RESTAURANTES</ns3:category>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475526">
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">06:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">22:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Saturday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Sunday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/QFEESFyNmsT2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 28 No. 21 - 10, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:depiction rdf:resource="http://i.imgur.com/Vawm18F.jpg"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Sebastian-Parrilla/675857662453037"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Restaurantes.rdf"/>
+  </ns2:Location>
+</rdf:RDF>

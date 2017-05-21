@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://purl.org/NET/c4dm/timeline.owl#"
+  xmlns:ns2="http://umbel.org/umbel#"
+  xmlns:ns3="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns5="http://www.w3.org/2006/vcard/ns#"
+>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#rotaryRun">
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/786720513901092864">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">PT5H</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-09T08:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:label xml:lang="es">ROTARY RUN</rdfs:label>
+    <ns4:depiction rdf:resource="http://i.imgur.com/MQ2962y.png"/>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/dMowaObVXyM"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/DkW2w3rnnh82">
+        <rdfs:label xml:lang="es">Parque Céspedes, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:comment xml:lang="es">Carrera atlética incluyente organizada por el Club Rotario Tuluá El Lago, los competidores recorren 
+  entre 4-12 kms. El dinero recaudado se destina a obras sociales. Valor de la inscripción $30000</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/events/454437778093456"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#sancochoFest">
+    <rdfs:label xml:lang="es">SANCOCHO FEST</rdfs:label>
+    <ns4:depiction rdf:resource="http://i.imgur.com/CcGKhZF.jpg"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/CxALtR6eg3o">
+        <rdfs:label xml:lang="es">Parque Céspedes, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775813581631725568">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-02-05T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:comment xml:lang="es">Evento gratuito que intenta mostrar lo mejor de propuestas emergentes en el área de la música, cine, fotografía, 
+  poesía donde pueden participar y asistir todas las personas amantes de la cultura.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://www.sancochofest.co/"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/4c_Tj-pfebs"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#caballitosDePalo">
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/feriadetuluaoficial/posts/1723882454557315"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775699774334988288">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T14:30:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns4:depiction rdf:resource="http://i.imgur.com/mF90nnF.jpg"/>
+    <rdfs:label xml:lang="es">DESFILE DE CABALLITOS DE PALO Y COMPARSAS INFANTILES</rdfs:label>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/Lf25yOUEnbM"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/gFUQC5kTjuC2">
+        <rdfs:label xml:lang="es">Plaza Cívica Boyacá, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <rdfs:comment xml:lang="es">Evento celebrado como antesala de la feria de Tuluá.</rdfs:comment>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#festivalCometas">
+    <rdfs:comment xml:lang="es">Cada año acuden cerca de 1.000 expositores de cometas y aproximadamente 12.000 visitantes y 
+  observadores. En el marco del festival se hace una exposición de paracaidistas y ultralivianos, por parte 
+  de la Fuerza Aérea Colombiana.</rdfs:comment>
+    <rdfs:label xml:lang="es">FESTIVAL REGIONAL DE COMETAS CLUB ROTARIO TULUÁ</rdfs:label>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:seeAlso rdf:resource="http://www.tulua.gov.co/sitio.shtml?apc=B1-1--&amp;x=1480719"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775806976097816576">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-08-07T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <ns4:depiction rdf:resource="http://i.imgur.com/8fIkCUN.jpg"/>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/CNbl8ERcuW0"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/E1aZrAQbDkT2">
+        <rdfs:label xml:lang="es">Departamento Administrativo De Tránsito, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#feria">
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:label xml:lang="es">FERIA DE TULUÁ</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/feriadetuluaoficial/"/>
+    <rdfs:comment xml:lang="es">La programación es variada, desde lo agropecuario, ganadero, artesanal hasta las presentaciones de 
+  artistas nacionales e internacionales de manera simultánea en cinco escenarios diferentes de la ciudad.</rdfs:comment>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/Tu24OPFWFIE"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="http://www.eltabloide.com.co/huele-a-feria/">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-02T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P4D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <ns3:place>
+      <rdf:Description rdf:about="http://www.geonames.org/3666646">
+        <rdfs:label xml:lang="es">Av Principal Aguaclara, Tuluá, Valle del Cauca</rdfs:label>
+        <rdfs:label xml:lang="es">Tuluá, Valle del Cauca</rdfs:label>
+        <rdfs:label xml:lang="es">Barrio Alameda, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns4:depiction rdf:resource="http://i.imgur.com/Q9EgLz2.jpg"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#comparsas">
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/Fp14F3_JMQ8"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/eqKGUWzZJjw">
+        <rdfs:label xml:lang="es">Transversal 12 con Calle 25, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:seeAlso rdf:resource="http://www.eltabloide.com.co/carnaval-de-orejones/"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775734225316241408">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-30T18:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:label xml:lang="es">DESFILE DE COMPARSAS</rdfs:label>
+    <ns4:depiction rdf:resource="http://i.imgur.com/f7hcZMr.jpg"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:comment xml:lang="es">Evento celebrado como antesala de la feria de Tuluá.</rdfs:comment>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#veladaBoxistica">
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775704156095057920">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:label xml:lang="es">VELADA BOXÍSTICA</rdfs:label>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/peed56xYCIw"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/QoiP3PhsN6S2">
+        <rdfs:label xml:lang="es">Coliseo Manuel Victoria Rojas, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns4:depiction rdf:resource="http://i.imgur.com/duRIvGC.jpg"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/feriadetuluaoficial/posts/1725394204406140"/>
+    <rdfs:comment xml:lang="es">Evento celebrado como antesala de la feria de Tuluá.</rdfs:comment>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#cabalgataFeria">
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775771646573572096">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-28T14:30:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/2vli_5pwWhE"/>
+    <ns3:place rdf:resource="http://www.geonames.org/3666646"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/feriadetuluaoficial/posts/1725601521052075"/>
+    <rdfs:label xml:lang="es">CABALGATA FERIA DE TULUÁ</rdfs:label>
+    <rdfs:comment xml:lang="es">Evento de apertura de la feria de Tuluá.</rdfs:comment>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns4:depiction rdf:resource="http://i.imgur.com/I0aaPIy.jpg"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#aniosDorados">
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775688832356327424">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-27T14:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:label xml:lang="es">FIESTA DE LOS AÑOS DORADOS</rdfs:label>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/gQn35OZVAM0"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/OPWm9Vc.jpg"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/J5v7a2a8A842">
+        <rdfs:label xml:lang="es">Carrera 27 con Calle 22, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:comment xml:lang="es">Evento celebrado como antesala de la feria, un espacio para el adulto mayor con
+  música, animación y refrigerios.</rdfs:comment>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/events/179078442487780/"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#musicoMarciales">
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775696473652592640">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-29T18:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/RmGl4ritx7M"/>
+    <rdfs:comment xml:lang="es">Con la participación de bandas provenientes del municipio de Tuluá y de otros municipios.</rdfs:comment>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/PHgJvbo2VrL2">
+        <rdfs:label xml:lang="es">Calle 25 con Carrera 5, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns4:depiction rdf:resource="http://i.imgur.com/yus7d2D.jpg"/>
+    <rdfs:label xml:lang="es">DESFILE DE BANDAS MÚSICO-MARCIALES</rdfs:label>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/feriadetuluaoficial/posts/1716500381962189"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#festivalRio">
+    <ns4:depiction rdf:resource="http://i.imgur.com/jSRvxep.jpg"/>
+    <rdfs:comment xml:lang="es">Venta de platos típicos de la región, bebidas y dulces típicos. Campeonatos de voley playa, ciclomontañismo, 
+  competencias en triciclos y en patines, concurso de pintura para los niños, competencias en neumáticos por el lecho del río 
+  Tuluá, se presentan artistas en tarima y se realizan actividades de limpieza.</rdfs:comment>
+    <rdfs:label xml:lang="es">FESTIVAL DEL RÍO TULUÁ</rdfs:label>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/7CgYpqsvSvM2">
+        <rdfs:label xml:lang="es">Calles 38 y 42, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/voluzOZjDEU"/>
+    <rdfs:seeAlso rdf:resource="http://www.tulua.gov.co/sitio.shtml?apc=B1--1481401-1481401&amp;x=1480722"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775784947407810560">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-03-16T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#carreraFenalco">
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/XVIII-Carrera-Atletica-y-Recreativa-Fenalco-Rio-Tulua-962006747253233"/>
+    <rdfs:label xml:lang="es">CARRERA ATLÉTICA Y RECREATIVA FENALCO RÍO TULUÁ</rdfs:label>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/fNK21W2k6hQ"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775828352833847296">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-07-24T07:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns4:depiction rdf:resource="http://i.imgur.com/OyVpEFV.jpg"/>
+    <rdfs:comment xml:lang="es">Este evento se ha realizado desde hace 18 años, siendo el segundo evento más importante de la ciudad, 
+  declarado por el concejo municipal como interés deportivo y cultural.</rdfs:comment>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/ZQLF915NyA82">
+        <rdfs:label xml:lang="es">Industrias De Harinas Tuluá, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#pirotecnicos">
+    <ns3:place rdf:resource="http://www.geonames.org/3666646"/>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/MF0FJNXKRFc"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/uZW2eJj.jpg"/>
+    <rdfs:label xml:lang="es">JUEGOS PIROTÉCNICOS</rdfs:label>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775754957131747328">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-06-01T20:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/feriadetuluaoficial/posts/1725381304407430"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:comment xml:lang="es">Evento celebrado como antesala de la feria de Tuluá.</rdfs:comment>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#fiestasMaiz">
+    <ns4:depiction rdf:resource="http://i.imgur.com/KikTRxw.png"/>
+    <rdfs:label xml:lang="es">FIESTAS DE LA RUTA DEL MAÍZ</rdfs:label>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/DGoj5ahqmem">
+        <rdfs:label xml:lang="es">Campoalegre, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/D7rWW6TwIrQ"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775822493596647424">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-05-18T10:30:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P1D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:comment xml:lang="es">Comprenden la gastronomía en torno a productos hechos a base de maíz.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://www.tulua.gov.co/sitio.shtml?apc=C1v16--&amp;x=1517450"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#mate">
+    <ns4:depiction rdf:resource="http://i.imgur.com/w7uDnPD.jpg"/>
+    <rdfs:comment xml:lang="es">Tradicional evento tulueño que rescata y preserva las raíces culturales cultivando el amor por nuestra música, 
+  además reúne a buena parte de los grupos de música andina y latinoamericana de la región en un solo concierto.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/events/1850449368500266/"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/TaAGeYoxZFo">
+        <rdfs:label xml:lang="es">Calle 42 Cra 32, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/775783573018316800">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-10-14T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P2D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/_F3sJjQGjRg"/>
+    <rdfs:label xml:lang="es">FESTIVAL DEL MATE, EL GUARAPO Y LA MÚSICA AUTÓCTONA</rdfs:label>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf#estudiantinas">
+    <ns4:depiction rdf:resource="http://i.imgur.com/iyhZwV5.jpg"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Eventos.rdf"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="http://www.eltabloide.com.co/xiii-encuentro-nacional-de-estudiantinas/">
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-13T00:00:00+00:00</ns1:at>
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:comment xml:lang="es">Tiene como objetivo preservar la memoria del maestro Hector Cedeño y difundir la música andina
+  colombiana interpretada por estudiantinas. La programación del evento incluye la presentación de
+  las Estudiantinas participantes en diferentes espacios públicos con acceso gratuito.</rdfs:comment>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/V99seUN68Bm">
+        <rdfs:label xml:lang="es">Parque Céspedes, Tuluá, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns3:illustrate rdf:resource="https://www.youtube.com/embed/bBNXc5diBQc"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/encuentro.deestudiantinas.94/"/>
+    <rdfs:label xml:lang="es">ENCUENTRO NACIONAL DE ESTUDIANTINAS 'HECTOR CEDEÑO'</rdfs:label>
+  </ns3:Event>
+</rdf:RDF>

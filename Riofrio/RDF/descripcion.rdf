@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns2="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns3="http://www.w3.org/2002/07/owl#"
+  xmlns:ns4="http://geo.linkeddata.es/ontology/"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Recurso-turistico rdf:about="http://www.dataeco.org/dataseteco/Riofrio/descripcion.rdf">
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3670754"/>
+    <ns4:formaParteDe rdf:resource="http://dbpedia.org/resource/Riofrio,_Valle_del_Cauca"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Alojamientos.rdf"/>
+    <rdfs:label xml:lang="es">RIOFRÍO</rdfs:label>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Lugares.rdf"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/2XEPrR1.jpg"/>
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3783081"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Fauna.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Restaurantes.rdf"/>
+    <rdfs:comment xml:lang="es">Por la carretera panorama se encuentra el municipio de Riofrío, 
+su diversidad de pisos térmicos va de la mano con su topografía y orografía. Es conocido como una autentica reserva turística, por 
+poseer los parajes más típicos del valle, riqueza ecológica y abundante fauna.</rdfs:comment>
+  </ns2:Recurso-turistico>
+</rdf:RDF>

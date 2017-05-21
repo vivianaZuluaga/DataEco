@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#chagualos">
+    <rdfs:comment xml:lang="es">Es un área natural protegida dedicada a la conservación, investigación, educación ambiental, ecoturismo, y agroecología, 
+    su ecosistema principal hace parte del bosque subandino. Ubicada a 15.5 kilómetros de la ciudad de Tuluá y a 3 Kilómetros 
+    del casco urbano del corregimiento de La Marina.</rdfs:comment>
+    <ns3:email>reservachagualos@gmail.com</ns3:email>
+    <ns2:depiction rdf:resource="http://i.imgur.com/Auduk3K.jpg"/>
+    <ns2:depiction rdf:resource="https://www.youtube.com/embed/8hUawerN5Ek"/>
+    <ns3:tel>0</ns3:tel>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/DXSZCo17J432">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name xml:lang="es">LA RESERVA NATURAL DE LA SOCIEDAD CIVIL LOS CHAGUALOS</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/reserva.chagualos"/>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#parquePrincipal">
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/La-Marina-Tulua-Valle-Ecoturismo-y-Diversion-102570483183016/"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/5S6Po9VY1tC2">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:email>No disponible</ns3:email>
+    <ns2:depiction rdf:resource="http://i.imgur.com/GErJR9N.jpg"/>
+    <rdfs:comment xml:lang="es">Cuenta con polideportivo cubierto, juegos infantiles, establecimiento de alimentos y bebidas, plaza de mercado, donde 
+    los domingos los agricultores y campesinos ponen en venta la producción de carnes, provenientes de las fincas cercanas, 
+    además es el punto de encuentro de los habitantes y un ambiente esparcimiento para sus visitantes. Ubicado frente a la iglesia 
+    y la estación de policía.</rdfs:comment>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns3:tel>0</ns3:tel>
+    <ns2:name xml:lang="es">PARQUE PRINCIPAL</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#elPicacho">
+    <ns2:depiction rdf:resource="http://i.imgur.com/RNN9f6T.jpg"/>
+    <ns2:depiction rdf:resource="https://www.youtube.com/embed/BYkSVIzh5CY"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <ns2:name xml:lang="es">CERRO EL PICACHO</ns2:name>
+    <rdfs:comment xml:lang="es">Sitio de peregrinación, cada año por la misma fecha de mayo, cientos de Tulueños suben. Se puede observar un lindo amanecer 
+    o un hermoso atardecer. Se practican parapente, paracaidismo, ciclismo.</rdfs:comment>
+    <ns3:tel>0</ns3:tel>
+    <ns3:email>No disponible</ns3:email>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <rdfs:seeAlso rdf:resource="http://www.eltabloide.com.co/un-picacho-lleno-de-mitos-y-leyendas/"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/Y7rJbfcAxcy">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>El Picacho, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#lasMarias">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/vyuRs9SLc4G2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>La Moralia, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:email>visitalasmarias@gmail.com</ns3:email>
+    <rdfs:comment xml:lang="es">Ofrece servicios de alojamiento en cabañas, zona de camping, restaurante, piscina, sauna, parqueadero gratis, 
+    zona WIFI. Excelente lugar para compartir en familia por su tranquilidad y espectacular relación con la naturaleza. 
+    Espacios aptos para eventos empresariales. Ubicado a 15 minutos de Tuluá.</rdfs:comment>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/LasMariasValle/"/>
+    <ns2:depiction rdf:resource="http://i.imgur.com/wttl4ey.jpg"/>
+    <ns3:tel>3167796220, 3188001754</ns3:tel>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns2:name xml:lang="es">CENTRO RECREACIONAL LAS MARÍAS</ns2:name>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#tresPiedras">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/4VpMavgHgTx">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Tres-Piedras-La-Marina/1401175110175669"/>
+    <rdfs:comment xml:lang="es">Ofrece servicios de alimentos y bebidas, recreación, espacios de práctica de motocross, canchas de voley playa, alquiler 
+    de caballos, todo esto se disfruta con el río que pasa por este establecimiento deleitando con sus naturales y puras aguas a 
+    sus visitantes.</rdfs:comment>
+    <ns2:name xml:lang="es">BALNEARIO TRES PIEDRAS</ns2:name>
+    <ns3:email>No disponible</ns3:email>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns2:depiction rdf:resource="http://i.imgur.com/nyr3AXR.jpg"/>
+    <ns3:tel>0</ns3:tel>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#moralito">
+    <ns2:name xml:lang="es">MORALITO</ns2:name>
+    <ns3:tel>0</ns3:tel>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/La-Marina-Moralito/596105267145768"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <ns3:email>No disponible</ns3:email>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <rdfs:comment xml:lang="es">Cuenta con espacios para la integración familiar y de grupos, ofrece recreación, piscinas naturales, servicio de alimentos 
+    y bebidas, juegos infantiles, kioscos, parqueadero.</rdfs:comment>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/e3qMhtrL66o">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:depiction rdf:resource="http://i.imgur.com/nyC1cgz.jpg"/>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#laRochela">
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/La-Rochela-612135438799528"/>
+    <ns2:name xml:lang="es">LA ROCHELA</ns2:name>
+    <ns3:tel>3152253329, 3185344484, 3155079632</ns3:tel>
+    <ns2:depiction rdf:resource="http://i.imgur.com/unia8WG.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <ns3:email>balneariolarochela@gmail.com</ns3:email>
+    <rdfs:comment xml:lang="es">Ofrece servicio de camping, piscina de aguas naturales alimentadas por una de las quebradas de la zona, es ideal para 
+    familias y grupos, cuenta con sala de juegos de mesa, cancha de vóley playa, alquiler de caballos y zonas verdes. Ubicada en el 
+    Km 8 de la vía.</rdfs:comment>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/mRy7QrqNvqx">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Vía La Marina - Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#parqueLaMoralia">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <ns3:tel>0</ns3:tel>
+    <rdfs:comment xml:lang="es">Cuenta con polideportivo cubierto, juegos infantiles, monumento a las víctimas.</rdfs:comment>
+    <ns3:email>No disponible</ns3:email>
+    <ns2:depiction rdf:resource="https://www.youtube.com/embed/KCifoTh--d0"/>
+    <ns2:depiction rdf:resource="http://i.imgur.com/kkgKuhQ.jpg"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/k9zJoVNP4L82">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>La Moralia, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/764645876329512961"/>
+    <ns2:name xml:lang="es">PARQUE PRINCIPAL LA MORALIA</ns2:name>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#ranchoLasPalmas">
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Rancho-Las-Palmas/246671912037940"/>
+    <ns2:depiction rdf:resource="https://www.youtube.com/embed/sVlkViwdHHA"/>
+    <ns3:tel>2243939, 3155693615</ns3:tel>
+    <ns2:name xml:lang="es">RANCHO LAS PALMAS</ns2:name>
+    <ns2:depiction rdf:resource="http://i.imgur.com/DKmsfRt.jpg"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/eMjWbhVFiPw">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>La Rivera, Tuluá Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <rdfs:comment xml:lang="es">Lugar de encuentro en donde se llevan a cabo diversos eventos, cuenta con pista de ciclomontañismo. Ubicado 
+    en el Km 1 detrás del Centro Comercial Tuluá La 14.</rdfs:comment>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns3:email>No disponible</ns3:email>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf#coodeco">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/MFTuskB4DXN2">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Coodeco-La-Marina-Tulua-Valle/330765627124567"/>
+    <ns3:email>No disponible</ns3:email>
+    <ns3:tel>0</ns3:tel>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <rdfs:comment xml:lang="es">Balneario con aguas naturales.</rdfs:comment>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Lugares.rdf"/>
+    <ns2:depiction rdf:resource="http://i.imgur.com/hp4KyVh.jpg"/>
+    <ns2:name xml:lang="es">COODECO O BRISAS DEL RÍO MORALES</ns2:name>
+  </ns3:Location>
+</rdf:RDF>

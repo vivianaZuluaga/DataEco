@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://purl.org/NET/c4dm/timeline.owl#"
+  xmlns:ns2="http://umbel.org/umbel#"
+  xmlns:ns3="http://purl.org/NET/c4dm/event.owl#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns5="http://www.w3.org/2006/vcard/ns#"
+>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf#feriaRiofrio">
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf"/>
+    <ns3:place>
+      <rdf:Description rdf:about="http://www.geonames.org/3670755">
+        <rdfs:label xml:lang="es">Riofrío, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <ns4:depiction rdf:resource="http://i.imgur.com/0gc6Uce.png"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/769992497317707781">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-10-10T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <rdfs:label xml:lang="es">FERIA DE RIOFRÍO</rdfs:label>
+    <rdfs:comment xml:lang="es">Se realizan conciertos de diferentes artistas y en horas de la tarde se ubican lugares para la venta de productos 
+  comercializados por los habitantes del municipio.</rdfs:comment>
+    <rdfs:seeAlso rdf:resource="http://www.valledelcauca.gov.co/turismo/publicaciones.php?id=28443"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/7T1FAjEcWa0"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf#carnavalDuende">
+    <rdfs:comment xml:lang="es">Se realiza cada año para fomentar el ecoturismo, la conservación del ecosistema y difundir las creencias, las danzas, 
+  la música, así como los mitos, las leyendas, historias y ritos tradicionales.</rdfs:comment>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/groups/262819420499376"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/Cof1SHSbEQs">
+        <rdfs:label xml:lang="es">Fenicia, Riofrío, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:label xml:lang="es">CARNAVAL DEL DUENDE</rdfs:label>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/797112613721214976">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P4D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2016-11-01T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns4:depiction rdf:resource="http://i.imgur.com/b292tQI.png"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf#fiestasSalonica">
+    <rdfs:label xml:lang="es">FIESTAS DE SALÓNICA</rdfs:label>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/769996208295346177">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P3D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-01-09T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/4ObHOKolrRY"/>
+    <rdfs:seeAlso rdf:resource="http://mobile.pueblosdecolombia.com/Departamento%20del%20Valle%20del%20Cauca/fiestas/26459/Salonica.html"/>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf"/>
+    <ns3:place>
+      <rdf:Description rdf:about="https://goo.gl/maps/pXZPmiHenbQ2">
+        <rdfs:label xml:lang="es">Salónica, Riofrío, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:comment xml:lang="es">Se realizan actividades recreativas y conciertos de diferentes artistas.</rdfs:comment>
+    <ns4:depiction rdf:resource="http://i.imgur.com/rEh73KD.jpg"/>
+  </ns3:Event>
+  <ns3:Event rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf#fiestasEcoturisticas">
+    <ns3:place>
+      <rdf:Description rdf:about="http://www.geonames.org/3671462">
+        <rdfs:label xml:lang="es">Fenicia, Riofrío, Valle del Cauca</rdfs:label>
+      </rdf:Description>
+    </ns3:place>
+    <rdfs:seeAlso rdf:resource="http://www.riofrio-valle.gov.co/eventos.shtml?apc=cdxx-1-&amp;x=2722611"/>
+    <ns3:time>
+      <ns1:Interval rdf:about="https://www.twitter.com/Ecodataset/status/769954296548974593">
+        <ns1:duration rdf:datatype="http://www.w3.org/2001/XMLSchema#duration">P4D</ns1:duration>
+        <ns1:at rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-05-27T00:00:00+00:00</ns1:at>
+      </ns1:Interval>
+    </ns3:time>
+    <ns4:depiction rdf:resource="https://www.youtube.com/embed/BG9VJyksD0U"/>
+    <rdfs:comment xml:lang="es">Se realizan presentaciones artísticas, actividades recreativas como el concurso Raja Leña, en el cual se dan tres troncos 
+  a cada participante y debe astillarlos en media hora.</rdfs:comment>
+    <ns4:depiction rdf:resource="http://i.imgur.com/xGBq9Yf.jpg"/>
+    <rdfs:label xml:lang="es">FIESTAS ECOTURÍSTICAS Y DEL RETORNO</rdfs:label>
+    <ns2:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Eventos.rdf"/>
+    <ns5:category xml:lang="es">EVENTOS</ns5:category>
+  </ns3:Event>
+</rdf:RDF>

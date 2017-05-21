@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf#univalle">
+    <ns2:description xml:lang="es">Universidad pública considerada la principal institución de educación superior del suroccidente del país.</ns2:description>
+    <ns2:name xml:lang="es">UNIVERSIDAD DEL VALLE SEDE TULUÁ</ns2:name>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="https://www.youtube.com/embed/3o_g3l1iC_4">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">17:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/UnivalleSedeTulua06/"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/V8JRNVrhLus">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Calle 43 No 43 - 33, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:email>academica.tulua@correounivalle.edu.co</ns3:email>
+    <ns4:depiction rdf:resource="http://i.imgur.com/my7qVD9.jpg"/>
+    <ns4:homepage rdf:resource="http://tulua.univalle.edu.co/"/>
+    <ns3:tel>2241816</ns3:tel>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf#escuelaPolicia">
+    <ns4:depiction rdf:resource="http://i.imgur.com/PCNkCT0.jpg"/>
+    <ns3:tel>2257192 ext. 130</ns3:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf"/>
+    <ns3:email>esbol.oac@policia.gov.co</ns3:email>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="https://www.youtube.com/embed/iSA4bUzyzFs">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">07:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">18:00:00</ns2:closes>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/GgVE6MRkP5z">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns4:homepage rdf:resource="http://policia.seedlabs.co/escuelas/simon-bolivar"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Escuela-de-Policia-Simon-Bolivar/334490836608164"/>
+    <ns2:name xml:lang="es">ESCUELA DE POLICÍA SIMÓN BOLÍVAR</ns2:name>
+    <ns2:description xml:lang="es">Centro de formación policial del suroccidente colombiano, tiene como objetivo principal, capacitar a los futuros policías, 
+    a través de un proyecto educativo institucional, dirigido a satisfacer las necesidades de seguridad y convivencia 
+    ciudadana. Ubicada en el Km 1 vía al corregimiento de La Rivera</ns2:description>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf#casaAbuelos">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf"/>
+    <ns2:description xml:lang="es">Entidad sin ánimo de lucro que atiende en la actualidad adultos mayores en condición de vulnerabilidad familiar, social y 
+    económica, siendo la institución encargada de satisfacer sus necesidades básicas. Ubicada en el Km 2 vía al corregimiento de 
+    La Rivera.</ns2:description>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/centrodebienestardelanciano.casadelosabuelos"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/x6F3d8PftmR2">
+        <ns3:street-address>Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+    <ns2:name xml:lang="es">CASA DE LOS ABUELOS ALONSO LOZANO GUERRERO</ns2:name>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns3:email>No disponible</ns3:email>
+    <ns3:tel>2242194, 2255093, 3155560047</ns3:tel>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="https://www.youtube.com/embed/6tMqqSnkDxQ">
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <ns4:depiction rdf:resource="http://i.imgur.com/tT2IN04.jpg"/>
+  </ns2:Location>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf#viveroElJardin">
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/V6bajHY3FTs">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>La Marina, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:tel>3154924598, 3177365775</ns3:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Empresas.rdf"/>
+    <ns2:name xml:lang="es">VIVERO EL JARDÍN DE MI CASA</ns2:name>
+    <ns4:depiction rdf:resource="http://i.imgur.com/XYu6NOk.jpg"/>
+    <ns3:category xml:lang="es">EMPRESAS</ns3:category>
+    <ns3:email>No disponible</ns3:email>
+    <ns2:hasOpeningHoursSpecification>
+      <ns2:OpeningHoursSpecification rdf:about="https://www.facebook.com/Vivero-el-jardin-de-mi-casa-644309525690362/">
+        <ns2:opens rdf:datatype="http://www.w3.org/2001/XMLSchema#time">08:00:00</ns2:opens>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Thursday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Tuesday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Monday"/>
+        <ns2:closes rdf:datatype="http://www.w3.org/2001/XMLSchema#time">16:00:00</ns2:closes>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Friday"/>
+        <ns2:hasOpeningHoursDayOfWeek rdf:resource="http://purl.org/goodrelations/v1#Wednesday"/>
+      </ns2:OpeningHoursSpecification>
+    </ns2:hasOpeningHoursSpecification>
+    <rdfs:seeAlso rdf:resource="https://www.youtube.com/watch?v=OhTiILsaCrw"/>
+    <ns2:description xml:lang="es">Para toda ocasión regala un recuerdo que perdure. Plantas ornamentales, arboles frutales, orquídeas, palmas y
+    bromelias.</ns2:description>
+  </ns2:Location>
+</rdf:RDF>

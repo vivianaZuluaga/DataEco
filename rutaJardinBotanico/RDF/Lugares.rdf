@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://idi.fundacionctic.org/cruzar/turismo#"
+>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Lugares.rdf#semilleroGuadua">
+    <ns3:name xml:lang="es">SEMILLERO DE GUADUA Y BAMBÚ</ns3:name>
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+    <ns2:tel>2260975, 3002202211</ns2:tel>
+    <ns2:email>No disponible</ns2:email>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Lugares.rdf"/>
+    <ns3:depiction>No disponible</ns3:depiction>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/DiGWwzkH2kx">
+        <ns2:street-address>Mateguada, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <rdfs:seeAlso rdf:resource="http://www.ciudadguru.com.co/empresas/semillero-de-guadua-y-bambu/tulua/15952774"/>
+    <rdfs:comment xml:lang="es">Vivencie los túneles que forman las guaduas y bambúes en el semillero más grande de Latinoamérica
+    en el número de especies. Cierre los ojos y disfrute de los olores de las guaduas y los sonidos
+    de los pájaros que despiertan los sentidos. Ubicado en el Jardín Botánico.</rdfs:comment>
+    <ns3:depiction rdf:resource="http://i.imgur.com/lOZmXmJ.jpg"/>
+    <ns2:category xml:lang="es">LUGARES</ns2:category>
+  </ns2:Location>
+  <ns4:Recurso-turistico rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Lugares.rdf#jardinBotanicoJuanMaria">
+    <ns2:category xml:lang="es">LUGARES</ns2:category>
+    <rdfs:comment xml:lang="es">Guarda un tesoro destinado para investigadores, científicos, amantes de la
+    flora y la fauna y del paisaje que ofrecen los bosques secos tropicales.</rdfs:comment>
+    <ns2:email>jardinbotanico@inciva.gov.co</ns2:email>
+    <ns3:name xml:lang="es">JARDÍN BOTÁNICO JUAN MARÍA CÉSPEDES</ns3:name>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/hRdkwZBgae22">
+        <ns2:street-address>Mateguada, Valle del Cauca</ns2:street-address>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+      </ns2:Address>
+    </ns2:adr>
+    <ns2:tel>3206888271, 3156361319</ns2:tel>
+    <rdfs:seeAlso rdf:resource="http://inciva.gov.co/cespedesia/itemlist/category/17-jardin-botanico"/>
+    <ns3:depiction rdf:resource="https://www.youtube.com/embed/QuhYS8KmnEs"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/QIthGO2.jpg"/>
+    <rdf:type rdf:resource="http://www.w3.org/2006/vcard/ns#Location"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Lugares.rdf"/>
+  </ns4:Recurso-turistico>
+  <ns2:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Lugares.rdf#cascadaLaArenosa">
+    <rdfs:seeAlso rdf:resource="http://www.ciudadguru.com.co/empresas/cascada-de-la-arenosa-en-mateguadua/tulua/15951514"/>
+    <rdf:type rdf:resource="http://idi.fundacionctic.org/cruzar/turismo#Recurso-turistico"/>
+    <ns2:category xml:lang="es">LUGARES</ns2:category>
+    <ns2:email>turismo@tulua.gov.co</ns2:email>
+    <ns3:name xml:lang="es">CASCADA LA ARENOSA</ns3:name>
+    <ns3:depiction rdf:resource="http://i.imgur.com/mJd34Ks.jpg"/>
+    <rdfs:comment xml:lang="es">Hermoso sitio natural, agua muy fria, con arenas blancas y grandes piedras que la circundan.
+    Los lugareños ofrecen la práctica del Rapell sobre la cascada y Rafting por el Río Tuluá hasta
+    llegar al Jardín Botánico. A 7 kms de la cabecera municipal.</rdfs:comment>
+    <ns2:adr>
+      <ns2:Address rdf:about="https://goo.gl/maps/wefveCHtHxG2">
+        <ns2:country-name xml:lang="es">Colombia</ns2:country-name>
+        <ns2:locality xml:lang="es">Tuluá</ns2:locality>
+        <ns2:street-address>Mateguada, Valle del Cauca</ns2:street-address>
+      </ns2:Address>
+    </ns2:adr>
+    <ns3:depiction rdf:resource="https://www.youtube.com/embed/gChA97Gc1xs"/>
+    <ns2:tel>2260975, 2339300</ns2:tel>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Lugares.rdf"/>
+  </ns2:Location>
+</rdf:RDF>

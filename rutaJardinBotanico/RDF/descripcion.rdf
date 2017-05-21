@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns2="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns3="http://geo.linkeddata.es/ontology/"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Recurso-turistico rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/descripcion.rdf">
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Lugares.rdf"/>
+    <rdfs:label xml:lang="es">RUTA HACIA EL JARDÍN BOTÁNICO O MATEGUADUA DESTINO ECOTURÍSTICO</rdfs:label>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Alojamientos.rdf"/>
+    <ns4:depiction rdf:resource="http://i.imgur.com/xRi00pT.jpg"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Flora.rdf"/>
+    <rdfs:comment xml:lang="es">Se inicia en el corregimiento de Cienegueta, entrando por la doble 
+calzada. La Vía destapada limita con el río Tuluá y conduce a Mateguadua y Puente Zinc. En el recorrido el turista disfrutará de 
+un encuentro con la naturaleza, hermosos paisajes, vista panorámica de la zona urbana de Tuluá, además de ganaderías.</rdfs:comment>
+    <ns3:formaParteDe rdf:resource="http://dbpedia.org/resource/Tulua"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+  </ns2:Recurso-turistico>
+</rdf:RDF>

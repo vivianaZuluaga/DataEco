@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://xmlns.com/foaf/0.1/"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf#parqueDeBoyaca">
+    <ns2:depiction rdf:resource="http://i.imgur.com/vjn1yxv.jpg"/>
+    <rdfs:comment xml:lang="es">Cuenta con espacios para la preservación de la flora y la fauna,  plaza cívica  para la celebración de los 
+    acontecimientos de la comunidad tulueña.</rdfs:comment>
+    <ns2:name xml:lang="es">PLAZA CÍVICA PARQUE DE BOYACÁ</ns2:name>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <rdfs:seeAlso rdf:resource="http://tulua.gov.co/?apc=m1G-1484013-1484013&amp;x=1484013"/>
+    <ns3:tel>0</ns3:tel>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/ne9gP1wbxK92">
+        <ns3:street-address>Calle 26 con Carrera 25, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <ns3:email>No disponible</ns3:email>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf#ranchoPanorama">
+    <ns2:name xml:lang="es">RANCHO PANORAMA</ns2:name>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns3:tel>2257838, 3006194147, 3164474977</ns3:tel>
+    <ns2:depiction rdf:resource="http://i.imgur.com/cbMVHSc.png"/>
+    <rdfs:comment xml:lang="es">Pesca deportiva, juegos infantiles, kioscos para reuniones sociales y restaurante. Abierto de 7 am a 11 pm</rdfs:comment>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <ns2:depiction rdf:resource="https://www.youtube.com/embed/4shX_UVhbuE"/>
+    <ns3:email>No disponible</ns3:email>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/rancho.panorama/"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/GpBCXuJiqZ82">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Carrera 40, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf#parqueCespedes">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <ns2:name xml:lang="es">PARQUE LINEAL JUAN MARÍA CÉSPEDES</ns2:name>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/M5i5NihUe1Q2">
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Carreras 27 y 28, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Parque-Lineal-Cespedes/473779859367621"/>
+    <ns3:tel>0</ns3:tel>
+    <ns2:depiction rdf:resource="http://i.imgur.com/3Nxt5Ra.jpg"/>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <rdfs:comment xml:lang="es">Punto tradicional preferido por propios y extraños para el encuentro, la tertulia, el esparcimiento en familia 
+    y el descanso.</rdfs:comment>
+    <ns3:email>No disponible</ns3:email>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf#parqueGuadua">
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns3:email>parqueguadua@hotmail.com</ns3:email>
+    <rdfs:comment xml:lang="es">Cultivos de guadua y heliconias, senderos ecológicos, una cascada y una piscina natural de agua tibia son algunos 
+    de los atractivos del parque. En este sitio de 51.000 m2 los turistas descansan en zonas verdes y disfrutan con 
+    sus hijos en un espacio adecuado con juegos infantiles.</rdfs:comment>
+    <ns3:tel>22251548</ns3:tel>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/pages/Parque-De-La-Guadua/118949828184599"/>
+    <ns2:depiction rdf:resource="http://i.imgur.com/2r8lJWt.jpg"/>
+    <ns2:depiction rdf:resource="https://www.youtube.com/embed/kIMOBo6uqm4"/>
+    <ns2:name xml:lang="es">PARQUE DE LA GUADUA</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/wr9jbYdmt742">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:street-address>Entrada sur, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+      </ns3:Address>
+    </ns3:adr>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf#parqueCarlosSarmiento">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <rdfs:seeAlso rdf:resource="https://www.facebook.com/parquecarlossarmientolora?fref=ts"/>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns2:depiction rdf:resource="http://i.imgur.com/hVhPc5m.png"/>
+    <ns2:name xml:lang="es">PARQUE CARLOS SARMIENTO LORA</ns2:name>
+    <ns3:email>parquecarlosarmientolora@hotmail.com</ns3:email>
+    <ns3:tel>2244853, 2241677</ns3:tel>
+    <rdfs:comment xml:lang="es">Ofrece una gran piscina para niños y un área de piscina semi olímpica para adultos, restaurante, 
+    refugios, zona de juegos y el Parque Universalmente Accesibe RUA.</rdfs:comment>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/eMYDXk6nBzk">
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:street-address>Parque Carlos Sarmiento Lora, Tuluá, Valle del Cauca</ns3:street-address>
+      </ns3:Address>
+    </ns3:adr>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf#museoBernalEsquivel">
+    <ns3:tel>0</ns3:tel>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/vxqvZiA8qZk">
+        <ns3:street-address>Cra. 28, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+    <ns2:depiction rdf:resource="http://i.imgur.com/RwG1Ft2.jpg"/>
+    <ns3:email>No disponible</ns3:email>
+    <ns2:name xml:lang="es">MUSEO VIAL INTERNACIONAL BERNAL ESQUIVEL</ns2:name>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.eltiempo.com/archivo/documento/MAM-689648"/>
+    <rdfs:comment xml:lang="es">Se pueden observar al lado del río algunas obras del pintor y escultor tulueño Angel Bernal Esquivel.</rdfs:comment>
+  </ns3:Location>
+  <ns3:Location rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf#lagoChilicote">
+    <ns2:depiction rdf:resource="https://www.youtube.com/embed/dW7QH47c898"/>
+    <rdfs:seeAlso rdf:resource="http://www.tulua.gov.co/sitio.shtml?apc=m1G5--&amp;x=1475586"/>
+    <rdfs:comment xml:lang="es">Lago ubicado en el área urbana del municipio hacia el sur-occidente de la ciudad en el cual se pueden apreciar 
+    hermosos aterdeceres y una gran cantidad de ""Garzas Blancas"" que anidan en un arbol ubicado en el centro del lago.</rdfs:comment>
+    <ns2:name xml:lang="es">LAGO CHILICOTE</ns2:name>
+    <ns3:adr>
+      <ns3:Address rdf:about="https://goo.gl/maps/CeSudK2K98S2">
+        <ns3:street-address>Lago Chilicote, Tuluá, Valle del Cauca</ns3:street-address>
+        <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+        <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+      </ns3:Address>
+    </ns3:adr>
+    <ns3:tel>0</ns3:tel>
+    <ns2:depiction rdf:resource="http://i.imgur.com/BYqy4hZ.jpg"/>
+    <ns3:email>No disponible</ns3:email>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelMaiz/Lugares.rdf"/>
+    <ns3:category xml:lang="es">LUGARES</ns3:category>
+  </ns3:Location>
+</rdf:RDF>

@@ -30,7 +30,7 @@ def autores(uri, nombreCompleto, nombre, apellido, nick, titulo, email, homepage
     
     
 autores(
-	'http://190.14.254.237/dataseteco/autores.rdf#vzuluagab',
+	'http://www.dataeco.org/dataseteco/autores.rdf#vzuluagab',
 	'Viviana Andrea Zuluaga',
 	'Viviana Andrea',
 	'Zuluaga',
@@ -44,7 +44,7 @@ autores(
 )
 
 autores(
-	'http://190.14.254.237/dataseteco/autores.rdf#camorenov',
+	'http://www.dataeco.org/dataseteco/autores.rdf#camorenov',
 	'Carlos Andrés Moreno',
 	'Carlos Andrés',
 	'Moreno',
@@ -58,7 +58,7 @@ autores(
 )
 
 autores(
-	'http://190.14.254.237/dataseteco/autores.rdf#ybermudez',
+	'http://www.dataeco.org/dataseteco/autores.rdf#ybermudez',
 	'Yuri Mercedes Bermúdez Mazuera',
 	'Yuri Mercedes',
 	'Bermúdez Mazuera',
@@ -72,7 +72,7 @@ autores(
 )
 
 autores(
-	'http://190.14.254.237/dataseteco/autores.rdf#oceballos',
+	'http://www.dataeco.org/dataseteco/autores.rdf#oceballos',
 	'Oscar Orlando Ceballos Argote',
 	'Oscar Orlando',
 	'Ceballos Argote',
@@ -86,7 +86,7 @@ autores(
 )
 
 autores(
-	'http://190.14.254.237/dataseteco/autores.rdf#alaponte',
+	'http://www.dataeco.org/dataseteco/autores.rdf#alaponte',
 	'Albeiro Aponte Vargas',
 	'Albeiro',
 	'Aponte Vargas',

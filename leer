@@ -1,0 +1,18 @@
+
+
+Los archivos presentes en esta carpeta conforman el dataset y se encuentran en el lenguaje
+de programación Python en su versión 2.7, además se hace uso de la librería RDFLib 
+como herramienta de ayuda a la hora de serializar los archivos.
+
+En las carpetas Riofrio, rutaAnilloAgricola, rutaJardinBotanico, rutaMaiz y rutaVueltaOriente
+se encuentran los archivos por medio de los cuales se serializó la información correspondiente
+a flora, fauna, lugares, restaurantes, eventos, empresas y alojamientos de cada ruta.
+
+En la carpeta utils se encuentran los metadatos, el archivo que describe a los autores, 
+el grafo inicial, los namespaces y los links desde DBpedia hacia DataEco. 
+
+Para generar el archivo RDF de DataEco por favor abra la carpeta
+en la terminal y ejecute el siguiente comando: python dataEco.py
+
+El archivo dataEco.rdf es el dataset, que a la fecha cuenta con 8934 tripletas y
+802 enlaces RDF

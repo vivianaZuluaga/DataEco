@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://purl.org/acco/ns#"
+  xmlns:ns2="http://purl.org/goodrelations/v1#"
+  xmlns:ns3="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns4="http://xmlns.com/foaf/0.1/"
+  xmlns:ns5="http://umbel.org/umbel#"
+>
+  <ns1:HotelRoom rdf:about="http://amarillasaz.com/co/finca-la-herradura/tulua/anuncio-37317">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.nexdu.com/co/Finca-La-Herradura-Tulua">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#fincaHerradura">
+        <ns2:description xml:lang="es">Alquiler de cabañas. Ubicada en la Vereda Gato Negro</ns2:description>
+        <ns2:name xml:lang="es">FINCA LA HERRADURA</ns2:name>
+        <ns3:tel>3103747120</ns3:tel>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns3:email>No disponible</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/9UQfQtZPmmE2"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/z7Sj7ag.jpg"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/fincalaherradura.tuluavalle"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://tulua.linkbyme.co/finca-la-herradura-if232497/">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="http://i.imgur.com/QsK17rv.jpg">
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/H7FEhFm.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#villaJacob">
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns3:email>No disponible</ns3:email>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/USKW6kJ.jpg"/>
+        <ns2:name xml:lang="es">FINCA VILLA JACOB</ns2:name>
+        <ns2:description xml:lang="es">Sitio campestre para recrearse y descansar, habitaciones con baño privado, además cocina, 
+    piscina, una amplia zona verde, fogón de leña, kiosco de juegos. Ubicada por el callejón de la Capilla a 10 
+    minutos de Tuluá.</ns2:description>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/Finca-VillaJacob-1533300763660562/"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/Y9wRrEzBSGT2"/>
+        <ns3:tel>3104951792, 3146560061, 3044117513</ns3:tel>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.mivalledecompras.com/servicios/stulua/alquileres/fincas/fincavillajacob/">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="https://www.facebook.com/eventos.micabana">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.nexdu.com/co/Mi-Cabana-Club-Balneario-Tulua">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://www.amarillasinternet.com/balneariomicabana/">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#miCabana">
+        <ns3:tel>3182230849</ns3:tel>
+        <ns3:adr rdf:resource="https://goo.gl/maps/vrmxo7Rz8M72"/>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/embed/FwF0DNd-qOQ"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/DnVGwKO.jpg"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns2:description xml:lang="es">Dedicados a la realización de reuniones sociales, sancocho de gallina. Cuenta con piscina, cabañas, restaurante, 
+    discoteca. Ubicado en el Km 5 Vía Riofrío</ns2:description>
+        <ns3:email>No disponible</ns3:email>
+        <ns2:name xml:lang="es">CLUB BALNEARIO MI CABAÑA</ns2:name>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="http://i.imgur.com/w3QswAp.jpg">
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.livevalledelcauca.com/tulua/finca-campestre-la-isabella.html">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/dDu5y6d.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">20</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#laIsabella">
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:email>info@livevalledelcauca.com</ns3:email>
+        <ns3:adr rdf:resource="https://goo.gl/maps/azbNQKuB2K42"/>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/796178416772988929"/>
+        <ns2:description xml:lang="es">Capacidad para 20 personas, mesa de billar, juegos de mesa, 
+    piscina, asador, kiosko, zona de camping, zona de hamacas, eventos sociales.</ns2:description>
+        <ns2:name xml:lang="es">FINCA CAMPESTRE LA ISABELLA</ns2:name>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns3:tel>3175174964, 3167999472</ns3:tel>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns4:depiction rdf:resource="http://i.imgur.com/R3SkKFT.jpg"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns1:HotelRoom rdf:about="http://i.imgur.com/sh6Sy2R.jpg">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#genesis">
+        <ns3:adr rdf:resource="https://goo.gl/maps/iiRh1N7xQE92"/>
+        <ns3:tel>3122064128, 3128881294, 3123467429</ns3:tel>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns2:description xml:lang="es">Para eventos empresariales y familiares, dos cabañas para alojamiento los fines de semana (con o sin alimentación).</ns2:description>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/kOINh1e.jpg"/>
+        <ns3:email>ORLA.0822@gmail.com</ns3:email>
+        <ns2:name xml:lang="es">VILLA GÉNESIS</ns2:name>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/Genesis.finca/"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/N5engS1.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">25</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://mivalledecompras.com/servicios/stulua/alquileres/fincas/fincaennarino">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">5</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns1:HotelRoom>
+  <ns1:HotelRoom rdf:about="https://www.facebook.com/pages/Finca-La-Calenita/1431019867115336">
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#laCalenita">
+        <ns2:name xml:lang="es">FINCA LA CALEÑITA CASA BANQUETERA</ns2:name>
+        <ns3:email>No disponible</ns3:email>
+        <ns4:depiction rdf:resource="http://i.imgur.com/CuyuQUz.png"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/embed/fUycJ_7Zacg"/>
+        <ns2:description xml:lang="es">Finca campestre para eventos sociales y familiares. Piscina, kiosko y una hermosa casa a tu servicio. 
+    Ubicada en el callejón Mejoral.</ns2:description>
+        <ns3:adr rdf:resource="https://goo.gl/maps/iiRh1N7xQE92"/>
+        <ns3:tel>3183456354</ns3:tel>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="https://www.facebook.com/pages/Narino-Finca-La-Calenita/1535586643352277">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/goodrelations/v1#SomeItems"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="https://www.facebook.com/profile.php?id=100009334215790">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns1:HotelRoom>
+  <ns2:SomeItems rdf:about="https://www.facebook.com/piedrarojatulua">
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#piedraRoja">
+        <ns3:tel>3174030301, 3174783629, 3103701115</ns3:tel>
+        <ns2:name xml:lang="es">PIEDRA ROJA COMPLEJO TURÍSTICO</ns2:name>
+        <ns3:adr rdf:resource="https://goo.gl/maps/xp8uxKxpR7L2"/>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/fXKwhIT.jpg"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <ns2:description xml:lang="es">Cuenta con alquiler de cabañas, canchas de fútbol, servicio de piscina, salón para eventos sociales, juegos y 
+    un ambiente acogedor que no puede dejar de visitar. Ubicado en la Vereda Papayal.</ns2:description>
+        <rdfs:seeAlso rdf:resource="https://www.facebook.com/Piedra-Roja-Tulua-222463944443876"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns3:email>piedrarojatulua@hotmail.com</ns3:email>
+        <ns4:homepage rdf:resource="http://www.complejopiedraroja.com"/>
+      </ns2:Individual>
+    </ns1:partOf>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://i.imgur.com/XITlQoT.jpg">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/fmqTZ94.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int"></ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="http://www.tulua.gov.co/sitio.shtml?apc=m1r1--&amp;x=1475507">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://www.furniturekraft.com/uploads/products/910e-bed%20copy.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">7</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://www.tulua-valle.gov.co/sitio.shtml?apc=B---1475507-1481399-1475507&amp;x=1475507">
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">3</ns2:hasValue>
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+    <ns1:partOf>
+      <ns2:Individual rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#miRubi">
+        <ns3:adr rdf:resource="https://goo.gl/maps/gwfwM1bw2b72"/>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <rdf:type rdf:resource="http://purl.org/acco/ns#Hotel"/>
+        <ns2:name xml:lang="es">VILLA MI RUBÍ</ns2:name>
+        <ns4:depiction rdf:resource="http://i.imgur.com/PcYSh4U.jpg"/>
+        <ns3:email>No disponible</ns3:email>
+        <rdfs:seeAlso rdf:resource="https://www.twitter.com/Ecodataset/status/770222399069511680"/>
+        <ns3:tel>2253083, 2312366, 3128472553</ns3:tel>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:description xml:lang="es">Ofrece pasadías y hospedaje. Capacidad para 7 personas, zona de camping, piscina, kiosco pequeño para eventos, 
+    senderos ecológicos, juegos, mesa de billar y mesa de ping pong. Ubicada en el callejón Las Viudas</ns2:description>
+      </ns2:Individual>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+  </ns2:SomeItems>
+  <ns2:SomeItems rdf:about="https://www.facebook.com/villastamford.soto">
+    <ns1:bed>
+      <ns1:BedDetails rdf:about="http://i.imgur.com/hReO1On.jpg">
+        <ns1:quantity rdf:datatype="http://www.w3.org/2001/XMLSchema#int">29</ns1:quantity>
+      </ns1:BedDetails>
+    </ns1:bed>
+    <ns1:partOf>
+      <ns1:Hotel rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf#villaStamford">
+        <rdf:type rdf:resource="http://purl.org/goodrelations/v1#Individual"/>
+        <ns3:tel>3136132871, 3105417776, 2324843</ns3:tel>
+        <ns2:description xml:lang="es">Sitio campestre para recrearse y descansar, habitaciones con baño privado, cocina interna, piscina adultos y niños, 
+    amplia zona verde, fogón de leña, asador, kiosco y más. Ubicada en el callejón de las Viudas.</ns2:description>
+        <rdfs:seeAlso rdf:resource="https://www.youtube.com/embed/0qJR4UNfqrQ"/>
+        <ns1:feature rdf:resource="http://purl.org/acco/ns#AccommodationFeature"/>
+        <ns2:name xml:lang="es">FINCA VILLA STAMFORD</ns2:name>
+        <ns3:category xml:lang="es">ALOJAMIENTOS</ns3:category>
+        <ns5:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+        <ns4:depiction rdf:resource="http://i.imgur.com/qfz0H56.jpg"/>
+        <ns3:adr rdf:resource="https://goo.gl/maps/56rMdnXS6Yw"/>
+        <ns3:email>No disponible</ns3:email>
+      </ns1:Hotel>
+    </ns1:partOf>
+    <rdf:type rdf:resource="http://purl.org/acco/ns#HotelRoom"/>
+    <ns1:numberOfRooms>
+      <ns2:QuantitativeValue rdf:about="http://mivalledecompras.com/servicios/stulua/alquileres/fincas/fincavillastamfort">
+        <ns2:hasUnitOfMeasurement>C62</ns2:hasUnitOfMeasurement>
+        <ns2:hasValue rdf:datatype="http://www.w3.org/2001/XMLSchema#int">4</ns2:hasValue>
+      </ns2:QuantitativeValue>
+    </ns1:numberOfRooms>
+  </ns2:SomeItems>
+  <ns3:Address rdf:about="https://goo.gl/maps/xp8uxKxpR7L2">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/56rMdnXS6Yw">
+    <ns3:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+  </ns3:Address>
+  <rdf:Description rdf:about="http://purl.org/acco/ns#AccommodationFeature">
+    <ns1:availabilityTimes>24 Horas</ns1:availabilityTimes>
+  </rdf:Description>
+  <ns3:Address rdf:about="https://goo.gl/maps/azbNQKuB2K42">
+    <ns3:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/vrmxo7Rz8M72">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:street-address>Narino, Tuluá, Valle del Cauca</ns3:street-address>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/iiRh1N7xQE92">
+    <ns3:street-address>Narino, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/Y9wRrEzBSGT2">
+    <ns3:street-address>Narino, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/9UQfQtZPmmE2">
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+    <ns3:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+  </ns3:Address>
+  <ns3:Address rdf:about="https://goo.gl/maps/gwfwM1bw2b72">
+    <ns3:locality xml:lang="es">Tuluá</ns3:locality>
+    <ns3:street-address>Tres Esquinas, Tuluá, Valle del Cauca</ns3:street-address>
+    <ns3:country-name xml:lang="es">Colombia</ns3:country-name>
+  </ns3:Address>
+</rdf:RDF>

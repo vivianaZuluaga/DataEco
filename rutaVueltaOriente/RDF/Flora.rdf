@@ -1,0 +1,1148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/ontology/wo/"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://www.w3.org/2002/07/owl#"
+>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#cordiaAlliodora">
+    <ns3:depiction rdf:resource="http://i.imgur.com/aUOYVfk.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/580043"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7649215"/>
+    <ns2:scientificName xml:lang="la">Cordia alliodora</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Árbol de tamaño mediano a grande, que en estado maduro alcanza una altura superior a los 30 ms 
+    y hasta 1 m de diámetro. De fuste recto, cilíndrico y con frecuencia limpio de ramas en un 50 a 60% de 
+    la altura total. Corteza externa blancuzca, algo fisurada, dura y de grosor medio. Flores blancas.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/246517"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://maderas.ut.edu.co/especies/pagina_especie.php?especie=LAUREL"/>
+    <ns2:commonName xml:lang="es">NOGAL CAFETERO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cordia_alliodora"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#cinnamomumCinnamomifolia">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Cinnamomum cinnamomifolia</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/488334"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13428"/>
+    <ns2:commonName xml:lang="es">LAUREL JIGUA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Árbol que alcanza los 18 ms de altura y 40 cms de diámetro en su tronco; su copa es globosa; su follaje de 
+    color verde oscuro y brillante; su ramificación es abundante. Las hojas son simples, alternas, dispuestas en forma 
+    de hélices. Las flores son de color blanco, pequeñas y fragantes. La madera y las hojas poseen un agradable olor.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6074391"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Phoebe_cinnamomifolia"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8708187"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/RDUpfjg.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ricinusCommunis">
+    <ns3:depiction rdf:resource="http://i.imgur.com/iKojJu1.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5380041"/>
+    <ns2:shortDescription xml:lang="es">Arbusto perenne muy ramificado que alcanza entre 2 y 4 metros de altura, de raíz superficial y 
+    tallo erecto, color rojo-vinoso, recubierto por una tenue capa de cera. Hojas grandes, alternas, pigmentación 
+    rosada. Florece casi todo el año, pero sobre todo en verano. De las semillas se obtiene "aceite de ricino".</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">HIGUERILLA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Ricinus communis</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3988"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1151096"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Ricinus_communis"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.herbotecnia.com.ar/exo-ricino.html"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#zanthoxylumMonophyllum">
+    <ns3:depiction rdf:resource="http://i.imgur.com/ceJ3yfH.jpg"/>
+    <ns2:shortDescription xml:lang="es">Árbol pequeño alcanza un tamaño de 3-8 ms de altura, generalmente con ramitas y tronco espinosos. 
+    Flores pequeñas blancuzcas. Corteza de color gris a castaño, untanto lisa y con grietas verticales. Hojas
+    lampiñas, de color verde, lustrosas en el haz y más pálidas en el envés.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43887"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6170902"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">JUSTARRAZÓN</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3190087"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://books.google.com.co/books?id=76LnQRyBNS4C&amp;pg=PA273&amp;lpg=PA273&amp;dq=Muchas+flores+peque%C3%B1as+blancuzcas.+Corteza+de+color+gris+a+casta%C3%B1o+es+un+tanto+lisa+y+tiene+grietas+verticales&amp;source=bl&amp;ots=cO6FbZyRBj&amp;sig=50szGhYLic-cmIZYtuzDr0GI9zA&amp;hl=es&amp;sa=X&amp;redir_esc=y#v=onepage&amp;q=Muchas%20flores%20peque%C3%B1as%20blancuzcas.%20Corteza%20de%20color%20gris%20a%20casta%C3%B1o%20es%20un%20tanto%20lisa%20y%20tiene%20grietas%20verticales&amp;f=false"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Zanthoxylum monophyllum</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582230"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#agaveAmericana">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Agave_americana"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Agave americana</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/jPeW0t6.jpg"/>
+    <ns2:commonName xml:lang="es">CABUYA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/39510"/>
+    <ns2:shortDescription xml:lang="es">Planta perenne con distintos usos medicinales, alimenticios y textiles. Las hojas de entre 15 y 30 cms de ancho 
+    y más de un metro de largo, salen todas desde el centro donde permanecen enrolladas a un tallo central y terminan 
+    en el ápice en una aguja fina de unos 5 cms de longitud. Florece una sola vez en su vida.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2767031"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1083826"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://enciclopedia.us.es/index.php/Agave_americana"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#clusiaMinor">
+    <ns2:shortDescription xml:lang="es">Árbol que alcanza hasta los 10 ms de altura; tiene ramitas algo angulosas; las hojas obovadas, 
+    cartilaginosas, de 5-10 cms de largo, con peciolo delgado de 1-2 cms. Las inflorescencias con 4-5 pétalos 
+    blancos o rosados. Fruto subgloboso u obovoide de 2 cms de longitud.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">CUCHARO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5421056"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5775222"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/156471"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/4gOFj8B.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Clusia minor</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584881"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Clusia_minor"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#malpighiaGlabra">
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1522"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5421429"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Malpighia glabra</ns2:scientificName>
+    <ns2:commonName xml:lang="es">HUESITO</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/71611"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/398658"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Malpighia_glabra"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Alcanza los 8 ms de altura. El tronco es usualmente bajo y torcido, la copa es baja y densa. Las hojas son 
+    pequeñas y sus flores de color rosado. El fruto mide entre 1-25 cms de diámetro; es redonda con tres costillas, 
+    su color varía entre amarillo anaranjado y rojo oscuro de acuerdo al grado de madurez.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/OKgpAfF.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#caricaGoudotiana">
+    <ns2:shortDescription xml:lang="es">Planta que alcanza hasta 4 ms de altura, tallo grueso en la base y se adelgaza en la parte superior. Hojas 
+    pecioladas de 17 a 34 cms, presenta flores de color amarillo-crema masculinas, femeninas y hermafroditas. El fruto 
+    es una baya ovoide comestible de color amarillo al madurar, con múltiples semillas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8474174"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5165"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/262682"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/2d6mzrP.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5731417"/>
+    <ns2:scientificName xml:lang="la">Carica goudotiana</ns2:scientificName>
+    <ns2:commonName xml:lang="es">PAPAYUELA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Vasconcellea_goudotiana"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ochromaPyramidale">
+    <ns2:commonName xml:lang="es">BALSO</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Ochroma pyramidale</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/388"/>
+    <ns2:shortDescription xml:lang="es">Árbol de los bosques tropicales, puede alcanzar hasta 40 ms de altura. Flores de color blanco-amarillento. 
+    Los frutos son cápsulas con numerosas semillas cubiertas por un algodón castaño claro. Es adecuado para recuperar 
+    áreas degradadas. Produce la madera de menor densidad, empleada en la fabricación de juguetes.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Ochroma_pyramidale"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/66662"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584793"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/Yf3t4i0.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3152240"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#licaria">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3033969"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/61876"/>
+    <ns2:shortDescription xml:lang="es">Árbol de hoja perenne con una copa amplia y redondeada; puede alcanzar hasta 16 ms de altura. El tronco puede 
+    ser de 20 cms de diámetro. Todas las partes de la planta tienen un aroma picante. El árbol se extrae de la 
+    naturaleza por su madera, que se utiliza a nivel local en la fabricación de muebles.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/hUD4xVp.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Licaria sp</ns2:scientificName>
+    <ns2:commonName xml:lang="es">AGUACATILLO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/128634"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5226729"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Licaria"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#tabebuiaRosea">
+    <ns2:shortDescription xml:lang="es">Árbol de 15 a 30 ms de altura y de 90 cms de diámetro con un tronco recto. Sus hojas, compuestas de 5 folíolos 
+    de borde liso y arreglados como los dedos de una mano, se caen durante la estación seca. Florece cuando ha perdido 
+    las hojas; las flores son muy atractivas, se agrupan en racimos de color blanco o rosado.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/429709"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/QFrVu0e.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3172537"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://biota.wordpress.com/2008/12/25/el-cultivo-del-roble-de-sabana-tabebuia-rosea/"/>
+    <ns2:scientificName xml:lang="la">Tabebuia rosea</ns2:scientificName>
+    <ns2:commonName xml:lang="es">GUAYACÁN ROSADO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/596778"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Tabebuia_rosea"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#heliconiaGriggsiana">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2760842"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Heliconia de tamaño mediano, con inflorescencias colgantes, espiraladas, las cuales tienen brácteas 
+    rojizo-rosadas,amarillas o verdes, con quillas de color morado oscuro, cubiertas por un estrato fino, ceroso, 
+    de tonalidad blanca. Las hojas tienen la vena central marrón y el envés blancuzco.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1118024"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">PLATANILLO</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/KmDXQiB.png"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15329832"/>
+    <ns2:scientificName xml:lang="la">Heliconia griggsiana</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/796949"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.rarepalmseeds.com/es/pix/HelGri.shtml"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#pithecellobiumDulce">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2962831"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/642629"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3546"/>
+    <ns2:commonName xml:lang="es">CHIMINANGO</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/404691"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/rVRJY0L.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Pithecellobium_dulce"/>
+    <ns2:scientificName xml:lang="la">Pithecellobium dulce</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Árbol de 5-20 ms, espinoso; hojas compuestas. Las flores son amarillentas o blanco verdosas y se producen 
+    en cabezuelas como de 1 cm de diámetro, dispuestas en racimos axilares o terminales. La legumbre mide unos 15 
+    cms es retorcida y encorvada, con semillas negras y brillantes, rodeadas de un arilo carnoso, comestible.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#bromelia">
+    <ns2:commonName xml:lang="es">QUICHES</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Planta con hojas arrosetadas y sin tallo aparente. Crece encima de las ramas y troncos de los árboles. Las 
+    hojas forman una especie de “estanque” en el centro de la roseta, donde se acumula agua. Lo más llamativo son las 
+    flores que, en realidad, son hojas que toman un color diferente.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/jgbdHkv.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7757322"/>
+    <ns2:scientificName xml:lang="la">Bromelia spp</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4616"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Bromelia"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/33260"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.opepa.org/index.php?option=com_content&amp;task=view&amp;id=236&amp;Itemid=30"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#guareaTrichilioides">
+    <ns2:commonName xml:lang="es">CEDRO MACHO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/669"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3190504"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Guarea_guidonia"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Árbol que presenta una base estriada, el tronco recto y sin ramificaciones. Alcanza una altura entre 25-30 ms 
+    y un diámetro de hasta 1 m. Las hojas son de gran tamaño, de 20-60 cms de largo y se encuentran dispuestas de manera 
+    alterna. La corteza es áspera, con muchas fisuras longitudinales y de color pardo, con un evidente matiz rojizo.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581915"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43908"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/gqHHXy3.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Guarea trichilioides</ns2:scientificName>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#gyneriumSagittatum">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#philodendron">
+    <ns2:shortDescription xml:lang="es">Es una especie muy variable en su forma y su ecología. Presenta peciolos que miden de 283-108 cms de largo y de 
+    4-17 mms de diámetro, de color verde oscuro. Sus hojas son de forma triangular ovada, miden de 27-101 cms de 
+    largo por 25-90 cms de ancho, presentan ápice acuminado, haz de color verde oscuro y envés verde claro.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/QFt7Jif.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">FILODENDRO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2861312"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/71613"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Philodendron"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2197"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/29342"/>
+    <ns2:scientificName xml:lang="la">Philodendron spp</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#solanumTorvum">
+    <ns2:commonName xml:lang="es">FRIEGAPLATOS</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.conabio.gob.mx/malezasdemexico/solanaceae/solanum-torvum/fichas/ficha.htm"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/n9zVGBJ.jpg"/>
+    <ns2:shortDescription xml:lang="es">Arbusto de hasta 2.5 ms de altura, cubierto de pelos estrellados (con las ramas libres, es decir unidas 
+    únicamente en la base), armado de espinas dispersas rectas o algunas recurvadas. Hojas escasamente lobadas, 
+    cubiertas con pelos estrellados; flores blancas. Frutos globosos, verdes, sin pelillos.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Solanum torvum</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/119830"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581201"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2932389"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Solanum_torvum"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#pithecellobiumSaman">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/9oRNcJq.jpg"/>
+    <ns2:shortDescription xml:lang="es">Árbol grande y umbraculiforme que llega a medir 60 ms de altura. La densa y simétrica copa puede alcanzar 80 
+    ms de ancho. Cuenta con un tronco corto, grueso y una corteza gris oscura. Las hojas son perennes y 
+    de disposición alternada, de 25–40 cms de largo. Las flores de color entre rosado y verde.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2972961"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46244366"/>
+    <ns2:commonName xml:lang="es">SAMÁN</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Pithecellobium_saman"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://documents.mx/documents/arbol-emblematicos-de-los-estados.html"/>
+    <ns2:scientificName xml:lang="la">Pithecellobium saman</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/76910"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#amyrisPinnata">
+    <ns2:commonName xml:lang="es">CIPRÉS DE ESTACÓN</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5619428"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3772"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1123434"/>
+    <ns2:shortDescription xml:lang="es">Árbol que crece hasta 10 ms de altura, 4 ms de fuste y 30 cms de diámetro. Corteza verdosa por fuera y 
+    amarillenta por dentro; sin exudado pero con olor a limón o ruda. Hojas compuestas, de 15-25 cms. Flores 
+    blanco–verdosas, pequeñas que dan lugar a frutos en un folículo marrón, con una semilla negra.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5594205"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/gUuiZB0.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Amyris pinnata</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15387993"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#trichantheraGigantea">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5637186"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/eGYfPLm.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681367"/>
+    <ns2:scientificName xml:lang="la">Trichanthera gigantea</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3595"/>
+    <ns2:commonName xml:lang="es">NACEDERO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8138695"/>
+    <ns2:shortDescription xml:lang="es">Árbol de hojas simples, opuestas, ápice acuminado, glabras o pubescentes en las venas, ovadas a oblongas, 
+    pecíolo 1-5 cms de largo, limbo hasta 26 cms de largo por 14 cms de ancho. Inflorescencia en panícula terminal 5-15 cms 
+    de largo. Flores con cáliz 10-12 mms de largo, tomentoso. El fruto es una cápsula de 1.5-2 cms de largo, pubescente.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Trichanthera"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#zanthoxylumRhoifolium">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/549434"/>
+    <ns2:shortDescription xml:lang="es">Árbol de 5-9 ms de altura, copa aplanada, fuste recto y corto, tronco grisáceo o castaño, acanalado en la base, 
+    fuertes aguijones, aguijones en rámulas y hojas. Ramificaciones largas, ascendentes. Follaje siempreverde, hojas 
+    compuestas, alternas, pinnadas, con espinas rectas dorsales, raquis canaliculado, con pelos estrellados.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Zanthoxylum rhoifolium</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/itfk4vL.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7269222"/>
+    <ns2:commonName xml:lang="es">TACHUELO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Zanthoxylum_rhoifolium"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/39954266"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Zanthoxylum_rhoifolium"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#acalyphaMacrostachya">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8033909"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q9574549"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/1REwEIV.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681401"/>
+    <ns2:commonName xml:lang="es">ACALIFA</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://hergol.biologia.ucr.ac.cr/taxa/index.php?taxon=1145&amp;cl=Lista%20de%20plantas%20del%20Refugio%20de%20VS%20Golfito"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1143557"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Árbol que alcalza 1–8 ms de altura, tallos jóvenes generalmente fuertes y con médula grande, densamente vellosos 
+    a escasamente puberulentos. Hojas ovadas de 10–25 cms de largo y 6–18 cms de ancho, ápice generalmente acuminado. 
+    Inflorescencias estaminadas con pubescencia como la de los tallos jóvenes.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Acalypha macrostachya</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#cucurbitaMaxima">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584406"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2874515"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1342"/>
+    <ns2:scientificName xml:lang="la">Cucurbita maxima</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3661"/>
+    <ns2:commonName xml:lang="es">ZAPALLO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cucurbita_maxima"/>
+    <ns2:shortDescription xml:lang="es">Las hojas de esta planta presentan 5 lóbulos, tienen vellos suaves, y margen dentado. Sus frutos son de forma 
+    oval o redondeada, miden hasta 2 ms de diámetro, son carnosos, su interior es de color amarillo o rojo cuando maduros. 
+    Sus semillas son de color blanco a café.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/03w1Evy.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#brosimumAlicastrum">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Brosimum_alicastrum"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2984660"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/194253"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1368"/>
+    <ns2:commonName xml:lang="es">GUAIMARO</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/RSCjvMG.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/596209"/>
+    <ns2:scientificName xml:lang="la">Brosimum alicastrum</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Árbol de gran porte que puede alcanzar 45 ms, y alcanza un diámetro aproximado de 1.5 ms en su tronco. Su copa 
+    es generalmente piramidal y densa. las flores son numerosas. La infrutescencias es globosa, mide de 1.5-2 cms de 
+    diámetro, al madurar son amarillas, parduscas o anaranjadas.</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#cupaniaCinerea">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/298314"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/JhBECIF.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15547475"/>
+    <ns2:scientificName xml:lang="la">Cupania cinerea</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1413"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5627731"/>
+    <ns2:shortDescription xml:lang="es">Árbol de hasta 20 ms de altura y 60 cms de diámetro en su tronco, de corteza lisa. Hojas de 20 a 32 cms de largo, 
+    compuestas, alternas, dispuestas en forma de hélice, borde aserrado. Flores de 7 mms de diámetro, blancas, agrupadas 
+    en inflorescencias terminales. Frutos redondos, pubescentes café, con 3 semillas negras brillantes.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">MESTIZO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3785984"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#gliricidiaSepium">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/642632"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Gliricidia sepium</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/9fCUTaf.jpg"/>
+    <ns2:commonName xml:lang="es">MATARRATÓN</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.tropicalforages.info/Multiproposito/key/Multiproposito/Media/Html/Gliricidia%20sepium.htm"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Gliricidia_sepium"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/167663"/>
+    <ns2:shortDescription xml:lang="es">Árbol perenne, con raíces profundas; crece de 10–15 ms de altura y 40 cms de diámetro en el tallo, produce 
+    muchas  ramificaciones. Hojas compuestas de 2–6 cms de largo, de forma elíptica y de color verde en la 
+    superficie. Flores en racimos de 2 cms de largo, color entre rosa y púrpura claro.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2953986"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ficusInvoluta">
+    <ns3:depiction rdf:resource="http://i.imgur.com/2YhtzfX.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://elmundoenimagenes13.wordpress.com/2014/11/29/ficus-estrangulador-en-monteverde-costa-rica/"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/319808"/>
+    <ns2:commonName xml:lang="es">MATAPALOS</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Árbol "estrangulador", que suele crecer encima de otros árboles, abrazándolos con sus fuertes raíces. Puede 
+    alcanzar hasta 20 ms de altura. Hojas alternas, algo gruesas, brillantes, con venas notorias. "Frutos" (siconos) 
+    normalmente pequeños y redondos, usualmente rojizos o amarillentos adornados con motas.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Ficus_aurea"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/594677"/>
+    <ns2:scientificName xml:lang="la">Ficus involuta</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7262410"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#cecropia">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Yarumo"/>
+    <ns2:commonName xml:lang="es">YARUMO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2984472"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/61334"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/77071"/>
+    <ns2:shortDescription xml:lang="es">Árbol de 7 a 15 ms; tallo leñoso recto con anillos marcados, de color verde-grisáceo, algunas 
+    veces ramificado desde la parte baja, pocas ramas y ubicadas en la parte alta. Hojas pecioladas, grandes, con 8-10 
+    lóbulos, ásperas al tacto, palmeadas. Inflorescencias con espinas pendientes de un mismo pedúnculo.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://docplayer.es/6336435-Mangifera-indica-familia-anacardiaceae-mango.html"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Cecropia sp</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/XkxkEpT.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#calliandraPittieri">
+    <ns2:scientificName xml:lang="la">Calliandra pittieri</ns2:scientificName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15492902"/>
+    <ns2:commonName xml:lang="es">CARBONERO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/647621"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/lxjvAyg.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3559"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Árbol de unos 5 ms de altura, su follaje y copa en forma de parasol, al igual que sus flores en pomos 
+    blanco-rosados, ayudan a reconocerlo. La hoja es pequeña; el fruto es una vaina o legumbre que al calentar el sol 
+    expulsa las semillas. Casi todo el año se observa esta especie con flores y frutos.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2981948"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/226080"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ficusGlabrata">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/182113"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46243853"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1026"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/Vw76IUy.jpg"/>
+    <ns2:scientificName xml:lang="la">Ficus glabrata</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Árbol grande de hasta 40 ms de altura, con follaje vistoso. Las hojas son alargadas y grandes. Los frutos tienen 
+    forma de higo y son verdes. Planta con uso medicinal, sus frutos son laxantes y alimento para avifauna, la madera 
+    es usada en cajonería y formaleta. Además, esta especie es empleada en la protección de fuentes de agua.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">HIGUERÓN</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7262619"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Ficus_glabrata"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#euphorbiaCotinifolia">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/921"/>
+    <ns2:commonName xml:lang="es">LECHERO (CAUCHO)</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Euphorbia cotinifolia</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/457243"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/QESKUE8.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1145074"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3067261"/>
+    <ns2:shortDescription xml:lang="es">Árbol semicaducifolio muy ramificado, llega a alcanzar 4-5 ms de altura, con la corteza clara y lisa. Hojas 
+    simples, opuestas, base redondeada, intenso colorido al exponerse al sol. Flores amarillentas de escasa 
+    importancia ornamental. Especie venenosa en todas sus partes, especialmente el látex.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Euphorbia_cotinifolia"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#quercusHumboldtii">
+    <ns3:depiction rdf:resource="http://i.imgur.com/gxKVrLI.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.uco.edu.co/floraorienteantioquia/fagaceae/Quercus-humboldtii-Bonpl/Paginas/default.aspx"/>
+    <ns2:shortDescription xml:lang="es">Árbol monoico caducifolio, de aproximadamente 25 ms de altura, con copa amplia y redondeada. Hojas glabras 
+    deciduas agrupadas al final de las ramas. Flores pequeñas, apétalas de color amarillento. El fruto es una nuez o 
+    bellota ovoide sostenida en la base por una cúpula escamosa. Su madera es de baja calidad, pero muy resistente.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1151543"/>
+    <ns2:scientificName xml:lang="la">Quercus humboldtii</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3511"/>
+    <ns2:commonName xml:lang="es">ROBLE</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2880642"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Quercus_humboldtii"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#mucunaPruriens">
+    <ns3:depiction rdf:resource="http://i.imgur.com/bie0GOH.jpg"/>
+    <ns2:shortDescription xml:lang="es">Planta anual, arbusto trepador con largos zarcillos que le permiten llegar a más de 15 ms. Sus granos son 
+    blancos, lavanda o púrpura; flores y vainas cubiertas de pelos anaranjados, causantes de severa hinchazón y alergia
+    si se ponen en contacto con la piel. Se usa en la medicina tradicional.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2951499"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Mucuna_pruriens"/>
+    <ns2:scientificName xml:lang="la">Mucuna pruriens</ns2:scientificName>
+    <ns2:commonName xml:lang="es">CONGOLO</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/645045"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q953611"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/157652"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#erythrinaPoeppigiana">
+    <ns2:commonName xml:lang="es">PÍSAMO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Árbol grande que puede alcanzar hasta 35 ms de altura. Presenta aguijones gruesos. Las flores son de color 
+    rojo-anaranjado y se encuentran en racimos erectos. Los frutos son legumbres de hasta 25 cms de largo. Produce gran 
+    cantidad de follaje que sirve como abono en cultivos, regenera suelos al fijar nitrógeno.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5837321"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/647292"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/416279"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/vYig5sj.jpg"/>
+    <ns2:scientificName xml:lang="la">Erythrina poeppigiana</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://aprendeenlinea.udea.edu.co/ova/?q=node/455"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8311514"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#oreopanaxFloribundum">
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1081"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Dendropanax_colombianus"/>
+    <ns2:shortDescription xml:lang="es">Este árbol alcanza los 25 ms de altura. Su tronco recto y de corteza color gris pardusco ligeramente escamosa o 
+    agrietada alcanza los 40 cms de diámetro. Su copa tiene forma de parasol, su follaje distribuido por 
+    ramilletes es de color verde amarillento, sus ramas son gruesas, vidriosas.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Oreopanax floribundum</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/52502"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5056477"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/0zETXyz.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/114907430"/>
+    <ns2:commonName xml:lang="es">MANO DE OSO</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ureraBaccifera">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Urera_baccifera"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/IVimLXQ.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Arbusto de 1-6 ms de altura, tallos suculentos, con pelos urticantes. Hojas alternas, anchas, ovadas, base cordada 
+    redondeada, borde irregularmente dentado con dientes grandes, envés pubescente con pelos urticantes sobre las nervaduras. 
+    Flores masculinas globosas; flores femeninas en cimas escorpioides. Fruta con drupa jugosa.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Urera baccifera</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2984339"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/594148"/>
+    <ns2:commonName xml:lang="es">ORTIGA BRAVA</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1247"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681502"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#miconia">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Arbusto con copa redondeada, hojas simples opuestas, el borde es finamente aserrado, haz verde oscuro. 
+    Inflorescencias muy tupidas en panículas terminales, de color verde pálido. Las flores son pequeñas y amarillentas, 
+    blancas o rosadas. El fruto es una baya de color rojo al madurar. Se utiliza como leña.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3188585"/>
+    <ns2:commonName xml:lang="es">NIGUITO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/60394"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/703ZLjF.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/263288"/>
+    <ns2:scientificName xml:lang="la">Miconia sp</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Miconia"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4918"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#tessariaIntegrifolia">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">SAUCE PLAYERO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5114705"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Árbol de 3-10 ms de altura de follaje persistente y copa pequeña. Se caracteriza por su silueta delgada. Sus 
+    hojas simples son de color grisáceo y pubescentes. Sus flores son violáceas y se presentan en capítulos 
+    terminales.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/KZlnfHV.jpg"/>
+    <ns2:scientificName xml:lang="la">Tessaria integrifolia</ns2:scientificName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6143507"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/313942"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3114910"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2100"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#rhipidocladumRacemiflorum">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4142909"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/fFAovYc.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5822829"/>
+    <ns2:commonName xml:lang="es">CARRIZO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15521956"/>
+    <ns3:isPrimaryTopicOf rdf:resource="www.bambumex.org/paginas/Rracemiflorum.pdf"/>
+    <ns2:shortDescription xml:lang="es">Bambú de 10–15 ms de largo y 5–10 mms de ancho, erecto en la base, tallo hueco, generalmente decumbente en 
+    la vegetación aledaña. Un promedio de 50 ramas por nudo, no verticiladas sino creciendo en forma de abanico en la 
+    base. Las ramas primarias de 35 cms de largo; cúlmeas lisas y brillantes. Más bien delgado y frágil.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/464972"/>
+    <ns2:scientificName xml:lang="la">Rhipidocladum racemiflorum</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#tremaMicrantha">
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.conabio.gob.mx/conocimiento/info_especies/arboles/doctos/69-ulmac2m.pdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/28954"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/231353"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7141666"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Árbol perennifolio, de 5-13 ms de altura con un diámetro de 6-20 cms. Copa en forma de sombrilla, abierta e 
+    irregular. Hojas estipuladas, simples, alternas; de 5-12 cms de largo por 2-4 cms de ancho. Los árboles se 
+    reconocen por sus ramas que crecen con una orientación típicamente horizontal o ligeramente colgantes.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">ZURRUMBO</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Trema micrantha</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/PXakwq0.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Trema_micrantha"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#eugeniaBiflora">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1453369"/>
+    <ns2:commonName xml:lang="es">ARRAYÁN</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Arbolito de 3-5 ms de altura, frutos aromáticos, de color rojizo pasando a negro. se distribuye en paises como
+    Belice, Bolivia, Brasil, República Dominicana, Jamaica, Puerto Rico, Islas Virginias, Colombia, Costa Rica, Ecuador, 
+    El Salvador, Guayanas Francesa, Guatemala, Guyanas, Honduras, México, Panamá, Perú, Surinam, Venezuela.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2508566"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/2USVhtl.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15357705"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3779"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5417812"/>
+    <ns2:scientificName xml:lang="la">Eugenia biflora</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#piperAduncum">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Piper aduncum</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/230L7S7.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Piper_aduncum"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/130377"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Árbol pequeño de 2-6 ms de alto, profusamente ramificado, con nudos hinchados y prominentes, a menudo de color 
+    rojizo, tallos verde pálidos, amarillentos o de color marrón. Inflorescencias curvadas en flor y/o fruto; flores 
+    densamente agrupadas sobre el raquis. Fruto redondeado-obpiramidal, glabro, de color marrón cuando seco.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">CORDONCILLO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3577"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/486213"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3086337"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#acaciaFarnesiana">
+    <ns3:depiction rdf:resource="http://i.imgur.com/WqonGiJ.jpg"/>
+    <ns2:commonName xml:lang="es">AROMO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8225137"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Acacia_farnesiana"/>
+    <ns2:shortDescription xml:lang="es">Arbusto muy ramificado desde la base que alcanza 3-5 m de altura. Tronco de corteza oscura y ramaje tortuoso 
+    en zig-zag. Follaje semicaduco en ocasiones. Hojas con dos espinas blancas y rectas de 2-3 cms de 
+    longitud en la base de las mismas. Flores de color amarillo dorado, fragantes, de 1-1.5 cms de diámetro.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/72368"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/684149"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2237"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Acacia farnesiana</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#annonaMuricata">
+    <ns2:commonName xml:lang="es">GUANÁBANA</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1054863"/>
+    <ns2:scientificName xml:lang="la">Annona muricata</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Árbol pequeño que llega a alcanzar hasta 10 ms de altura, de follaje compacto, hojas simples, coriáceas 
+    verde oscuro, grandes y brillantes; muy susceptible al frío. Su fruto, la guanábana, mide entre 14 y 40 cms de 
+    largo y entre 10 y 20 cms de ancho, la pulpa es blanca, jugosa, aromática y de sabor agridulce a dulce.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/o19PpMB.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13337"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Annona_muricata"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://encolombia.com/economia/agroindustria/cultivo/cultivodeguanabana/"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5407273"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#xylosmaPrunifolium">
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q17562923"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5731214"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://books.google.com.co/books?id=Omzm3LW0mZUC&amp;pg=PA291&amp;lpg=PA291&amp;dq=luego+se+hacen+simples+y+muy+agudas+enlas+ramas,+a+veces+ausentes,+hojas+de+base+cuneada+a+redondeada,+glabras&amp;source=bl&amp;ots=uF5rXApwK9&amp;sig=-mw17zF-AVrKieGSFcKcMRSJ02E&amp;hl=es&amp;sa=X&amp;redir_esc=y#v=onepage&amp;q=luego%20se%20hacen%20simples%20y%20muy%20agudas%20enlas%20ramas%2C%20a%20veces%20ausentes%2C%20hojas%20de%20base%20cuneada%20a%20redondeada%2C%20glabras&amp;f=false"/>
+    <ns2:commonName xml:lang="es">CUERNO VENADO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/ZE9vHOS.jpg"/>
+    <ns2:shortDescription xml:lang="es">Árbol con espinas de hasta 5 cms, ramificadas en la base del tronco y luego se hacen simples y muy agudas en 
+    las ramas, a veces ausentes, hojas de base cuneada a redondeada, glabras.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Xylosma prunifolium</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7898917"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/179718"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#mimosaPudica">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Mimosa_pudica"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/76306"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/DR3zxji.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3636"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/417449"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Mimosa pudica</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2969284"/>
+    <ns2:shortDescription xml:lang="es">Planta herbácea de unos 50 cms de altura y perennifolia. Tallo espinoso, ramificado, leñoso, con pelos rígidos en 
+    dirección a la parte terminal. Capacidad de plegar las hojas cuando las tocan; esto  se debe a un mecanismo de 
+    defensa de la planta. Flores lilas claras o rosado brillante con estambres prominentes y vistosos.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">DORMIDERA</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#myrsineGuianensis">
+    <ns3:depiction rdf:resource="http://i.imgur.com/GEQ3Wfq.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Árbol de todos los climas, está adaptado para prosperar en circunstancias difíciles, de 6-21 ms de altura. Hojas 
+    alternas, lustrosas por el haz, claras por el envés, son duras. Flores y frutos (bayas pequeñas) crecen agrupados 
+    en bolitas apretadas a lo largo de las ramas. Los pequeños frutos maduran en negro.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/486714"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://sites.google.com/site/reservachagualos/biota-en-los-chagualos/myrsine-guianensis"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6035263"/>
+    <ns2:scientificName xml:lang="la">Myrsine guianensis</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/681410"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3169446"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">CHAGUALO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#psidiumGuineense">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Psidium_guineense"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/Zmy88xF.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5420509"/>
+    <ns2:shortDescription xml:lang="es">Árbol pequeño que alcanza un tamaño de 1-7 ms de altura, una planta de crecimiento relativamente lento. Las 
+    hojas son angostas en los extremos y a veces los bordes están enroscados. Las flores son blancas y los frutos 
+    globosos, de color verde-amarillento.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/260140"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Psidium_guineense"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:commonName xml:lang="es">GUAYABO CIMARRÓN</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2508601"/>
+    <ns2:scientificName xml:lang="la">Psidium guineense</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#sapindusSaponaria">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/171222"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5421132"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582237"/>
+    <ns2:scientificName xml:lang="la">Sapindus saponaria</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Árbol de unos 15 ms de alto, hojas alternas pinnadas; flores pequeñas, fragantes, muy abundantes en 
+    inflorescencia terminal paniculada, 5 pétalos blancos que alternan con los sépalos; frutos globosos, amarillentos, 
+    de 2 cms de diámetro, de envoltura translúcida; semillas duras, de color negro lustroso.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Sapindus_saponaria"/>
+    <ns2:commonName xml:lang="es">CHAMBIMBE</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1471"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/NLfHDfp.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#chamaedoreaPinnatifrons">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/348487"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2734435"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1089"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/DrULYAp.jpg"/>
+    <ns2:commonName xml:lang="es">PALMA MOLINILLO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Es una palma de tallo solitario de color verde, de hasta 2,5 ms de alto y entre 1-2 cms de diámetro. Sus hojas 
+    tienen de 4 a 6 pinnas. Sus flores masculinas y femeninas son semejantes. Sus inflorescencias son de color naranja. 
+    Sus frutos de forma elipsoide son de color naranja a negro según su madurez.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5764286"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1091015"/>
+    <ns2:scientificName xml:lang="la">Chamaedorea pinnatifrons</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#vernoniaBrasiliana">
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q21302707"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biovirtual.unal.edu.co/ICN/?controlador=ShowObject&amp;accion=show&amp;id=82852"/>
+    <ns2:commonName xml:lang="es">OLIVÓN</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/434694"/>
+    <ns2:scientificName xml:lang="la">Vernonia brasiliana</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Arbusto de 1.50 ms de altura, bien ramificado, hojas oblongo–elípticas de 6x3 cms, que despiden un olor fuerte 
+    al tocarlas. Inflorescencia en capítulos. Infrutescencias en forma de brochita.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/sjd3pJO.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5396865"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6181144"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#sennaAlata">
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Senna_alata"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/MopkM3T.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2956947"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Senna_alata"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/703879"/>
+    <ns2:scientificName xml:lang="la">Senna alata</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/53923"/>
+    <ns2:shortDescription xml:lang="es">Arbusto de 1 a 7.5 ms de altura, con ramas robustas y el follaje joven pubescente. Hojas de 30 - 100 cms de 
+    longitud; flores amarillas vistosas, en racimos terminales o situados en axilas superiores; semillas aplanadas. Las 
+    hojas poseen propiedades laxantes, antimicrobianas y fungicidas, utilizadas para curar problemas de piel.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">MARTIN GALVES</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ingaEdulis">
+    <ns2:commonName xml:lang="es">GUAMO</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/mqQyaGg.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Guama_(fruta)"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Inga_edulis"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/199163"/>
+    <ns2:shortDescription xml:lang="es">Árbol con 8-15 ms de altura, tronco bajo, ramificando algunas veces casi desde la base, copa algo rala. Hojas 
+    compuestas; flores con cáliz verdoso y corola blanquecina, perfumadas. El fruto es una vaina cilíndrica 
+    indehiscente, de color verde. Las semillas son negras, cubiertas por una pulpa blanca, suave y azucarada.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/8685157"/>
+    <ns2:scientificName xml:lang="la">Inga edulis</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5357677"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#sennaSpectabilis">
+    <ns2:scientificName xml:lang="la">Senna spectabilis</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/347003"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://lailahuber.blogspot.com.co/2011_01_01_archive.html"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Senna_spectabilis"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/418255"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/YX0s7N2.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">FLOR AMARILLO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Árbol de 8 a 10 ms de altura y de 40 cms de diámetro en el tronco. Su copa tiene forma globosa. Su corteza es 
+    marrón oscura y rugosa. Es de follaje caduco. Hojas compuestas, pinnadas, de color verde medio, discoloras y 
+    pubescentes. Flores amarillas que forman inflorescencias terminales. Sus frutos son legumbres cilíndricas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2957438"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#crescentiaCujete">
+    <ns2:shortDescription xml:lang="es">Este árbol alcanza los 10 ms de altura. Sus ramas son largas y extendidas. Sus hojas tienen forma de espátula 
+    y miden hasta 15 cms de largo. Sus flores son grandes de color púrpura amarillento. Su fruto de forma elipsoide tiene 
+    una cáscara dura y no se abre por si solo, sus semillas son numerosas.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">TOTUMO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1396"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5415081"/>
+    <ns2:scientificName xml:lang="la">Crescentia cujete</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1125401"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/578228"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/wcKphwP.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Crescentia_cujete"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#guazumaUlmifolia">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/RLlU52L.jpg"/>
+    <ns2:scientificName xml:lang="la">Guazuma ulmifolia</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/93772"/>
+    <ns2:commonName xml:lang="es">GUACIMO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Árbol de 2-20 ms con un tallo de 45 cms de diámetro, corteza externa agrietada. Hojas simples, agudas a acuminadas, 
+    aserradas, estrellado-tomentosas; flores amarillentas, fragantes, enzimas axilares pequeñas; cáliz estrellado - 
+    tomentoso, pétalos de 3 mms, fruto leñoso, globolo u oval, de 2-4 cms con tubérculos duros.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3152195"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Guazuma_ulmifolia"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/584815"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1243"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#erythroxylumUlei">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5404247"/>
+    <ns2:shortDescription xml:lang="es">Arbusto muy ramificado que crece 1-5 ms de altura. La planta se cosecha en el medio silvestre para uso local 
+    como medicina para las cefaleas, adontalgias y los resfriados. Se conoce también como Siona o Kofán.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/13511"/>
+    <ns2:scientificName xml:lang="la">Erythroxylum ulei</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3600"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/e0D1v7t.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3694437"/>
+    <ns2:commonName xml:lang="es">COCA MONTAÑERA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15379800"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#anthuriumAndraeanum">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/226677"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Anthurium_andraeanum"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Anthurium"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1142454"/>
+    <ns2:commonName xml:lang="es">ANTURIO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2872695"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Herbácea perenne de hojas verdes brillantes ovaladas o acorazonadas. Lo que se conoce como flor es una hoja 
+    modificada llamada Espata que puede ser roja, blanca, amarilla, entre otros. La Espata rodea el espádice compuesto 
+    por pequeñas flores que se agrupan alrededor de un eje central.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Anthurium andraeanum</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/6c0i38S.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#lantanaCanescens">
+    <ns2:shortDescription xml:lang="es">Arbusto de hasta 2.5 ms de altura; tallos y ramas más o menos densamente canescente-estrigosos. Hojas lanceoladas, 
+    la nervadura prominente. Flores densamente agrupadas, primero aglomeradas, pero alargándose y 
+    generalmente oblongas en el fruto. Crece en selvas bajas caducifolias, en rocas calizas y sitios alterados.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15430229"/>
+    <ns2:scientificName xml:lang="la">Lantana canescens</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www1.inecol.edu.mx/publicaciones/resumeness/FLOVER/41-nash_II.pdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/662443"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/487147"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/eDKstWg.jpg"/>
+    <ns2:commonName xml:lang="es">VENTUROSA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/8688754"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#crotonGossypiifolius">
+    <ns2:shortDescription xml:lang="es">Árbol que alcanza hasta 16 ms de altura. Hojas color verde claro. Corteza externa café, interna blanca, 
+    desprende en placa. Inflorescencias con tomento amarillo. Conocido como sangre de drago, debido a la savia 
+    roja y viscosa que exuda su corteza, ampliamente utilizada en la medicina tradicional Latinoamericana.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q3004383"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/OWQrNxM.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.scielo.org.mx/scielo.php?script=sci_arttext&amp;pid=S0370-59432013000300003"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/323053"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">SANGREGAO</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Croton gossypiifolius</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3059672"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1146430"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#mangiferaIndica">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#escobediaScabrifolia">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Hierba perenne, erecta, que alcanza un tamaño de 40–100 cms de alto, glabra; tallo simple. Hojas opuestas. Flores 
+    solitarias en las axilas de las hojas. Uso de sus raíces anaranjadas como colorante natural de los alimentos y uso 
+    en la medicina popular; se ha comprobado que las flores tienen sustancias antibacteriales.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/zQoark4.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://agrodiversos.blogspot.com.co/p/blog-page.html?view=timeslide"/>
+    <ns2:commonName xml:lang="es">AZAFRÁN DE RAÍZ</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/374682"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5676853"/>
+    <ns2:scientificName xml:lang="la">Escobedia scabrifolia</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7333251"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q21399372"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#annonaCherimola">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Annona_cherimola"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1054913"/>
+    <ns2:scientificName xml:lang="la">Annona cherimola</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/49314"/>
+    <ns2:commonName xml:lang="es">CHIRIMOYO</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/tvWPVMm.jpg"/>
+    <ns2:shortDescription xml:lang="es">Árbol de hoja caduca, a excepción de aquellas zonas de invierno suave donde mantiene sus hojas ovaladas 
+    hasta la primavera. Mide hasta 8 ms, es de tronco estrecho y copa ancha de forma redonda. Su fruto es la chirimoya, 
+    en su interior contiene una pulpa comestible de color blanco con un sabor dulce, levemente ácido.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.lachirimoya.org/chirimoyo-arbol-chirimoya/"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5407147"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#asclepiasCurassavica">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/581283"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Asclepias_curassavica"/>
+    <ns2:commonName xml:lang="es">BENCENUCO</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Asclepias curassavica</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Es una hierba que alcanza hasta 1,5 ms de alto y tiene abundante exudado de color blanco, considerado tóxico. 
+    Sus hojas son en forma de lanza miden hasta 12 cms de longitud y 2 cms de ancho. Sus flores de corola roja y 
+    corona amarilla se disponen en umbelas. Su fruto es una cápsula que contiene numerosas semillas.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3170241"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1100"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/52823"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/6SuR7d7.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#bidensPilosa">
+    <ns2:commonName xml:lang="es">CADILLO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Bidens_pilosa"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/f1339X1.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5391845"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Hierba pequeña, erecta anual que crece hasta 1 m de altura. Tiene hojas verde intenso dentadas, bordes 
+    espinosos y produce pequeñas flores amarillas y fruto negro. Su raíz tiene un aroma distintivo similar al de 
+    una zanahoria. Es originaria de la selva amazónica y otras áreas tropicales de América del Sur.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/579063"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/42337"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3516"/>
+    <ns2:scientificName xml:lang="la">Bidens pilosa</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#citharexylumKunthianum">
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15493663"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5387105"/>
+    <ns2:scientificName xml:lang="la">Citharexylum kunthianum</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Arbusto que alcanza hasta 10 ms de altura, con ramas largas y extendidas. Frutos verdes y de color anaranjado 
+    o morado intenso al madurar. Flores en racimos sencillos, blancos y fragantes, tubulosas, pequeñas, que producen 
+    frutos abayados de 4 mms con el cáliz persistente, con 2 semillas aplanadas redondas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4084063"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/IrOLx8Z.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">PALO BLANCO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3777"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/222864"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Flora.rdf#myrciaPopayanensis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#petiveriaAlliacea">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Planta herbácea perenne, crece hasta aproximadamente 1 m de altura. En algunos lugares se le conoce como 
+    "yerba de ajo" debido al fuerte olor a ajo que emana, especialmente de las raíces. La raíz posee propiedades 
+    anestésicas y analgésicas y se considera más poderosa que las hojas.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">ANAMÚ</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3084012"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/46142"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/594860"/>
+    <ns2:scientificName xml:lang="la">Petiveria alliacea</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/ApOc6ry.jpg"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Petiveria_alliacea"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.saludparati.com/anamu.htm"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#trichiliaPallida">
+    <ns2:scientificName xml:lang="la">Trichilia pallida</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">TROMPILLO</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/IGn4Hl0.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2271"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3190491"/>
+    <ns2:shortDescription xml:lang="es">Árbol de hasta 20 ms de altura, de madera blanda, corteza viva quebradiza, fibrosa y delgada. Hojas de 15 cms 
+    de largo por 10 cms de ancho, compuestas, alternas, dispuestas en forma de hélice. Flores pequeñas, de color crema y 
+    dispuestas en inflorescencias axilares sobre sus ramitas. Frutos capsulares dehiscentes, con pelitos cortos y suaves.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15526615"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/592301"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/597422"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#pithecellobiumLanceolatum">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1129495"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Arbustos de 0.75-12 ms de altura, corteza estriada. Hojas bipinnadas, cada pinna exactamente con 2 
+    foliolos. Flores fragantes con perianto verde pálido con pelos densos, agrupadas en inflorescencias, 
+    largas, laxas, solitarias o en parejas. Frutos 1-2 por espiga, pedunculados, valvas curvadas, rojos en la madurez, lampiños.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15459116"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2153"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2962824"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/642793"/>
+    <ns2:scientificName xml:lang="la">Pithecellobium lanceolatum</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/I3dpH20.jpg"/>
+    <ns2:commonName xml:lang="es">ESPINO DE MONO</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#guaduaAngustifoliaBicolor">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/D5VIXzt.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q1491422"/>
+    <ns2:scientificName xml:lang="la">Guadua angustifolia bicolor</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4155046"/>
+    <ns2:shortDescription xml:lang="es">Bambú gigante, espinoso, con culmos erectos y huevos que alcanzan alturas hasta de 25 ms y diámetros entre 10-25 
+    cms. Sus entrenudos tienen paredes hasta de 2 cms de espesor. Se diferencia de la especie tipo por tener rayas 
+    longitudinales amarillas sobre el culmo verde. Tiene gran potencial para la fabricación de artesanías.</ns2:shortDescription>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5846334"/>
+    <ns2:commonName xml:lang="es">GUADUA RAYADA</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://guaduabambucolombia.com/guadua-inmunizada/vivero/"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/323898"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#citrusSinensis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#guaduaAngustifolia">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#capsicumAnnuum">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#dahlia">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#ceibaPentandra">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#heliconiaBihai">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#cynodonPlectostachyus">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#psidiumGuajava">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#caricaPapaya">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf"/>
+  </rdf:Description>
+</rdf:RDF>

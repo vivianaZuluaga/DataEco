@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://www.w3.org/2004/02/skos/core#"
+  xmlns:ns2="http://idi.fundacionctic.org/cruzar/turismo#"
+  xmlns:ns3="http://www.w3.org/2002/07/owl#"
+  xmlns:ns4="http://geo.linkeddata.es/ontology/"
+  xmlns:ns5="http://xmlns.com/foaf/0.1/"
+>
+  <ns2:Recurso-turistico rdf:about="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/descripcion.rdf">
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3674030"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Lugares.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Empresas.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Restaurantes.rdf"/>
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3688714"/>
+    <ns4:formaParteDe rdf:resource="http://dbpedia.org/resource/Tulua"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Flora.rdf"/>
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3666759"/>
+    <ns5:depiction rdf:resource="http://i.imgur.com/LHjqsqt.jpg"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Alojamientos.rdf"/>
+    <ns3:sameAs rdf:resource="http://www.geonames.org/3782980"/>
+    <rdfs:label xml:lang="es">RUTA ANILLO AGRÍCOLA</rdfs:label>
+    <rdfs:comment xml:lang="es">Se inicia en la capilla del Santo Aparecido, a tan solo 80 metros del 
+supermercado Comfandi Chiminangos, por la vía que conduce al corregimiento de Tres Esquinas. El turista tendrá la oportunidad 
+de conocer una escultura conservada hace más de 100 años, con una importante tradición oral relativa a los milagros que ha 
+concedido a sus creyentes. Continuando por la vía se adentrará en el poblado de Tres Esquinas posteriormente llegará a La 
+Palmera, Bocas de Tuluá, La Caballera y conectará con la vía que conduce finalmente al corregimiento de Nariño. Este último 
+tramo es comúnmente denominado el Anillo Agroturístico.</rdfs:comment>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Eventos.rdf"/>
+    <ns1:related rdf:resource="http://www.dataeco.org/dataseteco/RutaDelAnilloAgricola/Fauna.rdf"/>
+  </ns2:Recurso-turistico>
+</rdf:RDF>

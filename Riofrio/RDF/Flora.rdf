@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/ontology/wo/"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://www.w3.org/2002/07/owl#"
+>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#syzygiumJambos">
+    <ns2:shortDescription xml:lang="es">Es una especie de copa globosa, amplia, redondeada de follaje denso, verde obscuro y con hojas jóvenes rojizas. 
+    Se distribuye en las laderas de la Sierra Nevada de Santa Marta y las tres cordilleras, es usada como planta ornamental 
+    en  parques, avenidas, separadores. El fruto es consumido por aves y mamíferos silvestres.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">POMO</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3565"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3183534"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2508661"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/cqjBG6A.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Syzygium jambos</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cinchona_pubescens"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/334483"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#bomareaMultiflora">
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Bomarea_multiflora"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Bomarea multiflora</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/5MTUlYV.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2754207"/>
+    <ns2:commonName xml:lang="es">CORTAPICO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Bomarea_multiflora"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/488910"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Es una planta con frutos de color púrpura; sus hojas son de un color marrón ténue. Sus flores tienen un color entre 
+    rojo, amarillo y a veces violáceo. Está presente en Ecuador, Colombia, Bolivia y Venezuela.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1086318"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#quassiaAmara">
+    <ns2:scientificName xml:lang="la">Quassia amara</ns2:scientificName>
+    <ns2:commonName xml:lang="es">CRUCETO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Myrtus"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3190647"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Arbusto que llega a alcanzar los 5 ms de altura. El extracto de la madera es usado como insecticida natural. Puede 
+    traer efectos segundarios en humanos si se usa como pesticida en los cultivos.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/43725"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46326128"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Quassia_amara"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/ZK1mr7z"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#montanoaQuadrangularis">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Montanoa quadrangularis</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Q15564996"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6247581"/>
+    <ns2:commonName xml:lang="es">ÁRBOLOCO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Árbol propio de la zona andina de Colombia y Venezuela; de 8-10 ms de altura. Sus flores son blancas a manera 
+    de margaritas. Crece en áreas intervenidas donde se constituye en un valioso constructor del ecosistema y formador 
+    del nicho para promover el desarrollo de otras especies.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/bjnH5BU.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3513"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5406086"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/167003"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#vacciniumMeridionale">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/57538"/>
+    <ns2:shortDescription xml:lang="es">Esta planta crece hasta 3.5 ms de altura y su tallo alcanza 50 cms de diámetro; sus hojas tienen forma elíptica y 
+    miden entre 1-3.5 cms de largo por 0.6-1.4 cms de ancho. Sus flores son pequeñas, de color blanco y sus frutos son bayas 
+    de color morado oscuro a negro al madurar.</ns2:shortDescription>
+    <ns2:scientificName xml:lang="la">Vaccinium meridionale</ns2:scientificName>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15395050"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1603"/>
+    <ns2:commonName xml:lang="es">MORTIÑO</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/4170835"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6946968"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/42u4szJ.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#cytisusScoparius">
+    <ns2:commonName xml:lang="es">ESCOBO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Cytisus_scoparius"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/LwKNXmi.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5354656"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Cytisus scoparius</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Alcanza los 2 ms de altura; las flores son solitarias y de color amarillo. El fruto tiene pelos pequeños. 
+    Crece en márgenes de caminos y cultivos abandonados a menudo es cultivado como una planta ornamental.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/703895"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cytisus_scoparius"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3835"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#weinmanniaTomentosa">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Weinmannia tomentosa</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7359544"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q5405356"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5552584"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/VXiVsOm.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/189904"/>
+    <ns2:shortDescription xml:lang="es">Este árbol se encuentra en la cordillera oriental colombiana, alcanza los 25 ms de altura; tiene corteza lisa y de 
+    color gris. Sus flores son blancas y pequeñas. Su madera es usada para la construccion de vigas, columnas y cercas. 
+    Las hojas sirven para aliviar la fiebre al ganado.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1761"/>
+    <ns2:commonName xml:lang="es">ENCENILLO</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#ilexAquifolium">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Ilex aquifolium</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46322600"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1797"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4298"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5414222"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/dgFG7WA.jpg"/>
+    <ns2:shortDescription xml:lang="es">Generalmente mide de 2-5 ms, pero en algunas ocasiones pueden alcanzar hasta 12 ms de altura. Las hojas son brillantes 
+    y miden de 4-7.5 cms de longitud, estas son usadas como antipirético, diurético suave y tónico.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Ilex_aquifolium"/>
+    <ns2:commonName xml:lang="es">ACEBO</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#artemisiaVulgaris">
+    <ns2:commonName xml:lang="es">ALTAMISA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Artemisia vulgaris</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Hierba de 40-80 cms de altura. El fruto de esta planta es de color negro. La ingestión de infusión de la planta se usa 
+    para evitar hemorragias durante la menstruación.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3888"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Artemisia_vulgaris"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3120946"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/850415"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/4220"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/RFQGzwx.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#erythrinaFusca">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/644276"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Es una especie originaria de Norte América; actualmente se encuentra en Centro y Sur América. Este árbol alcanza los 15 
+    ms de altura, sus flores son de color naranja, agrupadas. Es una planta fijadora de nitrógeno y, por lo tanto, sirve 
+    para recuperación de suelos. La bebida del cocimiento de sus flores es sedativa.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">PÍZAMO</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/556509"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/602pK3r.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Erythrina_fusca"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3538"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5349620"/>
+    <ns2:scientificName xml:lang="la">Erythrina fusca</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#atriplexCanescens">
+    <ns2:scientificName xml:lang="la">Atriplex canescens</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/35922"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Atriplex_canescens"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">CHAMISO</ns2:commonName>
+    <ns2:shortDescription xml:lang="es">Es un arbusto nativo de California y también se encuentra en otras partes de Norteamérica y Suramérica. Las flores en 
+    verano no son tan llamativas, pero cuando florecen son muy vistosos. Nuevas especies y variedades de este genero 
+    continuan surgiendo.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Atriplex_canescens"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/u4bWdpt.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/586526"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3083750"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#cecropiaPeltata">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46242436"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Árbol de 30 ms de altura con tronco recto y hueco. Se encuentra en las Antillas Mayores y Menores y en América Central, 
+    tambien en America del Sur en los países de Venezuela, Colombia, Brasil y las Guayanas.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2984476"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cecropia_peltata"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">YARUMO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/5108"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/210352"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/ueMusmv.jpg"/>
+    <ns2:scientificName xml:lang="la">Cecropia peltata</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#phytolaccaRivinoides">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1580009"/>
+    <ns2:commonName xml:lang="es">GUAGUA</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3084014"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/t1vbei6.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q12219768"/>
+    <ns2:scientificName xml:lang="la">Phytolacca rivinoides</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Phytolacca_rivinoides"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/482121"/>
+    <ns2:shortDescription xml:lang="es">Es una planta leñosa en la base con brotes de hasta 5 ms de largo, se puede encontrar en la Amazonía, 
+    cerca de los establecimientos de los indios Yanomami; tambien tiene uso medicinal.</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#espeletia">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">FRAILEJONES</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Espeletia"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4855"/>
+    <ns2:scientificName xml:lang="la">Espeletia</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/oaanuoD.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/185152"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6260580"/>
+    <ns2:shortDescription xml:lang="es">Se encuentra en áreas de páramo; con una altura máxima de 4 ms, tallos delgados. Está presente en la región Andina en 
+    la Cordillera Central.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3105048"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#ficusTrigona">
+    <ns2:commonName xml:lang="es">MATAPALO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Lilium_candidum"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:scientificName xml:lang="la">Ficus trigona</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/7930239"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/378037"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3801"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/kiNSCaD.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6958325"/>
+    <ns2:shortDescription xml:lang="es">Árbol de hasta 15 ms de altura, con hojas de 10-19 cms de largo por 6-9 cms de ancho, lisas y rígidamente acartonadas 
+    cuando están secas.</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#arnicaMontana">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Esta especie se encuentra presente en áreas de páramo; mide 1 m de altura, sus flores tienen tonalidades de 
+    fucsia a violeta.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/DQ3ct3t.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/482128"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Arnica montana</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/4998"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5405976"/>
+    <ns2:commonName xml:lang="es">ARNICA</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/436207"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Arnica_montana"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#uncariaTomentosa">
+    <ns2:shortDescription xml:lang="es">Es típica de bosques fuertemente intervenidos, trochas y ríos pequeños. Estudios farmacológicos han mostrado que los 
+    alcaloides de esta especie tienen efecto antitumoral. Es antidiabética, antirreumática y antiinflamatoria, además se utiliza 
+    en el tratamiento contra gastritis, enfermedades hepáticas, reumatismo, artritis y cirrosis.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5338267"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Uncaria_tomentosa"/>
+    <ns2:commonName xml:lang="es">UÑA DE GATO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/382"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/GILTCS7.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1096909"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/128375"/>
+    <ns2:scientificName xml:lang="la">Uncaria tomentosa</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#cedrus">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2685742"/>
+    <ns2:shortDescription xml:lang="es">Este árbol tiene una forma pulcra y piramidal en su juventud, con rígidas ramas ascendentes, pero con la edad se 
+    extiende formando un árbol ancho y plano con ramas enormes de 30 ms o más de altura.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/w1Qz4fK.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q128550"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/34221"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3321"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/2242"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">CEDRO</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Cedrus</ns2:scientificName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#guzmaniaGloriosa">
+    <ns2:scientificName xml:lang="la">Guzmania gloriosa</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/49489"/>
+    <ns2:shortDescription xml:lang="es">Conocida por sus hojas largas, rígidas y arqueadas de un intenso color verde, no alcanza una gran altura. Es una 
+    planta originaria de regiones suroccidentales de América del sur y de las Antillas.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Guzmania_gloriosa"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2698931"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">QUICHE</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/mx5bC8K.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Guzmania_gloriosa"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1118453"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#tibouchinaLepidota">
+    <ns3:depiction rdf:resource="http://i.imgur.com/1v1n1El.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Tibouchina lepidota</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5434731"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1021"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3861855"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">SIETECUEROS</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1160661"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6146392"/>
+    <ns2:shortDescription xml:lang="es">Esta planta puede medir hasta 20 ms de altura, su corteza desprende escamas rojizas. Las flores son de color violeta 
+    y muy llamativas. El fruto es de un color café claro, posee muchas semillas en su interior.</ns2:shortDescription>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#cinchonaPubescens">
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/UY24rUo.jpg"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Cinchona_pubescens"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2901294"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/50278"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1110181"/>
+    <ns2:scientificName xml:lang="la">Cinchona pubescens</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3665"/>
+    <ns2:shortDescription xml:lang="es">Árbol que puede alcanzar hasta 15 ms de altura, copa mediana densa con follaje verde; sus flores son de color 
+    rosado-violáceo y sus frutos son de color negruzco cuando estan maduros. El tronco es algo torcido.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">CASCARILLA</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#pictetiaAculeata">
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Pictetia_aculeata"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/415795"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5358205"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:scientificName xml:lang="la">Pictetia aculeata</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Árbol caduco pequeño, común en áreas secas. Las ramitas son espinosas y las hojas casi redondas tienen punta 
+    espinosa. Florece y fructifica todo el año. Produce una madera muy fina, pero debido a las pequeñas dimensiones sólo 
+    se utiliza para postes de cercas. Tambiés es usado con fines ornamentales.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/lt9YxZy.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q6075171"/>
+    <ns2:commonName xml:lang="es">TACHUELO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/77292"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#baccharisDracunculifolia">
+    <ns2:shortDescription xml:lang="es">Arbusto leñoso, en general de 2-3 ms de altura, de hojas perennes y forma globosa. Sus tallos son cilíndricos y 
+    con pequeños pelos.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">CHILCA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Baccharis_dracunculifolia"/>
+    <ns2:scientificName xml:lang="la">Baccharis dracunculifolia</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Baccharis_dracunculifolia"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/72900"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/DmS28Yc.png"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6181269"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3129176"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#oreopanaxFloribundum">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/52502"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/5056477"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3036520"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">MANO DE OSO</ns2:commonName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1081"/>
+    <ns2:shortDescription xml:lang="es">Es fácil de reconocer por la forma de sus hojas, que parecen los dedos de una mano abierta. Es usada como una especie 
+    ornamental, debido a su forma característica; sus flores son de color crema y sus frutos de color verde, pero cuando maduran 
+    se tornan de un color violeta.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Oreopanax"/>
+    <ns2:scientificName xml:lang="la">Oreopanax floribundum</ns2:scientificName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/lmG0BYj.jpg"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#quercusRobur">
+    <ns2:scientificName xml:lang="la">Quercus robur</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/38942"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Quercus_robur"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1151323"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2878688"/>
+    <ns2:shortDescription xml:lang="es">Éste árbol alcanza de 15-20 ms de altura. Las ramas más viejas son de color cenizo; sus flores son de color 
+    verde amarillento. La cocción de la corteza se usa para curar la diarrea, para enjuagues bucales, para 
+    combatir la gengivitis y las inflamaciones entre otras aplicaciones medicinales.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/6zla8xY.jpg"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">ROBLE</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1726"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#rhynchosporaNervosa">
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q15555289"/>
+    <ns2:commonName xml:lang="es">TOTE</ns2:commonName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2721307"/>
+    <ns2:scientificName xml:lang="la">Rhynchospora nervosa</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:shortDescription xml:lang="es">Puede alcanzar una altura de 30-40 cms. Las hojas son de color verde oliva y llegan a medir entre 25-35 cms de 
+    longitud por 1 mm de ancho. Los frutos son de color pardo-anaranjado a pardo-oscuro. Se puede encontrar desde México 
+    hasta el sur de Brasil y norte de Argentina.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/ENxnztV.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/249178"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/76499"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/3625"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#prunusDulcis">
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/3755"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Árbol que puede alcanzar 10 ms de talla, con tronco rara vez derecho. Hojas simples de 7.5-12.5 cms de longitud. Frutos 
+    de color verde, carnosos que miden unos 3-6 cms de longitud. Soporta muy bien la sequía y le perjudica el exceso de agua.</ns2:shortDescription>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.granada.org/internet/arboles.nsf/bus/14?OpenDocument"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46326125"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:depiction rdf:resource="http://i.imgur.com/doRSxmc.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3022502"/>
+    <ns2:scientificName xml:lang="la">Prunus dulcis</ns2:scientificName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Almond"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">ALMENDROS</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#dodonaeaViscosa">
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Dodonaea_viscosa"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/OyW1Lbw.jpg"/>
+    <ns2:shortDescription xml:lang="es">Vive en bósques húmedos y secos, alcanza los 7 ms de altura. Las hojas miden 7 cms de largo por 2,5 cms de ancho. 
+    Frutos de 1.5 cms de diámetro, rojizos cuando juveniles y café claro cuando están maduros.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/582326"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5421144"/>
+    <ns2:scientificName xml:lang="la">Dodonaea viscosa</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">HAYUELO</ns2:commonName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/151065"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1415"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#anacardiumExcelsum">
+    <ns3:depiction rdf:resource="http://i.imgur.com/00ML9MC.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5544303"/>
+    <ns2:scientificName xml:lang="la">Anacardium excelsum</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Alcanza hasta 40 ms de altura, su tronco produce un líquido de color rojizo, sus ramas son gruesas y abundantes. 
+    Sus flores miden 3 mms de diámetro aproximadamente, son de color rosado blancuzco y crecen agrupadas en inflorescencias 
+    terminales.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/6935004"/>
+    <ns2:commonName xml:lang="es">CARACOLÍ</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1070"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Anacardium_excelsum"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/638922"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#myrtusCommunis">
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/2508590"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/O0UYO0X.jpg"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/119949"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Myrtus_communis"/>
+    <ns2:shortDescription xml:lang="es">Planta aromática que mide entre 1-3 ms de altura, las hojas son de color verde oscuro y tienen de 3-5 cm de largo. Las 
+    flores son de color blanco, pero a veces se tornan rosadas, con cinco pétalos. Se usa como anticatarral.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">ARRAYÁN</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Myrtus communis</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1617"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/3180085"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#dracaenaDraco">
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Dracaena_draco"/>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Dracaena_draco"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/46321891"/>
+    <ns2:commonName xml:lang="es">DRAGO</ns2:commonName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5304469"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/100532"/>
+    <ns2:shortDescription xml:lang="es">Árbol con el tronco grisáceo y ramificado, sus frutos son de color rojo anaranjado. Las flores poseen un color 
+    blanco-verdoso. La resina de esta especie es llamada "Sangre de dragón" y es comercializada y usada medicinalmente.</ns2:shortDescription>
+    <ns3:depiction rdf:resource="http://i.imgur.com/EahW9fX.jpg"/>
+    <ns2:scientificName xml:lang="la">Dracaena draco</ns2:scientificName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Flora.rdf#rosmarinusOfficinalis">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+  </rdf:Description>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#opuntiaFicusIndica">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5384064"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+    <ns2:shortDescription xml:lang="es">Este cactus puede crecer hasta 4 ms de altura. Sus frutos o “higos” tienen un bello color amarillo-rojo y un sabor 
+    muy agradable, además contienen un alto valor nutritivo: proteínas, calorías, grasa, calcio y fósforo son algunos de los 
+    componentes de este fruto.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/371859"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.biodiversidad.co/fichas/1548"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/479484"/>
+    <ns2:scientificName xml:lang="la">Opuntia ficus-indica</ns2:scientificName>
+    <ns2:commonName xml:lang="es">TUNO</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Opuntia_ficus-indica"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/6zpl1XS.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf#liliumCandidum">
+    <ns3:depiction rdf:resource="http://i.imgur.com/kbENh3v.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Lilium_candidum"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/83802"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+    <ns2:commonName xml:lang="es">AZUCENA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Lilium candidum</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Vegetal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Planta bulbosa de tamaño grande, presenta flores blancas agrupadas en ramilletes terminales. Algunos afirman 
+    que procede de oriente; es usada en la medicina alternativa como antiespasmódico, tisanas para la hidropesia, entre otras.</ns2:shortDescription>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/1003297"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/2753090"/>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Lilium_candidum"/>
+    <ns4:category xml:lang="es">FLORA</ns4:category>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Flora.rdf#ochromaPyramidale">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/Riofrio/Flora.rdf"/>
+  </rdf:Description>
+</rdf:RDF>

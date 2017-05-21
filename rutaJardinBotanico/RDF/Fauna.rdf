@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:ns1="http://umbel.org/umbel#"
+  xmlns:ns2="http://purl.org/ontology/wo/"
+  xmlns:ns3="http://xmlns.com/foaf/0.1/"
+  xmlns:ns4="http://www.w3.org/2006/vcard/ns#"
+  xmlns:ns5="http://www.w3.org/2002/07/owl#"
+>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf#crematogasterCarinata">
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.antwiki.org/wiki/Crematogaster_carinata"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:scientificName xml:lang="la">Crematogaster carinata</ns2:scientificName>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/1324354"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/407090"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/1720225"/>
+    <ns2:shortDescription xml:lang="es">Pequeña e inofensiva que a menudo coloniza ramas de árboles. Parece ser capaz de mantener las colonias sin salir de 
+  su árbol de origen.</ns2:shortDescription>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Crematogaster_carinata"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/fewSAes.jpg"/>
+    <ns2:commonName xml:lang="es">HORMIGA</ns2:commonName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf#apterostigmaDentigerum">
+    <ns2:commonName xml:lang="es">HORMIGA</ns2:commonName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/7AKWq7p.jpg"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q9626579"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://en.wikipedia.org/wiki/Apterostigma"/>
+    <ns2:scientificName xml:lang="la">Apterostigma dentigerum</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Pertenece al género de hormigas del Nuevo Mundo de la subfamilia Myrmicinae. Se encuentra en una variedad de 
+  hábitats, incluyendo bosque húmedo, bosque seco y bosque montano.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/397229"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/1316978"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/257670"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf#attaCephalotes">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5035748"/>
+    <ns2:shortDescription xml:lang="es">Cultivan hongos alimentándolos con material de las plantas recién cortadas; los hongos son utilizados
+   para alimentar a las larvas y a los adultos. Sus colonias se dividen en castas, basadas mayormente 
+  por su tamaño, realizando funciones variadas. Son endémicas de centro y sur América.</ns2:shortDescription>
+    <ns5:sameAs rdf:resource="http://dbpedia.org/resource/Atta_cephalotes"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/4h2ENLK.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="https://es.wikipedia.org/wiki/Hormigas_cortadoras_de_hojas"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/452188"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+    <ns2:scientificName xml:lang="la">Atta cephalotes</ns2:scientificName>
+    <ns2:commonName xml:lang="es">HORMIGAS CORTADORAS DE HOJAS</ns2:commonName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/12957"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf#aztecaInstabilis">
+    <ns2:shortDescription xml:lang="es">Forma nidos en los troncos huecos de los árboles que tienen una gran grieta o fisura en la base. Las colonias 
+  pueden vivir durante largos periodos de tiempo.</ns2:shortDescription>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:commonName xml:lang="es">HORMIGA</ns2:commonName>
+    <ns2:scientificName xml:lang="la">Azteca instabilis</ns2:scientificName>
+    <ns3:depiction rdf:resource="http://i.imgur.com/tw0dYMW.jpg"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.antwiki.org/wiki/Azteca_instabilis"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/473991"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5035731"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/602870"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q13432862"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf#camponotusNovogranadensis">
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5034665"/>
+    <ns2:scientificName xml:lang="la">Camponotus novogranadensis</ns2:scientificName>
+    <ns2:shortDescription xml:lang="es">Esta especie se ha encontrado recientemente, es de color oscuro, no brillante y 
+  pequeña (las mayores tienen aproximadamente 5 mms de largo). Forma sus nidos en madera muerta o tallos huecos.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">HORMIGA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.antwiki.org/wiki/Camponotus_novogranadensis"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/FSHri6w.jpg"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/467057"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/605724"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q13452133"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf#camponotusSenex">
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q13452348"/>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/398450"/>
+    <ns2:shortDescription xml:lang="es">Es muy común en hábitats de bosques húmedos. Forma sus nidos en la vegetación abierta de matorral, 
+  carreteras, ramas muertas que van desde tallos estrechos de vid a ramas relativamente grandes.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">HORMIGA</ns2:commonName>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <ns2:scientificName xml:lang="la">Camponotus senex</ns2:scientificName>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.antwiki.org/wiki/Camponotus_senex"/>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/606022"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/5033118"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/eoWYXMB.jpg"/>
+  </ns2:TaxonName>
+  <ns2:TaxonName rdf:about="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf#brachymyrmexHeeri">
+    <ns2:scientificName xml:lang="la">Brachymyrmex heeri</ns2:scientificName>
+    <ns3:isPrimaryTopicOf rdf:resource="http://www.antwiki.org/wiki/Brachymyrmex_heeri"/>
+    <ns5:sameAs rdf:resource="http://www.uniprot.org/taxonomy/604545"/>
+    <ns2:kingdomName xml:lang="es">Animal</ns2:kingdomName>
+    <ns2:shortDescription xml:lang="es">Pequeñas trabajadoras (1.2 - 2mms) con nueve antenas segmentadas. El color varía de amarillo a marrón. Anida 
+  bajo piedras y otros objetos, a menudo en áreas perturbadas.</ns2:shortDescription>
+    <ns2:commonName xml:lang="es">HORMIGA</ns2:commonName>
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+    <ns5:sameAs rdf:resource="https://www.wikidata.org/wiki/Q9663061"/>
+    <ns3:depiction rdf:resource="http://i.imgur.com/tQlvBcx.jpg"/>
+    <ns4:category xml:lang="es">FAUNA</ns4:category>
+    <rdfs:seeAlso rdf:resource="http://eol.org/pages/472945"/>
+    <rdfs:seeAlso rdf:resource="http://www.gbif.org/species/1317348"/>
+  </ns2:TaxonName>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaDelMaiz/Fauna.rdf#bosTaurus">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Fauna.rdf#carolliaPerspicillata">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.dataeco.org/dataseteco/RutaVueltaAOriente/Fauna.rdf#glossophagaSoricina">
+    <ns1:isAbout rdf:resource="http://www.dataeco.org/dataseteco/RutaDelJardinBotanico/Fauna.rdf"/>
+  </rdf:Description>
+</rdf:RDF>
